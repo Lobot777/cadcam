@@ -1,0 +1,121 @@
+{
+ "part": "1",
+ "source": "1.step",
+ "n_faces": 10,
+ "schema": "cadcam-annotation/1",
+ "annotator": "rule-draft",
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "4": {
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "5": {
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "6": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "7": {
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "8": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "9": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "10": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "faces": [
+    4,
+    5,
+    7
+   ],
+   "params": {
+    "depth": 6.0,
+    "open": [
+     "+x",
+     "+z",
+     "-x"
+    ]
+   },
+   "confidence": "high",
+   "evidence": [
+    "faces=[4, 5, 7]",
+    "kinds={'Plane': 3}",
+    "floor=1 wall=2 overhang=0 slanted=0 depth=6.0 breakout=['+x', '+z', '-x']",
+    "两平行壁 + 两端贯通 = 通槽"
+   ],
+   "reviewed": false
+  }
+ ]
+}

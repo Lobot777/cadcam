@@ -1,0 +1,335 @@
+{
+ "part": "9",
+ "source": "9.step",
+ "n_faces": 32,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-measure(freecad)",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [
+  "F6/F10/F14/F16 原判 R2 圆角改判 Ø4 小凸台：面积 75.4 = 2πRh 整圆柱（圆角应为四分之一弧 18.85），法向·径向 = +1.00（凸），且各自只有一个 z=50 的顶面（12.6 = π·2²）—— 圆柱+顶盖=销，不是内凹圆角"
+ ],
+ "evidence": {},
+ "stock_faces": [
+  1,
+  2,
+  3,
+  26,
+  27,
+  28
+ ],
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "4": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "5": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "6": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "7": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "8": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "9": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "10": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F4",
+   "source": "human"
+  },
+  "11": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F4",
+   "source": "human"
+  },
+  "12": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "13": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "14": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F5",
+   "source": "human"
+  },
+  "15": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F5",
+   "source": "human"
+  },
+  "16": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F6",
+   "source": "human"
+  },
+  "17": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F6",
+   "source": "human"
+  },
+  "18": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "19": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "20": {
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "feature": "F1",
+   "source": "human"
+  },
+  "21": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F7",
+   "source": "human"
+  },
+  "22": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F8",
+   "source": "human"
+  },
+  "23": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F9",
+   "source": "human"
+  },
+  "24": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F10",
+   "source": "human"
+  },
+  "25": {
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "feature": "F1",
+   "source": "human"
+  },
+  "26": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "27": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "28": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "29": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F10",
+   "source": "human"
+  },
+  "30": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F9",
+   "source": "human"
+  },
+  "31": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F8",
+   "source": "human"
+  },
+  "32": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F7",
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "faces": [
+    20,
+    25
+   ],
+   "note": "Ø75 圆形型腔，深8（z=52→44），含中心岛",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    4,
+    5,
+    8,
+    9,
+    12,
+    13,
+    18,
+    19
+   ],
+   "note": "X 形凸起岛：顶面 z=50，侧壁为 BSpline 自由曲面",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    6,
+    7
+   ],
+   "note": "Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    10,
+    11
+   ],
+   "note": "Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    14,
+    15
+   ],
+   "note": "Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）",
+   "reviewed": true
+  },
+  {
+   "id": "F6",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    16,
+    17
+   ],
+   "note": "Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）",
+   "reviewed": true
+  },
+  {
+   "id": "F7",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    21,
+    32
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  },
+  {
+   "id": "F8",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    22,
+    31
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  },
+  {
+   "id": "F9",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    23,
+    30
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  },
+  {
+   "id": "F10",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    24,
+    29
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  }
+ ]
+}

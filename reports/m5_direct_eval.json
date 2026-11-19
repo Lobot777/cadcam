@@ -1,0 +1,283 @@
+{
+ "model": "qwen3:8b",
+ "criterion": "ADR-001 双线 + 白名单",
+ "prompt_note": "给了毛坯/特征/目标 z/允许代码集/程序头；未给刀路参数",
+ "summary": {
+  "route": "LLM 直写 G-code",
+  "n": 10,
+  "parse_ok": 10,
+  "whitelist_ok": 8,
+  "pass": 0,
+  "mean_max_gouge_mm": 10.6,
+  "mean_deviation_mm": 4.5,
+  "total_gouge_mm3": 33052.9,
+  "empty": 0,
+  "prompt_tokens": 5715,
+  "completion_tokens": 18122,
+  "wall_seconds": 136.9
+ },
+ "rows": [
+  {
+   "part": "1",
+   "family": 1,
+   "lines": 47,
+   "error": null,
+   "seconds": 3.32,
+   "prompt_tokens": 333,
+   "completion_tokens": 451,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 40,
+   "max_gouge_depth_mm": 6.0,
+   "mean_deviation_mm": 1.441,
+   "gouge_volume_mm3": 168.0,
+   "residual_volume_mm3": 9056.0,
+   "pass": false
+  },
+  {
+   "part": "2",
+   "family": 4,
+   "lines": 39,
+   "error": null,
+   "seconds": 2.83,
+   "prompt_tokens": 470,
+   "completion_tokens": 379,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 32,
+   "max_gouge_depth_mm": 4.0,
+   "mean_deviation_mm": 1.28,
+   "gouge_volume_mm3": 824.0,
+   "residual_volume_mm3": 7368.0,
+   "pass": false
+  },
+  {
+   "part": "3",
+   "family": 6,
+   "lines": 137,
+   "error": null,
+   "seconds": 11.03,
+   "prompt_tokens": 560,
+   "completion_tokens": 1485,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 128,
+   "max_gouge_depth_mm": 7.0,
+   "mean_deviation_mm": 2.576,
+   "gouge_volume_mm3": 3164.0,
+   "residual_volume_mm3": 13324.0,
+   "pass": false
+  },
+  {
+   "part": "4",
+   "family": 6,
+   "lines": 225,
+   "error": null,
+   "seconds": 18.73,
+   "prompt_tokens": 560,
+   "completion_tokens": 2500,
+   "parse_ok": true,
+   "whitelist_ok": false,
+   "error_codes": [
+    "E_COLLISION"
+   ],
+   "segments": 217,
+   "max_gouge_depth_mm": 7.0,
+   "mean_deviation_mm": 3.167,
+   "gouge_volume_mm3": 2856.0,
+   "residual_volume_mm3": 17412.0,
+   "pass": false
+  },
+  {
+   "part": "5",
+   "family": 6,
+   "lines": 215,
+   "error": null,
+   "seconds": 18.8,
+   "prompt_tokens": 560,
+   "completion_tokens": 2500,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 207,
+   "max_gouge_depth_mm": 6.0,
+   "mean_deviation_mm": 2.616,
+   "gouge_volume_mm3": 646.0,
+   "residual_volume_mm3": 16097.0,
+   "pass": false
+  },
+  {
+   "part": "6",
+   "family": 7,
+   "lines": 200,
+   "error": null,
+   "seconds": 18.8,
+   "prompt_tokens": 605,
+   "completion_tokens": 2500,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 192,
+   "max_gouge_depth_mm": 6.0,
+   "mean_deviation_mm": 4.902,
+   "gouge_volume_mm3": 589.5,
+   "residual_volume_mm3": 30785.5,
+   "pass": false
+  },
+  {
+   "part": "7",
+   "family": 6,
+   "lines": 69,
+   "error": null,
+   "seconds": 6.13,
+   "prompt_tokens": 563,
+   "completion_tokens": 807,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 60,
+   "max_gouge_depth_mm": 48.0,
+   "mean_deviation_mm": 10.069,
+   "gouge_volume_mm3": 22733.0,
+   "residual_volume_mm3": 41706.93,
+   "pass": false
+  },
+  {
+   "part": "8",
+   "family": 4,
+   "lines": 165,
+   "error": null,
+   "seconds": 18.64,
+   "prompt_tokens": 470,
+   "completion_tokens": 2500,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 157,
+   "max_gouge_depth_mm": 3.956,
+   "mean_deviation_mm": 6.255,
+   "gouge_volume_mm3": 7.91,
+   "residual_volume_mm3": 40024.25,
+   "pass": false
+  },
+  {
+   "part": "9",
+   "family": 13,
+   "lines": 219,
+   "error": null,
+   "seconds": 19.13,
+   "prompt_tokens": 851,
+   "completion_tokens": 2500,
+   "parse_ok": true,
+   "whitelist_ok": false,
+   "error_codes": [
+    "E_COLLISION"
+   ],
+   "segments": 211,
+   "max_gouge_depth_mm": 8.0,
+   "mean_deviation_mm": 5.847,
+   "gouge_volume_mm3": 2027.0,
+   "residual_volume_mm3": 35392.44,
+   "pass": false
+  },
+  {
+   "part": "10",
+   "family": 10,
+   "lines": 187,
+   "error": null,
+   "seconds": 19.47,
+   "prompt_tokens": 743,
+   "completion_tokens": 2500,
+   "parse_ok": true,
+   "whitelist_ok": true,
+   "error_codes": [],
+   "segments": 179,
+   "max_gouge_depth_mm": 10.0,
+   "mean_deviation_mm": 6.86,
+   "gouge_volume_mm3": 37.5,
+   "residual_volume_mm3": 43864.45,
+   "pass": false
+  }
+ ],
+ "baseline": {
+  "route": "契约调用（B2 区域掩码）",
+  "rows": [
+   {
+    "part": "1",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0375,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 240.0
+   },
+   {
+    "part": "2",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.01,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 64.0
+   },
+   {
+    "part": "3",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0391,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 250.0
+   },
+   {
+    "part": "4",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0344,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 220.0
+   },
+   {
+    "part": "5",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0281,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 180.0
+   },
+   {
+    "part": "6",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0563,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 360.0
+   },
+   {
+    "part": "7",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0826,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 528.5
+   },
+   {
+    "part": "8",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.1383,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 885.0
+   },
+   {
+    "part": "9",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0876,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 560.41
+   },
+   {
+    "part": "10",
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.2059,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 1317.7
+   }
+  ],
+  "pass_count": 10,
+  "n": 10
+ },
+ "generated_at": "2026-11-06 09:39:58"
+}

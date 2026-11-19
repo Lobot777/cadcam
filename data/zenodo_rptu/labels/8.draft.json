@@ -1,0 +1,252 @@
+{
+ "part": "8",
+ "source": "8.step",
+ "n_faces": 25,
+ "schema": "cadcam-annotation/1",
+ "annotator": "rule-draft",
+ "faces": {
+  "1": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "2": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "3": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "4": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "5": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "6": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "7": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "8": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "9": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "10": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "11": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "12": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "13": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "14": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "15": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "16": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "17": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "18": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "19": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "20": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "21": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "22": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "23": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "24": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "25": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "unknown",
+   "mfcad_class": null,
+   "faces": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "params": {
+    "radius": 27.0,
+    "axis": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "vertical": true,
+    "arc_fraction": 1.0,
+    "smooth_edges": 0,
+    "concave_edges": 5,
+    "outward": null,
+    "z_span": [
+     46.0556,
+     50.0556
+    ],
+    "reaches_top": true,
+    "reaches_bottom": false
+   },
+   "confidence": "low",
+   "evidence": [
+    "faces=[1, 2, 3, 4, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]",
+    "kinds={'Plane': 18, 'Cylinder': 1}",
+    "floor=8 wall=10 overhang=0 slanted=0 depth=16.0 breakout=['+x', '+y', '+z', '-x', '-y']",
+    "cyl={'radius': 27.0, 'axis': [0.0, 0.0, -1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 5, 'outward': None, 'z_span': [46.0556, 50.0556], 'reaches_top': True, 'reaches_bottom': False}",
+    "圆柱无法定向"
+   ],
+   "reviewed": false
+  }
+ ]
+}

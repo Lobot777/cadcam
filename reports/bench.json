@@ -1,0 +1,276 @@
+{
+ "generated_at": "2026-11-09 10:44:17",
+ "python": "3.11.5",
+ "seed": "无随机采样；同一输入重跑 blackboard_digest 一致（见 test_run_is_deterministic）",
+ "steps": [
+  {
+   "key": "m3_cam",
+   "desc": "A 路 FreeCAD CAM 参考刀路复算",
+   "artifact": "m3_cam_eval.json",
+   "status": "ok",
+   "seconds": 6.2,
+   "tail": [
+    "件 8   A段  634 | 偏差 平均10.769 P9916.000 max  17.0 超0.5mm 95.63% | 过切  68304.0 | B max   8.0 | 验收 FAIL",
+    "件 9   A段  381 | 偏差 平均 0.974 P99 8.000 max   8.0 超0.5mm 16.18% | 过切   4818.6 | B max   8.0 | 验收 FAIL",
+    "件 10  A段  781 | 偏差 平均12.225 P9918.000 max  19.0 超0.5mm 95.63% | 过切  77552.1 | B max  18.0 | 验收 FAIL",
+    "",
+    "汇总: {\"version\": \"M3.2-1\", \"res_mm\": 0.5, \"accept_mm\": 0.5, \"freecad\": [\"1\", \"1\", \"4\"], \"parts\": 10, \"all_whitelist_ok\": true, \"criterion\": \"ADR-001 dual: max_gouge<=0.5 AND mean_abs_dev<=0.5\", \"pass_count\": 2, \"safety_pass_count\": 2, \"accuracy_pass_count\": 2, \"legacy_max_pass_count\": 0, \"A_max_deviation_worst_mm\": 19.0, \"A_p99_worst_mm\": 18.0, \"A_mean_worst_mm\": 12.2251, \"A_over_0_5mm_pct_worst\": 95.629, \"A_total_gouge_mm3\": 215126.7, \"B_total_gouge_mm3\": 196726.7, \"gouge_reduction_pct\": -9.35}",
+    "wrote E:\\CAD2CAM\\reports\\m3_cam_eval.json"
+   ],
+   "stderr": []
+  },
+  {
+   "key": "m3_heightmap",
+   "desc": "B1 包围盒 vs B2 区域掩码复算",
+   "artifact": "m3_heightmap_eval.json",
+   "status": "ok",
+   "seconds": 10.6,
+   "tail": [
+    "件 8   B2: 过切      0.0 (B1   20840.0, -100.0%) 残留     885.0 | 平均偏差 0.138 P99 8.00 超0.5mm  2.19% | 3016 行 1.0s OK",
+    "件 9   B2: 过切      0.0 (B1   18768.6, -100.0%) 残留     560.4 | 平均偏差 0.088 P99 6.00 超0.5mm  1.31% | 5583 行 1.8s OK",
+    "件 10  B2: 过切      0.0 (B1   77552.1, -100.0%) 残留    1317.7 | 平均偏差 0.206 P99 10.00 超0.5mm  2.84% | 10439 行 2.1s OK",
+    "",
+    "汇总: {\"version\": \"M3.2-2\", \"res_mm\": 0.5, \"ap_mm\": 4.0, \"passes\": [{\"tool_d_mm\": 6.0}, {\"tool_d_mm\": 1.5}], \"parts\": 10, \"all_whitelist_ok\": true, \"B2_zero_gouge_count\": 10, \"B1_total_gouge_mm3\": 196726.7, \"B2_total_gouge_mm3\": 0.0, \"B2_total_residual_mm3\": 4605.6, \"B2_mean_deviation_worst_mm\": 0.2059, \"B2_max_deviation_worst_mm\": 10.0, \"B2_over_0_5mm_pct_worst\": 2.844, \"criterion\": \"ADR-001 dual: max_gouge<=0.5 AND mean_abs_dev<=0.5\", \"accept_dual_criterion_count\": 10, \"accept_dual_criterion\": true, \"legacy_max_pass_count\": 0}",
+    "wrote E:\\CAD2CAM\\reports\\m3_heightmap_eval.json"
+   ],
+   "stderr": []
+  },
+  {
+   "key": "m4",
+   "desc": "M4 三组对照（20 个任务）",
+   "artifact": "m4_run.json",
+   "status": "ok",
+   "seconds": 46.4,
+   "tail": [
+    "组                通过       通过率        均轮次      首轮能过       耗时",
+    "A_no_repair      2/20    0.100      0.00     2          6.8s",
+    "B_repair_cold    20/20    1.000      0.90     2          21.2s",
+    "C_repair_warm    20/20    1.000      0.15     17         17.4s",
+    "→ reports\\m4_run.json",
+    "C 组记忆：{\"signatures\": 3, \"with_fix\": 3, \"total_seen\": 20} → reports\\m4_memory.json"
+   ],
+   "stderr": []
+  },
+  {
+   "key": "m5_autonomy",
+   "desc": "B7 补充：自由生成 G-code 的验证器投影乐观上界（零 LLM 调用）",
+   "artifact": "m5_autonomy_probe.json",
+   "status": "ok",
+   "seconds": 1.2,
+   "tail": [
+    "件7   抬高  25.8% 端点 ｜ 过切  48.00→ 10.00 均差  10.07→  6.95 残留   41706.9→  41728.2 ｜ 双线 FAIL→FAIL",
+    "件8   抬高   0.3% 端点 ｜ 过切   3.96→  3.96 均差   6.25→  6.25 残留   40024.2→  40024.2 ｜ 双线 FAIL→FAIL",
+    "件9   抬高  44.8% 端点 ｜ 过切   8.00→  6.00 均差   5.85→  5.64 残留   35392.4→  35675.4 ｜ 双线 FAIL→FAIL",
+    "件10  抬高   0.3% 端点 ｜ 过切  10.00→ 10.00 均差   6.86→  6.86 残留   43864.4→  43864.4 ｜ 双线 FAIL→FAIL",
+    "",
+    "10 件｜双线 0/10 → 0/10；平均残留 25503.0 → 25623.1 mm³；投影后零过切件 2；覆盖规划缺失（结论：不要重写 G-code，换可判定动作空间）"
+   ],
+   "stderr": []
+  }
+ ],
+ "archived": [
+  {
+   "key": "m2_recognition",
+   "desc": "M2 GNN 面级识别（训练需 GPU，未在 bench 重跑；权重→指标已用 eval_mfr 复算，逐位一致）",
+   "cmd": "python scripts/eval_mfr.py --weights reports/mfr_train_v2.pt",
+   "artifact": "mfr_test_v2.json",
+   "status": "present"
+  },
+  {
+   "key": "m1_gateway",
+   "desc": "M1 MCP 网关验收（需 FreeCAD 二进制）",
+   "cmd": "python scripts/m1_demo.py",
+   "artifact": "m1_acceptance.json",
+   "status": "present"
+  },
+  {
+   "key": "m3_acceptance",
+   "desc": "M3.1 工艺库/注入自检",
+   "cmd": "python scripts/m3_demo.py",
+   "artifact": "m3_acceptance.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_external",
+   "desc": "MFCAD 130 件外部验证集（双线判据）",
+   "cmd": "PYTHONPATH=src python scripts/external_eval.py",
+   "artifact": "m3_external_eval.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_camsim",
+   "desc": "CAMotics 独立仿真，体积交叉验证",
+   "cmd": "PYTHONPATH=src python scripts/m3_camsim_xcheck.py",
+   "artifact": "m3_camsim_xcheck.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_b3",
+   "desc": "B3 无膨胀基线（零过切归因）",
+   "cmd": "PYTHONPATH=src python scripts/m3_b3_baseline.py",
+   "artifact": "m3_b3_baseline.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_ocl",
+   "desc": "OpenCAMLib 第三方 CAM 对照（替代 Fusion 360，无 GUI）",
+   "cmd": "PYTHONPATH=src python scripts/m6_opencamlib.py",
+   "artifact": "m6_ocl.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_ocl_external",
+   "desc": "OpenCAMLib × 130 件外部集交叉验证（含半格余量对照）",
+   "cmd": "PYTHONPATH=src python scripts/m6_ocl_external.py",
+   "artifact": "m6_ocl_external.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_step_stl",
+   "desc": "STEP→FreeCAD Mesh→二进制 STL→OCL 独立几何链路",
+   "cmd": "PYTHONPATH=src python scripts/m6_step_stl_xcheck.py",
+   "artifact": "m6_step_stl_xcheck.json",
+   "status": "present"
+  },
+  {
+   "key": "m6_ocl_point_cutter",
+   "desc": "OCL 点刀半径敏感性（解释 71mm 探针伪影）",
+   "cmd": "PYTHONPATH=src python scripts/m6_ocl_point_cutter.py",
+   "artifact": "m6_ocl_point_cutter.json",
+   "status": "present"
+  }
+ ],
+ "headline": {
+  "m2_gnn_accuracy": 0.966,
+  "m2_gnn_macro_iou": 0.9042,
+  "m2_tree_accuracy": 0.9075,
+  "m2_tree_macro_iou": 0.7198,
+  "m3_b1_total_gouge_mm3": 196726.7,
+  "m3_b2_total_gouge_mm3": 0.0,
+  "m3_b2_worst_mean_mm": 0.2059,
+  "m3_b2_dual_pass": 10,
+  "m3_b2_legacy_max_pass": 0,
+  "m3_a_dual_pass": 2,
+  "m3_a_total_gouge_mm3": 215126.7,
+  "m4_pass_rate_no_repair": 0.1,
+  "m4_pass_rate_repair": 1.0,
+  "m4_rounds_cold": 0.9,
+  "m4_rounds_warm": 0.15,
+  "m3_whitelist_all_ok": true,
+  "m3_inject_detected": [
+   10,
+   10,
+   10
+  ],
+  "m6_external_pass": 130,
+  "m6_camsim_mean_rel_diff_pct": 1.15,
+  "m6_b3_dual_pass": 0,
+  "m6_ocl_geometry_exact_pct": 99.828,
+  "m6_ocl_b2_gouge_points": 2822,
+  "m6_ocl_b3_gouge_points": 43260,
+  "m6_ocl_toolpath_dual_pass": 9,
+  "m6_ocl_sweep_rates_pct": [
+   1.332,
+   0.432,
+   0.143
+  ],
+  "m6_ocl_ext_evaluated": 130,
+  "m6_ocl_ext_geometry_min_pct": 87.364,
+  "m6_ocl_ext_b2_gouge_points": 316398,
+  "m6_ocl_ext_b2_deep": 77363,
+  "m6_ocl_ext_guard_gouge_points": 5167,
+  "m6_ocl_ext_guard_dual_pass": 107,
+  "m6_step_stl_min_identical_pct": 99.9844,
+  "m6_step_stl_b2_gouge_points": 2826,
+  "m6_step_stl_b3_gouge_points": 43262,
+  "m6_point_cutter_over_0_5mm_d0_02": 199,
+  "m6_point_cutter_over_0_5mm_d0_002": 2,
+  "m6_point_cutter_over_0_5mm_d0_0002": 1,
+  "m5_autonomy_raw_pass": 0,
+  "m5_autonomy_projected_pass": 0,
+  "m5_autonomy_residual_mm3": [
+   25503.0,
+   25623.1
+  ],
+  "m5_autonomy_gouge_mm": [
+   10.596,
+   4.996
+  ]
+ },
+ "wilson_95ci": [
+  {
+   "name": "B2 区域掩码双线通过",
+   "k": 10,
+   "n": 10,
+   "rate": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  },
+  {
+   "name": "A 路 FreeCAD CAM 双线通过",
+   "k": 2,
+   "n": 10,
+   "rate": 0.2,
+   "wilson95": [
+    0.0567,
+    0.5098
+   ]
+  },
+  {
+   "name": "B3 无膨胀基线双线通过",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.2775
+   ]
+  },
+  {
+   "name": "MFCAD 外部集双线通过",
+   "k": 130,
+   "n": 130,
+   "rate": 1.0,
+   "wilson95": [
+    0.9713,
+    1.0
+   ]
+  },
+  {
+   "name": "OCL 自生成刀路双线通过",
+   "k": 9,
+   "n": 10,
+   "rate": 0.9,
+   "wilson95": [
+    0.5958,
+    0.9821
+   ]
+  },
+  {
+   "name": "M4 A_no_repair",
+   "k": 2,
+   "n": 20,
+   "rate": 0.1,
+   "wilson95": [
+    0.0279,
+    0.301
+   ]
+  },
+  {
+   "name": "M4 B_repair_cold",
+   "k": 20,
+   "n": 20,
+   "rate": 1.0,
+   "wilson95": [
+    0.8389,
+    1.0
+   ]
+  }
+ ],
+ "tests": {
+  "status": "ok",
+  "summary": "177 passed in 15.17s"
+ }
+}

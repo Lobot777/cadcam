@@ -1,0 +1,72 @@
+{
+ "annotator": "ai-visual+rule",
+ "review_needed": false,
+ "open_questions": [],
+ "features": [
+  [
+   "step",
+   "rectangular_blind_step",
+   [
+    5
+   ],
+   "凸台外周台阶面，深4"
+  ],
+  [
+   "boss",
+   null,
+   [
+    6,
+    7,
+    13,
+    14,
+    15
+   ],
+   "70×70 方凸台，高4"
+  ],
+  [
+   "pocket",
+   "circular_end_pocket",
+   [
+    11,
+    17
+   ],
+   "Ø60 圆形型腔，深6（从凸台顶面下切）"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    8,
+    20
+   ],
+   "Ø10 盲孔 深6（在凸台顶面、型腔外侧，孔底与型腔底同高 z=46）"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    9,
+    19
+   ],
+   "Ø10 盲孔 深6"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    10,
+    18
+   ],
+   "Ø10 盲孔 深6"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    12,
+    16
+   ],
+   "Ø10 盲孔 深6"
+  ]
+ ]
+}

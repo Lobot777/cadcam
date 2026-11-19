@@ -1,0 +1,192 @@
+{
+ "part": "7",
+ "source": "7.step",
+ "n_faces": 17,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-visual+rule",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [],
+ "evidence": {},
+ "stock_faces": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "faces": {
+  "1": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "2": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "3": {
+   "family": "pocket",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "human"
+  },
+  "4": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F3",
+   "source": "human"
+  },
+  "5": {
+   "family": "pocket",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "human"
+  },
+  "6": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F4",
+   "source": "human"
+  },
+  "7": {
+   "family": "pocket",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "human"
+  },
+  "8": {
+   "family": "pocket",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "human"
+  },
+  "9": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F5",
+   "source": "human"
+  },
+  "10": {
+   "family": "pocket",
+   "mfcad_class": null,
+   "feature": "F1",
+   "source": "human"
+  },
+  "11": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F6",
+   "source": "human"
+  },
+  "12": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "13": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "14": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "15": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "16": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "17": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "pocket",
+   "mfcad_class": null,
+   "faces": [
+    3,
+    5,
+    7,
+    8,
+    10
+   ],
+   "note": "自由轮廓盲腔，深10（顶面→z=42），四直壁",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    1,
+    2
+   ],
+   "note": "腔内自由曲面岛：顶面 z=48，侧壁为 BSpline 曲面",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    4
+   ],
+   "note": "R3 内圆角",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    6
+   ],
+   "note": "R3 内圆角",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    9
+   ],
+   "note": "R3 内圆角",
+   "reviewed": true
+  },
+  {
+   "id": "F6",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    11
+   ],
+   "note": "R3 内圆角",
+   "reviewed": true
+  }
+ ]
+}

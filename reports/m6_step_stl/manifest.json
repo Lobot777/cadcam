@@ -1,0 +1,186 @@
+{
+ "kernel": "OCC via FreeCAD 1.1.4",
+ "tessellation": "Part.Shape.tessellate(0.05) -> Mesh.Mesh -> binary STL",
+ "parts": [
+  {
+   "part": 1,
+   "stl": "1.stl",
+   "facets": 28,
+   "vertices": 16,
+   "faces_brep": 10,
+   "volume_mm3": 317120.0,
+   "bbox_min": [
+    -40.0000005960464,
+    -40.0,
+    2.0
+   ],
+   "bbox_max": [
+    40.0000005960464,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 2,
+   "stl": "2.stl",
+   "facets": 2028,
+   "vertices": 1016,
+   "faces_brep": 14,
+   "volume_mm3": 318743.36,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 3,
+   "stl": "3.stl",
+   "facets": 2044,
+   "vertices": 1024,
+   "faces_brep": 19,
+   "volume_mm3": 311800.89,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 4,
+   "stl": "4.stl",
+   "facets": 2532,
+   "vertices": 1268,
+   "faces_brep": 16,
+   "volume_mm3": 307594.69,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 5,
+   "stl": "5.stl",
+   "facets": 2292,
+   "vertices": 1148,
+   "faces_brep": 19,
+   "volume_mm3": 322811.95,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 6,
+   "stl": "6.stl",
+   "facets": 2548,
+   "vertices": 1276,
+   "faces_brep": 21,
+   "volume_mm3": 307950.44,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 7,
+   "stl": "7.stl",
+   "facets": 3828,
+   "vertices": 1916,
+   "faces_brep": 17,
+   "volume_mm3": 293302.97,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 8,
+   "stl": "8.stl",
+   "facets": 562,
+   "vertices": 283,
+   "faces_brep": 25,
+   "volume_mm3": 285886.58,
+   "bbox_min": [
+    -27.5340798026331,
+    -39.962259747535,
+    0.0555559219004431
+   ],
+   "bbox_max": [
+    52.4659201973669,
+    40.037740252465,
+    50.05555592190051
+   ]
+  },
+  {
+   "part": 9,
+   "stl": "9.stl",
+   "facets": 9988,
+   "vertices": 4996,
+   "faces_brep": 32,
+   "volume_mm3": 286349.29,
+   "bbox_min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "bbox_max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  {
+   "part": 10,
+   "stl": "10.stl",
+   "facets": 3690,
+   "vertices": 1847,
+   "faces_brep": 33,
+   "volume_mm3": 294978.25,
+   "bbox_min": [
+    -40.0,
+    -40.0000002980232,
+    0.0
+   ],
+   "bbox_max": [
+    40.0000002980232,
+    40.0000002980232,
+    52.0
+   ]
+  }
+ ]
+}

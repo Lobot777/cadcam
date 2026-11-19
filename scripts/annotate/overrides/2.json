@@ -1,0 +1,43 @@
+{
+ "annotator": "ai-visual+rule",
+ "review_needed": false,
+ "open_questions": [],
+ "features": [
+  [
+   "hole",
+   "blind_hole",
+   [
+    4,
+    14
+   ],
+   "Ø10 盲孔 深4"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    5,
+    13
+   ],
+   "Ø10 盲孔 深4"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    6,
+    12
+   ],
+   "Ø10 盲孔 深4"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    7,
+    11
+   ],
+   "Ø10 盲孔 深4"
+  ]
+ ]
+}

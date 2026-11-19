@@ -1,0 +1,27 @@
+\section*{Acknowledgments}
+
+\subsection*{General}
+
+[AUTHORS: add any non-author contributions here, with permission. Remove this bracketed line if there are none.]
+
+Language models were used as experimental subjects and as research assistants. Fifteen evaluated models produced tool calls, programs and clarification responses to supplied work orders; the archives retain scored outputs and metadata, but not every original response or prompt. AI assistance also supported manuscript drafting, code development, experimental audit design and numerical analysis during revision. The offline audits did not make new inference calls to the evaluated models. [AUTHORS: specify the AI assistants and versions used, verify the extent of assistance across the project, and confirm review of the code, analyses and final text before submission.] Human authors remain responsible for the validity, interpretation and presentation of the work. No AI tool is listed as an author.
+
+\subsection*{Author Contributions}
+
+[AUTHORS: replace with initials and full surnames, e.g. ``X. Zhang conceived the study and designed the experiments. Y. Li implemented the gateway and ran the evaluations. All authors wrote and approved the manuscript.'']
+
+\subsection*{Funding}
+
+[AUTHORS: replace with the full name of each supporting body, the awardee and grant numbers in square brackets, or state that no funding was received. Example of the required no-funding sentence: ``The authors acknowledge that they did not receive funding for this work.'']
+
+\subsection*{Conflicts of Interest}
+
+The authors declare that there is no conflict of interest regarding the publication of this article. Cloud-model experiments were run against a keyless service using account credit; no provider supplied funding, data, computational resources beyond ordinary paid access, or editorial input.
+
+\subsection*{Data Availability}
+
+The ten anchor parts come from the RPTU Zenodo record 17035762 \cite{RPTU2025} and are redistributed under CC BY 4.0 with the original attribution retained. The face-level annotations produced for those parts, all generated programs, all result files, the Wilson interval implementation, the six figure scripts and the complete reproduction script are available in the project repository at \texttt{[REPOSITORY URL]} (archived as \texttt{[ZENODO DOI]}).
+
+Two third-party datasets are \emph{not} distributed with this repository. MFCAD++ \cite{Colligan2022} is supplied by Queen's University Belfast under CC BY (dataset DOI 10.17034/d1fec5a0-8c10-4630-b02e-b92dc81df823); after downloading it from the publisher's page, \texttt{scripts/extract\_mfcad.py} reproduces the 7,998/1,500/1,998 split used here. The 130-part external set was derived from the MFCAD corpus released under the MIT licence and must be obtained from its upstream distributor; the selection and scaling script is provided, but the source STEP files are not. The full upstream corpora are not bundled; their licences and attribution conditions remain applicable when readers obtain them. Omission from this repository should not be read as a prohibition on redistribution under those licences.
+
+Re-running the geometric, toolpath, orchestration and third-party-audit experiments requires no model server once their data and software dependencies are installed. The revision audits preserve the original archives and identify inputs by SHA256; independent reference reconstruction requires FreeCAD. Re-running model comparisons requires the specified weights or cloud access. The archives retain partial responses, generated artifacts and per-task measurements, not a complete immutable record of every prompt, response and model revision. In particular, one ambiguous item was replaced after rewording and some working output paths were reused. This limits exact replay and retrospective independent rescoring.

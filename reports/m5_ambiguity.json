@@ -1,0 +1,1605 @@
+{
+ "provider": "ollama",
+ "generated_at": "2026-11-06 14:50:10",
+ "cases": [
+  {
+   "id": "A1",
+   "gap": "位置（没说在哪）",
+   "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。"
+  },
+  {
+   "id": "A2",
+   "gap": "深度（挖多深）",
+   "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。"
+  },
+  {
+   "id": "A3",
+   "gap": "数量与排布（一圈几个、什么形状）",
+   "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。"
+  },
+  {
+   "id": "A4",
+   "gap": "物理不可能（超出毛坯尺寸）",
+   "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。"
+  },
+  {
+   "id": "A5",
+   "gap": "单位（深 1 是 mm 还是 cm）",
+   "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。"
+  }
+ ],
+ "models": {
+  "glm-5.3": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "腔的中心位置（或腔中心坐标）未指定，请提供",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      179,
+      20
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "内腔深度多少？是挖穿还是留底厚？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      182,
+      46
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "通孔沿边缘分布，孔间距或孔数量是多少？孔中心距边缘距离？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      176,
+      38
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔宽120超出毛坯100×80范围，无法铣削，请确认尺寸",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      179,
+      25
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      181,
+      98
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "glm-5.3-flash": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      179,
+      57
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "底部壁厚多少？是挖通到毛坯底还是保留底板？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      182,
+      72
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "请提供孔的边距、每边孔数或孔间距",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      176,
+      36
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔宽120超出毛坯100，需缩小腔尺寸或换更大毛坯",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      179,
+      24
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      181,
+      57
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 3,
+   "clarify_rate": 0.6,
+   "silent_guess": 2,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 2,
+   "strong_n": 4,
+   "hit_rate_strong": 0.5,
+   "empty": 0
+  },
+  "kimi-k2.8-preview": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "腔体的中心位置？请给出 X、Y 坐标",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      260,
+      43
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "挖空深度是多少？是否贯穿？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      262,
+      108
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "孔距边缘多少？一圈共几个孔？间距多少？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      256,
+      54
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔120×120超出100×80毛坯，如何处理？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      260,
+      53
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      261,
+      95
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "hy4std": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "请问腔的中心坐标（center_x, center_y）是多少？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      215,
+      903
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "请确认挖空是否贯穿 50 高度；若不贯穿，深度或底厚是多少？单位是 mm 吗？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      216,
+      1450
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "请明确孔边距、孔间距(或孔数)及从哪面打孔？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      210,
+      1368
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔120×120超出毛坯100×80，且未给中心位置，请确认？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      215,
+      1163
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      216,
+      1967
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "deepseek-v4-pro": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      174,
+      57
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "挖空深度是多少？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      176,
+      10
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "孔心到边缘的距离、孔间距或数量未指定。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      170,
+      18
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔体尺寸 120×120 超出毛坯 100×80，无法加工。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      174,
+      24
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 1,
+     "exec_ok": false,
+     "volume_mm3": null,
+     "tokens": [
+      175,
+      36
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 3,
+   "clarify_rate": 0.6,
+   "silent_guess": 2,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 1.5,
+   "hit_count_strong": 3,
+   "strong_n": 4,
+   "hit_rate_strong": 0.75,
+   "empty": 0
+  },
+  "deepseek-v4.1-flash": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "请说明腔的中心位置或相对基准，毛坯坐标系未定义。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      175,
+      20
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "挖空的深度是多少？贯穿还是留底厚？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      177,
+      16
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "请说明孔距边缘的距离、孔间距或数量，以及是否四角各一孔。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      171,
+      25
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔体120×120超出毛坯100×80，请确认尺寸或毛坯大小。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      175,
+      25
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      176,
+      57
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "mimo-v2.6-pro": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": null,
+     "error": "HTTP 502: {\"code\":502,\"msg\":\"bad gateway\",\"data\":null}",
+     "hit": false,
+     "empty": true
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      193,
+      65
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "孔距边缘距离和每边孔数？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      187,
+      16
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔体 120×120 超出毛坯 100×80，无法加工，请确认尺寸或毛坯大小",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      196,
+      39
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      195,
+      64
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 2,
+   "clarify_rate": 0.4,
+   "silent_guess": 3,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 1.33,
+   "hit_count_strong": 1,
+   "strong_n": 4,
+   "hit_rate_strong": 0.25,
+   "empty": 1
+  },
+  "step-5-preview": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "请提供腔的中心坐标(x,y)。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      186,
+      296
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "挖空深度是多少？是否通孔或保留底厚？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      188,
+      1097
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "请明确孔数、距边缘距离及排布方式。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      182,
+      132
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔尺寸120×120超出毛坯100×80，是否改为最大80×60或提供更大毛坯？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      186,
+      101
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      187,
+      1893
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "minimax-m3.1-flash": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "请提供腔体中心坐标（如以毛坯左后角为原点）。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      350,
+      49
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "中间挖空是贯穿还是留底？请给深度或底厚。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      351,
+      181
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "请指定孔中心间距及距毛坯边缘的距离",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      346,
+      48
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "120×120腔超出100×80毛坯，无法加工",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      350,
+      37
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      352,
+      112
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "space-bunny": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "请提供腔体中心的 X、Y 坐标及尺寸单位。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      304,
+      63
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "挖空深度是多少？底面是否也保留10厚？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      305,
+      109
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "请提供孔中心距边缘的距离及孔数（或孔间距）。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      300,
+      55
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔体120×120超过毛坯，需缩小尺寸或说明处理方式",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      304,
+      60
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      305,
+      125
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 4,
+   "clarify_rate": 0.8,
+   "silent_guess": 1,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 4,
+   "strong_n": 4,
+   "hit_rate_strong": 1.0,
+   "empty": 0
+  },
+  "qwen3:8b": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      201,
+      64
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 1,
+     "exec_ok": false,
+     "volume_mm3": null,
+     "tokens": [
+      201,
+      40
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 5,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      195,
+      141
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "毛坯尺寸是否足够容纳 120×120 的腔？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      204,
+      23
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      203,
+      64
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 1,
+   "clarify_rate": 0.2,
+   "silent_guess": 4,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.5,
+   "hit_count_strong": 1,
+   "strong_n": 4,
+   "hit_rate_strong": 0.25,
+   "empty": 0
+  },
+  "qwen3:14b": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      201,
+      64
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      201,
+      65
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 5,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      195,
+      141
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔的尺寸大于毛坯尺寸，无法铣削。",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      204,
+      18
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      203,
+      64
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 1,
+   "clarify_rate": 0.2,
+   "silent_guess": 4,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.75,
+   "hit_count_strong": 1,
+   "strong_n": 4,
+   "hit_rate_strong": 0.25,
+   "empty": 0
+  },
+  "llama3.1:8b": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      197,
+      56
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 8,
+     "exec_ok": true,
+     "volume_mm3": 352000.0,
+     "tokens": [
+      199,
+      242
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 6,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      194,
+      160
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      197,
+      56
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      199,
+      56
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 0,
+   "clarify_rate": 0.0,
+   "silent_guess": 5,
+   "a4_asked": false,
+   "a4_guessed_and_ran": true,
+   "mean_calls_when_guessing": 4.0,
+   "hit_count_strong": 0,
+   "strong_n": 4,
+   "hit_rate_strong": 0.0,
+   "empty": 0
+  },
+  "glm4:9b": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      177,
+      113
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 364000.0,
+     "tokens": [
+      178,
+      113
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 6,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      172,
+      301
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 400000.0,
+     "tokens": [
+      177,
+      113
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      179,
+      113
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 0,
+   "clarify_rate": 0.0,
+   "silent_guess": 5,
+   "a4_asked": false,
+   "a4_guessed_and_ran": true,
+   "mean_calls_when_guessing": 2.8,
+   "hit_count_strong": 0,
+   "strong_n": 4,
+   "hit_rate_strong": 0.0,
+   "empty": 0
+  },
+  "gemma3:12b": {
+   "rows": [
+    {
+     "id": "A1",
+     "gap": "位置（没说在哪）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 40×30 深 8 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 390400.0,
+     "tokens": [
+      199,
+      68
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A2",
+     "gap": "深度（挖多深）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，把中间挖空，四边各留 10 的壁厚。",
+     "clarify": "挖空时，中心位置和深度是多少？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      201,
+      16
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A3",
+     "gap": "数量与排布（一圈几个、什么形状）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，沿边缘打一圈 Ø8 通孔。",
+     "clarify": "边缘打孔，孔间距和起始位置如何？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      195,
+      18
+     ],
+     "error": null,
+     "hit": true,
+     "empty": false
+    },
+    {
+     "id": "A4",
+     "gap": "物理不可能（超出毛坯尺寸）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，铣一个 120×120 深 10 的腔。",
+     "clarify": "腔体中心位置？",
+     "asked": true,
+     "n_calls": 0,
+     "exec_ok": null,
+     "volume_mm3": null,
+     "tokens": [
+      202,
+      11
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    },
+    {
+     "id": "A5",
+     "gap": "单位（深 1 是 mm 还是 cm）",
+     "expected": "clarify",
+     "text": "100×80×50 的毛坯，居中铣一个 40×40 深 1 的腔。",
+     "clarify": "",
+     "asked": false,
+     "n_calls": 2,
+     "exec_ok": true,
+     "volume_mm3": 398400.0,
+     "tokens": [
+      201,
+      68
+     ],
+     "error": null,
+     "hit": false,
+     "empty": false
+    }
+   ],
+   "n": 5,
+   "asked": 3,
+   "clarify_rate": 0.6,
+   "silent_guess": 2,
+   "a4_asked": true,
+   "a4_guessed_and_ran": false,
+   "mean_calls_when_guessing": 2.0,
+   "hit_count_strong": 2,
+   "strong_n": 4,
+   "hit_rate_strong": 0.5,
+   "empty": 0
+  }
+ }
+}

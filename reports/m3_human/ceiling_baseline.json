@@ -1,0 +1,191 @@
+{
+ "pack_dir": "reports/m3_human",
+ "n": 30,
+ "red_pixels": [
+  {
+   "sample_id": "H01",
+   "red_px": 45005,
+   "truth": "gouge",
+   "kind": "local"
+  },
+  {
+   "sample_id": "H02",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H03",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H04",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H05",
+   "red_px": 153196,
+   "truth": "gouge",
+   "kind": "gouge1"
+  },
+  {
+   "sample_id": "H06",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H07",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H08",
+   "red_px": 154745,
+   "truth": "gouge",
+   "kind": "gouge1"
+  },
+  {
+   "sample_id": "H09",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H10",
+   "red_px": 90523,
+   "truth": "gouge",
+   "kind": "local"
+  },
+  {
+   "sample_id": "H11",
+   "red_px": 153000,
+   "truth": "gouge",
+   "kind": "gouge03"
+  },
+  {
+   "sample_id": "H12",
+   "red_px": 151137,
+   "truth": "gouge",
+   "kind": "gouge03"
+  },
+  {
+   "sample_id": "H13",
+   "red_px": 152297,
+   "truth": "gouge",
+   "kind": "gouge03"
+  },
+  {
+   "sample_id": "H14",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H15",
+   "red_px": 154014,
+   "truth": "gouge",
+   "kind": "gouge1"
+  },
+  {
+   "sample_id": "H16",
+   "red_px": 40986,
+   "truth": "gouge",
+   "kind": "local"
+  },
+  {
+   "sample_id": "H17",
+   "red_px": 58866,
+   "truth": "gouge",
+   "kind": "local"
+  },
+  {
+   "sample_id": "H18",
+   "red_px": 153695,
+   "truth": "gouge",
+   "kind": "gouge1"
+  },
+  {
+   "sample_id": "H19",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H20",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H21",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H22",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H23",
+   "red_px": 154296,
+   "truth": "gouge",
+   "kind": "gouge1"
+  },
+  {
+   "sample_id": "H24",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H25",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "clean"
+  },
+  {
+   "sample_id": "H26",
+   "red_px": 154745,
+   "truth": "gouge",
+   "kind": "gouge03"
+  },
+  {
+   "sample_id": "H27",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H28",
+   "red_px": 0,
+   "truth": "no_gouge",
+   "kind": "residual"
+  },
+  {
+   "sample_id": "H29",
+   "red_px": 153341,
+   "truth": "gouge",
+   "kind": "gouge1"
+  },
+  {
+   "sample_id": "H30",
+   "red_px": 154105,
+   "truth": "gouge",
+   "kind": "gouge1"
+  }
+ ],
+ "no_gouge_red_px_max": 0,
+ "gouge_red_px_min": 40986,
+ "threshold": 1,
+ "pixel_baseline_accuracy": 1.0,
+ "note": "只统计主图区（右侧 20% colorbar 已裁剪）的红色像素；阈值取无过切样本最大值+1，无调参空间"
+}

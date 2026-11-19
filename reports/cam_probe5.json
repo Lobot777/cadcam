@@ -1,0 +1,39 @@
+{
+ "part": "2",
+ "steps": {
+  "job_Group": {
+   "ok": true,
+   "value": "[]"
+  },
+  "job_PropertiesList": {
+   "ok": true,
+   "value": "['Group', 'Model', 'Tools', '_GroupTouched']"
+  },
+  "drill_ToolController": {
+   "ok": true,
+   "value": "<Path::FeaturePython object>"
+  },
+  "drill_Base_initial": {
+   "ok": true,
+   "value": "[(<Part::Feature>, ('Face4', 'Face5', 'Face6', 'Face7'))]"
+  },
+  "drill_findAllHoles": {
+   "ok": true,
+   "value": "[(<Part::Feature>, ('Face4', 'Face5', 'Face6', 'Face7'))]"
+  },
+  "drill_commands": {
+   "ok": true,
+   "value": "(16, ['(Drill)', '(Begin Drilling)', 'G90', 'G0', 'G98', 'G0', 'G0', 'G81', 'G0', 'G81', 'G0', 'G81'])"
+  },
+  "path_Pocket": {
+   "ok": true,
+   "value": "(94, ['(Pocket)', 'G0', 'G0', 'G0', 'G1', 'G1', 'G1', 'G1', 'G1', 'G1'])"
+  },
+  "path_Profile": {
+   "ok": true,
+   "value": "(3, ['(Profile)', '(Compensated Tool Path. Diameter: 5.0)', 'G0'])"
+  }
+ },
+ "up_idx": 10,
+ "side_idx": 2
+}

@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/inbox/
+*.FCStd
+tmp_*
+build/
+# 云端 API 凭据：绝不入库（x-wb-webapp-access-key）
+.workbuddy/cloud.json
+.env
+*.key
+*.pem
+# LaTeX 编译中间产物，保留 main.pdf / cover-letter.pdf
+latex/*.aux
+latex/*.bbl
+latex/*.blg
+latex/*.log
+latex/*.out
+latex/*.toc
+latex/*.fls
+latex/*.fdb_latexmk
+latex/*.bcf
+latex/*.run.xml
+latex/*.synctex.gz
+latex/sections/*.aux
+# WorkBuddy 会话文件
+.wbapp_*.genie
+# 临时预览与探针输出
+build/
+*.tmp

@@ -1,0 +1,882 @@
+{
+ "aspects": {
+  "A1": {
+   "位置": [
+    "位置",
+    "坐标",
+    "中心",
+    "X",
+    "Y",
+    "基准",
+    "center"
+   ]
+  },
+  "A2": {
+   "深度": [
+    "深",
+    "底厚",
+    "多厚",
+    "多深"
+   ],
+   "是否通/底厚": [
+    "贯穿",
+    "通",
+    "留底",
+    "保留底",
+    "底板",
+    "铣穿",
+    "壁厚"
+   ]
+  },
+  "A3": {
+   "数量": [
+    "数量",
+    "孔数",
+    "几个",
+    "多少",
+    "个数",
+    "每边",
+    "几行",
+    "几列",
+    "共"
+   ],
+   "排布/间距": [
+    "间距",
+    "距边缘",
+    "边距",
+    "排布",
+    "起始",
+    "分布"
+   ]
+  },
+  "A4": {
+   "指出超限": [
+    "超出",
+    "超过",
+    "大于",
+    "放不下",
+    "装不",
+    "容纳",
+    "尺寸"
+   ],
+   "处理方向": [
+    "缩小",
+    "改",
+    "换",
+    "确认",
+    "如何",
+    "是否",
+    "调整",
+    "建议"
+   ]
+  }
+ },
+ "manual": {
+  "glm-5.3": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "kimi-k2.8-preview": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "hy4std": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "deepseek-v4.1-flash": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "step-5-preview": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "space-bunny": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "glm-5.3-flash": {
+   "A1": 0,
+   "A2": 2,
+   "A3": 2,
+   "A4": 2
+  },
+  "minimax-m3.1-flash": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 1,
+   "A4": 1
+  },
+  "deepseek-v4-pro": {
+   "A1": 0,
+   "A2": 1,
+   "A3": 2,
+   "A4": 1
+  },
+  "mimo-v2.6-pro": {
+   "A1": 0,
+   "A2": 0,
+   "A3": 2,
+   "A4": 2
+  },
+  "gemma3:12b": {
+   "A1": 0,
+   "A2": 1,
+   "A3": 1,
+   "A4": 0
+  },
+  "qwen3:8b": {
+   "A1": 0,
+   "A2": 0,
+   "A3": 0,
+   "A4": 1
+  },
+  "qwen3:14b": {
+   "A1": 0,
+   "A2": 0,
+   "A3": 0,
+   "A4": 1
+  },
+  "llama3.1:8b": {
+   "A1": 0,
+   "A2": 0,
+   "A3": 0,
+   "A4": 0
+  },
+  "glm4:9b": {
+   "A1": 0,
+   "A2": 0,
+   "A3": 0,
+   "A4": 0
+  }
+ },
+ "rows": [
+  {
+   "model": "glm-5.3",
+   "rules_total": 8,
+   "manual_total": 8,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "腔的中心位置（或腔中心坐标）未指定，请提供",
+     "guessed": false
+    },
+    "A2": {
+     "score": 2,
+     "hit": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "miss": [],
+     "clarify": "内腔深度多少？是挖穿还是留底厚？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "通孔沿边缘分布，孔间距或孔数量是多少？孔中心距边缘距离？",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔宽120超出毛坯100×80范围，无法铣削，请确认尺寸",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "kimi-k2.8-preview",
+   "rules_total": 8,
+   "manual_total": 8,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "腔体的中心位置？请给出 X、Y 坐标",
+     "guessed": false
+    },
+    "A2": {
+     "score": 2,
+     "hit": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "miss": [],
+     "clarify": "挖空深度是多少？是否贯穿？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "孔距边缘多少？一圈共几个孔？间距多少？",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔120×120超出100×80毛坯，如何处理？",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "hy4std",
+   "rules_total": 8,
+   "manual_total": 8,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "请问腔的中心坐标（center_x, center_y）是多少？",
+     "guessed": false
+    },
+    "A2": {
+     "score": 2,
+     "hit": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "miss": [],
+     "clarify": "请确认挖空是否贯穿 50 高度；若不贯穿，深度或底厚是多少？单位是 mm 吗？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "请明确孔边距、孔间距(或孔数)及从哪面打孔？",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔120×120超出毛坯100×80，且未给中心位置，请确认？",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "deepseek-v4.1-flash",
+   "rules_total": 8,
+   "manual_total": 8,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "请说明腔的中心位置或相对基准，毛坯坐标系未定义。",
+     "guessed": false
+    },
+    "A2": {
+     "score": 2,
+     "hit": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "miss": [],
+     "clarify": "挖空的深度是多少？贯穿还是留底厚？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "请说明孔距边缘的距离、孔间距或数量，以及是否四角各一孔。",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔体120×120超出毛坯100×80，请确认尺寸或毛坯大小。",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "step-5-preview",
+   "rules_total": 8,
+   "manual_total": 8,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "请提供腔的中心坐标(x,y)。",
+     "guessed": false
+    },
+    "A2": {
+     "score": 2,
+     "hit": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "miss": [],
+     "clarify": "挖空深度是多少？是否通孔或保留底厚？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "请明确孔数、距边缘距离及排布方式。",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔尺寸120×120超出毛坯100×80，是否改为最大80×60或提供更大毛坯？",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "space-bunny",
+   "rules_total": 7,
+   "manual_total": 8,
+   "agree": 3,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "请提供腔体中心的 X、Y 坐标及尺寸单位。",
+     "guessed": false
+    },
+    "A2": {
+     "score": 1,
+     "hit": [
+      "深度"
+     ],
+     "miss": [
+      "是否通/底厚"
+     ],
+     "clarify": "挖空深度是多少？底面是否也保留10厚？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "请提供孔中心距边缘的距离及孔数（或孔间距）。",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔体120×120超过毛坯，需缩小尺寸或说明处理方式",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "glm-5.3-flash",
+   "rules_total": 5,
+   "manual_total": 6,
+   "agree": 3,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 1,
+     "hit": [
+      "是否通/底厚"
+     ],
+     "miss": [
+      "深度"
+     ],
+     "clarify": "底部壁厚多少？是挖通到毛坯底还是保留底板？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "请提供孔的边距、每边孔数或孔间距",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔宽120超出毛坯100，需缩小腔尺寸或换更大毛坯",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "minimax-m3.1-flash",
+   "rules_total": 6,
+   "manual_total": 6,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 2,
+     "hit": [
+      "位置"
+     ],
+     "miss": [],
+     "clarify": "请提供腔体中心坐标（如以毛坯左后角为原点）。",
+     "guessed": false
+    },
+    "A2": {
+     "score": 2,
+     "hit": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "miss": [],
+     "clarify": "中间挖空是贯穿还是留底？请给深度或底厚。",
+     "guessed": false
+    },
+    "A3": {
+     "score": 1,
+     "hit": [
+      "排布/间距"
+     ],
+     "miss": [
+      "数量"
+     ],
+     "clarify": "请指定孔中心间距及距毛坯边缘的距离",
+     "guessed": false
+    },
+    "A4": {
+     "score": 1,
+     "hit": [
+      "指出超限"
+     ],
+     "miss": [
+      "处理方向"
+     ],
+     "clarify": "120×120腔超出100×80毛坯，无法加工",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "rules_total": 4,
+   "manual_total": 4,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 1,
+     "hit": [
+      "深度"
+     ],
+     "miss": [
+      "是否通/底厚"
+     ],
+     "clarify": "挖空深度是多少？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "孔心到边缘的距离、孔间距或数量未指定。",
+     "guessed": false
+    },
+    "A4": {
+     "score": 1,
+     "hit": [
+      "指出超限"
+     ],
+     "miss": [
+      "处理方向"
+     ],
+     "clarify": "腔体尺寸 120×120 超出毛坯 100×80，无法加工。",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "mimo-v2.6-pro",
+   "rules_total": 4,
+   "manual_total": 4,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A3": {
+     "score": 2,
+     "hit": [
+      "数量",
+      "排布/间距"
+     ],
+     "miss": [],
+     "clarify": "孔距边缘距离和每边孔数？",
+     "guessed": false
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "腔体 120×120 超出毛坯 100×80，无法加工，请确认尺寸或毛坯大小",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "gemma3:12b",
+   "rules_total": 2,
+   "manual_total": 2,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 1,
+     "hit": [
+      "深度"
+     ],
+     "miss": [
+      "是否通/底厚"
+     ],
+     "clarify": "挖空时，中心位置和深度是多少？",
+     "guessed": false
+    },
+    "A3": {
+     "score": 1,
+     "hit": [
+      "排布/间距"
+     ],
+     "miss": [
+      "数量"
+     ],
+     "clarify": "边缘打孔，孔间距和起始位置如何？",
+     "guessed": false
+    },
+    "A4": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "指出超限",
+      "处理方向"
+     ],
+     "clarify": "腔体中心位置？",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "qwen3:8b",
+   "rules_total": 2,
+   "manual_total": 1,
+   "agree": 3,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A3": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "数量",
+      "排布/间距"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A4": {
+     "score": 2,
+     "hit": [
+      "指出超限",
+      "处理方向"
+     ],
+     "miss": [],
+     "clarify": "毛坯尺寸是否足够容纳 120×120 的腔？",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "qwen3:14b",
+   "rules_total": 1,
+   "manual_total": 1,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A3": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "数量",
+      "排布/间距"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A4": {
+     "score": 1,
+     "hit": [
+      "指出超限"
+     ],
+     "miss": [
+      "处理方向"
+     ],
+     "clarify": "腔的尺寸大于毛坯尺寸，无法铣削。",
+     "guessed": false
+    }
+   }
+  },
+  {
+   "model": "llama3.1:8b",
+   "rules_total": 0,
+   "manual_total": 0,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A3": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "数量",
+      "排布/间距"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A4": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "指出超限",
+      "处理方向"
+     ],
+     "clarify": "",
+     "guessed": true
+    }
+   }
+  },
+  {
+   "model": "glm4:9b",
+   "rules_total": 0,
+   "manual_total": 0,
+   "agree": 4,
+   "per": {
+    "A1": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "位置"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A2": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "深度",
+      "是否通/底厚"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A3": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "数量",
+      "排布/间距"
+     ],
+     "clarify": "",
+     "guessed": true
+    },
+    "A4": {
+     "score": 0,
+     "hit": [],
+     "miss": [
+      "指出超限",
+      "处理方向"
+     ],
+     "clarify": "",
+     "guessed": true
+    }
+   }
+  }
+ ]
+}

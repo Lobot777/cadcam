@@ -1,0 +1,209 @@
+{
+ "part": "3",
+ "source": "3.step",
+ "n_faces": 19,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-measure(freecad)",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [
+  "A1 关闭：F14 属**凸台侧壁**，不是腔外壁。四壁法向全朝外（+y/−x/+x/−y），面长 70、高 4，顶面 F15 面积 4585.8 = 70² − 4×π·5²，肩面 F6 面积 1500 = 6400 − 4900 —— 件 3 是 70×70 凸台，不是环形型腔",
+  "旧判“环形型腔（中心 70×70 凸台为岛）”作废：腔的判据是法向朝内 + 有底面，这里四壁朝外且顶面是最高面"
+ ],
+ "evidence": {},
+ "stock_faces": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "4": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "5": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "6": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "7": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "8": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "9": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "human"
+  },
+  "10": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "11": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "human"
+  },
+  "12": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F6",
+   "source": "human"
+  },
+  "13": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "14": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "15": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "16": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F6",
+   "source": "human"
+  },
+  "17": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "human"
+  },
+  "18": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "19": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "faces": [
+    6
+   ],
+   "note": "肩面 z=48：80×80 顶面被 70×70 凸台占掉后的环带，面积 1500 = 6400 − 4900（实测 1500.0）",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    7,
+    8,
+    13,
+    14,
+    15
+   ],
+   "note": "70×70 方凸台，高 4（z 48→52）；四侧壁各 280 = 70×4，顶面 4585.8 = 4900 − 4×78.5",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    9,
+    19
+   ],
+   "note": "Ø10 盲孔 深7（z 52→45），位于凸台顶面四角",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    10,
+    18
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    11,
+    17
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  },
+  {
+   "id": "F6",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    12,
+    16
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  }
+ ]
+}

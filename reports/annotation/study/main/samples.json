@@ -1,0 +1,6061 @@
+[
+ {
+  "sample_id": "Q001",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 4060.066,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    52.0,
+    35.0,
+    35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -3.52,
+    52.0
+   ],
+   "params": {
+    "offset": 52.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 140.0,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 439.823,
+    "normal": [
+     0.0,
+     1.0,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 140.0,
+    "normal": [
+     1.0,
+     -0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q002",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 312.0,
+   "normal": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "bbox_mm": [
+    -26.5341,
+    -38.9623,
+    34.0556,
+    -26.5341,
+    39.0377,
+    38.0556
+   ],
+   "centroid_mm": [
+    -26.53,
+    0.04,
+    36.06
+   ],
+   "params": {
+    "offset": -26.5341
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 312.0,
+    "normal": [
+     0.0,
+     -1.0,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 159.424,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 624.0,
+    "normal": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 316.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q003",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3680.0,
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    2.0,
+    40.0,
+    -40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -40.0,
+    25.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2551.549,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q004",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 1884.956,
+   "normal": [
+    -1.0,
+    0.026,
+    -0.0
+   ],
+   "bbox_mm": [
+    -37.5,
+    -37.5,
+    44.0,
+    37.5,
+    37.5,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    48.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 37.5
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3618.862,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1667.976,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q005",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 140.0,
+   "normal": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    35.0,
+    -35.0,
+    48.0,
+    35.0,
+    -0.0,
+    52.0
+   ],
+   "centroid_mm": [
+    35.0,
+    -17.5,
+    50.0
+   ],
+   "params": {
+    "offset": 35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2025.774,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 439.823,
+    "normal": [
+     0.0,
+     1.0,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4060.066,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q006",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 1491.897,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -27.163,
+    -25.163,
+    44.0,
+    25.163,
+    27.163,
+    44.0
+   ],
+   "centroid_mm": [
+    -0.92,
+    0.78,
+    44.0
+   ],
+   "params": {
+    "offset": 44.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "BSplineSurface",
+    "area_mm2": 454.295,
+    "normal": [
+     0.32,
+     -0.95,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 657.547,
+    "normal": [
+     -0.86,
+     -0.51,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q007",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 657.547,
+   "normal": [
+    -0.858,
+    -0.514,
+    0.0
+   ],
+   "bbox_mm": [
+    -27.163,
+    -25.163,
+    44.0,
+    25.163,
+    27.163,
+    48.0
+   ],
+   "centroid_mm": [
+    -1.0,
+    1.0,
+    46.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 26.163
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 1491.897,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 144.964,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 144.964,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 144.964,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 144.964,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q008",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 144.964,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -1.0,
+    1.0026,
+    48.0,
+    25.163,
+    27.163,
+    48.0
+   ],
+   "centroid_mm": [
+    19.25,
+    21.25,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 657.547,
+    "normal": [
+     -0.86,
+     -0.51,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 18.85,
+    "normal": [
+     -0.71,
+     -0.71,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 185.304,
+    "normal": [
+     -0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 185.304,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q009",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 2865.423,
+   "normal": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -26.5341,
+    -38.9623,
+    42.0556,
+    51.4659,
+    39.0377,
+    42.0556
+   ],
+   "centroid_mm": [
+    13.84,
+    2.64,
+    42.06
+   ],
+   "params": {
+    "offset": -42.0556
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 312.428,
+    "normal": [
+     -1.0,
+     -0.05,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 296.055,
+    "normal": [
+     0.05,
+     -1.0,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 608.506,
+    "normal": [
+     1.0,
+     -0.0,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 624.0,
+    "normal": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.5,
+     0.87,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     0.87,
+     0.5,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     0.5,
+     -0.87,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.87,
+     -0.5,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q010",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 678.584,
+   "normal": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -14.5341,
+    -26.9623,
+    46.0556,
+    39.4659,
+    27.0377,
+    50.0556
+   ],
+   "centroid_mm": [
+    12.47,
+    0.04,
+    48.06
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "radius": 27.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2290.221,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q011",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 312.231,
+   "normal": [
+    0.038,
+    -0.999,
+    0.0
+   ],
+   "bbox_mm": [
+    -39.0,
+    -39.0,
+    40.0,
+    39.0,
+    -36.0,
+    44.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -37.5,
+    42.0
+   ],
+   "params": {
+    "offset": 37.4723
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 117.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 780.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 300.24,
+    "normal": [
+     1.0,
+     0.04,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1553.66,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q012",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 219.911,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    13.0,
+    13.0,
+    45.0,
+    23.0,
+    23.0,
+    52.0
+   ],
+   "centroid_mm": [
+    18.0,
+    18.0,
+    48.5
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3534.292,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q013",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 280.0,
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    48.0,
+    35.0,
+    -35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -35.0,
+    50.0
+   ],
+   "params": {
+    "offset": 35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 1500.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4585.841,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q014",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3840.0,
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    0.0,
+    40.0,
+    -40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -40.0,
+    24.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2025.774,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q015",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 6400.0,
+   "normal": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    2.0,
+    40.0,
+    40.0,
+    2.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -0.0,
+    2.0
+   ],
+   "params": {
+    "offset": 2.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q016",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3840.0,
+   "normal": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    0.0,
+    -40.0,
+    40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    -40.0,
+    0.0,
+    24.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1500.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q017",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 78.54,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -30.0,
+    20.0,
+    45.0,
+    -20.0,
+    30.0,
+    45.0
+   ],
+   "centroid_mm": [
+    -25.0,
+    25.0,
+    45.0
+   ],
+   "params": {
+    "offset": 45.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q018",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 14,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 4000.0,
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    2.0,
+    40.0,
+    -40.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -40.0,
+    27.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6085.841,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q019",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 78.54,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -23.0,
+    13.0,
+    45.0,
+    -13.0,
+    23.0,
+    45.0
+   ],
+   "centroid_mm": [
+    -18.0,
+    18.0,
+    45.0
+   ],
+   "params": {
+    "offset": 45.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     1.0,
+     -0.0,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q020",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 78.54,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -22.5,
+    -22.5,
+    46.0,
+    -12.5,
+    -12.5,
+    46.0
+   ],
+   "centroid_mm": [
+    -17.5,
+    -17.5,
+    46.0
+   ],
+   "params": {
+    "offset": 46.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q021",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 10,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 2960.0,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    52.0,
+    40.0,
+    -3.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -21.5,
+    52.0
+   ],
+   "params": {
+    "offset": 52.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3964.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 480.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3964.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q022",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 219.911,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -30.0,
+    -30.0,
+    45.0,
+    -20.0,
+    -20.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -25.0,
+    -25.0,
+    48.5
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4585.841,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q023",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 12.566,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    4.0,
+    4.0,
+    50.0,
+    8.0,
+    8.0,
+    50.0
+   ],
+   "centroid_mm": [
+    6.0,
+    6.0,
+    50.0
+   ],
+   "params": {
+    "offset": 50.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 75.398,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q024",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 10,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 4000.0,
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    2.0,
+    40.0,
+    -40.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -40.0,
+    27.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3964.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3964.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2960.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q025",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 75.398,
+   "normal": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -8.0,
+    4.0,
+    44.0,
+    -4.0,
+    8.0,
+    50.0
+   ],
+   "centroid_mm": [
+    -6.0,
+    6.0,
+    47.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 2.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 12.566,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3618.862,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q026",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 144.964,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -27.163,
+    1.0,
+    48.0,
+    -1.0,
+    27.163,
+    48.0
+   ],
+   "centroid_mm": [
+    -21.25,
+    21.25,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 18.85,
+    "normal": [
+     0.71,
+     -0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 185.304,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 657.547,
+    "normal": [
+     -0.86,
+     -0.51,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 185.304,
+    "normal": [
+     -0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q027",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 10,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 480.0,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -3.0,
+    46.0,
+    40.0,
+    3.0,
+    46.0
+   ],
+   "centroid_mm": [
+    0.0,
+    0.0,
+    46.0
+   ],
+   "params": {
+    "offset": 46.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3964.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3964.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 480.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 480.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q028",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 4160.0,
+   "normal": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    0.0,
+    -40.0,
+    40.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -40.0,
+    0.0,
+    26.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4160.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1507.726,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4160.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q029",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "BSplineSurface",
+   "area_mm2": 415.349,
+   "normal": [
+    0.808,
+    0.589,
+    -0.0
+   ],
+   "bbox_mm": [
+    -26.4817,
+    -28.4054,
+    44.0,
+    -4.446,
+    -4.822,
+    50.0
+   ],
+   "centroid_mm": [
+    -15.76,
+    -16.86,
+    47.0
+   ],
+   "params": {}
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3618.862,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 187.183,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q030",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "BSplineSurface",
+   "area_mm2": 454.295,
+   "normal": [
+    0.324,
+    -0.946,
+    0.0
+   ],
+   "bbox_mm": [
+    -17.8779,
+    -15.584,
+    0.0,
+    12.5965,
+    16.1021,
+    48.0
+   ],
+   "centroid_mm": [
+    -1.61,
+    -0.1,
+    46.0
+   ],
+   "params": {}
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 1491.897,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 658.522,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q031",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 219.911,
+   "normal": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "bbox_mm": [
+    -23.0,
+    13.0,
+    45.0,
+    -13.0,
+    23.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -18.0,
+    18.0,
+    48.5
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3534.292,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q032",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 280.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    35.0,
+    48.0,
+    35.0,
+    35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    35.0,
+    50.0
+   ],
+   "params": {
+    "offset": 35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 1500.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4585.841,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q033",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3680.0,
+   "normal": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    40.0,
+    -40.0,
+    2.0,
+    40.0,
+    40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    40.0,
+    -0.0,
+    25.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2551.549,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q034",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 6400.0,
+   "normal": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "bbox_mm": [
+    -27.5341,
+    -39.9623,
+    0.0556,
+    52.4659,
+    40.0377,
+    0.0556
+   ],
+   "centroid_mm": [
+    12.47,
+    0.04,
+    0.06
+   ],
+   "params": {
+    "offset": -0.0556
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     -0.0,
+     -1.0,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q035",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3680.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    40.0,
+    2.0,
+    40.0,
+    40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    0.0,
+    40.0,
+    25.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1500.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q036",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 188.496,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    22.5,
+    -32.5,
+    46.0,
+    32.5,
+    -22.5,
+    52.0
+   ],
+   "centroid_mm": [
+    27.5,
+    -27.5,
+    49.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1758.407,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q037",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 188.496,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    12.5,
+    12.5,
+    46.0,
+    22.5,
+    22.5,
+    52.0
+   ],
+   "centroid_mm": [
+    17.5,
+    17.5,
+    49.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4060.066,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q038",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 1667.976,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    52.0,
+    40.0,
+    40.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    52.0
+   ],
+   "params": {
+    "offset": 52.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 188.496,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 1884.956,
+    "normal": [
+     -1.0,
+     0.03,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q039",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 47.124,
+   "normal": [
+    -0.707,
+    0.707,
+    -0.0
+   ],
+   "bbox_mm": [
+    32.0,
+    -35.0,
+    42.0,
+    35.0,
+    -32.0,
+    52.0
+   ],
+   "centroid_mm": [
+    33.91,
+    -33.91,
+    47.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 3.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3433.577,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1507.726,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q040",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 144.964,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -1.0,
+    -25.163,
+    48.0,
+    25.163,
+    1.0026,
+    48.0
+   ],
+   "centroid_mm": [
+    19.25,
+    -19.25,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 657.547,
+    "normal": [
+     -0.86,
+     -0.51,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 18.85,
+    "normal": [
+     -0.71,
+     0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 185.304,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 185.304,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q041",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 4585.841,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    52.0,
+    35.0,
+    35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    0.0,
+    52.0
+   ],
+   "params": {
+    "offset": 52.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q042",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 216.0,
+   "normal": [
+    0.5,
+    -0.866,
+    -0.0
+   ],
+   "bbox_mm": [
+    2.5832,
+    -36.8449,
+    42.0556,
+    49.3486,
+    -9.8449,
+    46.0556
+   ],
+   "centroid_mm": [
+    25.97,
+    -23.34,
+    44.06
+   ],
+   "params": {
+    "offset": 33.2003
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2865.423,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.87,
+     -0.5,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     0.87,
+     0.5,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q043",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 2827.433,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -30.0,
+    -30.0,
+    46.0,
+    30.0,
+    30.0,
+    46.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    46.0
+   ],
+   "params": {
+    "offset": 46.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 1130.973,
+    "normal": [
+     1.0,
+     0.04,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q044",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 187.176,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    4.5082,
+    4.8821,
+    50.0,
+    26.4308,
+    28.3411,
+    50.0
+   ],
+   "centroid_mm": [
+    15.33,
+    17.46,
+    50.0
+   ],
+   "params": {
+    "offset": 50.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "BSplineSurface",
+    "area_mm2": 415.349,
+    "normal": [
+     -0.81,
+     -0.59,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q045",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3840.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    40.0,
+    0.0,
+    40.0,
+    40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    0.0,
+    40.0,
+    24.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1500.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q046",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 140.0,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    48.0,
+    -35.0,
+    0.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -35.0,
+    -17.5,
+    50.0
+   ],
+   "params": {
+    "offset": 35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2025.774,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4060.066,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 439.823,
+    "normal": [
+     0.0,
+     1.0,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q047",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 188.496,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    27.5,
+    -37.5,
+    46.0,
+    37.5,
+    -27.5,
+    52.0
+   ],
+   "centroid_mm": [
+    32.5,
+    -32.5,
+    49.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1667.976,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q048",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 156.445,
+   "normal": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -1.0341,
+    13.5377,
+    46.0556,
+    35.8486,
+    36.9204,
+    46.0556
+   ],
+   "centroid_mm": [
+    20.14,
+    28.68,
+    46.06
+   ],
+   "params": {
+    "offset": -46.0556
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 678.584,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     0.87,
+     0.5,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.5,
+     0.87,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q049",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 216.0,
+   "normal": [
+    0.866,
+    0.5,
+    0.0
+   ],
+   "bbox_mm": [
+    22.3486,
+    -9.8449,
+    42.0556,
+    49.3486,
+    36.9204,
+    46.0556
+   ],
+   "centroid_mm": [
+    35.85,
+    13.54,
+    44.06
+   ],
+   "params": {
+    "offset": 37.8147
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2865.423,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 156.445,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.5,
+     0.87,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     0.5,
+     -0.87,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q050",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 14,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 4000.0,
+   "normal": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    2.0,
+    -40.0,
+    40.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -40.0,
+    0.0,
+    27.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6085.841,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q051",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 2720.0,
+   "normal": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    40.0,
+    -40.0,
+    0.0,
+    40.0,
+    40.0,
+    34.0
+   ],
+   "centroid_mm": [
+    40.0,
+    0.0,
+    17.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 316.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     -0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q052",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 78.54,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -23.0,
+    -23.0,
+    45.0,
+    -13.0,
+    -13.0,
+    45.0
+   ],
+   "centroid_mm": [
+    -18.0,
+    -18.0,
+    45.0
+   ],
+   "params": {
+    "offset": 45.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 219.911,
+    "normal": [
+     1.0,
+     -0.0,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q053",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 439.823,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -0.0,
+    48.0,
+    35.0,
+    35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    22.28,
+    50.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2025.774,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 140.0,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4060.066,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 140.0,
+    "normal": [
+     1.0,
+     -0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q054",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 768.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -39.0,
+    39.0,
+    34.0,
+    39.0,
+    39.0,
+    44.0
+   ],
+   "centroid_mm": [
+    -0.59,
+    39.0,
+    38.95
+   ],
+   "params": {
+    "offset": 39.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 112.5,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 468.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 316.0,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 780.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1553.66,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 300.24,
+    "normal": [
+     1.0,
+     0.04,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q055",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 312.428,
+   "normal": [
+    -0.999,
+    -0.052,
+    -0.0
+   ],
+   "bbox_mm": [
+    -26.5341,
+    -38.9623,
+    38.0556,
+    -22.4463,
+    39.0377,
+    42.0556
+   ],
+   "centroid_mm": [
+    -24.49,
+    0.04,
+    40.06
+   ],
+   "params": {
+    "offset": 24.4546
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 159.424,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2865.423,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 296.055,
+    "normal": [
+     0.05,
+     -1.0,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 624.0,
+    "normal": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q056",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 1553.66,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -39.0,
+    -39.0,
+    44.0,
+    39.0,
+    39.0,
+    44.0
+   ],
+   "centroid_mm": [
+    -0.96,
+    -0.92,
+    44.0
+   ],
+   "params": {
+    "offset": 44.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 1859.823,
+    "normal": [
+     -0.93,
+     -0.37,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 768.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 780.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 300.24,
+    "normal": [
+     1.0,
+     0.04,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 312.231,
+    "normal": [
+     0.04,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q057",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 14,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 78.54,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -30.0,
+    20.0,
+    48.0,
+    -20.0,
+    30.0,
+    48.0
+   ],
+   "centroid_mm": [
+    -25.0,
+    25.0,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 125.664,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q058",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 156.445,
+   "normal": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -24.4168,
+    -13.4623,
+    46.0556,
+    -1.0341,
+    23.4204,
+    46.0556
+   ],
+   "centroid_mm": [
+    -16.18,
+    7.71,
+    46.06
+   ],
+   "params": {
+    "offset": -46.0556
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 678.584,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.5,
+     0.87,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.87,
+     -0.5,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q059",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 640.0,
+   "normal": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -32.0,
+    42.0,
+    -35.0,
+    32.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -35.0,
+    0.0,
+    47.0
+   ],
+   "params": {
+    "offset": -35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3433.577,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 47.124,
+    "normal": [
+     0.71,
+     0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 47.124,
+    "normal": [
+     0.71,
+     -0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1507.726,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q060",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 1130.973,
+   "normal": [
+    0.999,
+    0.044,
+    -0.0
+   ],
+   "bbox_mm": [
+    -30.0,
+    -30.0,
+    46.0,
+    30.0,
+    30.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    -0.0,
+    49.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 30.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2827.433,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1758.407,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q061",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "BSplineSurface",
+   "area_mm2": 415.349,
+   "normal": [
+    0.808,
+    -0.589,
+    0.0
+   ],
+   "bbox_mm": [
+    -26.4817,
+    4.822,
+    44.0,
+    -4.446,
+    28.4054,
+    50.0
+   ],
+   "centroid_mm": [
+    -15.76,
+    16.86,
+    47.0
+   ],
+   "params": {}
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3618.862,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 187.183,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q062",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 188.496,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -22.5,
+    12.5,
+    46.0,
+    -12.5,
+    22.5,
+    52.0
+   ],
+   "centroid_mm": [
+    -17.5,
+    17.5,
+    49.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4060.066,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q063",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 75.398,
+   "normal": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    4.0,
+    -8.0,
+    44.0,
+    8.0,
+    -4.0,
+    50.0
+   ],
+   "centroid_mm": [
+    6.0,
+    -6.0,
+    47.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 2.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 12.566,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3618.862,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q064",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 14,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 125.664,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    20.0,
+    -30.0,
+    48.0,
+    30.0,
+    -20.0,
+    52.0
+   ],
+   "centroid_mm": [
+    25.0,
+    -25.0,
+    50.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6085.841,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q065",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 6400.0,
+   "normal": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    0.0,
+    40.0,
+    40.0,
+    0.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "params": {
+    "offset": 0.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3840.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q066",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 47.124,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    42.0,
+    -32.0,
+    -32.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -33.91,
+    -33.91,
+    47.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 3.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3433.577,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1507.726,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q067",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 219.911,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    13.0,
+    -23.0,
+    45.0,
+    23.0,
+    -13.0,
+    52.0
+   ],
+   "centroid_mm": [
+    18.0,
+    -18.0,
+    48.5
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3534.292,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q068",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 2720.0,
+   "normal": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -27.5341,
+    40.0377,
+    0.0556,
+    52.4659,
+    40.0377,
+    34.0556
+   ],
+   "centroid_mm": [
+    12.47,
+    40.04,
+    17.06
+   ],
+   "params": {
+    "offset": 40.0377
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 316.0,
+    "normal": [
+     -0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 6400.0,
+    "normal": [
+     0.0,
+     0.0,
+     -1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 2720.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q069",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 6400.0,
+   "normal": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    2.0,
+    40.0,
+    40.0,
+    2.0
+   ],
+   "centroid_mm": [
+    -0.0,
+    0.0,
+    2.0
+   ],
+   "params": {
+    "offset": 2.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q070",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 47.124,
+   "normal": [
+    0.707,
+    -0.707,
+    -0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    32.0,
+    42.0,
+    -32.0,
+    35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    -33.91,
+    33.91,
+    47.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 3.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3433.577,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1507.726,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q071",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 16,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 879.646,
+   "normal": [
+    0.995,
+    0.097,
+    -0.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    48.0,
+    35.0,
+    35.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    0.0,
+    50.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 35.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 2551.549,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3534.292,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q072",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 14,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 78.54,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -30.0,
+    -30.0,
+    48.0,
+    -20.0,
+    -20.0,
+    48.0
+   ],
+   "centroid_mm": [
+    -25.0,
+    -25.0,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 125.664,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q073",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 21,
+  "face": {
+   "surface": "Cylinder",
+   "area_mm2": 188.496,
+   "normal": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    22.5,
+    22.5,
+    46.0,
+    32.5,
+    32.5,
+    52.0
+   ],
+   "centroid_mm": [
+    27.5,
+    27.5,
+    49.0
+   ],
+   "params": {
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "radius": 5.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 78.54,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 1758.407,
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q074",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 19,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 1500.0,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    48.0,
+    40.0,
+    40.0,
+    48.0
+   ],
+   "centroid_mm": [
+    0.0,
+    0.0,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 3680.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 280.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q075",
+  "part_bbox_mm": {
+   "min": [
+    -27.5341,
+    -39.9623,
+    0.0556
+   ],
+   "max": [
+    52.4659,
+    40.0377,
+    50.0556
+   ]
+  },
+  "part_face_count": 25,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 156.445,
+   "normal": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -10.9168,
+    -36.8449,
+    46.0556,
+    25.9659,
+    -13.4623,
+    46.0556
+   ],
+   "centroid_mm": [
+    4.79,
+    -28.61,
+    46.06
+   ],
+   "params": {
+    "offset": -46.0556
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 678.584,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     -0.87,
+     -0.5,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 216.0,
+    "normal": [
+     0.5,
+     -0.87,
+     -0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q076",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 3433.577,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -35.0,
+    -35.0,
+    42.0,
+    35.0,
+    35.0,
+    42.0
+   ],
+   "centroid_mm": [
+    0.61,
+    0.11,
+    42.0
+   ],
+   "params": {
+    "offset": 42.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "BSplineSurface",
+    "area_mm2": 1346.764,
+    "normal": [
+     1.0,
+     -0.04,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 47.124,
+    "normal": [
+     0.71,
+     -0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 47.124,
+    "normal": [
+     0.71,
+     0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 47.124,
+    "normal": [
+     -0.71,
+     0.71,
+     -0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 640.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 47.124,
+    "normal": [
+     -0.71,
+     -0.71,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q077",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 33,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 117.0,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -39.0,
+    -39.0,
+    40.0,
+    39.0,
+    -36.0,
+    40.0
+   ],
+   "centroid_mm": [
+    13.0,
+    -38.0,
+    40.0
+   ],
+   "params": {
+    "offset": 40.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 468.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 468.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 312.231,
+    "normal": [
+     0.04,
+     -1.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q078",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 32,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 12.566,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -8.0,
+    4.0,
+    50.0,
+    -4.0,
+    8.0,
+    50.0
+   ],
+   "centroid_mm": [
+    -6.0,
+    6.0,
+    50.0
+   ],
+   "params": {
+    "offset": 50.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Cylinder",
+    "area_mm2": 75.398,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q079",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    0.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 17,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 1458.676,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -25.9241,
+    -25.9004,
+    48.0,
+    22.802,
+    26.4307,
+    48.0
+   ],
+   "centroid_mm": [
+    -1.44,
+    -0.26,
+    48.0
+   ],
+   "params": {
+    "offset": 48.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "BSplineSurface",
+    "area_mm2": 1346.764,
+    "normal": [
+     1.0,
+     -0.04,
+     0.0
+    ]
+   }
+  ]
+ },
+ {
+  "sample_id": "Q080",
+  "part_bbox_mm": {
+   "min": [
+    -40.0,
+    -40.0,
+    2.0
+   ],
+   "max": [
+    40.0,
+    40.0,
+    52.0
+   ]
+  },
+  "part_face_count": 14,
+  "face": {
+   "surface": "Plane",
+   "area_mm2": 6085.841,
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bbox_mm": [
+    -40.0,
+    -40.0,
+    52.0,
+    40.0,
+    40.0,
+    52.0
+   ],
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    52.0
+   ],
+   "params": {
+    "offset": 52.0
+   }
+  },
+  "neighbors": [
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 125.664,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 125.664,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 125.664,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Cylinder",
+    "area_mm2": 125.664,
+    "normal": [
+     -1.0,
+     -0.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "surface": "Plane",
+    "area_mm2": 4000.0,
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ }
+]

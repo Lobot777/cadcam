@@ -1,0 +1,4234 @@
+{
+ "provider": "ollama",
+ "generated_at": "2026-11-06 15:12:49",
+ "tool": "cad.pocket_ramp",
+ "tasks": 6,
+ "models": {
+  "glm-5.3": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      314,
+      112
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      312,
+      111
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      311,
+      389
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      327,
+      68
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      324,
+      151
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      321,
+      289
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    1909,
+    1120
+   ]
+  },
+  "glm-5.3-flash": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      314,
+      94
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      312,
+      111
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      311,
+      94
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      326,
+      131
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      324,
+      143
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      321,
+      235
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    1908,
+    808
+   ]
+  },
+  "kimi-k2.8-preview": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      389,
+      139
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      389,
+      287
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      391,
+      257
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      401,
+      215
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      406,
+      204
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      400,
+      415
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    2376,
+    1517
+   ]
+  },
+  "hy4std": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      339,
+      872
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      336,
+      666
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      338,
+      780
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      352,
+      825
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      353,
+      1941
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      349,
+      2697
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    1718,
+    5084
+   ]
+  },
+  "deepseek-v4-pro": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      308,
+      98
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      306,
+      98
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      306,
+      98
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      318,
+      98
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      322,
+      141
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      318,
+      321
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    1878,
+    854
+   ]
+  },
+  "deepseek-v4.1-flash": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      309,
+      73
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      307,
+      73
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      307,
+      73
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      319,
+      98
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      323,
+      104
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      319,
+      177
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    1884,
+    598
+   ]
+  },
+  "mimo-v2.6-pro": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      335,
+      101
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      333,
+      102
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      336,
+      78
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      351,
+      100
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      354,
+      153
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      346,
+      196
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    2055,
+    730
+   ]
+  },
+  "step-5-preview": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      320,
+      397
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      318,
+      393
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      318,
+      805
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      330,
+      684
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      334,
+      1106
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      330,
+      1265
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    1950,
+    4650
+   ]
+  },
+  "minimax-m3.1-flash": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      487,
+      362
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      484,
+      139
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      486,
+      119
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 0.9730900798175649,
+     "removed_iou": 0.17482517482516302,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 20,
+        "height": 50,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      496,
+      213
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      499,
+      215
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      493,
+      236
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 0.862,
+   "exact": 5,
+   "removed_ge_0_9": 5,
+   "legal_rate": 1.0,
+   "tokens": [
+    2945,
+    1284
+   ]
+  },
+  "space-bunny": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      440,
+      105
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      438,
+      128
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      452,
+      96
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      450,
+      146
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      453,
+      220
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      446,
+      244
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    2679,
+    939
+   ]
+  },
+  "qwen3:8b": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      343,
+      101
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      341,
+      102
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      344,
+      103
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      359,
+      100
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      362,
+      149
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "depth": 50,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "depth": 50,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "depth": 50,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "depth": 50,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      354,
+      282
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    2103,
+    837
+   ]
+  },
+  "qwen3:14b": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      343,
+      101
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      341,
+      102
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      344,
+      103
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      359,
+      100
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      362,
+      149
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      354,
+      338
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    2103,
+    893
+   ]
+  },
+  "llama3.1:8b": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      342,
+      93
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 4,
+     "n_calls": 4,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 30,
+        "y": 45,
+        "diameter": 5,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 90,
+        "y": 45,
+        "diameter": 5,
+        "depth": 10,
+        "through": false
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      341,
+      176
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 4,
+     "n_calls": 4,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 25,
+        "y": 25,
+        "diameter": 5,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 75,
+        "y": 75,
+        "diameter": 5,
+        "depth": 10,
+        "through": false
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      340,
+      176
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 0.9877412525127497,
+     "removed_iou": 0.5731238892392081,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 40,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "y"
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth": 20
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      349,
+      137
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      357,
+      136
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 0.9584566582703385,
+     "removed_iou": 0.07487476533419937,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 90,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "depth": 10,
+        "through": false
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      349,
+      258
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 0.775,
+   "exact": 4,
+   "removed_ge_0_9": 4,
+   "legal_rate": 1.0,
+   "tokens": [
+    2078,
+    976
+   ]
+  },
+  "glm4:9b": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      309,
+      131
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 0.9913793103448322,
+     "removed_iou": 0.8000000000000003,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 60,
+        "height": 50,
+        "depth": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 60,
+        "height": 50,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      307,
+      188
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      306,
+      131
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 0.9627063007203435,
+     "removed_iou": 0.12419700214131768,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 35,
+        "center_y": 35,
+        "width": 20,
+        "height": 50,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 35,
+        "center_y": 35,
+        "width": 20,
+        "height": 50,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      321,
+      188
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 0.9550886904013253,
+     "removed_iou": 0.12500000000000028,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 5,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 5,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      325,
+      188
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 0.980647844624119,
+     "removed_iou": 0.6548865528767112,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      316,
+      323
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 0.617,
+   "exact": 2,
+   "removed_ge_0_9": 2,
+   "legal_rate": 1.0,
+   "tokens": [
+    1884,
+    1149
+   ]
+  },
+  "gemma3:12b": {
+   "rows": [
+    {
+     "id": "R1",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 9,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      344,
+      107
+     ]
+    },
+    {
+     "id": "R2",
+     "tag": "单坡",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 45,
+        "width": 60,
+        "height": 40,
+        "depth_near": 3,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      345,
+      108
+     ]
+    },
+    {
+     "id": "R3",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth_near": 5,
+        "depth_far": 15,
+        "axis": "y"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      345,
+      109
+     ]
+    },
+    {
+     "id": "R4",
+     "tag": "换轴",
+     "exec_ok": true,
+     "legal": 2,
+     "n_calls": 2,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 70,
+        "height": 20,
+        "depth_near": 2,
+        "depth_far": 8,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      356,
+      106
+     ]
+    },
+    {
+     "id": "R5",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 3,
+     "n_calls": 3,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth_near": 5,
+        "depth_far": 12,
+        "axis": "x"
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      359,
+      157
+     ]
+    },
+    {
+     "id": "R6",
+     "tag": "复合",
+     "exec_ok": true,
+     "legal": 6,
+     "n_calls": 6,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket_ramp",
+       "args": {
+        "center_x": 60,
+        "center_y": 50,
+        "width": 80,
+        "height": 30,
+        "depth_near": 4,
+        "depth_far": 10,
+        "axis": "x"
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 10,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 110,
+        "y": 90,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      }
+     ],
+     "error": null,
+     "tokens": [
+      357,
+      284
+     ]
+    }
+   ],
+   "n": 6,
+   "exec": 6,
+   "mean_removed_iou": 1.0,
+   "exact": 6,
+   "removed_ge_0_9": 6,
+   "legal_rate": 1.0,
+   "tokens": [
+    2106,
+    871
+   ]
+  }
+ }
+}

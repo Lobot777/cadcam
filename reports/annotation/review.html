@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8">
+<title>真实件面级标注复核</title>
+<style>
+ body{font:14px/1.6 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;margin:0;background:#f5f6f8;color:#1a1a1a}
+ header{background:#1f2933;color:#fff;padding:18px 28px}
+ header h1{margin:0 0 6px;font-size:19px}
+ header p{margin:0;opacity:.75;font-size:13px}
+ nav{padding:10px 28px;background:#fff;border-bottom:1px solid #e3e6ea;position:sticky;top:0;z-index:5}
+ nav a{margin-right:14px;color:#2f80ed;text-decoration:none;font-size:13px}
+ section{background:#fff;margin:18px 28px;padding:16px 20px;border-radius:8px;border:1px solid #e3e6ea}
+ h2{font-size:16px;margin:0 0 12px}
+ h2 small{font-weight:400;color:#777;margin-left:10px}
+ .grid{display:grid;grid-template-columns:minmax(420px,1fr) minmax(420px,1fr);gap:18px;align-items:start}
+ figure{margin:0}
+ img{max-width:100%;border:1px solid #e3e6ea;border-radius:4px;background:#fff}
+ figcaption{font-size:12px;color:#777;margin-top:4px}
+ table{width:100%;border-collapse:collapse;font-size:13px}
+ th,td{border-bottom:1px solid #eef0f3;padding:5px 6px;text-align:left;vertical-align:top}
+ th{background:#fafbfc;font-weight:600;color:#444}
+ .tag{color:#fff;padding:1px 7px;border-radius:9px;font-size:12px}
+ .note{color:#555}
+ .stock{font-size:12px;color:#666;margin-top:10px}
+ .badge{font-size:12px;padding:2px 8px;border-radius:10px;margin-left:6px;vertical-align:2px}
+ .badge.ok{background:#e3f7ea;color:#1e7b3c}
+ .badge.warn{background:#fdecea;color:#b3261e}
+ .q{background:#fff8e6;border-left:3px solid #f2c94c;padding:8px 12px;margin-top:12px;font-size:13px}
+ .q ul{margin:6px 0 0 18px;padding:0}
+ details{margin-top:14px}
+ summary{cursor:pointer;color:#2f80ed;font-size:13px}
+ .sheet{margin-top:10px}
+ @media(max-width:1100px){.grid{grid-template-columns:1fr}}
+</style>
+<header>
+  <h1>真实零件面级标注复核（Zenodo RPTU 锚点集）</h1>
+  <p>共 206 个面 / 62 个特征实例｜标注口径：9 类家族 + MFCAD 25 类（不可判定时为 null）｜
+     面号与 STEP 的面顺序一一对应，可直接回 FreeCAD 核对</p>
+</header>
+<nav><a href='#p1'>件 1</a><a href='#p2'>件 2</a><a href='#p3'>件 3</a><a href='#p4'>件 4</a><a href='#p5'>件 5</a><a href='#p6'>件 6</a><a href='#p7'>件 7</a><a href='#p8'>件 8</a><a href='#p9'>件 9</a><a href='#p10'>件 10</a></nav>
+
+<section id="p1">
+  <h2>件 1 <span class='badge ok'>已确认</span><small>10 面 / 1 特征 / 来源 1.step</small></h2>
+  <div class="grid">
+    <figure><img src="1_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#f2994a'>slot</span></td><td>rectangular_through_slot</td><td>4, 5, 7</td><td class='note'>顶面通槽：宽6×深6，沿 X 贯通；两端开口</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（7 个）：1, 2, 3, 6, 8, 9, 10</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="1_faces.png">
+  </details>
+</section>
+
+<section id="p2">
+  <h2>件 2 <span class='badge ok'>已确认</span><small>14 面 / 4 特征 / 来源 2.step</small></h2>
+  <div class="grid">
+    <figure><img src="2_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>4, 14</td><td class='note'>Ø10 盲孔 深4</td></tr><tr><td>F2</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>5, 13</td><td class='note'>Ø10 盲孔 深4</td></tr><tr><td>F3</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>6, 12</td><td class='note'>Ø10 盲孔 深4</td></tr><tr><td>F4</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>7, 11</td><td class='note'>Ø10 盲孔 深4</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（6 个）：1, 2, 3, 8, 9, 10</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="2_faces.png">
+  </details>
+</section>
+
+<section id="p3">
+  <h2>件 3 <span class='badge ok'>已确认</span><small>19 面 / 6 特征 / 来源 3.step</small></h2>
+  <div class="grid">
+    <figure><img src="3_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>6</td><td class='note'>肩面 z=48：80×80 顶面被 70×70 凸台占掉后的环带，面积 1500 = 6400 − 4900（实测 1500.0）</td></tr><tr><td>F2</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>7, 8, 13, 14, 15</td><td class='note'>70×70 方凸台，高 4（z 48→52）；四侧壁各 280 = 70×4，顶面 4585.8 = 4900 − 4×78.5</td></tr><tr><td>F3</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>9, 19</td><td class='note'>Ø10 盲孔 深7（z 52→45），位于凸台顶面四角</td></tr><tr><td>F4</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>10, 18</td><td class='note'>Ø10 盲孔 深7</td></tr><tr><td>F5</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>11, 17</td><td class='note'>Ø10 盲孔 深7</td></tr><tr><td>F6</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>12, 16</td><td class='note'>Ø10 盲孔 深7</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（5 个）：1, 2, 3, 4, 5</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="3_faces.png">
+  </details>
+</section>
+
+<section id="p4">
+  <h2>件 4 <span class='badge ok'>已确认</span><small>16 面 / 6 特征 / 来源 4.step</small></h2>
+  <div class="grid">
+    <figure><img src="4_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>6</td><td class='note'>凸台外周台阶面（环），深4</td></tr><tr><td>F2</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>11, 12</td><td class='note'>Ø70 圆柱凸台，高4</td></tr><tr><td>F3</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>7, 16</td><td class='note'>Ø10 盲孔 深7</td></tr><tr><td>F4</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>8, 15</td><td class='note'>Ø10 盲孔 深7</td></tr><tr><td>F5</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>9, 14</td><td class='note'>Ø10 盲孔 深7</td></tr><tr><td>F6</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>10, 13</td><td class='note'>Ø10 盲孔 深7</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（5 个）：1, 2, 3, 4, 5</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="4_faces.png">
+  </details>
+</section>
+
+<section id="p5">
+  <h2>件 5 <span class='badge ok'>已确认</span><small>19 面 / 6 特征 / 来源 5.step</small></h2>
+  <div class="grid">
+    <figure><img src="5_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>5</td><td class='note'>凸台外周台阶面，深4</td></tr><tr><td>F2</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>6, 7, 12, 13, 14</td><td class='note'>D 形凸台（半圆+矩形），高4；侧壁含 Ø70 圆弧面</td></tr><tr><td>F3</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>8, 18</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F4</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>9, 17</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F5</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>10, 16</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F6</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>11, 15</td><td class='note'>Ø10 盲孔 深6</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（5 个）：1, 2, 3, 4, 19</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="5_faces.png">
+  </details>
+</section>
+
+<section id="p6">
+  <h2>件 6 <span class='badge ok'>已确认</span><small>21 面 / 7 特征 / 来源 6.step</small></h2>
+  <div class="grid">
+    <figure><img src="6_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>5</td><td class='note'>凸台外周台阶面，深4</td></tr><tr><td>F2</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>6, 7, 13, 14, 15</td><td class='note'>70×70 方凸台，高4</td></tr><tr><td>F3</td><td><span class='tag' style='background:#eb5757'>pocket</span></td><td>circular_end_pocket</td><td>11, 17</td><td class='note'>Ø60 圆形型腔，深6（从凸台顶面下切）</td></tr><tr><td>F4</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>8, 20</td><td class='note'>Ø10 盲孔 深6（在凸台顶面、型腔外侧，孔底与型腔底同高 z=46）</td></tr><tr><td>F5</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>9, 19</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F6</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>10, 18</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F7</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>12, 16</td><td class='note'>Ø10 盲孔 深6</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（5 个）：1, 2, 3, 4, 21</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="6_faces.png">
+  </details>
+</section>
+
+<section id="p7">
+  <h2>件 7 <span class='badge ok'>已确认</span><small>17 面 / 6 特征 / 来源 7.step</small></h2>
+  <div class="grid">
+    <figure><img src="7_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#eb5757'>pocket</span></td><td><em>null</em></td><td>3, 5, 7, 8, 10</td><td class='note'>自由轮廓盲腔，深10（顶面→z=42），四直壁</td></tr><tr><td>F2</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>1, 2</td><td class='note'>腔内自由曲面岛：顶面 z=48，侧壁为 BSpline 曲面</td></tr><tr><td>F3</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>4</td><td class='note'>R3 内圆角</td></tr><tr><td>F4</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>6</td><td class='note'>R3 内圆角</td></tr><tr><td>F5</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>9</td><td class='note'>R3 内圆角</td></tr><tr><td>F6</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>11</td><td class='note'>R3 内圆角</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（6 个）：12, 13, 14, 15, 16, 17</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="7_faces.png">
+  </details>
+</section>
+
+<section id="p8">
+  <h2>件 8 <span class='badge ok'>已确认</span><small>25 面 / 5 特征 / 来源 8.step</small></h2>
+  <div class="grid">
+    <figure><img src="8_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>3, 12, 13, 14, 15</td><td class='note'>第二级台阶：肩面 z=34.1，侧壁至 z=42.1</td></tr><tr><td>F2</td><td><span class='tag' style='background:#27ae60'>step</span></td><td><em>null</em></td><td>1, 2, 4, 8</td><td class='note'>台阶根部让位槽（深4，两壁+底）</td></tr><tr><td>F3</td><td><span class='tag' style='background:#27ae60'>step</span></td><td><em>null</em></td><td>16, 17, 18, 19, 20, 21, 22, 23</td><td class='note'>方变圆过渡：4 个斜壁 + 4 处水平角平面（z=46.1）</td></tr><tr><td>F4</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>11</td><td class='note'>凸台顶面（78×78，z=42.1）</td></tr><tr><td>F5</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>24, 25</td><td class='note'>Ø54 圆柱凸台，高4，顶面 z=50.1</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（5 个）：5, 6, 7, 9, 10</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="8_faces.png">
+  </details>
+</section>
+
+<section id="p9">
+  <h2>件 9 <span class='badge ok'>已确认</span><small>32 面 / 10 特征 / 来源 9.step</small></h2>
+  <div class="grid">
+    <figure><img src="9_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#eb5757'>pocket</span></td><td>circular_end_pocket</td><td>20, 25</td><td class='note'>Ø75 圆形型腔，深8（z=52→44），含中心岛</td></tr><tr><td>F2</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>4, 5, 8, 9, 12, 13, 18, 19</td><td class='note'>X 形凸起岛：顶面 z=50，侧壁为 BSpline 自由曲面</td></tr><tr><td>F3</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>6, 7</td><td class='note'>Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）</td></tr><tr><td>F4</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>10, 11</td><td class='note'>Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）</td></tr><tr><td>F5</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>14, 15</td><td class='note'>Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）</td></tr><tr><td>F6</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>16, 17</td><td class='note'>Ø4 小凸台（销）：圆柱 r=2、高 6（z 44→50），顶面 Ø4 平顶；实测法向·径向 = +1.00（凸）</td></tr><tr><td>F7</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>21, 32</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F8</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>22, 31</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F9</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>23, 30</td><td class='note'>Ø10 盲孔 深6</td></tr><tr><td>F10</td><td><span class='tag' style='background:#2f80ed'>hole</span></td><td>blind_hole</td><td>24, 29</td><td class='note'>Ø10 盲孔 深6</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（6 个）：1, 2, 3, 26, 27, 28</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="9_faces.png">
+  </details>
+</section>
+
+<section id="p10">
+  <h2>件 10 <span class='badge ok'>已确认</span><small>33 面 / 11 特征 / 来源 10.step</small></h2>
+  <div class="grid">
+    <figure><img src="10_views.png"><figcaption>八视图（面号 = JSON 里的 index）</figcaption></figure>
+    <div>
+      <table>
+        <thead><tr><th>ID</th><th>家族</th><th>MFCAD 类</th><th>面号</th><th>判据 / 备注</th></tr></thead>
+        <tbody><tr><td>F1</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>32</td><td class='note'>台阶肩面 z=34：80×80 → 78×78，深 34（量测：F32 面积 316，环形）</td></tr><tr><td>F2</td><td><span class='tag' style='background:#27ae60'>step</span></td><td>rectangular_blind_step</td><td>27</td><td class='note'>台阶肩面 z=44：78×78 → Ø74，深 10（量测：F27 环带外径 78、内径 37）</td></tr><tr><td>F3</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>19, 20, 21, 22, 23, 24, 25, 26</td><td class='note'>78×78 方台 z=34→44；+x 与 -y 两侧 z=40 有 3mm 宽局部让位肩面（F20 112.5 / F22 117.0）</td></tr><tr><td>F4</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>13, 18</td><td class='note'>Ø74 圆柱台 z=44→52；顶面 F18 是被 52.3 方腔切出的窄环带（对角 1.24mm ~ 边中点 10.84mm）</td></tr><tr><td>F5</td><td><span class='tag' style='background:#eb5757'>pocket</span></td><td>rectangular_blind_pocket</td><td>4, 6, 7, 8, 10, 12, 14, 16</td><td class='note'>52.3×52.3 方腔，深 4（z=52→48）；四平壁 F10/12/14/16（各 185.3=46.3×4），四角肩面 F4/6/7/8（各 145.0）</td></tr><tr><td>F6</td><td><span class='tag' style='background:#eb5757'>pocket</span></td><td>circular_end_pocket</td><td>3, 5</td><td class='note'>Ø52.33 圆沉孔，深 4（z=48→44），与方腔四壁相切；壁 F5 面积 657.5=2π·26.163·4，底 F3 1491.9</td></tr><tr><td>F7</td><td><span class='tag' style='background:#9b51e0'>boss</span></td><td><em>null</em></td><td>1, 2</td><td class='note'>星形岛，立于圆沉孔底 z=44，顶面 F2 与方腔底齐平（z=48），侧壁 F1 为 BSpline 直纹柱面</td></tr><tr><td>F8</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>9</td><td class='note'>方腔 +x+y 角 R3 圆角（90° 弧，面积 18.85）</td></tr><tr><td>F9</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>11</td><td class='note'>方腔 -x+y 角 R3 圆角</td></tr><tr><td>F10</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>15</td><td class='note'>方腔 +x-y 角 R3 圆角</td></tr><tr><td>F11</td><td><span class='tag' style='background:#56ccf2'>fillet</span></td><td>round</td><td>17</td><td class='note'>方腔 -x-y 角 R3 圆角</td></tr></tbody>
+      </table>
+      <p class="stock">stock 面（5 个）：28, 29, 30, 31, 33</p>
+      
+    </div>
+  </div>
+  <details><summary>逐面高亮（确认"这个面到底是哪个部位"时用）</summary>
+    <img class="sheet" src="10_faces.png">
+  </details>
+</section>
+
+</html>

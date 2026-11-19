@@ -1,0 +1,1450 @@
+{
+ "model": "qwen3:8b",
+ "rounds_max": 3,
+ "success_iou": 0.9,
+ "tasks": 10,
+ "rule": "结构化反馈=逐特征余料检查+切除体积差；模糊反馈=只说不对",
+ "generated_at": "2026-11-06 10:14:51",
+ "arms": {
+  "structured": {
+   "summary": {
+    "arm": "structured",
+    "n": 10,
+    "solved": 9,
+    "solved_rate": 0.9,
+    "mean_initial_iou": 0.887,
+    "mean_best_iou": 0.9,
+    "mean_rounds": 1.3,
+    "prompt_tokens": 4402,
+    "completion_tokens": 2039
+   },
+   "rows": [
+    {
+     "id": "R1",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 30,
+          "height": 30,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 0.9325,
+       "removed_iou": 0.0,
+       "prompt_tokens": 272,
+       "completion_tokens": 85
+      },
+      {
+       "r": 2,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 80,
+          "width": 30,
+          "height": 30,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 0.9662499999999998,
+       "removed_iou": 0.0,
+       "prompt_tokens": 452,
+       "completion_tokens": 85
+      },
+      {
+       "r": 3,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 80,
+          "width": 30,
+          "height": 30,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 0.9662499999999998,
+       "removed_iou": 0.0,
+       "prompt_tokens": 452,
+       "completion_tokens": 85
+      }
+     ],
+     "initial_removed_iou": 0.0,
+     "best_removed_iou": 0.0,
+     "rounds_used": 3,
+     "solved": false,
+     "seconds": 4.5
+    },
+    {
+     "id": "R2",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 20,
+          "center_y": 20,
+          "width": 40,
+          "height": 40,
+          "depth": 8
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 266,
+       "completion_tokens": 84
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 1.3
+    },
+    {
+     "id": "R3",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 25,
+          "center_y": 40,
+          "width": 30,
+          "height": 20,
+          "depth": 8
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 75,
+          "center_y": 40,
+          "width": 30,
+          "height": 20,
+          "depth": 8
+         }
+        }
+       ],
+       "n_calls": 3,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 281,
+       "completion_tokens": 177
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 2.3
+    },
+    {
+     "id": "R4",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 100,
+          "height": 60
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 50,
+          "height": 50,
+          "depth": 20
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 10,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 10,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 90,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 90,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 280,
+       "completion_tokens": 263
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 3.5
+    },
+    {
+     "id": "R5",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 90,
+          "width": 90,
+          "height": 45
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 45,
+          "center_y": 45,
+          "width": 40,
+          "height": 40,
+          "depth": 10
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 20,
+          "y": 20,
+          "diameter": 6,
+          "depth": 12
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 70,
+          "y": 70,
+          "diameter": 6,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 4,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 288,
+       "completion_tokens": 163
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 2.3
+    },
+    {
+     "id": "R6",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 120,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 35,
+          "center_y": 40,
+          "width": 20,
+          "height": 60,
+          "depth": 6
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 85,
+          "center_y": 40,
+          "width": 20,
+          "height": 60,
+          "depth": 6
+         }
+        }
+       ],
+       "n_calls": 3,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 280,
+       "completion_tokens": 132
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 1.8
+    },
+    {
+     "id": "R7",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 100,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 60,
+          "height": 60,
+          "depth": 15
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 10,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 90,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 10,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 90,
+          "diameter": 10,
+          "depth": 25
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 0.9823901757085776,
+       "removed_iou": 0.8730238308594103,
+       "prompt_tokens": 286,
+       "completion_tokens": 247
+      },
+      {
+       "r": 2,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 100,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 60,
+          "height": 60,
+          "depth": 15
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 30,
+          "y": 30,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 30,
+          "y": 70,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 70,
+          "y": 30,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 70,
+          "y": 70,
+          "diameter": 10,
+          "depth": 25
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 738,
+       "completion_tokens": 247
+      }
+     ],
+     "initial_removed_iou": 0.8730238308594103,
+     "best_removed_iou": 1.0,
+     "rounds_used": 2,
+     "solved": true,
+     "seconds": 8.3
+    },
+    {
+     "id": "R8",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 60,
+          "height": 40
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 40,
+          "center_y": 30,
+          "width": 60,
+          "height": 40,
+          "depth": 15
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 260,
+       "completion_tokens": 85
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 1.4
+    },
+    {
+     "id": "R9",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 40,
+          "width": 40,
+          "height": 40,
+          "depth": 5
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 50,
+          "y": 40,
+          "diameter": 12,
+          "depth": 5,
+          "through": true
+         }
+        }
+       ],
+       "n_calls": 3,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 273,
+       "completion_tokens": 129
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 2.1
+    },
+    {
+     "id": "R10",
+     "arm": "structured",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 90,
+          "width": 70,
+          "height": 55
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 45,
+          "center_y": 35,
+          "width": 60,
+          "height": 40,
+          "depth": 12
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 8,
+          "y": 8,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 82,
+          "y": 8,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 8,
+          "y": 62,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 82,
+          "y": 62,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 274,
+       "completion_tokens": 257
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 3.4
+    }
+   ]
+  },
+  "vague": {
+   "summary": {
+    "arm": "vague",
+    "n": 10,
+    "solved": 9,
+    "solved_rate": 0.9,
+    "mean_initial_iou": 0.887,
+    "mean_best_iou": 0.9,
+    "mean_rounds": 1.3,
+    "prompt_tokens": 4109,
+    "completion_tokens": 2122
+   },
+   "rows": [
+    {
+     "id": "R1",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 30,
+          "height": 30,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 0.9325,
+       "removed_iou": 0.0,
+       "prompt_tokens": 272,
+       "completion_tokens": 85
+      },
+      {
+       "r": 2,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 80,
+          "width": 30,
+          "height": 30,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 0.9662499999999998,
+       "removed_iou": 0.0,
+       "prompt_tokens": 391,
+       "completion_tokens": 85
+      },
+      {
+       "r": 3,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 80,
+          "width": 30,
+          "height": 30,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 0.9662499999999998,
+       "removed_iou": 0.0,
+       "prompt_tokens": 391,
+       "completion_tokens": 85
+      }
+     ],
+     "initial_removed_iou": 0.0,
+     "best_removed_iou": 0.0,
+     "rounds_used": 3,
+     "solved": false,
+     "seconds": 3.4
+    },
+    {
+     "id": "R2",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 20,
+          "center_y": 20,
+          "width": 40,
+          "height": 40,
+          "depth": 8
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 266,
+       "completion_tokens": 84
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 1.3
+    },
+    {
+     "id": "R3",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 25,
+          "center_y": 40,
+          "width": 30,
+          "height": 20,
+          "depth": 8
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 75,
+          "center_y": 40,
+          "width": 30,
+          "height": 20,
+          "depth": 8
+         }
+        }
+       ],
+       "n_calls": 3,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 281,
+       "completion_tokens": 177
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 2.2
+    },
+    {
+     "id": "R4",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 100,
+          "height": 60
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 50,
+          "height": 50,
+          "depth": 20
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 10,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 10,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 90,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 90,
+          "diameter": 8,
+          "depth": 40,
+          "through": true
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 280,
+       "completion_tokens": 263
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 3.7
+    },
+    {
+     "id": "R5",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 90,
+          "width": 90,
+          "height": 45
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 45,
+          "center_y": 45,
+          "width": 40,
+          "height": 40,
+          "depth": 10
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 20,
+          "y": 20,
+          "diameter": 6,
+          "depth": 12
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 70,
+          "y": 70,
+          "diameter": 6,
+          "depth": 12
+         }
+        }
+       ],
+       "n_calls": 4,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 288,
+       "completion_tokens": 163
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 2.4
+    },
+    {
+     "id": "R6",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 120,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 35,
+          "center_y": 40,
+          "width": 20,
+          "height": 60,
+          "depth": 6
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 85,
+          "center_y": 40,
+          "width": 20,
+          "height": 60,
+          "depth": 6
+         }
+        }
+       ],
+       "n_calls": 3,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 280,
+       "completion_tokens": 132
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 1.9
+    },
+    {
+     "id": "R7",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 100,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 60,
+          "height": 60,
+          "depth": 15
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 10,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 10,
+          "y": 90,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 10,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 90,
+          "y": 90,
+          "diameter": 10,
+          "depth": 25
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 0.9823901757085776,
+       "removed_iou": 0.8730238308594103,
+       "prompt_tokens": 286,
+       "completion_tokens": 330
+      },
+      {
+       "r": 2,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 100,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 50,
+          "width": 60,
+          "height": 60,
+          "depth": 15
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 20,
+          "y": 20,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 20,
+          "y": 80,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 80,
+          "y": 20,
+          "diameter": 10,
+          "depth": 25
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 80,
+          "y": 80,
+          "diameter": 10,
+          "depth": 25
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 567,
+       "completion_tokens": 247
+      }
+     ],
+     "initial_removed_iou": 0.8730238308594103,
+     "best_removed_iou": 1.0,
+     "rounds_used": 2,
+     "solved": true,
+     "seconds": 8.4
+    },
+    {
+     "id": "R8",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 80,
+          "width": 60,
+          "height": 40
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 40,
+          "center_y": 30,
+          "width": 60,
+          "height": 40,
+          "depth": 15
+         }
+        }
+       ],
+       "n_calls": 2,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 260,
+       "completion_tokens": 85
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 1.4
+    },
+    {
+     "id": "R9",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 100,
+          "width": 80,
+          "height": 50
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 50,
+          "center_y": 40,
+          "width": 40,
+          "height": 40,
+          "depth": 5
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 50,
+          "y": 40,
+          "diameter": 12,
+          "depth": 5,
+          "through": true
+         }
+        }
+       ],
+       "n_calls": 3,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 273,
+       "completion_tokens": 129
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 2.0
+    },
+    {
+     "id": "R10",
+     "arm": "vague",
+     "rounds": [
+      {
+       "r": 1,
+       "calls": [
+        {
+         "tool": "cad.create_box",
+         "args": {
+          "length": 90,
+          "width": 70,
+          "height": 55
+         }
+        },
+        {
+         "tool": "cad.pocket",
+         "args": {
+          "center_x": 45,
+          "center_y": 35,
+          "width": 60,
+          "height": 40,
+          "depth": 12
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 8,
+          "y": 8,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 82,
+          "y": 8,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 8,
+          "y": 62,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        },
+        {
+         "tool": "cad.hole",
+         "args": {
+          "x": 82,
+          "y": 62,
+          "diameter": 8,
+          "depth": 55,
+          "through": true
+         }
+        }
+       ],
+       "n_calls": 6,
+       "exec_ok": true,
+       "iou": 1.0,
+       "removed_iou": 1.0,
+       "prompt_tokens": 274,
+       "completion_tokens": 257
+      }
+     ],
+     "initial_removed_iou": 1.0,
+     "best_removed_iou": 1.0,
+     "rounds_used": 1,
+     "solved": true,
+     "seconds": 3.5
+    }
+   ]
+  }
+ },
+ "semantic": {
+  "id": "R1",
+  "start_removed_iou": 0.0,
+  "variants": {
+   "vague": {
+    "ious": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "solved": 0,
+    "n": 3,
+    "mean": 0.0
+   },
+   "structured": {
+    "ious": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "solved": 0,
+    "n": 3,
+    "mean": 0.0
+   },
+   "structured_coords": {
+    "ious": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "solved": 3,
+    "n": 3,
+    "mean": 1.0
+   }
+  }
+ }
+}

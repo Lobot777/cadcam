@@ -1,0 +1,132 @@
+{
+  "required_capabilities": {
+    "b_rep_ingest": "Import STEP or equivalent boundary-representation solids",
+    "cutter_sweep": "Execute a defined cutter geometry along a prescribed path",
+    "removal_volume": "Compute removed or remaining material volume from the sweep",
+    "gouge_judgement": "Judge excess removal against a target region and tolerance",
+    "operation_attribution": "Attribute a violation to an individual operation id",
+    "deterministic_replay": "Replay the same program with a reproducible outcome"
+  },
+  "decision_rule": "A backend is eligible only if all required capabilities are supported.",
+  "candidates": [
+    {
+      "id": "genesis_world",
+      "name": "Genesis World",
+      "eligible_as_verification_backend": false,
+      "missing_capabilities": [
+        "b_rep_ingest",
+        "cutter_sweep",
+        "removal_volume",
+        "gouge_judgement",
+        "operation_attribution",
+        "deterministic_replay"
+      ],
+      "capabilities": {
+        "b_rep_ingest": {
+          "status": "absent",
+          "evidence": "Asset parsers listed: URDF, MJCF, OBJ, GLB, USD; no STEP or B-rep parser."
+        },
+        "cutter_sweep": {
+          "status": "absent",
+          "evidence": "Physics covers rigid, FEM, MPM, particle, uipc and SAP; no CNC cutter-sweep primitive."
+        },
+        "removal_volume": {
+          "status": "absent",
+          "evidence": "State is positions/deformations/concentrations, not a subtractive solid; the MPM 'cut dragon' example cuts deformable material, not stock removal."
+        },
+        "gouge_judgement": {
+          "status": "absent",
+          "evidence": "No target-region or overcut predicate exists, so no reward or label for 'material that should have survived' can be defined."
+        },
+        "operation_attribution": {
+          "status": "absent",
+          "evidence": "No operation-graph concept in the simulation interface."
+        },
+        "deterministic_replay": {
+          "status": "partial",
+          "evidence": "GPU simulation is seedable in principle, but no machining-program replay interface is published."
+        }
+      },
+      "training_readiness": "Not trainable for this task: reinforcement learning requires a scalar reward for removed volume or gouge depth, and neither quantity is represented in the simulator state. Building them would be a new research project, not an integration step.",
+      "evidence_type": "documentation",
+      "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+    },
+    {
+      "id": "solidcraft",
+      "name": "SolidCraft (SolidCore)",
+      "eligible_as_verification_backend": false,
+      "missing_capabilities": [
+        "cutter_sweep",
+        "removal_volume",
+        "gouge_judgement",
+        "operation_attribution",
+        "deterministic_replay"
+      ],
+      "capabilities": {
+        "b_rep_ingest": {
+          "status": "supported",
+          "evidence": "Imports/exports STEP and mesh; SolidCore is a Rust port of NVIDIA SMLib."
+        },
+        "cutter_sweep": {
+          "status": "absent",
+          "evidence": "Feature timeline is sketch/extrude/revolve/fillet; no milling operation or cutter motion."
+        },
+        "removal_volume": {
+          "status": "absent",
+          "evidence": "Oracle checks volume, area, centre of mass and bounding box of modelled parts, not a subtractive machining result."
+        },
+        "gouge_judgement": {
+          "status": "absent",
+          "evidence": "No masked region, tolerance band or overcut predicate."
+        },
+        "operation_attribution": {
+          "status": "partial",
+          "evidence": "Editable feature history exists, but for modelling features, not machining operations."
+        },
+        "deterministic_replay": {
+          "status": "partial",
+          "evidence": "Parametric rebuild is deterministic; no NC-program replay is defined."
+        }
+      },
+      "training_readiness": "Not trainable for this task: it is a modeller, not a machining environment; it offers no state transition driven by a toolpath.",
+      "evidence_type": "documentation",
+      "source": "https://solidcraft.io/"
+    },
+    {
+      "id": "dexel_ocl_camotics",
+      "name": "Z-dexel + OpenCAMLib + CAMotics (current chain)",
+      "eligible_as_verification_backend": true,
+      "missing_capabilities": [],
+      "capabilities": {
+        "b_rep_ingest": {
+          "status": "supported",
+          "evidence": "STEP read via FreeCAD and triangulation exported to STL for finite-cutter oracle."
+        },
+        "cutter_sweep": {
+          "status": "supported",
+          "evidence": "OpenCAMLib CylCutter dropCutter over sampled tool-centre positions."
+        },
+        "removal_volume": {
+          "status": "supported",
+          "evidence": "Z-dexel removal simulation plus CAMotics remaining-volume cross-check (1.15% mean relative difference)."
+        },
+        "gouge_judgement": {
+          "status": "supported",
+          "evidence": "Dual-line acceptance and finite-cutter overcut depth against a 0.5 mm line; verifier blind spot quantified over 130 external parts."
+        },
+        "operation_attribution": {
+          "status": "supported",
+          "evidence": "Structured E_GOUGE errors carry operation ids back to the planner."
+        },
+        "deterministic_replay": {
+          "status": "supported",
+          "evidence": "Grid-based replay from stored G-code; figures and reports regenerated by scripts/reproduce.sh."
+        }
+      },
+      "training_readiness": "Not a learning environment either. It is a verifier: the contribution is an auditable acceptance protocol, not a trained policy.",
+      "evidence_type": "local_report",
+      "source": "reports/m6_ocl_external.json; reports/m3_camsim_xcheck.json; reports/m6_external_stats.json"
+    }
+  ],
+  "conclusion": "General-purpose robotics simulation and parametric CAD do not satisfy the material-removal verification contract. This is a scope boundary, not a claim that either platform is defective at its intended task."
+}

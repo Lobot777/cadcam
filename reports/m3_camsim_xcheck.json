@@ -1,0 +1,122 @@
+{
+ "rule": "同一份 G-code，两个独立仿真器",
+ "summary": {
+  "n": 10,
+  "mean_rel_diff": 0.01152,
+  "max_rel_diff": 0.03222,
+  "p95_rel_diff": 0.02898,
+  "note": "两个实现算法不同（表面网格切削 vs Z-dexel），比的是被切后工件的体积"
+ },
+ "parts": [
+  {
+   "part": 1,
+   "stock_volume_mm3": 326400.0,
+   "camotics_volume_mm3": 317675.3,
+   "dexel_volume_mm3": 317360.0,
+   "rel_diff": 0.00099,
+   "triangles": 284012,
+   "camotics_seconds": 1.96,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 470
+  },
+  {
+   "part": 2,
+   "stock_volume_mm3": 326400.0,
+   "camotics_volume_mm3": 319988.8,
+   "dexel_volume_mm3": 318800.0,
+   "rel_diff": 0.00373,
+   "triangles": 284700,
+   "camotics_seconds": 2.1,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 599
+  },
+  {
+   "part": 3,
+   "stock_volume_mm3": 326400.0,
+   "camotics_volume_mm3": 309804.8,
+   "dexel_volume_mm3": 312038.0,
+   "rel_diff": 0.00716,
+   "triangles": 286256,
+   "camotics_seconds": 2.01,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 1553
+  },
+  {
+   "part": 4,
+   "stock_volume_mm3": 326400.0,
+   "camotics_volume_mm3": 306477.5,
+   "dexel_volume_mm3": 307780.0,
+   "rel_diff": 0.00423,
+   "triangles": 284452,
+   "camotics_seconds": 2.02,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 1553
+  },
+  {
+   "part": 5,
+   "stock_volume_mm3": 339200.0,
+   "camotics_volume_mm3": 322052.9,
+   "dexel_volume_mm3": 322970.0,
+   "rel_diff": 0.00284,
+   "triangles": 290856,
+   "camotics_seconds": 2.08,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 1537
+  },
+  {
+   "part": 6,
+   "stock_volume_mm3": 339200.0,
+   "camotics_volume_mm3": 305427.6,
+   "dexel_volume_mm3": 308308.0,
+   "rel_diff": 0.00934,
+   "triangles": 291936,
+   "camotics_seconds": 2.11,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 2153
+  },
+  {
+   "part": 7,
+   "stock_volume_mm3": 339200.0,
+   "camotics_volume_mm3": 287493.0,
+   "dexel_volume_mm3": 293162.6,
+   "rel_diff": 0.01934,
+   "triangles": 313402,
+   "camotics_seconds": 2.28,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 2991
+  },
+  {
+   "part": 8,
+   "stock_volume_mm3": 326400.0,
+   "camotics_volume_mm3": 283820.0,
+   "dexel_volume_mm3": 286791.6,
+   "rel_diff": 0.01036,
+   "triangles": 260880,
+   "camotics_seconds": 2.0,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 3016
+  },
+  {
+   "part": 9,
+   "stock_volume_mm3": 326400.0,
+   "camotics_volume_mm3": 280921.1,
+   "dexel_volume_mm3": 288129.0,
+   "rel_diff": 0.02502,
+   "triangles": 311710,
+   "camotics_seconds": 2.32,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 5583
+  },
+  {
+   "part": 10,
+   "stock_volume_mm3": 339200.0,
+   "camotics_volume_mm3": 286917.3,
+   "dexel_volume_mm3": 296469.8,
+   "rel_diff": 0.03222,
+   "triangles": 285256,
+   "camotics_seconds": 2.46,
+   "dexel_max_gouge_mm": 0.0,
+   "gcode_lines": 10439
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "levels_3_4": {
+  "fix": {
+   "strategy_hint": "heightmap"
+  },
+  "ok": 10,
+  "rounds": 1,
+  "seen": 10,
+  "signatures": [
+   "levels_3_4|E_GOUGE",
+   "levels_3_4|E_RESIDUAL"
+  ]
+ },
+ "levels_ge_5": {
+  "fix": {
+   "strategy_hint": "heightmap"
+  },
+  "ok": 6,
+  "rounds": 1,
+  "seen": 6,
+  "signatures": [
+   "levels_ge_5|E_DFM_OUT_OF_STOCK,E_GOUGE,E_RESIDUAL",
+   "levels_ge_5|E_DFM_OUT_OF_STOCK,E_RESIDUAL",
+   "levels_ge_5|E_DFM_CORNER_RADIUS,E_RESIDUAL",
+   "levels_ge_5|E_RESIDUAL"
+  ]
+ },
+ "levels_le_2": {
+  "fix": {
+   "strategy_hint": "heightmap"
+  },
+  "ok": 4,
+  "rounds": 1,
+  "seen": 4,
+  "signatures": [
+   "levels_le_2|E_GOUGE",
+   "levels_le_2|E_RESIDUAL"
+  ]
+ }
+}

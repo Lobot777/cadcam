@@ -1,0 +1,239 @@
+{
+ "part": "8",
+ "source": "8.step",
+ "n_faces": 25,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-visual+rule",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [],
+ "evidence": {},
+ "stock_faces": [
+  5,
+  6,
+  7,
+  9,
+  10
+ ],
+ "faces": {
+  "1": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "2": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "3": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "4": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "5": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "6": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "7": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "8": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "9": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "10": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "11": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F4",
+   "source": "human"
+  },
+  "12": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "13": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "14": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "15": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "16": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "17": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "18": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "19": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "20": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "21": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "22": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "23": {
+   "family": "step",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "24": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F5",
+   "source": "human"
+  },
+  "25": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F5",
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "faces": [
+    3,
+    12,
+    13,
+    14,
+    15
+   ],
+   "note": "第二级台阶：肩面 z=34.1，侧壁至 z=42.1",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "step",
+   "mfcad_class": null,
+   "faces": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "note": "台阶根部让位槽（深4，两壁+底）",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "step",
+   "mfcad_class": null,
+   "faces": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "note": "方变圆过渡：4 个斜壁 + 4 处水平角平面（z=46.1）",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    11
+   ],
+   "note": "凸台顶面（78×78，z=42.1）",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    24,
+    25
+   ],
+   "note": "Ø54 圆柱凸台，高4，顶面 z=50.1",
+   "reviewed": true
+  }
+ ]
+}

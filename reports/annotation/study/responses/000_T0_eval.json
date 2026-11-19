@@ -1,0 +1,425 @@
+{
+ "file": "000_T0.json",
+ "mode": "calibrated",
+ "n": 186,
+ "completed": 186,
+ "correct": 160,
+ "wrong": 19,
+ "unknown": 7,
+ "accuracy_including_unknown": 0.8602,
+ "accuracy_of_committed": 0.8939,
+ "unknown_rate": 0.0376,
+ "error_rate": 0.1022,
+ "ideal_rule": {
+  "correct": 137,
+  "accuracy": 0.7366,
+  "abstain": 1,
+  "accuracy_when_committed": 0.7405
+ },
+ "rule_vs_human_gap": 0.1237,
+ "design_expectation": {
+  "source": "docs/STUDY-DESIGN.md §4.3（培训后错误率 25% -> 10%）",
+  "target_error_rate": 0.1,
+  "observed_error_rate": 0.1022,
+  "note": "判不了按设计文档 §6 单独统计，不并入错误率"
+ },
+ "by_tier": {
+  "A": {
+   "n": 68,
+   "accuracy": 0.9118,
+   "unknown_rate": 0.0147
+  },
+  "B": {
+   "n": 113,
+   "accuracy": 0.8319,
+   "unknown_rate": 0.0531
+  },
+  "C": {
+   "n": 5,
+   "accuracy": 0.8,
+   "unknown_rate": 0.0
+  }
+ },
+ "hard_subset": {
+  "n": 15,
+  "accuracy": 0.6667,
+  "unknown_rate": 0.0667
+ },
+ "easy_subset": {
+  "n": 171,
+  "accuracy": 0.8772,
+  "unknown_rate": 0.0351
+ },
+ "by_family": {
+  "boss": {
+   "n": 46,
+   "accuracy": 0.8478,
+   "unknown_rate": 0.0435
+  },
+  "fillet": {
+   "n": 6,
+   "accuracy": 1.0,
+   "unknown_rate": 0.0
+  },
+  "hole": {
+   "n": 43,
+   "accuracy": 0.8837,
+   "unknown_rate": 0.0
+  },
+  "pocket": {
+   "n": 16,
+   "accuracy": 0.6875,
+   "unknown_rate": 0.125
+  },
+  "slot": {
+   "n": 2,
+   "accuracy": 1.0,
+   "unknown_rate": 0.0
+  },
+  "step": {
+   "n": 21,
+   "accuracy": 0.8095,
+   "unknown_rate": 0.0952
+  },
+  "stock": {
+   "n": 52,
+   "accuracy": 0.9038,
+   "unknown_rate": 0.0192
+  }
+ },
+ "confidence_calibration": {
+  "0": {
+   "n": 15,
+   "accuracy": 0.8667
+  },
+  "1": {
+   "n": 95,
+   "accuracy": 0.9684
+  },
+  "2": {
+   "n": 58,
+   "accuracy": 0.8276
+  },
+  "3": {
+   "n": 18,
+   "accuracy": 0.3889
+  }
+ },
+ "by_order_third": [
+  {
+   "segment": 1,
+   "n": 62,
+   "accuracy": 0.9194,
+   "median_latency_s": 40.5,
+   "unknown_rate": 0.0161
+  },
+  {
+   "segment": 2,
+   "n": 62,
+   "accuracy": 0.8548,
+   "median_latency_s": 50.4,
+   "unknown_rate": 0.0484
+  },
+  {
+   "segment": 3,
+   "n": 62,
+   "accuracy": 0.8065,
+   "median_latency_s": 50.1,
+   "unknown_rate": 0.0484
+  }
+ ],
+ "latency_s": {
+  "min": 17.9,
+  "median": 45.8,
+  "mean": 51.8,
+  "max": 170.9,
+  "total_min": 160.7,
+  "under_5s": 0
+ },
+ "confusion": {
+  "boss": {
+   "boss": 39,
+   "unknown": 2,
+   "pocket": 3,
+   "step": 2
+  },
+  "fillet": {
+   "fillet": 6
+  },
+  "hole": {
+   "hole": 38,
+   "fillet": 1,
+   "stock": 2,
+   "boss": 1,
+   "pocket": 1
+  },
+  "pocket": {
+   "hole": 2,
+   "pocket": 11,
+   "unknown": 2,
+   "boss": 1
+  },
+  "slot": {
+   "slot": 2
+  },
+  "step": {
+   "step": 17,
+   "unknown": 2,
+   "boss": 1,
+   "pocket": 1
+  },
+  "stock": {
+   "stock": 47,
+   "hole": 3,
+   "unknown": 1,
+   "step": 1
+  }
+ },
+ "answer_distribution": {
+  "boss": 42,
+  "stock": 49,
+  "step": 20,
+  "hole": 43,
+  "fillet": 7,
+  "pocket": 16,
+  "unknown": 7,
+  "slot": 2
+ },
+ "rule_distribution": {
+  "freeform": 6,
+  "stock": 50,
+  "step": 21,
+  "hole": 55,
+  "boss": 36,
+  "fillet": 6,
+  "slot": 4,
+  "pocket": 7,
+  "unknown": 1
+ },
+ "manual_key_mismatch": {
+  "issue": "手册九类表把 BSpline/Bezier 定义为 freeform，但正式题库标签只有 7 类，不含 freeform / chamfer",
+  "bspline_faces": [
+   "Q001",
+   "Q089",
+   "Q092",
+   "Q100",
+   "Q134",
+   "Q141"
+  ],
+  "key_families": [
+   "boss"
+  ],
+  "rule_judgement": "freeform",
+  "implication": "严格按面型判，这 6 题必错；按手册第 1 页「同一特征的所有面归同一类」才判得对。两条规则在此冲突，建议培训时补一句说明。"
+ },
+ "disagreements": [
+  {
+   "sample_id": "Q020",
+   "truth": "stock",
+   "ans": "hole",
+   "tier": "A",
+   "rule": "stock",
+   "hard": false
+  },
+  {
+   "sample_id": "Q030",
+   "truth": "pocket",
+   "ans": "hole",
+   "tier": "B",
+   "rule": "pocket",
+   "hard": true
+  },
+  {
+   "sample_id": "Q042",
+   "truth": "stock",
+   "ans": "hole",
+   "tier": "A",
+   "rule": "stock",
+   "hard": false
+  },
+  {
+   "sample_id": "Q051",
+   "truth": "hole",
+   "ans": "fillet",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q055",
+   "truth": "pocket",
+   "ans": "unknown",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q076",
+   "truth": "hole",
+   "ans": "stock",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q086",
+   "truth": "step",
+   "ans": "unknown",
+   "tier": "B",
+   "rule": "hole",
+   "hard": true
+  },
+  {
+   "sample_id": "Q088",
+   "truth": "boss",
+   "ans": "unknown",
+   "tier": "B",
+   "rule": "step",
+   "hard": false
+  },
+  {
+   "sample_id": "Q103",
+   "truth": "pocket",
+   "ans": "boss",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q105",
+   "truth": "stock",
+   "ans": "unknown",
+   "tier": "A",
+   "rule": "stock",
+   "hard": false
+  },
+  {
+   "sample_id": "Q112",
+   "truth": "hole",
+   "ans": "boss",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q114",
+   "truth": "boss",
+   "ans": "pocket",
+   "tier": "B",
+   "rule": "boss",
+   "hard": true
+  },
+  {
+   "sample_id": "Q122",
+   "truth": "hole",
+   "ans": "pocket",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q136",
+   "truth": "boss",
+   "ans": "pocket",
+   "tier": "A",
+   "rule": "boss",
+   "hard": false
+  },
+  {
+   "sample_id": "Q137",
+   "truth": "stock",
+   "ans": "step",
+   "tier": "A",
+   "rule": "stock",
+   "hard": false
+  },
+  {
+   "sample_id": "Q139",
+   "truth": "step",
+   "ans": "boss",
+   "tier": "B",
+   "rule": "step",
+   "hard": false
+  },
+  {
+   "sample_id": "Q140",
+   "truth": "boss",
+   "ans": "step",
+   "tier": "A",
+   "rule": "boss",
+   "hard": true
+  },
+  {
+   "sample_id": "Q142",
+   "truth": "boss",
+   "ans": "unknown",
+   "tier": "B",
+   "rule": "boss",
+   "hard": false
+  },
+  {
+   "sample_id": "Q147",
+   "truth": "pocket",
+   "ans": "unknown",
+   "tier": "B",
+   "rule": "pocket",
+   "hard": false
+  },
+  {
+   "sample_id": "Q149",
+   "truth": "pocket",
+   "ans": "hole",
+   "tier": "B",
+   "rule": "hole",
+   "hard": true
+  },
+  {
+   "sample_id": "Q170",
+   "truth": "step",
+   "ans": "unknown",
+   "tier": "B",
+   "rule": "boss",
+   "hard": false
+  },
+  {
+   "sample_id": "Q184",
+   "truth": "boss",
+   "ans": "step",
+   "tier": "B",
+   "rule": "boss",
+   "hard": false
+  },
+  {
+   "sample_id": "Q187",
+   "truth": "hole",
+   "ans": "stock",
+   "tier": "B",
+   "rule": "hole",
+   "hard": false
+  },
+  {
+   "sample_id": "Q189",
+   "truth": "boss",
+   "ans": "pocket",
+   "tier": "B",
+   "rule": "step",
+   "hard": false
+  },
+  {
+   "sample_id": "Q193",
+   "truth": "stock",
+   "ans": "hole",
+   "tier": "B",
+   "rule": "boss",
+   "hard": false
+  },
+  {
+   "sample_id": "Q200",
+   "truth": "step",
+   "ans": "pocket",
+   "tier": "C",
+   "rule": "slot",
+   "hard": false
+  }
+ ]
+}

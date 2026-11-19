@@ -1,0 +1,4688 @@
+{
+ "generated_at": "2026-11-06 11:59:31",
+ "provider": "cloud",
+ "tasks": 30,
+ "success_iou": 0.9,
+ "wrong_start": "H01 的型腔被放在正中 (40,40)，正确是 (20,60)",
+ "models": {
+  "deepseek-v4.1-flash": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 234,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 231,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 253,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 223,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 240,
+      "completion_tokens": 83
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 228,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 224,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 239,
+      "completion_tokens": 161
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 243,
+      "completion_tokens": 177
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 156
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 237,
+      "completion_tokens": 164
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 238,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 226,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 223,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 239,
+      "completion_tokens": 245
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 150
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 237,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 221,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 241,
+      "completion_tokens": 83
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 161
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 232,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 237,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 241,
+      "completion_tokens": 207
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 231,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 233,
+      "completion_tokens": 83
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 266,
+      "completion_tokens": 203
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 30,
+    "legal_rate": 1.0,
+    "tokens": [
+     7099,
+     3065
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 111.8,
+   "quota": {
+    "model": "deepseek-v4.1-flash",
+    "percent": 57,
+    "reset_at": "1793974634",
+    "shared_models": []
+   },
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 11743,
+    "completion_tokens": 3938,
+    "total_tokens": 15681,
+    "seconds": 73.77,
+    "tokens_per_call": 373.4
+   }
+  },
+  "glm-5.3-flash": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 260,
+      "completion_tokens": 110
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 247,
+      "completion_tokens": 103
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 245,
+      "completion_tokens": 94
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 252,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 264,
+      "completion_tokens": 174
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 95
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 239,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 74
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 218
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 251,
+      "completion_tokens": 222
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 257,
+      "completion_tokens": 156
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 247,
+      "completion_tokens": 164
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 149
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 238,
+      "completion_tokens": 83
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 249,
+      "completion_tokens": 182
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 258,
+      "completion_tokens": 109
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 253,
+      "completion_tokens": 122
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 232,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 252,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 245,
+      "completion_tokens": 218
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 244,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 255,
+      "completion_tokens": 211
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 151
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 274,
+      "completion_tokens": 140
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 30,
+    "legal_rate": 1.0,
+    "tokens": [
+     7418,
+     3661
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       0.7142857142857143
+      ],
+      "solved": 3,
+      "n": 4,
+      "mean": 0.929
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       0.0,
+       1.0
+      ],
+      "solved": 3,
+      "n": 4,
+      "mean": 0.75
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 279.3,
+   "quota": null,
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 12206,
+    "completion_tokens": 5350,
+    "total_tokens": 17556,
+    "seconds": 229.35,
+    "tokens_per_call": 418.0
+   }
+  },
+  "minimax-m3.1-flash": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 428,
+      "completion_tokens": 116
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 415,
+      "completion_tokens": 123
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 416,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 412,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 424,
+      "completion_tokens": 86
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 433,
+      "completion_tokens": 177
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 405,
+      "completion_tokens": 184
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 420,
+      "completion_tokens": 160
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 409,
+      "completion_tokens": 107
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 405,
+      "completion_tokens": 178
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 417,
+      "completion_tokens": 307
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 420,
+      "completion_tokens": 290
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 427,
+      "completion_tokens": 137
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 419,
+      "completion_tokens": 185
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 418,
+      "completion_tokens": 86
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 409,
+      "completion_tokens": 95
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 406,
+      "completion_tokens": 92
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 419,
+      "completion_tokens": 200
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 427,
+      "completion_tokens": 148
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 423,
+      "completion_tokens": 170
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 419,
+      "completion_tokens": 139
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 0.7660636306924515,
+      "removed_iou": 0.25,
+      "error": null,
+      "prompt_tokens": 404,
+      "completion_tokens": 129
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 423,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 415,
+      "completion_tokens": 234
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 416,
+      "completion_tokens": 88
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 0.9846547314578007,
+      "removed_iou": 0.6,
+      "error": null,
+      "prompt_tokens": 417,
+      "completion_tokens": 168
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 439,
+      "completion_tokens": 207
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 413,
+      "completion_tokens": 131
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 414,
+      "completion_tokens": 174
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 443,
+      "completion_tokens": 144
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 0.962,
+    "removed_ge_0_9": 28,
+    "legal_rate": 1.0,
+    "tokens": [
+     12538,
+     4487
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       0.7142857142857143,
+       1.0
+      ],
+      "solved": 3,
+      "n": 4,
+      "mean": 0.929
+     },
+     "structured": {
+      "ious": [
+       0.7142857142857143,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 3,
+      "n": 4,
+      "mean": 0.929
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 205.8,
+   "quota": null,
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 19302,
+    "completion_tokens": 5968,
+    "total_tokens": 25270,
+    "seconds": 167.29,
+    "tokens_per_call": 601.7
+   }
+  },
+  "mimo-v2.6-pro": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 280,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 266,
+      "completion_tokens": 84
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 270,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 264,
+      "completion_tokens": 97
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 280,
+      "completion_tokens": 132
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 291,
+      "completion_tokens": 132
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 255,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 275,
+      "completion_tokens": 123
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 257,
+      "completion_tokens": 98
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 275,
+      "completion_tokens": 235
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 278,
+      "completion_tokens": 241
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 290,
+      "completion_tokens": 171
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 274,
+      "completion_tokens": 179
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 274,
+      "completion_tokens": 132
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 258,
+      "completion_tokens": 87
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 276,
+      "completion_tokens": 262
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 289,
+      "completion_tokens": 174
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 280,
+      "completion_tokens": 87
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 277,
+      "completion_tokens": 133
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 89
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 283,
+      "completion_tokens": 127
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 269,
+      "completion_tokens": 229
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 267,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 271,
+      "completion_tokens": 85
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 292,
+      "completion_tokens": 231
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 268,
+      "completion_tokens": 86
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 269,
+      "completion_tokens": 129
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 316,
+      "completion_tokens": 215
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 30,
+    "legal_rate": 1.0,
+    "tokens": [
+     8201,
+     4068
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       0.7142857142857143,
+       0.7142857142857143,
+       1.0,
+       0.0
+      ],
+      "solved": 1,
+      "n": 4,
+      "mean": 0.607
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 203.2,
+   "quota": null,
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 13513,
+    "completion_tokens": 5088,
+    "total_tokens": 18601,
+    "seconds": 164.95,
+    "tokens_per_call": 442.9
+   }
+  },
+  "step-5-preview": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 321
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 245,
+      "completion_tokens": 469
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 246,
+      "completion_tokens": 709
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 542
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 253,
+      "completion_tokens": 398
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 264,
+      "completion_tokens": 718
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 234,
+      "completion_tokens": 315
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 251,
+      "completion_tokens": 709
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 239,
+      "completion_tokens": 201
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 173
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 890
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 254,
+      "completion_tokens": 714
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 390
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 193
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 249,
+      "completion_tokens": 507
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 237,
+      "completion_tokens": 321
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 234,
+      "completion_tokens": 162
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 445
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 261,
+      "completion_tokens": 768
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 253,
+      "completion_tokens": 956
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 730
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 232,
+      "completion_tokens": 491
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 252,
+      "completion_tokens": 666
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 246,
+      "completion_tokens": 858
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 243,
+      "completion_tokens": 235
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 372
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 252,
+      "completion_tokens": 522
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 445
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 244,
+      "completion_tokens": 620
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 277,
+      "completion_tokens": 988
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 30,
+    "legal_rate": 1.0,
+    "tokens": [
+     7429,
+     16971
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 384.9,
+   "quota": {
+    "model": "step-5-preview",
+    "percent": 0,
+    "reset_at": "1794022560",
+    "shared_models": []
+   },
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 12205,
+    "completion_tokens": 22436,
+    "total_tokens": 34641,
+    "seconds": 345.71,
+    "tokens_per_call": 824.8
+   }
+  },
+  "deepseek-v4-pro": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 247,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 233,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 234,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 230,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 241,
+      "completion_tokens": 121
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 252,
+      "completion_tokens": 121
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 222,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 239,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 227,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 223,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 238,
+      "completion_tokens": 218
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 222
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 247,
+      "completion_tokens": 156
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 236,
+      "completion_tokens": 164
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 237,
+      "completion_tokens": 121
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 225,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 222,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 238,
+      "completion_tokens": 245
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 249,
+      "completion_tokens": 150
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 241,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 236,
+      "completion_tokens": 121
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 220,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 240,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 234,
+      "completion_tokens": 218
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 231,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 236,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 240,
+      "completion_tokens": 207
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 230,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 232,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 265,
+      "completion_tokens": 192
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 30,
+    "legal_rate": 1.0,
+    "tokens": [
+     7069,
+     3666
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 153.9,
+   "quota": null,
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 11701,
+    "completion_tokens": 4602,
+    "total_tokens": 16303,
+    "seconds": 114.59,
+    "tokens_per_call": 388.2
+   }
+  },
+  "kimi-k2.8-preview": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 336,
+      "completion_tokens": 192
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 322,
+      "completion_tokens": 265
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 0.9879759519038076,
+      "removed_iou": 0.14285714285714282,
+      "error": null,
+      "prompt_tokens": 324,
+      "completion_tokens": 164
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 319,
+      "completion_tokens": 190
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 331,
+      "completion_tokens": 199
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 342,
+      "completion_tokens": 354
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 312,
+      "completion_tokens": 194
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 329,
+      "completion_tokens": 232
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 317,
+      "completion_tokens": 197
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 313,
+      "completion_tokens": 185
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 327,
+      "completion_tokens": 220
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 331,
+      "completion_tokens": 261
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 337,
+      "completion_tokens": 234
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 326,
+      "completion_tokens": 234
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 327,
+      "completion_tokens": 478
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 315,
+      "completion_tokens": 225
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 313,
+      "completion_tokens": 178
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 328,
+      "completion_tokens": 314
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 338,
+      "completion_tokens": 195
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 330,
+      "completion_tokens": 261
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 326,
+      "completion_tokens": 250
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 310,
+      "completion_tokens": 151
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 330,
+      "completion_tokens": 236
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 323,
+      "completion_tokens": 297
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 321,
+      "completion_tokens": 165
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 324,
+      "completion_tokens": 163
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 333,
+      "completion_tokens": 261
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 319,
+      "completion_tokens": 148
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 322,
+      "completion_tokens": 232
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 357,
+      "completion_tokens": 308
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 0.971,
+    "removed_ge_0_9": 29,
+    "legal_rate": 1.0,
+    "tokens": [
+     9764,
+     6910
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 316.5,
+   "quota": null,
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 15440,
+    "completion_tokens": 9493,
+    "total_tokens": 24933,
+    "seconds": 277.48,
+    "tokens_per_call": 593.6
+   }
+  },
+  "space-bunny": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 0.9325,
+      "removed_iou": 0.0,
+      "error": null,
+      "prompt_tokens": 382,
+      "completion_tokens": 99
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 369,
+      "completion_tokens": 115
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 370,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 366,
+      "completion_tokens": 100
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 378,
+      "completion_tokens": 132
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 387,
+      "completion_tokens": 205
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 359,
+      "completion_tokens": 128
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 374,
+      "completion_tokens": 81
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 363,
+      "completion_tokens": 102
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 359,
+      "completion_tokens": 81
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 384,
+      "completion_tokens": 218
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 374,
+      "completion_tokens": 172
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 381,
+      "completion_tokens": 131
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 373,
+      "completion_tokens": 158
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 372,
+      "completion_tokens": 86
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 363,
+      "completion_tokens": 102
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 360,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 373,
+      "completion_tokens": 225
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 394,
+      "completion_tokens": 160
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 377,
+      "completion_tokens": 133
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 373,
+      "completion_tokens": 153
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 358,
+      "completion_tokens": 122
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 377,
+      "completion_tokens": 116
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 369,
+      "completion_tokens": 156
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 370,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 371,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 380,
+      "completion_tokens": 146
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 367,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 367,
+      "completion_tokens": 142
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 397,
+      "completion_tokens": 191
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 0.967,
+    "removed_ge_0_9": 29,
+    "legal_rate": 1.0,
+    "tokens": [
+     11170,
+     3833
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       0.7142857142857143,
+       1.0,
+       0.7142857142857143,
+       1.0
+      ],
+      "solved": 2,
+      "n": 4,
+      "mean": 0.857
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       0.7142857142857143,
+       0.7142857142857143
+      ],
+      "solved": 2,
+      "n": 4,
+      "mean": 0.857
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 178.0,
+   "quota": null,
+   "meter": {
+    "calls": 42,
+    "failed_calls": 0,
+    "prompt_tokens": 17382,
+    "completion_tokens": 4948,
+    "total_tokens": 22330,
+    "seconds": 139.48,
+    "tokens_per_call": 531.7
+   }
+  },
+  "hunyuan-2.0-thinking": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": false,
+      "n_calls": 0,
+      "legal": 0,
+      "iou": null,
+      "removed_iou": null,
+      "error": "HTTP 400: {\"error\":{\"code\":\"request_invalid_parameter\",\"message\":\"请求参数无效。\",\"param\":null,\"type\":\"invalid_request_error\"}}",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+     }
+    ],
+    "exec": 0,
+    "n": 30,
+    "mean_removed_iou": null,
+    "removed_ge_0_9": 0,
+    "legal_rate": 0.0,
+    "tokens": [
+     0,
+     0
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "solved": 0,
+      "n": 0,
+      "mean": null
+     },
+     "structured": {
+      "ious": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "solved": 0,
+      "n": 0,
+      "mean": null
+     },
+     "structured_coords": {
+      "ious": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "solved": 0,
+      "n": 0,
+      "mean": null
+     }
+    }
+   },
+   "seconds": 55.9,
+   "quota": null,
+   "meter": {
+    "calls": 0,
+    "failed_calls": 42,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "seconds": 0.0,
+    "tokens_per_call": 0.0
+   }
+  },
+  "glm-5.3": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 260,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 247,
+      "completion_tokens": 241
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 0.9879759519038076,
+      "removed_iou": 0.14285714285714282,
+      "error": null,
+      "prompt_tokens": 245,
+      "completion_tokens": 968
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 57
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 253,
+      "completion_tokens": 120
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 264,
+      "completion_tokens": 195
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 120
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 239,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 236,
+      "completion_tokens": 77
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 529
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 251,
+      "completion_tokens": 337
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 257,
+      "completion_tokens": 448
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 247,
+      "completion_tokens": 235
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 2235
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 238,
+      "completion_tokens": 98
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 86
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 249,
+      "completion_tokens": 486
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 258,
+      "completion_tokens": 346
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 253,
+      "completion_tokens": 328
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 250,
+      "completion_tokens": 121
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 232,
+      "completion_tokens": 162
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 252,
+      "completion_tokens": 113
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 245,
+      "completion_tokens": 332
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 245,
+      "completion_tokens": 56
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 308
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 255,
+      "completion_tokens": 241
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 171
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 242,
+      "completion_tokens": 112
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 274,
+      "completion_tokens": 342
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 0.971,
+    "removed_ge_0_9": 29,
+    "legal_rate": 1.0,
+    "tokens": [
+     7176,
+     8121
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       0.0,
+       0.7142857142857143,
+       1.0,
+       1.0
+      ],
+      "solved": 2,
+      "n": 4,
+      "mean": 0.679
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 305.8,
+   "quota": {
+    "model": "glm-5.3",
+    "percent": 0,
+    "reset_at": "1793955567",
+    "shared_models": []
+   },
+   "meter": {
+    "calls": 41,
+    "failed_calls": 1,
+    "prompt_tokens": 11965,
+    "completion_tokens": 9783,
+    "total_tokens": 21748,
+    "seconds": 221.69,
+    "tokens_per_call": 530.4
+   }
+  },
+  "hy4std": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 282,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 270,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 271,
+      "completion_tokens": 1543
+     },
+     {
+      "id": "H04",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 265,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H05",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 278,
+      "completion_tokens": 89
+     },
+     {
+      "id": "H06",
+      "tag": "对称",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 289,
+      "completion_tokens": 89
+     },
+     {
+      "id": "H07",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H08",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 275,
+      "completion_tokens": 84
+     },
+     {
+      "id": "H09",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 263,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H10",
+      "tag": "壁厚",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 260,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H11",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 274,
+      "completion_tokens": 162
+     },
+     {
+      "id": "H12",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 279,
+      "completion_tokens": 162
+     },
+     {
+      "id": "H13",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 283,
+      "completion_tokens": 1062
+     },
+     {
+      "id": "H14",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 273,
+      "completion_tokens": 120
+     },
+     {
+      "id": "H15",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 275,
+      "completion_tokens": 89
+     },
+     {
+      "id": "H16",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 262,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H17",
+      "tag": "深度",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 259,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H18",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 7,
+      "legal": 7,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 274,
+      "completion_tokens": 1352
+     },
+     {
+      "id": "H19",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 4,
+      "legal": 4,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 286,
+      "completion_tokens": 118
+     },
+     {
+      "id": "H20",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 279,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H21",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 273,
+      "completion_tokens": 89
+     },
+     {
+      "id": "H22",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 257,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H23",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 275,
+      "completion_tokens": 84
+     },
+     {
+      "id": "H24",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 6,
+      "legal": 6,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 270,
+      "completion_tokens": 162
+     },
+     {
+      "id": "H25",
+      "tag": "单位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 268,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H26",
+      "tag": "居中",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 272,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H27",
+      "tag": "阵列",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 277,
+      "completion_tokens": 151
+     },
+     {
+      "id": "H28",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 267,
+      "completion_tokens": 58
+     },
+     {
+      "id": "H29",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 3,
+      "legal": 3,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 268,
+      "completion_tokens": 84
+     },
+     {
+      "id": "H30",
+      "tag": "多特征",
+      "exec_ok": true,
+      "n_calls": 5,
+      "legal": 5,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 301,
+      "completion_tokens": 145
+     }
+    ],
+    "exec": 30,
+    "n": 30,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 30,
+    "legal_rate": 1.0,
+    "tokens": [
+     8166,
+     6339
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0,
+       1.0,
+       null,
+       1.0
+      ],
+      "solved": 3,
+      "n": 3,
+      "mean": 1.0
+     },
+     "structured": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "solved": 4,
+      "n": 4,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 181.2,
+   "quota": null,
+   "meter": {
+    "calls": 41,
+    "failed_calls": 1,
+    "prompt_tokens": 12808,
+    "completion_tokens": 7810,
+    "total_tokens": 20618,
+    "seconds": 142.33,
+    "tokens_per_call": 502.9
+   }
+  }
+ }
+}

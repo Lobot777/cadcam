@@ -1,0 +1,188 @@
+{
+ "annotator": "E1",
+ "round": "M3_HUMAN",
+ "pack_version": "v2",
+ "count": 30,
+ "items": [
+  {
+   "sample_id": "H01",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H02",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H03",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H04",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H05",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H06",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H07",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H08",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H09",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H10",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H11",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H12",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H13",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H14",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H15",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H16",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H17",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H18",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H19",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H20",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H21",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H22",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H23",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H24",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H25",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H26",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H27",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H28",
+   "family": "no_gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H29",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  },
+  {
+   "sample_id": "H30",
+   "family": "gouge",
+   "conf": "sure",
+   "note": ""
+  }
+ ]
+}

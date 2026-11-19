@@ -1,0 +1,1724 @@
+{
+ "annotator": "P4",
+ "round": "T1",
+ "count": 186,
+ "items": [
+  {
+   "sample_id": "Q001",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 37.2,
+   "order": 1,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q002",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 29.7,
+   "order": 2,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q004",
+   "family": "unknown",
+   "confidence": 2,
+   "latency_s": 75.4,
+   "order": 3,
+   "mfcad_class": null,
+   "reason": "圆柱弧段占比不是 0.25 也不是 1.00，手册说拿不准就判不了"
+  },
+  {
+   "sample_id": "Q005",
+   "family": "hole",
+   "confidence": 2,
+   "latency_s": 45.8,
+   "order": 4,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q006",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 37.6,
+   "order": 5,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q007",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 30.8,
+   "order": 6,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q008",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 45.2,
+   "order": 7,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q010",
+   "family": "fillet",
+   "confidence": 2,
+   "latency_s": 78.1,
+   "order": 8,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q011",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 44.7,
+   "order": 9,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q012",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 24.4,
+   "order": 10,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q013",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 20.8,
+   "order": 11,
+   "mfcad_class": null,
+   "reason": "四周侧壁落在包围盒 x/y 极值且贯通大半个高度 → 原始面"
+  },
+  {
+   "sample_id": "Q014",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 37.3,
+   "order": 12,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q015",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 44.3,
+   "order": 13,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q016",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 35.3,
+   "order": 14,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q017",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 42.1,
+   "order": 15,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q018",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 36.7,
+   "order": 16,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q019",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 62.3,
+   "order": 17,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q020",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 52.8,
+   "order": 18,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q021",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 53.0,
+   "order": 19,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q022",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 61.6,
+   "order": 20,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q023",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 52.0,
+   "order": 21,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q024",
+   "family": "unknown",
+   "confidence": null,
+   "latency_s": 53.5,
+   "order": 22,
+   "mfcad_class": null,
+   "reason": "这个面看着像腔底又像肩面，面积对不上"
+  },
+  {
+   "sample_id": "Q025",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 86.4,
+   "order": 23,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q026",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 66.4,
+   "order": 24,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q027",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 17.3,
+   "order": 25,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q028",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 21.6,
+   "order": 26,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q029",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 55.4,
+   "order": 27,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q030",
+   "family": "unknown",
+   "confidence": 2,
+   "latency_s": 83.5,
+   "order": 28,
+   "mfcad_class": null,
+   "reason": "邻面只给了 z 范围，看不出四壁法向，判不了"
+  },
+  {
+   "sample_id": "Q031",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 45.2,
+   "order": 29,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q032",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 32.7,
+   "order": 30,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q033",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 62.5,
+   "order": 31,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q034",
+   "family": "boss",
+   "confidence": 3,
+   "latency_s": 45.8,
+   "order": 32,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q035",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 18.7,
+   "order": 33,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q036",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 48.5,
+   "order": 34,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q037",
+   "family": "fillet",
+   "confidence": 2,
+   "latency_s": 67.8,
+   "order": 35,
+   "mfcad_class": null,
+   "reason": "弧段占比 0.25≈0.25 且径向点积 −1 → 圆角"
+  },
+  {
+   "sample_id": "Q038",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 26.4,
+   "order": 36,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q041",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 68.7,
+   "order": 37,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q042",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 44.0,
+   "order": 38,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q043",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 41.6,
+   "order": 39,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q045",
+   "family": "stock",
+   "confidence": 3,
+   "latency_s": 20.7,
+   "order": 40,
+   "mfcad_class": null,
+   "reason": "两个判据读下来不太一致"
+  },
+  {
+   "sample_id": "Q046",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 70.0,
+   "order": 41,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q047",
+   "family": "unknown",
+   "confidence": 3,
+   "latency_s": 21.3,
+   "order": 42,
+   "mfcad_class": null,
+   "reason": "圆柱弧段占比不是 0.25 也不是 1.00，手册说拿不准就判不了"
+  },
+  {
+   "sample_id": "Q048",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 27.7,
+   "order": 43,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q049",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 63.8,
+   "order": 44,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q050",
+   "family": "stock",
+   "confidence": null,
+   "latency_s": 24.7,
+   "order": 45,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q051",
+   "family": "hole",
+   "confidence": null,
+   "latency_s": 48.6,
+   "order": 46,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q053",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 24.2,
+   "order": 47,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q054",
+   "family": "stock",
+   "confidence": 3,
+   "latency_s": 20.7,
+   "order": 48,
+   "mfcad_class": null,
+   "reason": "按第一感觉点了"
+  },
+  {
+   "sample_id": "Q055",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 56.0,
+   "order": 49,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q056",
+   "family": "hole",
+   "confidence": 2,
+   "latency_s": 58.6,
+   "order": 50,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q057",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 27.0,
+   "order": 51,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q058",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 41.2,
+   "order": 52,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q059",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 54.7,
+   "order": 53,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q060",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 43.2,
+   "order": 54,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q061",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 71.6,
+   "order": 55,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q062",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 44.2,
+   "order": 56,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q063",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 45.2,
+   "order": 57,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q064",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 71.1,
+   "order": 58,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q065",
+   "family": "unknown",
+   "confidence": 2,
+   "latency_s": 69.9,
+   "order": 59,
+   "mfcad_class": null,
+   "reason": "图上凸凹看不清，不敢猜"
+  },
+  {
+   "sample_id": "Q066",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 33.2,
+   "order": 60,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q067",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 28.0,
+   "order": 61,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q068",
+   "family": "pocket",
+   "confidence": 1,
+   "latency_s": 41.8,
+   "order": 62,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q069",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 83.5,
+   "order": 63,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q070",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 83.9,
+   "order": 64,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q071",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 26.5,
+   "order": 65,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q072",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 57.2,
+   "order": 66,
+   "mfcad_class": null,
+   "reason": "两个判据读下来不太一致"
+  },
+  {
+   "sample_id": "Q073",
+   "family": "fillet",
+   "confidence": 1,
+   "latency_s": 46.8,
+   "order": 67,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q074",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 79.0,
+   "order": 68,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q075",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 52.7,
+   "order": 69,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q076",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 46.1,
+   "order": 70,
+   "mfcad_class": null,
+   "reason": "两个判据读下来不太一致"
+  },
+  {
+   "sample_id": "Q077",
+   "family": "boss",
+   "confidence": 3,
+   "latency_s": 36.5,
+   "order": 71,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q078",
+   "family": "hole",
+   "confidence": 3,
+   "latency_s": 48.3,
+   "order": 72,
+   "mfcad_class": null,
+   "reason": "按第一感觉点了"
+  },
+  {
+   "sample_id": "Q079",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 46.4,
+   "order": 73,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q080",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 71.3,
+   "order": 74,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q082",
+   "family": "pocket",
+   "confidence": 3,
+   "latency_s": 18.7,
+   "order": 75,
+   "mfcad_class": null,
+   "reason": "两个判据读下来不太一致"
+  },
+  {
+   "sample_id": "Q084",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 43.7,
+   "order": 76,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q085",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 87.0,
+   "order": 77,
+   "mfcad_class": null,
+   "reason": "按第一感觉点了"
+  },
+  {
+   "sample_id": "Q086",
+   "family": "unknown",
+   "confidence": 2,
+   "latency_s": 149.6,
+   "order": 78,
+   "mfcad_class": null,
+   "reason": "圆柱弧段占比不是 0.25 也不是 1.00，手册说拿不准就判不了"
+  },
+  {
+   "sample_id": "Q087",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 34.0,
+   "order": 79,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q088",
+   "family": "boss",
+   "confidence": null,
+   "latency_s": 39.4,
+   "order": 80,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q089",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 64.3,
+   "order": 81,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q090",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 29.4,
+   "order": 82,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q091",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 73.6,
+   "order": 83,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q092",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 52.0,
+   "order": 84,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q093",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 59.1,
+   "order": 85,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q094",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 26.4,
+   "order": 86,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q095",
+   "family": "unknown",
+   "confidence": 3,
+   "latency_s": 32.5,
+   "order": 87,
+   "mfcad_class": null,
+   "reason": "图上凸凹看不清，不敢猜"
+  },
+  {
+   "sample_id": "Q096",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 45.1,
+   "order": 88,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q097",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 60.4,
+   "order": 89,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q098",
+   "family": "fillet",
+   "confidence": 2,
+   "latency_s": 59.3,
+   "order": 90,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q099",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 51.4,
+   "order": 91,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q100",
+   "family": "fillet",
+   "confidence": 3,
+   "latency_s": 28.8,
+   "order": 92,
+   "mfcad_class": null,
+   "reason": "两个判据读下来不太一致"
+  },
+  {
+   "sample_id": "Q101",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 47.1,
+   "order": 93,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q102",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 93.0,
+   "order": 94,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q103",
+   "family": "pocket",
+   "confidence": 1,
+   "latency_s": 50.6,
+   "order": 95,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q104",
+   "family": "step",
+   "confidence": 3,
+   "latency_s": 26.8,
+   "order": 96,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q105",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 47.1,
+   "order": 97,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q107",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 38.0,
+   "order": 98,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q108",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 54.6,
+   "order": 99,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q109",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 64.2,
+   "order": 100,
+   "mfcad_class": null,
+   "reason": "水平面与整圈圆柱壁相接且低于顶面 → 孔底（同归 hole）"
+  },
+  {
+   "sample_id": "Q110",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 26.6,
+   "order": 101,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q111",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 52.5,
+   "order": 102,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q112",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 50.9,
+   "order": 103,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q113",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 34.4,
+   "order": 104,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q114",
+   "family": "boss",
+   "confidence": 3,
+   "latency_s": 71.1,
+   "order": 105,
+   "mfcad_class": null,
+   "reason": "凸边占多数且壁法向朝外 → 凸台四壁"
+  },
+  {
+   "sample_id": "Q115",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 48.2,
+   "order": 106,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q116",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 25.4,
+   "order": 107,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q117",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 52.1,
+   "order": 108,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q118",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 76.9,
+   "order": 109,
+   "mfcad_class": null,
+   "reason": "按第一感觉点了"
+  },
+  {
+   "sample_id": "Q119",
+   "family": "pocket",
+   "confidence": 1,
+   "latency_s": 80.6,
+   "order": 110,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q122",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 51.8,
+   "order": 111,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q123",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 62.0,
+   "order": 112,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q124",
+   "family": "pocket",
+   "confidence": null,
+   "latency_s": 58.3,
+   "order": 113,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q125",
+   "family": "pocket",
+   "confidence": 1,
+   "latency_s": 54.6,
+   "order": 114,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q126",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 33.8,
+   "order": 115,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q127",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 63.5,
+   "order": 116,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q129",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 50.6,
+   "order": 117,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q130",
+   "family": "pocket",
+   "confidence": 1,
+   "latency_s": 35.6,
+   "order": 118,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q131",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 34.5,
+   "order": 119,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q132",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 74.3,
+   "order": 120,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q133",
+   "family": "hole",
+   "confidence": 2,
+   "latency_s": 48.1,
+   "order": 121,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q134",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 63.8,
+   "order": 122,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q135",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 27.2,
+   "order": 123,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q136",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 96.9,
+   "order": 124,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q137",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 128.5,
+   "order": 125,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q138",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 74.1,
+   "order": 126,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q139",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 73.0,
+   "order": 127,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q140",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 113.4,
+   "order": 128,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q141",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 55.9,
+   "order": 129,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q142",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 79.7,
+   "order": 130,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q143",
+   "family": "step",
+   "confidence": 2,
+   "latency_s": 66.7,
+   "order": 131,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q144",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 84.6,
+   "order": 132,
+   "mfcad_class": null,
+   "reason": "按第一感觉点了"
+  },
+  {
+   "sample_id": "Q145",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 52.6,
+   "order": 133,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q146",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 70.0,
+   "order": 134,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q147",
+   "family": "pocket",
+   "confidence": 2,
+   "latency_s": 89.1,
+   "order": 135,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q148",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 80.7,
+   "order": 136,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q149",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 48.5,
+   "order": 137,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q150",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 43.5,
+   "order": 138,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q152",
+   "family": "slot",
+   "confidence": 3,
+   "latency_s": 63.0,
+   "order": 139,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q153",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 50.9,
+   "order": 140,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q154",
+   "family": "fillet",
+   "confidence": 2,
+   "latency_s": 62.4,
+   "order": 141,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q155",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 42.4,
+   "order": 142,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q156",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 33.5,
+   "order": 143,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q158",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 40.7,
+   "order": 144,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q159",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 26.3,
+   "order": 145,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q160",
+   "family": "boss",
+   "confidence": 3,
+   "latency_s": 46.4,
+   "order": 146,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q161",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 102.1,
+   "order": 147,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q163",
+   "family": "stock",
+   "confidence": null,
+   "latency_s": 34.2,
+   "order": 148,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q164",
+   "family": "boss",
+   "confidence": null,
+   "latency_s": 67.8,
+   "order": 149,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q165",
+   "family": "hole",
+   "confidence": null,
+   "latency_s": 26.5,
+   "order": 150,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q167",
+   "family": "unknown",
+   "confidence": 2,
+   "latency_s": 102.1,
+   "order": 151,
+   "mfcad_class": null,
+   "reason": "圆柱弧段占比不是 0.25 也不是 1.00，手册说拿不准就判不了"
+  },
+  {
+   "sample_id": "Q168",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 65.6,
+   "order": 152,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q169",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 65.9,
+   "order": 153,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q170",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 44.2,
+   "order": 154,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q171",
+   "family": "pocket",
+   "confidence": null,
+   "latency_s": 49.3,
+   "order": 155,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q172",
+   "family": "boss",
+   "confidence": 3,
+   "latency_s": 27.1,
+   "order": 156,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q174",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 45.6,
+   "order": 157,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q176",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 25.9,
+   "order": 158,
+   "mfcad_class": null,
+   "reason": "按第一感觉点了"
+  },
+  {
+   "sample_id": "Q177",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 29.1,
+   "order": 159,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q178",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 60.9,
+   "order": 160,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q179",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 51.4,
+   "order": 161,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q180",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 36.9,
+   "order": 162,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q181",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 69.1,
+   "order": 163,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q182",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 27.0,
+   "order": 164,
+   "mfcad_class": null,
+   "reason": "四周侧壁落在包围盒 x/y 极值且贯通大半个高度 → 原始面"
+  },
+  {
+   "sample_id": "Q183",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 38.1,
+   "order": 165,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q184",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 48.2,
+   "order": 166,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q185",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 47.5,
+   "order": 167,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q186",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 26.2,
+   "order": 168,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q187",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 20.9,
+   "order": 169,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q188",
+   "family": "hole",
+   "confidence": 1,
+   "latency_s": 39.7,
+   "order": 170,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q189",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 103.9,
+   "order": 171,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q190",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 25.1,
+   "order": 172,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q191",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 39.4,
+   "order": 173,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q193",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 33.9,
+   "order": 174,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q195",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 92.7,
+   "order": 175,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q196",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 24.8,
+   "order": 176,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q197",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 31.3,
+   "order": 177,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q198",
+   "family": "stock",
+   "confidence": 2,
+   "latency_s": 41.4,
+   "order": 178,
+   "mfcad_class": null,
+   "reason": "两个判据读下来不太一致"
+  },
+  {
+   "sample_id": "Q199",
+   "family": "unknown",
+   "confidence": 2,
+   "latency_s": 125.5,
+   "order": 179,
+   "mfcad_class": null,
+   "reason": "图上凸凹看不清，不敢猜"
+  },
+  {
+   "sample_id": "Q200",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 63.1,
+   "order": 180,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q201",
+   "family": "boss",
+   "confidence": 1,
+   "latency_s": 38.3,
+   "order": 181,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q202",
+   "family": "stock",
+   "confidence": 1,
+   "latency_s": 83.6,
+   "order": 182,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q203",
+   "family": "hole",
+   "confidence": null,
+   "latency_s": 108.4,
+   "order": 183,
+   "mfcad_class": null,
+   "reason": "这题后来有点犹豫"
+  },
+  {
+   "sample_id": "Q204",
+   "family": "step",
+   "confidence": 1,
+   "latency_s": 62.7,
+   "order": 184,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q205",
+   "family": "boss",
+   "confidence": 3,
+   "latency_s": 45.1,
+   "order": 185,
+   "mfcad_class": null,
+   "reason": ""
+  },
+  {
+   "sample_id": "Q206",
+   "family": "boss",
+   "confidence": 2,
+   "latency_s": 64.2,
+   "order": 186,
+   "mfcad_class": null,
+   "reason": ""
+  }
+ ],
+ "_simulation": {
+  "SIMULATED_NOT_HUMAN": true,
+  "do_not_use_for": "kappa 分析 / 论文真人数据 / P1-P4 汇总",
+  "allowed_use": "流水线验证、试标演示、培训增益先验估计",
+  "protocol": "docs/STUDY-TRAINING.md（20 min 讲解 + 20 题带反馈校准）",
+  "sheet": "reports/annotation/study/formal/annotate_T0.html（--no-tips 页面）",
+  "mode": "calibrated",
+  "answer_source": "统计估计：以 formal/key.json 真值为基准，按 STUDY-DESIGN.md §4.3 培训后效应量注入错误/判不了；规则判定仅用于难度与耗时分层",
+  "model": "L1 手册判据 + L2 邻面 z / 边凸性 / 面积对账结构重建 + L3 人类噪声与疲劳",
+  "seed": 42,
+  "calibrated_effect_size": {
+   "err_base": 0.065,
+   "err_hard": 0.22,
+   "unk_base": 0.028,
+   "unk_hard": 0.09,
+   "lat_easy": 31.0,
+   "lat_mid": 44.0,
+   "lat_hard": 58.0
+  },
+  "family_difficulty": {
+   "pocket": 0.05,
+   "step": 0.04,
+   "slot": 0.1,
+   "fillet": 0.02,
+   "boss": 0.01,
+   "hole": 0.0,
+   "stock": 0.0
+  },
+  "tier_error_rates": {
+   "A": {
+    "err": 0.03,
+    "unk": 0.01
+   },
+   "B": {
+    "err": 0.115,
+    "unk": 0.055
+   },
+   "C": {
+    "err": 0.265,
+    "unk": 0.175
+   }
+  }
+ }
+}

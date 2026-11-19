@@ -1,0 +1,1502 @@
+{
+ "rule": "OpenCAMLib 独立 C++ CAM 内核替代 Fusion 360；四条检查：目标几何 / 过切判据 / 第三方刀路 / 分辨率收敛",
+ "summary": {
+  "n": 10,
+  "opencamlib": "2023.1.11 (LGPL-2.1), pip install opencamlib",
+  "gui_required": false,
+  "geometry_max_abs_diff_mm": 8.0,
+  "geometry_min_footprint_iou": 1.0,
+  "geometry_min_exact_pct": 99.828,
+  "geometry_columns_over_0_5mm": 120,
+  "geometry_columns_compared": 256000,
+  "B2_ocl_gouge_points": 2822,
+  "B2_guard_ocl_gouge_points": 41,
+  "B2_guard_dual_pass": 9,
+  "B2_guard_residual_mm3": 15886.1,
+  "B2_residual_mm3": 4605.6,
+  "B3_ocl_gouge_points": 43260,
+  "B2_sampled_points": 371230,
+  "B3_sampled_points": 408646,
+  "B3_worst_gouge_mm": 18.0,
+  "OCL_toolpath_dual_pass": 9,
+  "OCL_toolpath_ocl_gouge_points": 0,
+  "OCL_toolpath_worst_mean_dev_mm": 0.5383,
+  "seconds": 58.0,
+  "resolution_sweep_monotone": true,
+  "resolution_sweep_rates_pct": [
+   1.332,
+   0.432,
+   0.143
+  ]
+ },
+ "parts": [
+  {
+   "part": 1,
+   "triangles": 28,
+   "levels": 2,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "within_0_01mm_pct": 100.0,
+    "columns_over_0_5mm": 0,
+    "columns_over_0_5mm_pct": 0.0,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 48375
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 18306,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3726,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 14580,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0375,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 240.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 19278,
+     "gouge_points": 966,
+     "gouge_rate_pct": 5.011,
+     "worst_gouge_depth_mm": 6.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4374,
+       "violations": 644,
+       "worst_mm": 6.0
+      },
+      "1.50": {
+       "points": 14904,
+       "violations": 322,
+       "worst_mm": 6.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 6.0,
+     "mean_deviation_mm": 0.2259,
+     "gouge_volume_mm3": 1446.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 17982,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3726,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 14256,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1125,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 720.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      1,
+      2
+     ],
+     "ops": 3,
+     "gcode_lines": 446
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1125,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 720.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 17334,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3726,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 13608,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 2,
+   "triangles": 2028,
+   "levels": 2,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "within_0_01mm_pct": 100.0,
+    "columns_over_0_5mm": 0,
+    "columns_over_0_5mm_pct": 0.0,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 97828
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 17282,
+     "gouge_points": 24,
+     "gouge_rate_pct": 0.139,
+     "worst_gouge_depth_mm": 4.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3770,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 13512,
+       "violations": 24,
+       "worst_mm": 4.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.01,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 64.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 17582,
+     "gouge_points": 350,
+     "gouge_rate_pct": 1.991,
+     "worst_gouge_depth_mm": 4.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3910,
+       "violations": 142,
+       "worst_mm": 4.0
+      },
+      "1.50": {
+       "points": 13672,
+       "violations": 208,
+       "worst_mm": 4.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 4.0,
+     "mean_deviation_mm": 0.1675,
+     "gouge_volume_mm3": 1072.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 17198,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3758,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 13440,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0319,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 204.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      2,
+      2
+     ],
+     "ops": 4,
+     "gcode_lines": 583
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0244,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 156.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 17226,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 3770,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 13456,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 3,
+   "triangles": 2044,
+   "levels": 3,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "within_0_01mm_pct": 100.0,
+    "columns_over_0_5mm": 0,
+    "columns_over_0_5mm_pct": 0.0,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 71302
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 21332,
+     "gouge_points": 51,
+     "gouge_rate_pct": 0.239,
+     "worst_gouge_depth_mm": 7.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4248,
+       "violations": 3,
+       "worst_mm": 4.0
+      },
+      "1.50": {
+       "points": 17084,
+       "violations": 48,
+       "worst_mm": 7.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0391,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 250.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 22744,
+     "gouge_points": 1610,
+     "gouge_rate_pct": 7.079,
+     "worst_gouge_depth_mm": 7.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 5060,
+       "violations": 842,
+       "worst_mm": 7.0
+      },
+      "1.50": {
+       "points": 17684,
+       "violations": 768,
+       "worst_mm": 7.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 7.0,
+     "mean_deviation_mm": 0.5981,
+     "gouge_volume_mm3": 3828.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 20884,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4222,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 16662,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1577,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1009.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      3,
+      3
+     ],
+     "ops": 6,
+     "gcode_lines": 1525
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1445,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 925.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 20940,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4246,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 16694,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 4,
+   "triangles": 2532,
+   "levels": 3,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.00125,
+    "within_0_01mm_pct": 99.969,
+    "columns_over_0_5mm": 8,
+    "columns_over_0_5mm_pct": 0.0312,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 135836
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 24198,
+     "gouge_points": 141,
+     "gouge_rate_pct": 0.583,
+     "worst_gouge_depth_mm": 7.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 5000,
+       "violations": 27,
+       "worst_mm": 4.0
+      },
+      "1.50": {
+       "points": 19198,
+       "violations": 114,
+       "worst_mm": 7.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0344,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 220.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 25456,
+     "gouge_points": 1518,
+     "gouge_rate_pct": 5.963,
+     "worst_gouge_depth_mm": 7.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 5658,
+       "violations": 704,
+       "worst_mm": 7.0
+      },
+      "1.50": {
+       "points": 19798,
+       "violations": 814,
+       "worst_mm": 7.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 7.0,
+     "mean_deviation_mm": 0.5753,
+     "gouge_volume_mm3": 3682.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 23880,
+     "gouge_points": 9,
+     "gouge_rate_pct": 0.038,
+     "worst_gouge_depth_mm": 4.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4940,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 18940,
+       "violations": 9,
+       "worst_mm": 4.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1089,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 697.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      3,
+      3
+     ],
+     "ops": 6,
+     "gcode_lines": 1521
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0773,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 495.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 24012,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4980,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 19032,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 5,
+   "triangles": 2292,
+   "levels": 3,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.000625,
+    "within_0_01mm_pct": 99.984,
+    "columns_over_0_5mm": 4,
+    "columns_over_0_5mm_pct": 0.0156,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 121100
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 22792,
+     "gouge_points": 97,
+     "gouge_rate_pct": 0.426,
+     "worst_gouge_depth_mm": 6.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4618,
+       "violations": 15,
+       "worst_mm": 4.0
+      },
+      "1.50": {
+       "points": 18174,
+       "violations": 82,
+       "worst_mm": 6.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0281,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 180.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 24116,
+     "gouge_points": 1542,
+     "gouge_rate_pct": 6.394,
+     "worst_gouge_depth_mm": 6.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 5408,
+       "violations": 816,
+       "worst_mm": 6.0
+      },
+      "1.50": {
+       "points": 18708,
+       "violations": 726,
+       "worst_mm": 6.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 6.0,
+     "mean_deviation_mm": 0.6153,
+     "gouge_volume_mm3": 3938.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 22368,
+     "gouge_points": 3,
+     "gouge_rate_pct": 0.013,
+     "worst_gouge_depth_mm": 4.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4600,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 17768,
+       "violations": 3,
+       "worst_mm": 4.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1384,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 886.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      3,
+      3
+     ],
+     "ops": 6,
+     "gcode_lines": 1509
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1228,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 786.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 22434,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 4608,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 17826,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 6,
+   "triangles": 2548,
+   "levels": 3,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 6.0,
+    "mean_abs_diff_mm": 0.000938,
+    "within_0_01mm_pct": 99.984,
+    "columns_over_0_5mm": 4,
+    "columns_over_0_5mm_pct": 0.0156,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 98243
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 35108,
+     "gouge_points": 151,
+     "gouge_rate_pct": 0.43,
+     "worst_gouge_depth_mm": 6.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 6960,
+       "violations": 15,
+       "worst_mm": 6.0
+      },
+      "1.50": {
+       "points": 28148,
+       "violations": 136,
+       "worst_mm": 6.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0563,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 360.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 37576,
+     "gouge_points": 2884,
+     "gouge_rate_pct": 7.675,
+     "worst_gouge_depth_mm": 6.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 8348,
+       "violations": 1456,
+       "worst_mm": 6.0
+      },
+      "1.50": {
+       "points": 29228,
+       "violations": 1428,
+       "worst_mm": 6.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 6.0,
+     "mean_deviation_mm": 0.885,
+     "gouge_volume_mm3": 5664.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 34408,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 6878,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 27530,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.2158,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1381.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      3,
+      3
+     ],
+     "ops": 6,
+     "gcode_lines": 2117
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1788,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1144.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 34596,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 6942,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 27654,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 7,
+   "triangles": 3380,
+   "levels": 4,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 6.0,
+    "mean_abs_diff_mm": 0.001455,
+    "within_0_01mm_pct": 99.969,
+    "columns_over_0_5mm": 7,
+    "columns_over_0_5mm_pct": 0.0273,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 199028
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 51922,
+     "gouge_points": 161,
+     "gouge_rate_pct": 0.31,
+     "worst_gouge_depth_mm": 6.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 9579,
+       "violations": 30,
+       "worst_mm": 6.0
+      },
+      "1.50": {
+       "points": 42343,
+       "violations": 131,
+       "worst_mm": 6.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0826,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 528.5,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 57084,
+     "gouge_points": 5896,
+     "gouge_rate_pct": 10.329,
+     "worst_gouge_depth_mm": 10.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 12720,
+       "violations": 3292,
+       "worst_mm": 10.0
+      },
+      "1.50": {
+       "points": 44364,
+       "violations": 2604,
+       "worst_mm": 10.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 10.0,
+     "mean_deviation_mm": 1.2546,
+     "gouge_volume_mm3": 8029.57,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 50511,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 9495,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 41016,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.3186,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 2038.93,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      4,
+      5
+     ],
+     "ops": 9,
+     "gcode_lines": 2820
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.2914,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1865.14,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 49571,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 8390,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 41181,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 8,
+   "triangles": 562,
+   "levels": 5,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.001996,
+    "within_0_01mm_pct": 99.949,
+    "columns_over_0_5mm": 13,
+    "columns_over_0_5mm_pct": 0.0508,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 148537
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 37531,
+     "gouge_points": 166,
+     "gouge_rate_pct": 0.442,
+     "worst_gouge_depth_mm": 8.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 7730,
+       "violations": 33,
+       "worst_mm": 8.0
+      },
+      "1.50": {
+       "points": 29801,
+       "violations": 133,
+       "worst_mm": 8.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1383,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 885.0,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 40331,
+     "gouge_points": 2943,
+     "gouge_rate_pct": 7.297,
+     "worst_gouge_depth_mm": 12.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 9075,
+       "violations": 1329,
+       "worst_mm": 12.0
+      },
+      "1.50": {
+       "points": 31256,
+       "violations": 1614,
+       "worst_mm": 8.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 12.0,
+     "mean_deviation_mm": 1.2031,
+     "gouge_volume_mm3": 7700.0,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 36524,
+     "gouge_points": 2,
+     "gouge_rate_pct": 0.005,
+     "worst_gouge_depth_mm": 4.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 7659,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 28865,
+       "violations": 2,
+       "worst_mm": 4.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.4298,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 2751.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      4,
+      5
+     ],
+     "ops": 9,
+     "gcode_lines": 2552
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.2705,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1731.0,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 37076,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 7702,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 29374,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 9,
+   "triangles": 10004,
+   "levels": 6,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 8.0,
+    "mean_abs_diff_mm": 0.011474,
+    "within_0_01mm_pct": 99.828,
+    "columns_over_0_5mm": 44,
+    "columns_over_0_5mm_pct": 0.1719,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 167811
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 62074,
+     "gouge_points": 956,
+     "gouge_rate_pct": 1.54,
+     "worst_gouge_depth_mm": 8.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 10720,
+       "violations": 257,
+       "worst_mm": 8.0
+      },
+      "1.50": {
+       "points": 51354,
+       "violations": 699,
+       "worst_mm": 8.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.0876,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 560.41,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 71101,
+     "gouge_points": 11012,
+     "gouge_rate_pct": 15.488,
+     "worst_gouge_depth_mm": 8.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 15895,
+       "violations": 5671,
+       "worst_mm": 8.0
+      },
+      "1.50": {
+       "points": 55206,
+       "violations": 5341,
+       "worst_mm": 8.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 8.0,
+     "mean_deviation_mm": 1.5386,
+     "gouge_volume_mm3": 9846.96,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 60163,
+     "gouge_points": 27,
+     "gouge_rate_pct": 0.045,
+     "worst_gouge_depth_mm": 8.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 10311,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 49852,
+       "violations": 27,
+       "worst_mm": 8.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.2669,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1708.07,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      4,
+      4
+     ],
+     "ops": 8,
+     "gcode_lines": 3167
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.1798,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1150.44,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": true,
+    "ocl_oracle": {
+     "sampled_tool_centers": 44316,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 8230,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 36086,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  },
+  {
+   "part": 10,
+   "triangles": 3042,
+   "levels": 8,
+   "geometry": {
+    "columns": 25600,
+    "footprint_iou": 1.0,
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 8.0,
+    "mean_abs_diff_mm": 0.00796,
+    "within_0_01mm_pct": 99.844,
+    "columns_over_0_5mm": 40,
+    "columns_over_0_5mm_pct": 0.1562,
+    "note": "差异全部落在圆弧台阶边界的栅格柱；其余柱逐位一致",
+    "ocl_cutter_calls": 136231
+   },
+   "B2_masked": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 80685,
+     "gouge_points": 1075,
+     "gouge_rate_pct": 1.332,
+     "worst_gouge_depth_mm": 8.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 14192,
+       "violations": 200,
+       "worst_mm": 8.0
+      },
+      "1.50": {
+       "points": 66493,
+       "violations": 875,
+       "worst_mm": 8.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.2059,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 1317.7,
+     "whitelist_ok": true
+    }
+   },
+   "B3_no_inflate": {
+    "ocl_oracle": {
+     "sampled_tool_centers": 93378,
+     "gouge_points": 14539,
+     "gouge_rate_pct": 15.57,
+     "worst_gouge_depth_mm": 18.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 21021,
+       "violations": 7113,
+       "worst_mm": 18.0
+      },
+      "1.50": {
+       "points": 72357,
+       "violations": 7426,
+       "worst_mm": 10.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 18.0,
+     "mean_deviation_mm": 2.0778,
+     "gouge_volume_mm3": 13297.69,
+     "residual_volume_mm3": 0.0,
+     "whitelist_ok": true
+    }
+   },
+   "B2_half_cell_guard": {
+    "guard_mm": 0.25,
+    "ocl_oracle": {
+     "sampled_tool_centers": 77115,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 13729,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 63386,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.7017,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 4491.13,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": false
+   },
+   "OCL_toolpath": {
+    "meta": {
+     "levels_per_pass": [
+      4,
+      5
+     ],
+     "ops": 9,
+     "gcode_lines": 3052
+    },
+    "our_dexel": {
+     "max_gouge_depth_mm": 0.0,
+     "mean_deviation_mm": 0.5383,
+     "gouge_volume_mm3": 0.0,
+     "residual_volume_mm3": 3444.95,
+     "whitelist_ok": true
+    },
+    "dual_line_pass": false,
+    "ocl_oracle": {
+     "sampled_tool_centers": 37364,
+     "gouge_points": 0,
+     "gouge_rate_pct": 0.0,
+     "worst_gouge_depth_mm": 0.0,
+     "by_tool_d_mm": {
+      "6.00": {
+       "points": 7270,
+       "violations": 0,
+       "worst_mm": 0.0
+      },
+      "1.50": {
+       "points": 30094,
+       "violations": 0,
+       "worst_mm": 0.0
+      }
+     },
+     "touch_eps_mm": 0.02,
+     "sample_step_mm": 0.5
+    }
+   }
+  }
+ ],
+ "resolution_sweep": {
+  "part": 10,
+  "rule": "同一条 B2 规则，只改栅格分辨率",
+  "monotone_decreasing": true,
+  "rows": [
+   {
+    "res_mm": 0.5,
+    "sampled_tool_centers": 80685,
+    "gouge_points": 1075,
+    "gouge_rate_pct": 1.332,
+    "worst_gouge_depth_mm": 8.0
+   },
+   {
+    "res_mm": 0.25,
+    "sampled_tool_centers": 138992,
+    "gouge_points": 601,
+    "gouge_rate_pct": 0.432,
+    "worst_gouge_depth_mm": 10.0
+   },
+   {
+    "res_mm": 0.125,
+    "sampled_tool_centers": 525616,
+    "gouge_points": 751,
+    "gouge_rate_pct": 0.143,
+    "worst_gouge_depth_mm": 10.0
+   }
+  ]
+ }
+}

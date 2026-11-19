@@ -1,0 +1,359 @@
+{
+ "rule": "STEP→FreeCAD Mesh→binary STL→OCL STLReader 独立几何链路",
+ "summary": {
+  "n": 10,
+  "errors": 0,
+  "kernel": "OCC via FreeCAD 1.1.4",
+  "tessellation": "Part.Shape.tessellate(0.05) -> Mesh.Mesh -> binary STL",
+  "independence_scope": "独立三角化/序列化/读取链路；B-rep 内核仍为 OCC，非第二 CAD 内核",
+  "bbox_all_match": true,
+  "two_ocl_surfaces_min_identical_pct": 99.9844,
+  "two_ocl_surfaces_max_abs_diff_mm": 8.0,
+  "two_ocl_surfaces_total_columns_over_0_5mm": 15,
+  "stl_vs_rasterize_max_abs_diff_mm": 8.0,
+  "stl_vs_rasterize_total_columns_over_0_5mm": 122,
+  "B2_gouge_points": 2826,
+  "B3_gouge_points": 43262,
+  "B2_sampled_points": 371230,
+  "B3_sampled_points": 408646,
+  "seconds": 9.4,
+  "json_cache_chain": {
+   "B2_gouge_points": 2822,
+   "B3_gouge_points": 43260,
+   "B2_sampled_points": 371230,
+   "B3_sampled_points": 408646
+  }
+ },
+ "parts": [
+  {
+   "part": 1,
+   "stl_facets": 28,
+   "json_triangles": 28,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "columns_over_0_5mm": 0,
+    "identical_columns_pct": 100.0
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "within_0_01mm_pct": 100.0,
+    "columns_over_0_5mm": 0,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 43451
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 18306,
+    "gouge_points": 0,
+    "gouge_rate_pct": 0.0,
+    "worst_gouge_depth_mm": 0.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 19278,
+    "gouge_points": 966,
+    "gouge_rate_pct": 5.011,
+    "worst_gouge_depth_mm": 6.0
+   }
+  },
+  {
+   "part": 2,
+   "stl_facets": 2028,
+   "json_triangles": 2028,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "columns_over_0_5mm": 0,
+    "identical_columns_pct": 100.0
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "within_0_01mm_pct": 100.0,
+    "columns_over_0_5mm": 0,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 100993
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 17282,
+    "gouge_points": 24,
+    "gouge_rate_pct": 0.139,
+    "worst_gouge_depth_mm": 4.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 17582,
+    "gouge_points": 350,
+    "gouge_rate_pct": 1.991,
+    "worst_gouge_depth_mm": 4.0
+   }
+  },
+  {
+   "part": 3,
+   "stl_facets": 2044,
+   "json_triangles": 2044,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "columns_over_0_5mm": 0,
+    "identical_columns_pct": 100.0
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "within_0_01mm_pct": 100.0,
+    "columns_over_0_5mm": 0,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 72602
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 21332,
+    "gouge_points": 51,
+    "gouge_rate_pct": 0.239,
+    "worst_gouge_depth_mm": 7.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 22744,
+    "gouge_points": 1610,
+    "gouge_rate_pct": 7.079,
+    "worst_gouge_depth_mm": 7.0
+   }
+  },
+  {
+   "part": 4,
+   "stl_facets": 2532,
+   "json_triangles": 2532,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.000625,
+    "columns_over_0_5mm": 4,
+    "identical_columns_pct": 99.9844
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.001875,
+    "within_0_01mm_pct": 99.953,
+    "columns_over_0_5mm": 12,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 136151
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 24198,
+    "gouge_points": 141,
+    "gouge_rate_pct": 0.583,
+    "worst_gouge_depth_mm": 7.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 25456,
+    "gouge_points": 1518,
+    "gouge_rate_pct": 5.963,
+    "worst_gouge_depth_mm": 7.0
+   }
+  },
+  {
+   "part": 5,
+   "stl_facets": 2292,
+   "json_triangles": 2292,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.000313,
+    "columns_over_0_5mm": 2,
+    "identical_columns_pct": 99.9922
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.000938,
+    "within_0_01mm_pct": 99.977,
+    "columns_over_0_5mm": 6,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 121263
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 22792,
+    "gouge_points": 97,
+    "gouge_rate_pct": 0.426,
+    "worst_gouge_depth_mm": 6.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 24116,
+    "gouge_points": 1542,
+    "gouge_rate_pct": 6.394,
+    "worst_gouge_depth_mm": 6.0
+   }
+  },
+  {
+   "part": 6,
+   "stl_facets": 2548,
+   "json_triangles": 2548,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 0.0,
+    "mean_abs_diff_mm": 0.0,
+    "columns_over_0_5mm": 0,
+    "identical_columns_pct": 100.0
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 6.0,
+    "mean_abs_diff_mm": 0.000938,
+    "within_0_01mm_pct": 99.984,
+    "columns_over_0_5mm": 4,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 98941
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 35108,
+    "gouge_points": 151,
+    "gouge_rate_pct": 0.43,
+    "worst_gouge_depth_mm": 6.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 37576,
+    "gouge_points": 2884,
+    "gouge_rate_pct": 7.675,
+    "worst_gouge_depth_mm": 6.0
+   }
+  },
+  {
+   "part": 7,
+   "stl_facets": 3828,
+   "json_triangles": 3380,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 6.0,
+    "mean_abs_diff_mm": 0.000308,
+    "columns_over_0_5mm": 2,
+    "identical_columns_pct": 99.9883
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 6.0,
+    "mean_abs_diff_mm": 0.001753,
+    "within_0_01mm_pct": 99.969,
+    "columns_over_0_5mm": 8,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 210438
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 51922,
+    "gouge_points": 161,
+    "gouge_rate_pct": 0.31,
+    "worst_gouge_depth_mm": 6.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 57084,
+    "gouge_points": 5896,
+    "gouge_rate_pct": 10.329,
+    "worst_gouge_depth_mm": 10.0
+   }
+  },
+  {
+   "part": 8,
+   "stl_facets": 562,
+   "json_triangles": 562,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.000443,
+    "mean_abs_diff_mm": 0.00072,
+    "columns_over_0_5mm": 2,
+    "identical_columns_pct": 99.9922
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 3.99956,
+    "mean_abs_diff_mm": 0.002161,
+    "within_0_01mm_pct": 99.957,
+    "columns_over_0_5mm": 11,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 151036
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 37531,
+    "gouge_points": 166,
+    "gouge_rate_pct": 0.442,
+    "worst_gouge_depth_mm": 8.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 40331,
+    "gouge_points": 2943,
+    "gouge_rate_pct": 7.297,
+    "worst_gouge_depth_mm": 12.0
+   }
+  },
+  {
+   "part": 9,
+   "stl_facets": 9988,
+   "json_triangles": 10004,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 8.0,
+    "mean_abs_diff_mm": 0.00125,
+    "columns_over_0_5mm": 4,
+    "identical_columns_pct": 99.9844
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 8.0,
+    "mean_abs_diff_mm": 0.010224,
+    "within_0_01mm_pct": 99.844,
+    "columns_over_0_5mm": 40,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 165779
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 62074,
+    "gouge_points": 960,
+    "gouge_rate_pct": 1.547,
+    "worst_gouge_depth_mm": 8.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 71101,
+    "gouge_points": 11014,
+    "gouge_rate_pct": 15.491,
+    "worst_gouge_depth_mm": 8.0
+   }
+  },
+  {
+   "part": 10,
+   "stl_facets": 3690,
+   "json_triangles": 3042,
+   "bbox_match": true,
+   "two_ocl_surfaces": {
+    "compared_columns": 25600,
+    "max_abs_diff_mm": 4.0,
+    "mean_abs_diff_mm": 0.000156,
+    "columns_over_0_5mm": 1,
+    "identical_columns_pct": 99.9961
+   },
+   "stl_vs_rasterize": {
+    "max_abs_diff_mm": 8.0,
+    "mean_abs_diff_mm": 0.008117,
+    "within_0_01mm_pct": 99.84,
+    "columns_over_0_5mm": 41,
+    "footprint_iou": 1.0,
+    "ocl_cutter_calls": 137495
+   },
+   "B2_masked": {
+    "sampled_tool_centers": 80685,
+    "gouge_points": 1075,
+    "gouge_rate_pct": 1.332,
+    "worst_gouge_depth_mm": 8.0
+   },
+   "B3_no_inflate": {
+    "sampled_tool_centers": 93378,
+    "gouge_points": 14539,
+    "gouge_rate_pct": 15.57,
+    "worst_gouge_depth_mm": 18.0
+   }
+  }
+ ]
+}

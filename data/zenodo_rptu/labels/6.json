@@ -1,0 +1,229 @@
+{
+ "part": "6",
+ "source": "6.step",
+ "n_faces": 21,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-visual+rule",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [],
+ "evidence": {},
+ "stock_faces": [
+  1,
+  2,
+  3,
+  4,
+  21
+ ],
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "4": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "5": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "6": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "7": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "8": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "9": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "human"
+  },
+  "10": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F6",
+   "source": "human"
+  },
+  "11": {
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "feature": "F3",
+   "source": "human"
+  },
+  "12": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F7",
+   "source": "human"
+  },
+  "13": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "14": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "15": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "16": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F7",
+   "source": "human"
+  },
+  "17": {
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "feature": "F3",
+   "source": "human"
+  },
+  "18": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F6",
+   "source": "human"
+  },
+  "19": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "human"
+  },
+  "20": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "21": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "faces": [
+    5
+   ],
+   "note": "凸台外周台阶面，深4",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    6,
+    7,
+    13,
+    14,
+    15
+   ],
+   "note": "70×70 方凸台，高4",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "faces": [
+    11,
+    17
+   ],
+   "note": "Ø60 圆形型腔，深6（从凸台顶面下切）",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    8,
+    20
+   ],
+   "note": "Ø10 盲孔 深6（在凸台顶面、型腔外侧，孔底与型腔底同高 z=46）",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    9,
+    19
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  },
+  {
+   "id": "F6",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    10,
+    18
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  },
+  {
+   "id": "F7",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    12,
+    16
+   ],
+   "note": "Ø10 盲孔 深6",
+   "reviewed": true
+  }
+ ]
+}

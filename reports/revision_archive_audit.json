@@ -1,0 +1,2235 @@
+{
+  "cross_model": {
+    "available_archived_runs": {
+      "deepseek-v4-pro": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 1.0,
+        "semantic_rate_given_execution": 1.0,
+        "semantic_removed_iou_ge_0_9": 30,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "deepseek-v4.1-flash": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 1.0,
+        "semantic_rate_given_execution": 1.0,
+        "semantic_removed_iou_ge_0_9": 30,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "gemma3:12b": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9550119491965413,
+          "conditional_mean_valid_outputs": 0.9550119491965413,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 97,
+          "legal": 97,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.46220257414214044,
+          "conditional_mean_valid_outputs": 0.46220257414214044,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.3333333333333333,
+        "semantic_rate_given_execution": 0.3333333333333333,
+        "semantic_removed_iou_ge_0_9": 10,
+        "source": "reports/m5_model_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "glm-5.3": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9995991983967936,
+          "conditional_mean_valid_outputs": 0.9995991983967936,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.9714285714285714,
+          "conditional_mean_valid_outputs": 0.9714285714285714,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.9666666666666667,
+        "semantic_rate_given_execution": 0.9666666666666667,
+        "semantic_removed_iou_ge_0_9": 29,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "glm-5.3-flash": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 1.0,
+        "semantic_rate_given_execution": 1.0,
+        "semantic_removed_iou_ge_0_9": 30,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "glm4:9b": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9788967253556466,
+          "conditional_mean_valid_outputs": 0.9788967253556466,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.671246721872493,
+          "conditional_mean_valid_outputs": 0.671246721872493,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.5666666666666667,
+        "semantic_rate_given_execution": 0.5666666666666667,
+        "semantic_removed_iou_ge_0_9": 17,
+        "source": "reports/m5_model_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "hy4std": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 1.0,
+        "semantic_rate_given_execution": 1.0,
+        "semantic_removed_iou_ge_0_9": 30,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "kimi-k2.8-preview": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9995991983967936,
+          "conditional_mean_valid_outputs": 0.9995991983967936,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.9714285714285714,
+          "conditional_mean_valid_outputs": 0.9714285714285714,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.9666666666666667,
+        "semantic_rate_given_execution": 0.9666666666666667,
+        "semantic_removed_iou_ge_0_9": 29,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "llama3.1:8b": {
+        "execution": 29,
+        "execution_rate": 0.9666666666666667,
+        "failures": 1,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9043716119341454,
+          "conditional_mean_valid_outputs": 0.9355568399318746,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 29
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 108,
+          "legal": 108,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 1,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [
+            "H09"
+          ],
+          "tasks": 1
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.48998793492469733,
+          "conditional_mean_valid_outputs": 0.5068840706117559,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 29
+        },
+        "semantic_rate_all_tasks": 0.36666666666666664,
+        "semantic_rate_given_execution": 0.3793103448275862,
+        "semantic_removed_iou_ge_0_9": 11,
+        "source": "reports/m5_model_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 29
+      },
+      "mimo-v2.6-pro": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 1.0,
+        "semantic_rate_given_execution": 1.0,
+        "semantic_removed_iou_ge_0_9": 30,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "minimax-m3.1-flash": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9916906120716751,
+          "conditional_mean_valid_outputs": 0.9916906120716751,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.9616666666666667,
+          "conditional_mean_valid_outputs": 0.9616666666666667,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.9333333333333333,
+        "semantic_rate_given_execution": 0.9333333333333333,
+        "semantic_removed_iou_ge_0_9": 28,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "qwen3:14b": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9922888192961936,
+          "conditional_mean_valid_outputs": 0.9922888192961936,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.8422222222222222,
+          "conditional_mean_valid_outputs": 0.8422222222222222,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.8,
+        "semantic_rate_given_execution": 0.8,
+        "semantic_removed_iou_ge_0_9": 24,
+        "source": "reports/m5_model_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "qwen3:8b": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.9776343525968477,
+          "conditional_mean_valid_outputs": 0.9776343525968477,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 99,
+          "legal": 99,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.7623015873015874,
+          "conditional_mean_valid_outputs": 0.7623015873015874,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.7333333333333333,
+        "semantic_rate_given_execution": 0.7333333333333333,
+        "semantic_removed_iou_ge_0_9": 22,
+        "source": "reports/m5_model_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "space-bunny": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 0.99775,
+          "conditional_mean_valid_outputs": 0.99775,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.9666666666666667,
+          "conditional_mean_valid_outputs": 0.9666666666666667,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 0.9666666666666667,
+        "semantic_rate_given_execution": 0.9666666666666667,
+        "semantic_removed_iou_ge_0_9": 29,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      },
+      "step-5-preview": {
+        "execution": 30,
+        "execution_rate": 1.0,
+        "failures": 0,
+        "iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 96,
+          "legal": 96,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": 1.0,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 0,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [],
+          "tasks": 0
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 1.0,
+          "conditional_mean_valid_outputs": 1.0,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 30
+        },
+        "semantic_rate_all_tasks": 1.0,
+        "semantic_rate_given_execution": 1.0,
+        "semantic_removed_iou_ge_0_9": 30,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "available_archived_run",
+        "valid_scored": 30
+      }
+    },
+    "unavailable_archived_runs": {
+      "hunyuan-2.0-thinking": {
+        "execution": 0,
+        "execution_rate": 0.0,
+        "failures": 30,
+        "interpretation": "30 recorded request failures, not a model capability score; retained separately.",
+        "iou": {
+          "all_task_mean_failure_zero": 0.0,
+          "conditional_mean_valid_outputs": null,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 0
+        },
+        "n": 30,
+        "name_required_argument_legality_only": {
+          "calls": 0,
+          "legal": 0,
+          "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+          "rate": null,
+          "successful_commits": null
+        },
+        "raw_task_set_checked": "H01..H30",
+        "recorded_errors": {
+          "executed_tasks": 0,
+          "explicit_error_tail_tasks": 0,
+          "request_error_tasks": 30,
+          "semantic_tasks": 0,
+          "structured_array_present_tasks": 0,
+          "structured_arrays_at_archive_cap_3": 0,
+          "structured_codes": {},
+          "structured_entries": 0,
+          "tail_present_tasks": 0,
+          "task_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "tasks": 30
+        },
+        "removed_iou": {
+          "all_task_mean_failure_zero": 0.0,
+          "conditional_mean_valid_outputs": null,
+          "failed_rows_with_score_ignored": 0,
+          "valid_scored": 0
+        },
+        "semantic_rate_all_tasks": 0.0,
+        "semantic_rate_given_execution": null,
+        "semantic_removed_iou_ge_0_9": 0,
+        "source": "reports/m5_cloud_compare.json",
+        "status": "unavailable_http400_only",
+        "valid_scored": 0
+      }
+    }
+  },
+  "metadata": {
+    "excluded": [
+      "cross-model repair subexperiments",
+      "obsolete 8-item study",
+      "unpaired G-code-versus-NL comparisons"
+    ],
+    "limitations": [
+      "WARNING: Gold references share the contract execution/failure path. Agreement can reward the same failed feature; archived scores are NOT independent geometric truth.",
+      "Semantic >=0.9 means removed-IoU agreement with that archived oracle, NOT independently verified task correctness.",
+      "Execution is the recorded output flag, NOT all features committed. Known names/required arguments do NOT imply successful commits.",
+      "Recorded error arrays/messages/tails may be truncated; counts are recorded lower bounds, not complete error incidence. Cross-model rows omit commit-error arrays.",
+      "EXPLORATORY bootstrap resamples paired items, conditional on fixed archived answers and common oracle; no model repeated-sampling inference, no multiplicity correction, no causal claim.",
+      "Pairing asserts unique raw IDs, exact full task sets, and shared available tags/text. Archived rows do not establish identical prompt bytes or gold artifact hashes.",
+      "Finite-cutter results are sampled archived oracle checks, not continuous-path safety certification; pooled points are not independent experimental units.",
+      "10 G-code anchor parts and 20 NL tasks are distinct experiments and are NEVER paired. The obsolete 8-item hard study is not used.",
+      "No models, services, CAD recomputation, network, or installations. No missing executed measurement is imputed. Failed executions alone receive zero in all-task scores."
+    ],
+    "offline_archive_only": true,
+    "original_summarize": {
+      "end_line": 439,
+      "finding": "Original means condition on execution and omit missing measurements; threshold counts are not execution counts.",
+      "path": "scripts/m5_nl_eval.py",
+      "sha256": "546c0b596fdc378d7d68bc38d7bd16752df8becf7680b8e3b3e5864b92532b28",
+      "start_line": 422
+    },
+    "recorded_error_tail_markers": [
+      "Exception while processing file:",
+      "Traceback (most recent call last)",
+      "TIMEOUT",
+      "空实体",
+      "无效实体"
+    ],
+    "schema_version": 1,
+    "score_definitions": {
+      "all_task": "sum of executed scores / all tasks; execution failures contribute zero",
+      "conditional": "mean over exec_ok rows with finite scores (missing score raises)",
+      "paired_conditional": "only items executed in BOTH routes; differs from separately conditional means"
+    },
+    "source_sha256": {
+      "reports/m5_cloud_compare.json": "6a9717f602d6d45c37725bf1de4153d28eb0f8a889a24fb60017c200615cc77c",
+      "reports/m5_model_compare.json": "829e5ff88684cb32e7af53b51924bfddcc0f2166c21b634a4a18ab887b08d6ba",
+      "reports/m5_nl_eval.json": "9c055568ec9a299194cff64df2183fd20bdda5fc78f5cd6e33c26ee96f8cafb3",
+      "reports/m6_ocl.json": "ae4ccf990e953449aea89ab99e81510287c355ad5fac96fc07a0d8fda9ac258c",
+      "reports/m6_ocl_external.json": "621bb6245fff10d4378824aa3983c536fada0a45c9e98317673d5b388d3a0c95",
+      "scripts/audit_archived_metrics.py": "8418dc3f77908b285b2b8424bacf3833468e36b56243ef59aee38c17f09dfbfa",
+      "scripts/m5_model_compare.py": "f30b2e6cb74fce76b2ab6eb83d6ea4adbc049c5c3f07166b3ea4c06d57c15087",
+      "scripts/m5_nl_eval.py": "e23e19048c48066db4a168040741de7eb539396580ddb7a7a2245e6fc52b377e",
+      "scripts/m6_ocl_external.py": "2b681c9cb495bdd9a91721f688077b510dc542b153fa47b5b5613d4c338fbff3",
+      "scripts/m6_opencamlib.py": "ab76aab782970879ef087cdca55cb65178c6b66105e3a726b318aede12b6205c",
+      "tests/test_archived_metrics.py": "6ee66b4c1e0475de22e3efba4f9bbb43483af9299288474f9f507e5e2d607e82"
+    }
+  },
+  "nl_runs": {
+    "easy/contract": {
+      "archived_summary_checks": {
+        "exec_ok": {
+          "matches": true,
+          "recomputed": 20,
+          "recorded": 20
+        },
+        "mean_iou": {
+          "matches": true,
+          "recomputed": 0.999,
+          "recorded": 0.999
+        },
+        "mean_removed_iou": {
+          "matches": true,
+          "recomputed": 0.985,
+          "recorded": 0.985
+        },
+        "n": {
+          "matches": true,
+          "recomputed": 20,
+          "recorded": 20
+        },
+        "removed_iou_ge_0.9": {
+          "matches": true,
+          "recomputed": 20,
+          "recorded": 20
+        }
+      },
+      "execution": 20,
+      "execution_rate": 1.0,
+      "failures": 0,
+      "iou": {
+        "all_task_mean_failure_zero": 0.9993808239426476,
+        "conditional_mean_valid_outputs": 0.9993808239426476,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 20
+      },
+      "n": 20,
+      "name_required_argument_legality_only": {
+        "calls": 81,
+        "legal": 81,
+        "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+        "rate": 1.0,
+        "successful_commits": null
+      },
+      "raw_task_ids": [
+        "NL01",
+        "NL02",
+        "NL03",
+        "NL04",
+        "NL05",
+        "NL06",
+        "NL07",
+        "NL08",
+        "NL09",
+        "NL10",
+        "NL11",
+        "NL12",
+        "NL13",
+        "NL14",
+        "NL15",
+        "NL16",
+        "NL17",
+        "NL18",
+        "NL19",
+        "NL20"
+      ],
+      "recorded_errors": {
+        "executed_tasks": 13,
+        "explicit_error_tail_tasks": 0,
+        "request_error_tasks": 0,
+        "semantic_tasks": 13,
+        "structured_array_present_tasks": 20,
+        "structured_arrays_at_archive_cap_3": 1,
+        "structured_codes": {
+          "ToolError": 19
+        },
+        "structured_entries": 19,
+        "tail_present_tasks": 0,
+        "task_ids": [
+          "NL02",
+          "NL03",
+          "NL06",
+          "NL07",
+          "NL08",
+          "NL09",
+          "NL11",
+          "NL12",
+          "NL13",
+          "NL14",
+          "NL17",
+          "NL18",
+          "NL20"
+        ],
+        "tasks": 13
+      },
+      "removed_iou": {
+        "all_task_mean_failure_zero": 0.9850758497232859,
+        "conditional_mean_valid_outputs": 0.9850758497232859,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 20
+      },
+      "semantic_rate_all_tasks": 1.0,
+      "semantic_rate_given_execution": 1.0,
+      "semantic_removed_iou_ge_0_9": 20,
+      "valid_scored": 20
+    },
+    "easy/script": {
+      "archived_summary_checks": {
+        "exec_ok": {
+          "matches": true,
+          "recomputed": 19,
+          "recorded": 19
+        },
+        "mean_iou": {
+          "matches": true,
+          "recomputed": 0.881,
+          "recorded": 0.881
+        },
+        "mean_removed_iou": {
+          "matches": true,
+          "recomputed": 0.174,
+          "recorded": 0.174
+        },
+        "n": {
+          "matches": true,
+          "recomputed": 20,
+          "recorded": 20
+        },
+        "removed_iou_ge_0.9": {
+          "matches": true,
+          "recomputed": 2,
+          "recorded": 2
+        }
+      },
+      "execution": 19,
+      "execution_rate": 0.95,
+      "failures": 1,
+      "iou": {
+        "all_task_mean_failure_zero": 0.8372799624289321,
+        "conditional_mean_valid_outputs": 0.8813473288725602,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 19
+      },
+      "n": 20,
+      "raw_task_ids": [
+        "NL01",
+        "NL02",
+        "NL03",
+        "NL04",
+        "NL05",
+        "NL06",
+        "NL07",
+        "NL08",
+        "NL09",
+        "NL10",
+        "NL11",
+        "NL12",
+        "NL13",
+        "NL14",
+        "NL15",
+        "NL16",
+        "NL17",
+        "NL18",
+        "NL19",
+        "NL20"
+      ],
+      "recorded_errors": {
+        "executed_tasks": 1,
+        "explicit_error_tail_tasks": 2,
+        "request_error_tasks": 0,
+        "semantic_tasks": 0,
+        "structured_array_present_tasks": 0,
+        "structured_arrays_at_archive_cap_3": 0,
+        "structured_codes": {},
+        "structured_entries": 0,
+        "tail_present_tasks": 20,
+        "task_ids": [
+          "NL05",
+          "NL08"
+        ],
+        "tasks": 2
+      },
+      "removed_iou": {
+        "all_task_mean_failure_zero": 0.164889561684626,
+        "conditional_mean_valid_outputs": 0.17356795966802738,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 19
+      },
+      "semantic_rate_all_tasks": 0.1,
+      "semantic_rate_given_execution": 0.10526315789473684,
+      "semantic_removed_iou_ge_0_9": 2,
+      "valid_scored": 19
+    },
+    "hard/contractr1": {
+      "archived_summary_checks": {
+        "exec_ok": {
+          "matches": true,
+          "recomputed": 30,
+          "recorded": 30
+        },
+        "mean_iou": {
+          "matches": true,
+          "recomputed": 0.982,
+          "recorded": 0.982
+        },
+        "mean_removed_iou": {
+          "matches": true,
+          "recomputed": 0.789,
+          "recorded": 0.789
+        },
+        "n": {
+          "matches": true,
+          "recomputed": 30,
+          "recorded": 30
+        },
+        "removed_iou_ge_0.9": {
+          "matches": true,
+          "recomputed": 22,
+          "recorded": 22
+        }
+      },
+      "execution": 30,
+      "execution_rate": 1.0,
+      "failures": 0,
+      "iou": {
+        "all_task_mean_failure_zero": 0.9817210717223583,
+        "conditional_mean_valid_outputs": 0.9817210717223583,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 30
+      },
+      "n": 30,
+      "name_required_argument_legality_only": {
+        "calls": 96,
+        "legal": 96,
+        "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+        "rate": 1.0,
+        "successful_commits": null
+      },
+      "raw_task_ids": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H24",
+        "H25",
+        "H26",
+        "H27",
+        "H28",
+        "H29",
+        "H30"
+      ],
+      "recorded_errors": {
+        "executed_tasks": 3,
+        "explicit_error_tail_tasks": 0,
+        "request_error_tasks": 0,
+        "semantic_tasks": 3,
+        "structured_array_present_tasks": 30,
+        "structured_arrays_at_archive_cap_3": 0,
+        "structured_codes": {
+          "ToolError": 3
+        },
+        "structured_entries": 3,
+        "tail_present_tasks": 0,
+        "task_ids": [
+          "H13",
+          "H21",
+          "H29"
+        ],
+        "tasks": 3
+      },
+      "removed_iou": {
+        "all_task_mean_failure_zero": 0.7892290249433106,
+        "conditional_mean_valid_outputs": 0.7892290249433106,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 30
+      },
+      "semantic_rate_all_tasks": 0.7333333333333333,
+      "semantic_rate_given_execution": 0.7333333333333333,
+      "semantic_removed_iou_ge_0_9": 22,
+      "valid_scored": 30
+    },
+    "hard/contractr2": {
+      "archived_summary_checks": {
+        "exec_ok": {
+          "matches": true,
+          "recomputed": 30,
+          "recorded": 30
+        },
+        "mean_iou": {
+          "matches": true,
+          "recomputed": 0.978,
+          "recorded": 0.978
+        },
+        "mean_removed_iou": {
+          "matches": true,
+          "recomputed": 0.769,
+          "recorded": 0.769
+        },
+        "n": {
+          "matches": true,
+          "recomputed": 30,
+          "recorded": 30
+        },
+        "removed_iou_ge_0.9": {
+          "matches": true,
+          "recomputed": 22,
+          "recorded": 22
+        }
+      },
+      "execution": 30,
+      "execution_rate": 1.0,
+      "failures": 0,
+      "iou": {
+        "all_task_mean_failure_zero": 0.9780318794584221,
+        "conditional_mean_valid_outputs": 0.9780318794584221,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 30
+      },
+      "n": 30,
+      "name_required_argument_legality_only": {
+        "calls": 99,
+        "legal": 99,
+        "meaning": "Known tool name and presence of required arguments, NOT successful commits.",
+        "rate": 1.0,
+        "successful_commits": null
+      },
+      "raw_task_ids": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H24",
+        "H25",
+        "H26",
+        "H27",
+        "H28",
+        "H29",
+        "H30"
+      ],
+      "recorded_errors": {
+        "executed_tasks": 4,
+        "explicit_error_tail_tasks": 0,
+        "request_error_tasks": 0,
+        "semantic_tasks": 3,
+        "structured_array_present_tasks": 30,
+        "structured_arrays_at_archive_cap_3": 1,
+        "structured_codes": {
+          "ToolError": 6
+        },
+        "structured_entries": 6,
+        "tail_present_tasks": 0,
+        "task_ids": [
+          "H10",
+          "H13",
+          "H21",
+          "H29"
+        ],
+        "tasks": 4
+      },
+      "removed_iou": {
+        "all_task_mean_failure_zero": 0.7686507936507937,
+        "conditional_mean_valid_outputs": 0.7686507936507937,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 30
+      },
+      "semantic_rate_all_tasks": 0.7333333333333333,
+      "semantic_rate_given_execution": 0.7333333333333333,
+      "semantic_removed_iou_ge_0_9": 22,
+      "valid_scored": 30
+    },
+    "hard/scriptr1": {
+      "archived_summary_checks": {
+        "exec_ok": {
+          "matches": true,
+          "recomputed": 26,
+          "recorded": 26
+        },
+        "mean_iou": {
+          "matches": true,
+          "recomputed": 0.876,
+          "recorded": 0.876
+        },
+        "mean_removed_iou": {
+          "matches": true,
+          "recomputed": 0.114,
+          "recorded": 0.114
+        },
+        "n": {
+          "matches": true,
+          "recomputed": 30,
+          "recorded": 30
+        },
+        "removed_iou_ge_0.9": {
+          "matches": true,
+          "recomputed": 2,
+          "recorded": 2
+        }
+      },
+      "execution": 26,
+      "execution_rate": 0.8666666666666667,
+      "failures": 4,
+      "iou": {
+        "all_task_mean_failure_zero": 0.7594217564996038,
+        "conditional_mean_valid_outputs": 0.8762558728841582,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 26
+      },
+      "n": 30,
+      "raw_task_ids": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H24",
+        "H25",
+        "H26",
+        "H27",
+        "H28",
+        "H29",
+        "H30"
+      ],
+      "recorded_errors": {
+        "executed_tasks": 1,
+        "explicit_error_tail_tasks": 5,
+        "request_error_tasks": 0,
+        "semantic_tasks": 0,
+        "structured_array_present_tasks": 0,
+        "structured_arrays_at_archive_cap_3": 0,
+        "structured_codes": {},
+        "structured_entries": 0,
+        "tail_present_tasks": 30,
+        "task_ids": [
+          "H06",
+          "H08",
+          "H10",
+          "H17",
+          "H18"
+        ],
+        "tasks": 5
+      },
+      "removed_iou": {
+        "all_task_mean_failure_zero": 0.09862450722174525,
+        "conditional_mean_valid_outputs": 0.11379750833278297,
+        "failed_rows_with_score_ignored": 0,
+        "valid_scored": 26
+      },
+      "semantic_rate_all_tasks": 0.06666666666666667,
+      "semantic_rate_given_execution": 0.07692307692307693,
+      "semantic_removed_iou_ge_0_9": 2,
+      "valid_scored": 26
+    }
+  },
+  "ocl_anchor_10": {
+    "all_routes_same_raw_parts": true,
+    "archived_summary_checks": {
+      "B3_worst_gouge_mm": {
+        "matches": true,
+        "raw_nested_oracle": 18.0,
+        "recorded_summary": 18.0
+      }
+    },
+    "finite_cutter_oracle": {
+      "B2_half_cell_guard": {
+        "deep_points": null,
+        "equal_part_mean_deep_rate_pct": null,
+        "equal_part_mean_gouge_rate_pct": 0.010145439208605018,
+        "gouge_points": 41,
+        "max_finite_cutter_depth_mm": 8.0,
+        "part_deep_basis": "recorded rounded cutter maxima > 0.5; deep point counts not archived",
+        "parts": 10,
+        "parts_any_finite_cutter_violation": 4,
+        "parts_deep_gt_0_5mm": 4,
+        "pooled_point_deep_rate_pct": null,
+        "pooled_point_gouge_rate_pct": 0.011356302609456753,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 361033,
+        "touch_eps_mm": [
+          0.02
+        ]
+      },
+      "B2_masked": {
+        "deep_points": null,
+        "equal_part_mean_deep_rate_pct": null,
+        "equal_part_mean_gouge_rate_pct": 0.5441153032371191,
+        "gouge_points": 2822,
+        "max_finite_cutter_depth_mm": 8.0,
+        "part_deep_basis": "recorded rounded cutter maxima > 0.5; deep point counts not archived",
+        "parts": 10,
+        "parts_any_finite_cutter_violation": 9,
+        "parts_deep_gt_0_5mm": 9,
+        "pooled_point_deep_rate_pct": null,
+        "pooled_point_gouge_rate_pct": 0.7601756323572987,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 371230,
+        "touch_eps_mm": [
+          0.02
+        ]
+      },
+      "B3_no_inflate": {
+        "deep_points": null,
+        "equal_part_mean_deep_rate_pct": null,
+        "equal_part_mean_gouge_rate_pct": 8.279642384248543,
+        "gouge_points": 43260,
+        "max_finite_cutter_depth_mm": 18.0,
+        "part_deep_basis": "recorded rounded cutter maxima > 0.5; deep point counts not archived",
+        "parts": 10,
+        "parts_any_finite_cutter_violation": 10,
+        "parts_deep_gt_0_5mm": 10,
+        "pooled_point_deep_rate_pct": null,
+        "pooled_point_gouge_rate_pct": 10.58617972523896,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 408646,
+        "touch_eps_mm": [
+          0.02
+        ]
+      },
+      "OCL_toolpath": {
+        "deep_points": null,
+        "equal_part_mean_deep_rate_pct": null,
+        "equal_part_mean_gouge_rate_pct": 0.0,
+        "gouge_points": 0,
+        "max_finite_cutter_depth_mm": 0.0,
+        "part_deep_basis": "recorded rounded cutter maxima > 0.5; deep point counts not archived",
+        "parts": 10,
+        "parts_any_finite_cutter_violation": 0,
+        "parts_deep_gt_0_5mm": 0,
+        "pooled_point_deep_rate_pct": null,
+        "pooled_point_gouge_rate_pct": 0.0,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 304869,
+        "touch_eps_mm": [
+          0.02
+        ]
+      }
+    },
+    "geometry_point_probe": {
+      "columns_over_0_5mm": 120,
+      "compared_columns": 256000,
+      "max_abs_diff_mm": 8.0,
+      "meaning": "Point-probe heightmap comparison ONLY; not finite-cutter gouge depth."
+    },
+    "part_identity_sha256": "ef58d7c6937c627ace93d94e1045c06ff884c23bbb9f4aa5c1bb276842be4629",
+    "parts": 10
+  },
+  "ocl_external_130": {
+    "all_routes_same_raw_parts": true,
+    "archived_summary_checks": {
+      "B2_worst_gouge_mm": {
+        "matches": true,
+        "raw_nested_oracle": 71.104,
+        "recorded_summary": 71.104
+      },
+      "B3_worst_gouge_mm": {
+        "matches": true,
+        "raw_nested_oracle": 71.104,
+        "recorded_summary": 71.104
+      },
+      "guard_worst_gouge_mm": {
+        "matches": true,
+        "raw_nested_oracle": 42.288,
+        "recorded_summary": 42.288
+      }
+    },
+    "finite_cutter_oracle": {
+      "B2_half_cell_guard": {
+        "deep_points": 4371,
+        "equal_part_mean_deep_rate_pct": 0.03212283529505124,
+        "equal_part_mean_gouge_rate_pct": 0.038414684146759845,
+        "gouge_points": 5167,
+        "max_finite_cutter_depth_mm": 42.288,
+        "part_deep_basis": "recorded deep counts, checked against maxima",
+        "parts": 130,
+        "parts_any_finite_cutter_violation": 19,
+        "parts_deep_gt_0_5mm": 8,
+        "pooled_point_deep_rate_pct": 0.047162711354171896,
+        "pooled_point_gouge_rate_pct": 0.055751482399223555,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 9267915,
+        "touch_eps_mm": [
+          0.02
+        ]
+      },
+      "B2_masked": {
+        "deep_points": 77363,
+        "equal_part_mean_deep_rate_pct": 0.804510656565164,
+        "equal_part_mean_gouge_rate_pct": 3.1973316417566386,
+        "gouge_points": 316398,
+        "max_finite_cutter_depth_mm": 71.104,
+        "part_deep_basis": "recorded deep counts, checked against maxima",
+        "parts": 130,
+        "parts_any_finite_cutter_violation": 128,
+        "parts_deep_gt_0_5mm": 94,
+        "pooled_point_deep_rate_pct": 0.800851337383328,
+        "pooled_point_gouge_rate_pct": 3.2753094043071007,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 9660095,
+        "touch_eps_mm": [
+          0.02
+        ]
+      },
+      "B3_no_inflate": {
+        "deep_points": 1267278,
+        "equal_part_mean_deep_rate_pct": 11.575268057020168,
+        "equal_part_mean_gouge_rate_pct": 14.164940618933164,
+        "gouge_points": 1571946,
+        "max_finite_cutter_depth_mm": 71.104,
+        "part_deep_basis": "recorded deep counts, checked against maxima",
+        "parts": 130,
+        "parts_any_finite_cutter_violation": 130,
+        "parts_deep_gt_0_5mm": 130,
+        "pooled_point_deep_rate_pct": 11.663611660979411,
+        "pooled_point_gouge_rate_pct": 14.467676150008081,
+        "sample_step_mm": [
+          0.5
+        ],
+        "sampled_tool_centers": 10865228,
+        "touch_eps_mm": [
+          0.02
+        ]
+      }
+    },
+    "geometry_point_probe": {
+      "columns_over_0_5mm": 199,
+      "compared_columns": 3223083,
+      "max_abs_diff_mm": 71.104,
+      "meaning": "Point-probe heightmap comparison ONLY; not finite-cutter gouge depth."
+    },
+    "part_identity_sha256": "1b88bc46f63b77fef6e4ab979df6d377d4bc961bb31a45cadfb0c2c0661f126e",
+    "parts": 130
+  },
+  "paired_exploratory": [
+    {
+      "estimates": [
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "NL01",
+            "NL02",
+            "NL03",
+            "NL04",
+            "NL05",
+            "NL06",
+            "NL07",
+            "NL08",
+            "NL09",
+            "NL10",
+            "NL11",
+            "NL12",
+            "NL13",
+            "NL14",
+            "NL15",
+            "NL16",
+            "NL17",
+            "NL18",
+            "NL19",
+            "NL20"
+          ],
+          "mean_difference": 0.16210086151371547,
+          "metric": "iou",
+          "n": 20,
+          "percentile_95_interval": [
+            0.05899779166175961,
+            0.30211127780882796
+          ],
+          "raw_pairs": 20,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "NL01",
+            "NL02",
+            "NL03",
+            "NL04",
+            "NL05",
+            "NL06",
+            "NL07",
+            "NL09",
+            "NL10",
+            "NL11",
+            "NL12",
+            "NL13",
+            "NL14",
+            "NL15",
+            "NL16",
+            "NL17",
+            "NL18",
+            "NL19",
+            "NL20"
+          ],
+          "mean_difference": 0.11800950128120442,
+          "metric": "iou",
+          "n": 19,
+          "percentile_95_interval": [
+            0.0518548553061466,
+            0.22776325715971665
+          ],
+          "raw_pairs": 20,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "NL01",
+            "NL02",
+            "NL03",
+            "NL04",
+            "NL05",
+            "NL06",
+            "NL07",
+            "NL08",
+            "NL09",
+            "NL10",
+            "NL11",
+            "NL12",
+            "NL13",
+            "NL14",
+            "NL15",
+            "NL16",
+            "NL17",
+            "NL18",
+            "NL19",
+            "NL20"
+          ],
+          "mean_difference": 0.8201862880386599,
+          "metric": "removed_iou",
+          "n": 20,
+          "percentile_95_interval": [
+            0.6762847302830701,
+            0.9343199064023826
+          ],
+          "raw_pairs": 20,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "NL01",
+            "NL02",
+            "NL03",
+            "NL04",
+            "NL05",
+            "NL06",
+            "NL07",
+            "NL09",
+            "NL10",
+            "NL11",
+            "NL12",
+            "NL13",
+            "NL14",
+            "NL15",
+            "NL16",
+            "NL17",
+            "NL18",
+            "NL19",
+            "NL20"
+          ],
+          "mean_difference": 0.8109820756529021,
+          "metric": "removed_iou",
+          "n": 19,
+          "percentile_95_interval": [
+            0.6604997540871038,
+            0.9318552155380304
+          ],
+          "raw_pairs": 20,
+          "resamples": 10000,
+          "seed": 20261106
+        }
+      ],
+      "left": "easy/contract",
+      "right": "easy/script"
+    },
+    {
+      "estimates": [
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.22229931522275462,
+          "metric": "iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.11914713567061987,
+            0.34333168633837147
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H07",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.10871554953814154,
+          "metric": "iou",
+          "n": 26,
+          "percentile_95_interval": [
+            0.06381037585229667,
+            0.16224249003538796
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.6906045177215654,
+          "metric": "removed_iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.5392189773112079,
+            0.8289217060712079
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H07",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.6942872640377037,
+          "metric": "removed_iou",
+          "n": 26,
+          "percentile_95_interval": [
+            0.5283153920148899,
+            0.8471054158140585
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        }
+      ],
+      "left": "hard/contractr1",
+      "right": "hard/scriptr1"
+    },
+    {
+      "estimates": [
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.21861012295881832,
+          "metric": "iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.11573947278830957,
+            0.3391441324485771
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H07",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.10445878923359966,
+          "metric": "iou",
+          "n": 26,
+          "percentile_95_interval": [
+            0.06286150641100482,
+            0.15454198437531838
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.6700262864290484,
+          "metric": "removed_iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.5060528362096437,
+            0.8196611298676291
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H07",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.6705431510078763,
+          "metric": "removed_iou",
+          "n": 26,
+          "percentile_95_interval": [
+            0.48965029816172917,
+            0.8384942359796813
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        }
+      ],
+      "left": "hard/contractr2",
+      "right": "hard/scriptr1"
+    },
+    {
+      "estimates": [
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.0036891922639362917,
+          "metric": "iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.0,
+            0.011067576791808875
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.0036891922639362917,
+          "metric": "iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.0,
+            0.011067576791808875
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "all tasks; execution failures zero",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.020578231292517006,
+          "metric": "removed_iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.0,
+            0.06173469387755102
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        },
+        {
+          "direction": "left minus right",
+          "estimand": "common valid outputs only",
+          "inference": "EXPLORATORY item bootstrap conditional on archived answers and common oracle; not model repeated-sampling inference or independent-truth validation.",
+          "item_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "H04",
+            "H05",
+            "H06",
+            "H07",
+            "H08",
+            "H09",
+            "H10",
+            "H11",
+            "H12",
+            "H13",
+            "H14",
+            "H15",
+            "H16",
+            "H17",
+            "H18",
+            "H19",
+            "H20",
+            "H21",
+            "H22",
+            "H23",
+            "H24",
+            "H25",
+            "H26",
+            "H27",
+            "H28",
+            "H29",
+            "H30"
+          ],
+          "mean_difference": 0.020578231292517006,
+          "metric": "removed_iou",
+          "n": 30,
+          "percentile_95_interval": [
+            0.0,
+            0.06173469387755102
+          ],
+          "raw_pairs": 30,
+          "resamples": 10000,
+          "seed": 20261106
+        }
+      ],
+      "left": "hard/contractr1",
+      "right": "hard/contractr2"
+    }
+  ]
+}

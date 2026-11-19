@@ -1,0 +1,111 @@
+{
+ "n": 30,
+ "family": {
+  "kappa": 0.7507,
+  "po": 0.8,
+  "pe": 0.1978,
+  "ci95": [
+   0.5702,
+   0.912
+  ],
+  "interpret": "较强"
+ },
+ "binary": {
+  "kappa": 1.0,
+  "po": 1.0
+ },
+ "mfcad": {
+  "kappa": 0.6893,
+  "po": 0.7667
+ },
+ "confusion": {
+  "boss": {
+   "step": 1,
+   "boss": 4,
+   "pocket": 1,
+   "hole": 1
+  },
+  "fillet": {
+   "fillet": 1
+  },
+  "hole": {
+   "hole": 7
+  },
+  "pocket": {
+   "slot": 1,
+   "hole": 1,
+   "pocket": 1
+  },
+  "slot": {
+   "step": 1
+  },
+  "step": {
+   "step": 3
+  },
+  "stock": {
+   "stock": 8
+  }
+ },
+ "disagreements": [
+  {
+   "sample_id": "S16",
+   "main": "boss",
+   "sub": "step",
+   "confidence": 0.5,
+   "reason": "近竖直带面 z40..44 全宽78x4，介于两级之间为台阶壁，微斜2度"
+  },
+  {
+   "sample_id": "S18",
+   "main": "boss",
+   "sub": "pocket",
+   "confidence": 0.5,
+   "reason": "水平底面 z=48 被BSpline壁围合为自由曲腔；面本身为平面故判pocket"
+  },
+  {
+   "sample_id": "S21",
+   "main": "pocket",
+   "sub": "slot",
+   "confidence": 0.45,
+   "reason": "竖壁64x10 端部r3圆角 接水平底1507，细长凹槽壁；槽/腔难分"
+  },
+  {
+   "sample_id": "S22",
+   "main": "pocket",
+   "sub": "hole",
+   "confidence": 0.6,
+   "reason": "圆柱 r30 z46..52 接板顶环1758与整圆底2827(z=46)，大盲孔壁"
+  },
+  {
+   "sample_id": "S29",
+   "main": "boss",
+   "sub": "hole",
+   "confidence": 0.8,
+   "reason": "圆柱 r2 z44..50 接 r2 圆底 z=44，腔底面上的小盲孔"
+  },
+  {
+   "sample_id": "S30",
+   "main": "slot",
+   "sub": "step",
+   "confidence": 0.55,
+   "reason": "竖直全宽壁 y=3 z46..52，连接顶面480与台面2960，台阶立壁"
+  }
+ ],
+ "sub_family_dist": {
+  "stock": 8,
+  "hole": 9,
+  "step": 5,
+  "boss": 4,
+  "pocket": 2,
+  "slot": 1,
+  "fillet": 1
+ },
+ "main_family_dist": {
+  "stock": 8,
+  "hole": 7,
+  "boss": 7,
+  "pocket": 3,
+  "step": 3,
+  "fillet": 1,
+  "slot": 1
+ }
+}

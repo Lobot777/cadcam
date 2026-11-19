@@ -1,0 +1,50 @@
+{
+ "steps": {
+  "import Path.Main.Job": {
+   "ok": true,
+   "value": "<module 'Path.Main.Job' from 'E:\\\\FreeCAD_1.1.4-Windows-x86_64-py311\\\\Mod\\\\CAM\\\\Path\\\\Main\\\\Job.py'>"
+  },
+  "Job.Create": {
+   "ok": true,
+   "value": "<Path::FeaturePython object>"
+  },
+  "job properties": {
+   "ok": true,
+   "value": "['LastPostProcessDate', 'LastPostProcessOutput', 'Model', 'Path', 'PostProcessor', 'PostProcessorArgs', 'PostProcessorOutputFile', 'Stock', 'Tools']"
+  },
+  "job Operations": {
+   "ok": true,
+   "value": "<group object>"
+  },
+  "list Path.Op modules": {
+   "ok": true,
+   "value": "['Adaptive', 'Area', 'Base', 'CircularHoleBase', 'Custom', 'Deburr', 'Drilling', 'Engrave', 'EngraveBase', 'FeatureExtension', 'Gui', 'Helix', 'MillFace', 'Pocket', 'PocketBase', 'PocketShape', 'Probe', 'Profile', 'Slot', 'Surface', 'SurfaceSupport', 'Tapping', 'ThreadMilling', 'Util', 'Vcarve', 'Waterline']"
+  },
+  "Path.Op.Face api": {
+   "ok": false,
+   "error": "ImportError: cannot import name 'Face' from 'Path.Op' (E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\Mod\\CAM\\Path\\Op\\__init__.py)",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe2.py\", line 16, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe2.py\", line 51, in probe_face\n    from Path.Op import Face\nImportError: cannot import name 'Face' from 'Path.Op' (E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\Mod\\CAM\\Path\\Op\\__init__.py)\n"
+  },
+  "Path.Op.Pocket api": {
+   "ok": true,
+   "value": "['Create', 'ObjectPocket']"
+  },
+  "Path.Post api": {
+   "ok": true,
+   "value": "{'attrs': ['Processor', 'Utils', 'UtilsArguments', 'UtilsExport', 'UtilsParse'], 'modules': ['Command', 'Processor', 'Utils', 'UtilsArguments', 'UtilsExport', 'UtilsParse', 'scripts']}"
+  },
+  "Path.Post.Processor api": {
+   "ok": true,
+   "value": "['PostProcessor', 'PostProcessorFactory', 'PostUtilsArguments', 'PostUtilsExport', 'Postables', 'WrapperPost']"
+  },
+  "manual Path.Path": {
+   "ok": true,
+   "value": "commands=3"
+  },
+  "create Face op": {
+   "ok": false,
+   "error": "ImportError: cannot import name 'Face' from 'Path.Op' (E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\Mod\\CAM\\Path\\Op\\__init__.py)",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe2.py\", line 16, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe2.py\", line 84, in try_face_op\n    from Path.Op import Face\nImportError: cannot import name 'Face' from 'Path.Op' (E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\Mod\\CAM\\Path\\Op\\__init__.py)\n"
+  }
+ }
+}

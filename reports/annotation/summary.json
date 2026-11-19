@@ -1,0 +1,252 @@
+{
+ "parts": [
+  {
+   "part": "1",
+   "faces": 10,
+   "features": 1,
+   "by_family": {
+    "slot": 1
+   },
+   "ops": [
+    "PLANEN1",
+    "NUT2"
+   ],
+   "op_families": {
+    "facing": 1,
+    "slot": 1
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "2",
+   "faces": 14,
+   "features": 4,
+   "by_family": {
+    "hole": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D-TASCHE1"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 1
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "3",
+   "faces": 19,
+   "features": 6,
+   "by_family": {
+    "step": 1,
+    "boss": 1,
+    "hole": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D ADAPTIVE2",
+    "2D-TASCHE1"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 2
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "4",
+   "faces": 16,
+   "features": 6,
+   "by_family": {
+    "step": 1,
+    "boss": 1,
+    "hole": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D ADAPTIVE2",
+    "2D-TASCHE1"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 2
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "5",
+   "faces": 19,
+   "features": 6,
+   "by_family": {
+    "step": 1,
+    "boss": 1,
+    "hole": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D ADAPTIVE2",
+    "2D-TASCHE1"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 2
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "6",
+   "faces": 21,
+   "features": 7,
+   "by_family": {
+    "step": 1,
+    "boss": 1,
+    "pocket": 1,
+    "hole": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D ADAPTIVE3",
+    "2D ADAPTIVE4",
+    "2D-TASCHE2"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 3
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "7",
+   "faces": 17,
+   "features": 6,
+   "by_family": {
+    "pocket": 1,
+    "boss": 1,
+    "fillet": 4
+   },
+   "ops": [
+    "PLANEN3",
+    "2D-TASCHE2",
+    "2D ADAPTIVE2",
+    "2D-KONTUR3",
+    "2D-KONTUR2"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 2,
+    "contour": 2
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "8",
+   "faces": 25,
+   "features": 5,
+   "by_family": {
+    "step": 3,
+    "boss": 2
+   },
+   "ops": [
+    "PLANEN2",
+    "2D ADAPTIVE6",
+    "2D-KONTUR1",
+    "2D ADAPTIVE7",
+    "2D-KONTUR2",
+    "2D ADAPTIVE9",
+    "2D ADAPTIVE8",
+    "2D-KONTUR5",
+    "2D-KONTUR4"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 4,
+    "contour": 4
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "9",
+   "faces": 32,
+   "features": 10,
+   "by_family": {
+    "pocket": 1,
+    "boss": 5,
+    "hole": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D-TASCHE1",
+    "2D-KONTUR3",
+    "2D-TASCHE2",
+    "2D ADAPTIVE8",
+    "2D-KONTUR1"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 3,
+    "contour": 2
+   },
+   "unexplained": {},
+   "review_needed": false
+  },
+  {
+   "part": "10",
+   "faces": 33,
+   "features": 11,
+   "by_family": {
+    "step": 2,
+    "boss": 3,
+    "pocket": 2,
+    "fillet": 4
+   },
+   "ops": [
+    "PLANEN2",
+    "2D ADAPTIVE3",
+    "2D-KONTUR1",
+    "2D-TASCHE2",
+    "2D-KONTUR2",
+    "2D ADAPTIVE5",
+    "2D-KONTUR3",
+    "2D ADAPTIVE7",
+    "2D ADAPTIVE6",
+    "2D-KONTUR4",
+    "2D-KONTUR6"
+   ],
+   "op_families": {
+    "facing": 1,
+    "cavity": 5,
+    "contour": 5
+   },
+   "unexplained": {},
+   "review_needed": false
+  }
+ ],
+ "family_faces": {
+  "stock": 55,
+  "slot": 3,
+  "hole": 48,
+  "step": 23,
+  "boss": 50,
+  "pocket": 19,
+  "fillet": 8
+ },
+ "class_faces": {
+  "stock": 55,
+  "rectangular_through_slot": 3,
+  "blind_hole": 48,
+  "rectangular_blind_step": 11,
+  "(none)": 67,
+  "circular_end_pocket": 6,
+  "round": 8,
+  "rectangular_blind_pocket": 8
+ }
+}

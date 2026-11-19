@@ -1,0 +1,42 @@
+{
+ "part": "10",
+ "faces": 33,
+ "instances": 11,
+ "ops": 7,
+ "gcode_lines": 325,
+ "metrics_bbox": {
+  "max_deviation_mm": 18.0,
+  "mean_deviation_mm": 12.1175,
+  "gouge_volume_mm3": 77552.05,
+  "residual_volume_mm3": 0.0
+ },
+ "orchestration": {
+  "status": "ACCEPT",
+  "rounds": 1,
+  "strategies": "heightmap",
+  "phases": [
+   "INIT",
+   "ANALYZE",
+   "PLAN",
+   "EMIT",
+   "VERIFY",
+   "REPAIR",
+   "EMIT",
+   "VERIFY",
+   "ACCEPT"
+  ],
+  "pass": true
+ },
+ "final_metrics": {
+  "whitelist_ok": true,
+  "whitelist_errors": [],
+  "segments": 10405,
+  "max_gouge_depth_mm": 0.0,
+  "mean_deviation_mm": 0.206,
+  "p99_deviation_mm": 10.0,
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 1317.7,
+  "gouge_op_ratio": 0.0,
+  "dfm_errors": 0
+ }
+}

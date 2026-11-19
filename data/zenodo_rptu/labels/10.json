@@ -1,0 +1,354 @@
+{
+ "part": "10",
+ "source": "10.step",
+ "n_faces": 33,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-measure(freecad)",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [
+  "z=48 与 z=44：z=44 是 Ø52.33 圆沉孔底（F3），z=48 是方腔底四角肩面（F4/6/7/8）与星形岛顶（F2），二者不是同级底面",
+  "F5 属 Ø52.33 圆沉孔侧壁（法向朝轴 dot=-1.00，2πRh 对账 657.5），不是星形岛壁",
+  "F19-F26 不拆：是同一个 78×78 方台的侧壁，z=40 处仅两侧有局部让位肩面（F20/F22，各 3mm 宽）",
+  "推翻旧判：F9/11/15/17 不是 4 个 Ø6 盲孔，是方腔四角的 R3 圆角（90° 圆柱弧，面积 2πRh/4=18.85）"
+ ],
+ "evidence": {},
+ "stock_faces": [
+  28,
+  29,
+  30,
+  31,
+  33
+ ],
+ "faces": {
+  "1": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F7",
+   "source": "human"
+  },
+  "2": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F7",
+   "source": "human"
+  },
+  "3": {
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "feature": "F6",
+   "source": "human"
+  },
+  "4": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "5": {
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "feature": "F6",
+   "source": "human"
+  },
+  "6": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "7": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "8": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "9": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F8",
+   "source": "human"
+  },
+  "10": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "11": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F9",
+   "source": "human"
+  },
+  "12": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "13": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F4",
+   "source": "human"
+  },
+  "14": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "15": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F10",
+   "source": "human"
+  },
+  "16": {
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "feature": "F5",
+   "source": "human"
+  },
+  "17": {
+   "family": "fillet",
+   "mfcad_class": "round",
+   "feature": "F11",
+   "source": "human"
+  },
+  "18": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F4",
+   "source": "human"
+  },
+  "19": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "20": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "21": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "22": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "23": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "24": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "25": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "26": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F3",
+   "source": "human"
+  },
+  "27": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F2",
+   "source": "human"
+  },
+  "28": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "29": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "30": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "31": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "32": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "33": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "faces": [
+    32
+   ],
+   "note": "台阶肩面 z=34：80×80 → 78×78，深 34（量测：F32 面积 316，环形）",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "faces": [
+    27
+   ],
+   "note": "台阶肩面 z=44：78×78 → Ø74，深 10（量测：F27 环带外径 78、内径 37）",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "note": "78×78 方台 z=34→44；+x 与 -y 两侧 z=40 有 3mm 宽局部让位肩面（F20 112.5 / F22 117.0）",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    13,
+    18
+   ],
+   "note": "Ø74 圆柱台 z=44→52；顶面 F18 是被 52.3 方腔切出的窄环带（对角 1.24mm ~ 边中点 10.84mm）",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "pocket",
+   "mfcad_class": "rectangular_blind_pocket",
+   "faces": [
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    16
+   ],
+   "note": "52.3×52.3 方腔，深 4（z=52→48）；四平壁 F10/12/14/16（各 185.3=46.3×4），四角肩面 F4/6/7/8（各 145.0）",
+   "reviewed": true
+  },
+  {
+   "id": "F6",
+   "family": "pocket",
+   "mfcad_class": "circular_end_pocket",
+   "faces": [
+    3,
+    5
+   ],
+   "note": "Ø52.33 圆沉孔，深 4（z=48→44），与方腔四壁相切；壁 F5 面积 657.5=2π·26.163·4，底 F3 1491.9",
+   "reviewed": true
+  },
+  {
+   "id": "F7",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    1,
+    2
+   ],
+   "note": "星形岛，立于圆沉孔底 z=44，顶面 F2 与方腔底齐平（z=48），侧壁 F1 为 BSpline 直纹柱面",
+   "reviewed": true
+  },
+  {
+   "id": "F8",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    9
+   ],
+   "note": "方腔 +x+y 角 R3 圆角（90° 弧，面积 18.85）",
+   "reviewed": true
+  },
+  {
+   "id": "F9",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    11
+   ],
+   "note": "方腔 -x+y 角 R3 圆角",
+   "reviewed": true
+  },
+  {
+   "id": "F10",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    15
+   ],
+   "note": "方腔 +x-y 角 R3 圆角",
+   "reviewed": true
+  },
+  {
+   "id": "F11",
+   "family": "fillet",
+   "mfcad_class": "round",
+   "faces": [
+    17
+   ],
+   "note": "方腔 -x-y 角 R3 圆角",
+   "reviewed": true
+  }
+ ]
+}

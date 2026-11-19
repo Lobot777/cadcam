@@ -1,0 +1,341 @@
+{
+ "part": "10",
+ "source": "10.step",
+ "n_faces": 33,
+ "schema": "cadcam-annotation/1",
+ "annotator": "rule-draft",
+ "faces": {
+  "1": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "2": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "3": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "4": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "5": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "6": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "7": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "8": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "9": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "10": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "11": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "12": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "13": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "14": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "15": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "16": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "17": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "18": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "19": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "20": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "21": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "22": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "23": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "24": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "25": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "26": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "27": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "28": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "29": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "30": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "31": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "32": {
+   "family": "unknown",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "33": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17
+   ],
+   "params": {
+    "radii": [
+     3.0,
+     3.0,
+     3.0,
+     3.0,
+     26.163
+    ]
+   },
+   "confidence": "low",
+   "evidence": [
+    "faces=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17]",
+    "kinds={'BSplineSurface': 1, 'Plane': 10, 'Cylinder': 5}",
+    "floor=6 wall=4 overhang=0 slanted=0 depth=8.0 breakout=['+z', '-z']",
+    "cyl={'radius': 3.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 0.25, 'smooth_edges': 0, 'concave_edges': 4, 'outward': -1.0, 'z_span': [48.0, 52.0], 'reaches_top': True, 'reaches_bottom': False}",
+    "同轴多半径 -> 台阶孔"
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "F2",
+   "family": "unknown",
+   "mfcad_class": null,
+   "faces": [
+    13,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    32
+   ],
+   "params": {
+    "radius": 37.0,
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "vertical": true,
+    "arc_fraction": 1.0,
+    "smooth_edges": 0,
+    "concave_edges": 1,
+    "outward": null,
+    "z_span": [
+     44.0,
+     52.0
+    ],
+    "reaches_top": true,
+    "reaches_bottom": false
+   },
+   "confidence": "low",
+   "evidence": [
+    "faces=[13, 19, 20, 21, 22, 23, 24, 25, 26, 27, 32]",
+    "kinds={'Cylinder': 1, 'Plane': 10}",
+    "floor=4 wall=6 overhang=0 slanted=0 depth=18.0 breakout=['+x', '+y', '+z', '-x', '-y']",
+    "cyl={'radius': 37.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 1, 'outward': None, 'z_span': [44.0, 52.0], 'reaches_top': True, 'reaches_bottom': False}",
+    "圆柱无法定向"
+   ],
+   "reviewed": false
+  }
+ ]
+}

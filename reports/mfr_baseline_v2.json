@@ -1,0 +1,318 @@
+{
+  "task": "MFCAD++ face-level machining feature recognition",
+  "method": "HistGradientBoosting on flattened AAG (no message passing)",
+  "feature_dim": 85,
+  "train_faces": 239520,
+  "val_faces": 45003,
+  "val_accuracy": 0.9209,
+  "val_macro_iou": 0.7691,
+  "per_class": {
+    "chamfer": {
+      "support": 669,
+      "recall": 0.8864,
+      "precision": 0.9503,
+      "iou": 0.8471
+    },
+    "through_hole": {
+      "support": 635,
+      "recall": 0.822,
+      "precision": 0.8832,
+      "iou": 0.7415
+    },
+    "triangular_passage": {
+      "support": 1887,
+      "recall": 0.9629,
+      "precision": 0.9593,
+      "iou": 0.9252
+    },
+    "rectangular_passage": {
+      "support": 2801,
+      "recall": 0.9147,
+      "precision": 0.8632,
+      "iou": 0.7989
+    },
+    "6sides_passage": {
+      "support": 3730,
+      "recall": 0.9828,
+      "precision": 0.9729,
+      "iou": 0.9567
+    },
+    "triangular_through_slot": {
+      "support": 419,
+      "recall": 0.7303,
+      "precision": 0.801,
+      "iou": 0.6182
+    },
+    "rectangular_through_slot": {
+      "support": 762,
+      "recall": 0.3858,
+      "precision": 0.5951,
+      "iou": 0.3056
+    },
+    "circular_through_slot": {
+      "support": 251,
+      "recall": 0.7968,
+      "precision": 0.678,
+      "iou": 0.578
+    },
+    "rectangular_through_step": {
+      "support": 1183,
+      "recall": 0.6636,
+      "precision": 0.7577,
+      "iou": 0.5474
+    },
+    "2sides_through_step": {
+      "support": 1637,
+      "recall": 0.8931,
+      "precision": 0.8823,
+      "iou": 0.798
+    },
+    "slanted_through_step": {
+      "support": 1175,
+      "recall": 0.7634,
+      "precision": 0.8454,
+      "iou": 0.6699
+    },
+    "Oring": {
+      "support": 1673,
+      "recall": 0.9486,
+      "precision": 0.9402,
+      "iou": 0.8946
+    },
+    "blind_hole": {
+      "support": 1135,
+      "recall": 0.9075,
+      "precision": 0.9321,
+      "iou": 0.8512
+    },
+    "triangular_pocket": {
+      "support": 1986,
+      "recall": 0.9728,
+      "precision": 0.9733,
+      "iou": 0.9475
+    },
+    "rectangular_pocket": {
+      "support": 2773,
+      "recall": 0.938,
+      "precision": 0.9286,
+      "iou": 0.8749
+    },
+    "6sides_pocket": {
+      "support": 3927,
+      "recall": 0.9799,
+      "precision": 0.9857,
+      "iou": 0.9661
+    },
+    "circular_end_pocket": {
+      "support": 2623,
+      "recall": 0.952,
+      "precision": 0.9494,
+      "iou": 0.906
+    },
+    "rectangular_blind_slot": {
+      "support": 555,
+      "recall": 0.6324,
+      "precision": 0.712,
+      "iou": 0.5036
+    },
+    "v_circular_end_blind_slot": {
+      "support": 471,
+      "recall": 0.8429,
+      "precision": 0.8538,
+      "iou": 0.7365
+    },
+    "h_circular_end_blind_slot": {
+      "support": 462,
+      "recall": 0.9221,
+      "precision": 0.9006,
+      "iou": 0.8369
+    },
+    "triangular_blind_step": {
+      "support": 1188,
+      "recall": 0.8636,
+      "precision": 0.9319,
+      "iou": 0.8124
+    },
+    "circular_blind_step": {
+      "support": 1103,
+      "recall": 0.9157,
+      "precision": 0.9519,
+      "iou": 0.8752
+    },
+    "rectangular_blind_step": {
+      "support": 1674,
+      "recall": 0.8536,
+      "precision": 0.8381,
+      "iou": 0.7328
+    },
+    "round": {
+      "support": 210,
+      "recall": 0.8667,
+      "precision": 0.6087,
+      "iou": 0.5566
+    },
+    "stock": {
+      "support": 10074,
+      "recall": 0.9949,
+      "precision": 0.9525,
+      "iou": 0.9479
+    }
+  },
+  "test": {
+    "faces": 60210,
+    "accuracy": 0.9224,
+    "macro_iou": 0.7705,
+    "per_class": {
+      "chamfer": {
+        "support": 821,
+        "recall": 0.8867,
+        "precision": 0.9406,
+        "iou": 0.8397
+      },
+      "through_hole": {
+        "support": 913,
+        "recall": 0.8204,
+        "precision": 0.8822,
+        "iou": 0.7394
+      },
+      "triangular_passage": {
+        "support": 2567,
+        "recall": 0.9688,
+        "precision": 0.9525,
+        "iou": 0.9242
+      },
+      "rectangular_passage": {
+        "support": 3388,
+        "recall": 0.907,
+        "precision": 0.8696,
+        "iou": 0.7984
+      },
+      "6sides_passage": {
+        "support": 5037,
+        "recall": 0.9863,
+        "precision": 0.9812,
+        "iou": 0.968
+      },
+      "triangular_through_slot": {
+        "support": 569,
+        "recall": 0.7944,
+        "precision": 0.7766,
+        "iou": 0.6466
+      },
+      "rectangular_through_slot": {
+        "support": 923,
+        "recall": 0.3987,
+        "precision": 0.6185,
+        "iou": 0.32
+      },
+      "circular_through_slot": {
+        "support": 339,
+        "recall": 0.8496,
+        "precision": 0.6906,
+        "iou": 0.6154
+      },
+      "rectangular_through_step": {
+        "support": 1502,
+        "recall": 0.6638,
+        "precision": 0.7485,
+        "iou": 0.5427
+      },
+      "2sides_through_step": {
+        "support": 2277,
+        "recall": 0.8827,
+        "precision": 0.8762,
+        "iou": 0.7848
+      },
+      "slanted_through_step": {
+        "support": 1619,
+        "recall": 0.7993,
+        "precision": 0.8575,
+        "iou": 0.7056
+      },
+      "Oring": {
+        "support": 2315,
+        "recall": 0.9326,
+        "precision": 0.9318,
+        "iou": 0.873
+      },
+      "blind_hole": {
+        "support": 1536,
+        "recall": 0.8958,
+        "precision": 0.9272,
+        "iou": 0.837
+      },
+      "triangular_pocket": {
+        "support": 2941,
+        "recall": 0.9674,
+        "precision": 0.9717,
+        "iou": 0.9408
+      },
+      "rectangular_pocket": {
+        "support": 3852,
+        "recall": 0.9309,
+        "precision": 0.9317,
+        "iou": 0.8714
+      },
+      "6sides_pocket": {
+        "support": 4718,
+        "recall": 0.9803,
+        "precision": 0.987,
+        "iou": 0.9678
+      },
+      "circular_end_pocket": {
+        "support": 3649,
+        "recall": 0.9553,
+        "precision": 0.9475,
+        "iou": 0.9073
+      },
+      "rectangular_blind_slot": {
+        "support": 720,
+        "recall": 0.5806,
+        "precision": 0.6541,
+        "iou": 0.4442
+      },
+      "v_circular_end_blind_slot": {
+        "support": 749,
+        "recall": 0.8545,
+        "precision": 0.8951,
+        "iou": 0.7767
+      },
+      "h_circular_end_blind_slot": {
+        "support": 539,
+        "recall": 0.8924,
+        "precision": 0.8924,
+        "iou": 0.8057
+      },
+      "triangular_blind_step": {
+        "support": 1582,
+        "recall": 0.8774,
+        "precision": 0.9315,
+        "iou": 0.8242
+      },
+      "circular_blind_step": {
+        "support": 1515,
+        "recall": 0.9215,
+        "precision": 0.9562,
+        "iou": 0.8841
+      },
+      "rectangular_blind_step": {
+        "support": 2418,
+        "recall": 0.8718,
+        "precision": 0.8751,
+        "iou": 0.7753
+      },
+      "round": {
+        "support": 260,
+        "recall": 0.8385,
+        "precision": 0.5829,
+        "iou": 0.524
+      },
+      "stock": {
+        "support": 13461,
+        "recall": 0.9953,
+        "precision": 0.9515,
+        "iou": 0.9473
+      }
+    }
+  }
+}

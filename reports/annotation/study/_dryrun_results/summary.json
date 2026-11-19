@@ -1,0 +1,486 @@
+{
+ "key_n": 186,
+ "files": {
+  "P1_T0": "P1_T0.json",
+  "P1_T1": "P1_T1.json",
+  "P2_T0": "P2_T0.json",
+  "P2_T1": "P2_T1.json",
+  "P3_T0": "P3_T0.json",
+  "P3_T1": "P3_T1.json",
+  "P4_T0": "P4_T0.json",
+  "P4_T1": "P4_T1.json"
+ },
+ "simulation_included": true,
+ "rounds": {
+  "T0": {
+   "people": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "per_person": {
+    "P1": {
+     "n": 186,
+     "completed": 186,
+     "correct": 157,
+     "accuracy": 0.8441,
+     "unknown": 7,
+     "unknown_rate": 0.0376,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 47.0,
+     "latency_total_min": 158.8,
+     "under_5s": 0
+    },
+    "P2": {
+     "n": 186,
+     "completed": 186,
+     "correct": 149,
+     "accuracy": 0.8011,
+     "unknown": 9,
+     "unknown_rate": 0.0484,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 46.5,
+     "latency_total_min": 161.1,
+     "under_5s": 0
+    },
+    "P3": {
+     "n": 186,
+     "completed": 186,
+     "correct": 163,
+     "accuracy": 0.8763,
+     "unknown": 10,
+     "unknown_rate": 0.0538,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 45.7,
+     "latency_total_min": 158.4,
+     "under_5s": 0
+    },
+    "P4": {
+     "n": 186,
+     "completed": 186,
+     "correct": 151,
+     "accuracy": 0.8118,
+     "unknown": 18,
+     "unknown_rate": 0.0968,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 51.1,
+     "latency_total_min": 172.3,
+     "under_5s": 0
+    }
+   },
+   "pairwise": {
+    "P1|P2": {
+     "kappa": 0.6393,
+     "po": 0.7097,
+     "pe": 0.1952
+    },
+    "P1|P3": {
+     "kappa": 0.6932,
+     "po": 0.7527,
+     "pe": 0.194
+    },
+    "P1|P4": {
+     "kappa": 0.6557,
+     "po": 0.7204,
+     "pe": 0.1879
+    },
+    "P2|P3": {
+     "kappa": 0.6588,
+     "po": 0.7258,
+     "pe": 0.1965
+    },
+    "P2|P4": {
+     "kappa": 0.6345,
+     "po": 0.7043,
+     "pe": 0.1909
+    },
+    "P3|P4": {
+     "kappa": 0.6748,
+     "po": 0.7366,
+     "pe": 0.19
+    }
+   },
+   "mean_kappa": 0.6594,
+   "ci95": [
+    0.603,
+    0.7126
+   ],
+   "committed_mean_kappa": 0.7679,
+   "binary_mean_kappa": 0.7782,
+   "by_family": {
+    "boss": {
+     "n": 46,
+     "mean_kappa": 0.1102
+    },
+    "hole": {
+     "n": 43,
+     "mean_kappa": 0.0168
+    },
+    "pocket": {
+     "n": 16,
+     "mean_kappa": 0.1675
+    },
+    "step": {
+     "n": 21,
+     "mean_kappa": 0.0011
+    },
+    "stock": {
+     "n": 52,
+     "mean_kappa": -0.0012
+    }
+   },
+   "hard_vs_easy": {
+    "hard": {
+     "n": 15,
+     "mean_kappa": 0.0993
+    },
+    "easy": {
+     "n": 171,
+     "mean_kappa": 0.7053
+    }
+   },
+   "human_vs_gold": {
+    "P1": {
+     "kappa": 0.8044,
+     "agreement": 0.8441
+    },
+    "P2": {
+     "kappa": 0.75,
+     "agreement": 0.8011
+    },
+    "P3": {
+     "kappa": 0.8449,
+     "agreement": 0.8763
+    },
+    "P4": {
+     "kappa": 0.7663,
+     "agreement": 0.8118
+    }
+   },
+   "human_vs_rule": {
+    "P1": {
+     "kappa": 0.3824,
+     "agreement": 0.5054
+    },
+    "P2": {
+     "kappa": 0.3747,
+     "agreement": 0.5054
+    },
+    "P3": {
+     "kappa": 0.3603,
+     "agreement": 0.4892
+    },
+    "P4": {
+     "kappa": 0.3859,
+     "agreement": 0.5108
+    }
+   },
+   "committed_n": 149
+  },
+  "T1": {
+   "people": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "per_person": {
+    "P1": {
+     "n": 186,
+     "completed": 186,
+     "correct": 153,
+     "accuracy": 0.8226,
+     "unknown": 4,
+     "unknown_rate": 0.0215,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 45.8,
+     "latency_total_min": 158.5,
+     "under_5s": 0
+    },
+    "P2": {
+     "n": 186,
+     "completed": 186,
+     "correct": 156,
+     "accuracy": 0.8387,
+     "unknown": 10,
+     "unknown_rate": 0.0538,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 44.8,
+     "latency_total_min": 158.0,
+     "under_5s": 0
+    },
+    "P3": {
+     "n": 186,
+     "completed": 186,
+     "correct": 156,
+     "accuracy": 0.8387,
+     "unknown": 7,
+     "unknown_rate": 0.0376,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 42.7,
+     "latency_total_min": 157.2,
+     "under_5s": 0
+    },
+    "P4": {
+     "n": 186,
+     "completed": 186,
+     "correct": 155,
+     "accuracy": 0.8333,
+     "unknown": 9,
+     "unknown_rate": 0.0484,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 48.3,
+     "latency_total_min": 162.2,
+     "under_5s": 0
+    }
+   },
+   "pairwise": {
+    "P1|P2": {
+     "kappa": 0.6767,
+     "po": 0.7419,
+     "pe": 0.2018
+    },
+    "P1|P3": {
+     "kappa": 0.649,
+     "po": 0.7204,
+     "pe": 0.2035
+    },
+    "P1|P4": {
+     "kappa": 0.6471,
+     "po": 0.7204,
+     "pe": 0.2077
+    },
+    "P2|P3": {
+     "kappa": 0.6611,
+     "po": 0.7258,
+     "pe": 0.1908
+    },
+    "P2|P4": {
+     "kappa": 0.6661,
+     "po": 0.7312,
+     "pe": 0.1949
+    },
+    "P3|P4": {
+     "kappa": 0.6855,
+     "po": 0.7473,
+     "pe": 0.1965
+    }
+   },
+   "mean_kappa": 0.6643,
+   "ci95": [
+    0.6085,
+    0.7191
+   ],
+   "committed_mean_kappa": 0.7395,
+   "binary_mean_kappa": 0.824,
+   "by_family": {
+    "boss": {
+     "n": 46,
+     "mean_kappa": 0.0971
+    },
+    "hole": {
+     "n": 43,
+     "mean_kappa": -0.0059
+    },
+    "pocket": {
+     "n": 16,
+     "mean_kappa": 0.094
+    },
+    "step": {
+     "n": 21,
+     "mean_kappa": 0.1222
+    },
+    "stock": {
+     "n": 52,
+     "mean_kappa": -0.0207
+    }
+   },
+   "hard_vs_easy": {
+    "hard": {
+     "n": 15,
+     "mean_kappa": 0.095
+    },
+    "easy": {
+     "n": 171,
+     "mean_kappa": 0.7108
+    }
+   },
+   "human_vs_gold": {
+    "P1": {
+     "kappa": 0.7741,
+     "agreement": 0.8226
+    },
+    "P2": {
+     "kappa": 0.7985,
+     "agreement": 0.8387
+    },
+    "P3": {
+     "kappa": 0.7978,
+     "agreement": 0.8387
+    },
+    "P4": {
+     "kappa": 0.7901,
+     "agreement": 0.8333
+    }
+   },
+   "human_vs_rule": {
+    "P1": {
+     "kappa": 0.4128,
+     "agreement": 0.5376
+    },
+    "P2": {
+     "kappa": 0.3874,
+     "agreement": 0.5108
+    },
+    "P3": {
+     "kappa": 0.3817,
+     "agreement": 0.5054
+    },
+    "P4": {
+     "kappa": 0.4044,
+     "agreement": 0.5269
+    }
+   },
+   "committed_n": 162
+  }
+ },
+ "training_gain": {
+  "P1": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 157,
+    "accuracy": 0.8441,
+    "unknown": 7,
+    "unknown_rate": 0.0376,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 47.0,
+    "latency_total_min": 158.8,
+    "under_5s": 0
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 153,
+    "accuracy": 0.8226,
+    "unknown": 4,
+    "unknown_rate": 0.0215,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 45.8,
+    "latency_total_min": 158.5,
+    "under_5s": 0
+   },
+   "mcnemar_b": 19,
+   "mcnemar_c": 23,
+   "mcnemar_chi2": 0.214,
+   "accuracy_delta": -0.0215
+  },
+  "P2": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 149,
+    "accuracy": 0.8011,
+    "unknown": 9,
+    "unknown_rate": 0.0484,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 46.5,
+    "latency_total_min": 161.1,
+    "under_5s": 0
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 156,
+    "accuracy": 0.8387,
+    "unknown": 10,
+    "unknown_rate": 0.0538,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 44.8,
+    "latency_total_min": 158.0,
+    "under_5s": 0
+   },
+   "mcnemar_b": 23,
+   "mcnemar_c": 16,
+   "mcnemar_chi2": 0.923,
+   "accuracy_delta": 0.0376
+  },
+  "P3": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 163,
+    "accuracy": 0.8763,
+    "unknown": 10,
+    "unknown_rate": 0.0538,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 45.7,
+    "latency_total_min": 158.4,
+    "under_5s": 0
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 156,
+    "accuracy": 0.8387,
+    "unknown": 7,
+    "unknown_rate": 0.0376,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 42.7,
+    "latency_total_min": 157.2,
+    "under_5s": 0
+   },
+   "mcnemar_b": 17,
+   "mcnemar_c": 24,
+   "mcnemar_chi2": 0.878,
+   "accuracy_delta": -0.0376
+  },
+  "P4": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 151,
+    "accuracy": 0.8118,
+    "unknown": 18,
+    "unknown_rate": 0.0968,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 51.1,
+    "latency_total_min": 172.3,
+    "under_5s": 0
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 155,
+    "accuracy": 0.8333,
+    "unknown": 9,
+    "unknown_rate": 0.0484,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 48.3,
+    "latency_total_min": 162.2,
+    "under_5s": 0
+   },
+   "mcnemar_b": 26,
+   "mcnemar_c": 22,
+   "mcnemar_chi2": 0.188,
+   "accuracy_delta": 0.0215
+  }
+ }
+}

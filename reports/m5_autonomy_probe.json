@@ -1,0 +1,197 @@
+{
+ "rule": "离线乐观上界：LLM 自由生成 G-code 的刀心 z 投影到验证器给出的最低安全高度；不新增刀路、不改 XY；模型看不到目标高度图。不是 LLM 自主生成成功。",
+ "criterion": "ADR-001 双线：max_gouge<=0.5mm 且 mean_abs_dev<=0.5mm",
+ "summary": {
+  "n": 10,
+  "raw_dual_line_pass": 0,
+  "projected_dual_line_pass": 0,
+  "mean_residual_before_mm3": 25503.0,
+  "mean_residual_after_mm3": 25623.1,
+  "mean_max_gouge_before_mm": 10.596,
+  "mean_max_gouge_after_mm": 4.996,
+  "parts_with_zero_gouge_after": 2,
+  "conclusion": "投影消除了部分过切，但残留体积与均偏差几乎不变 → 失效主因是刀路覆盖规划缺失，不是下刀深度；验证器反馈驱动的 G-code 重写不构成可行修复路径。"
+ },
+ "parts": [
+  {
+   "part": 1,
+   "endpoints_raised_pct": 6.2,
+   "before": {
+    "max_gouge_mm": 6.0,
+    "mean_deviation_mm": 1.441,
+    "gouge_volume_mm3": 168.0,
+    "residual_volume_mm3": 9056.0,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 6.0,
+    "mean_deviation_mm": 1.441,
+    "gouge_volume_mm3": 84.0,
+    "residual_volume_mm3": 9140.0,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 2,
+   "endpoints_raised_pct": 28.1,
+   "before": {
+    "max_gouge_mm": 4.0,
+    "mean_deviation_mm": 1.28,
+    "gouge_volume_mm3": 824.0,
+    "residual_volume_mm3": 7368.0,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 0.0,
+    "mean_deviation_mm": 1.163,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 7440.0,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 3,
+   "endpoints_raised_pct": 28.5,
+   "before": {
+    "max_gouge_mm": 7.0,
+    "mean_deviation_mm": 2.576,
+    "gouge_volume_mm3": 3164.0,
+    "residual_volume_mm3": 13324.0,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 4.0,
+    "mean_deviation_mm": 2.147,
+    "gouge_volume_mm3": 84.0,
+    "residual_volume_mm3": 13660.0,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 4,
+   "endpoints_raised_pct": 31.8,
+   "before": {
+    "max_gouge_mm": 7.0,
+    "mean_deviation_mm": 3.167,
+    "gouge_volume_mm3": 2856.0,
+    "residual_volume_mm3": 17412.0,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 0.0,
+    "mean_deviation_mm": 2.764,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 17692.0,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 5,
+   "endpoints_raised_pct": 4.1,
+   "before": {
+    "max_gouge_mm": 6.0,
+    "mean_deviation_mm": 2.616,
+    "gouge_volume_mm3": 646.0,
+    "residual_volume_mm3": 16097.0,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 4.0,
+    "mean_deviation_mm": 2.528,
+    "gouge_volume_mm3": 28.0,
+    "residual_volume_mm3": 16151.0,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 6,
+   "endpoints_raised_pct": 25.3,
+   "before": {
+    "max_gouge_mm": 6.0,
+    "mean_deviation_mm": 4.902,
+    "gouge_volume_mm3": 589.5,
+    "residual_volume_mm3": 30785.5,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 6.0,
+    "mean_deviation_mm": 4.832,
+    "gouge_volume_mm3": 70.0,
+    "residual_volume_mm3": 30855.5,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 7,
+   "endpoints_raised_pct": 25.8,
+   "before": {
+    "max_gouge_mm": 48.0,
+    "mean_deviation_mm": 10.069,
+    "gouge_volume_mm3": 22733.0,
+    "residual_volume_mm3": 41706.9,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 10.0,
+    "mean_deviation_mm": 6.953,
+    "gouge_volume_mm3": 2771.1,
+    "residual_volume_mm3": 41728.2,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 8,
+   "endpoints_raised_pct": 0.3,
+   "before": {
+    "max_gouge_mm": 3.956,
+    "mean_deviation_mm": 6.255,
+    "gouge_volume_mm3": 7.9,
+    "residual_volume_mm3": 40024.2,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 3.956,
+    "mean_deviation_mm": 6.255,
+    "gouge_volume_mm3": 7.9,
+    "residual_volume_mm3": 40024.2,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 9,
+   "endpoints_raised_pct": 44.8,
+   "before": {
+    "max_gouge_mm": 8.0,
+    "mean_deviation_mm": 5.847,
+    "gouge_volume_mm3": 2027.0,
+    "residual_volume_mm3": 35392.4,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 6.0,
+    "mean_deviation_mm": 5.641,
+    "gouge_volume_mm3": 429.0,
+    "residual_volume_mm3": 35675.4,
+    "dual_line_pass": false
+   }
+  },
+  {
+   "part": 10,
+   "endpoints_raised_pct": 0.3,
+   "before": {
+    "max_gouge_mm": 10.0,
+    "mean_deviation_mm": 6.86,
+    "gouge_volume_mm3": 37.5,
+    "residual_volume_mm3": 43864.4,
+    "dual_line_pass": false
+   },
+   "after_projection": {
+    "max_gouge_mm": 10.0,
+    "mean_deviation_mm": 6.86,
+    "gouge_volume_mm3": 37.5,
+    "residual_volume_mm3": 43864.4,
+    "dual_line_pass": false
+   }
+  }
+ ]
+}

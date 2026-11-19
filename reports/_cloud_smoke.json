@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-11-06 11:18:50",
+ "provider": "cloud",
+ "tasks": 3,
+ "success_iou": 0.9,
+ "wrong_start": "H01 的型腔被放在正中 (40,40)，正确是 (20,60)",
+ "models": {
+  "deepseek-v4.1-flash": {
+   "orders": {
+    "rows": [
+     {
+      "id": "H01",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 248,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H02",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 234,
+      "completion_tokens": 78
+     },
+     {
+      "id": "H03",
+      "tag": "方位",
+      "exec_ok": true,
+      "n_calls": 2,
+      "legal": 2,
+      "iou": 1.0,
+      "removed_iou": 1.0,
+      "error": null,
+      "prompt_tokens": 235,
+      "completion_tokens": 78
+     }
+    ],
+    "exec": 3,
+    "n": 3,
+    "mean_removed_iou": 1.0,
+    "removed_ge_0_9": 3,
+    "legal_rate": 1.0,
+    "tokens": [
+     717,
+     234
+    ]
+   },
+   "repair": {
+    "start_removed_iou": 0.0588235294117647,
+    "variants": {
+     "vague": {
+      "ious": [
+       1.0
+      ],
+      "solved": 1,
+      "n": 1,
+      "mean": 1.0
+     },
+     "structured": {
+      "ious": [
+       1.0
+      ],
+      "solved": 1,
+      "n": 1,
+      "mean": 1.0
+     },
+     "structured_coords": {
+      "ious": [
+       1.0
+      ],
+      "solved": 1,
+      "n": 1,
+      "mean": 1.0
+     }
+    }
+   },
+   "seconds": 16.0,
+   "quota": {
+    "model": "deepseek-v4.1-flash",
+    "percent": 57,
+    "reset_at": "1793974634",
+    "shared_models": []
+   },
+   "meter": {
+    "calls": 6,
+    "failed_calls": 0,
+    "prompt_tokens": 1878,
+    "completion_tokens": 426,
+    "total_tokens": 2304,
+    "seconds": 10.88,
+    "tokens_per_call": 384.0
+   }
+  }
+ }
+}

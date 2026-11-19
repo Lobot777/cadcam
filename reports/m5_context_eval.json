@@ -1,0 +1,151 @@
+{
+ "model": "qwen3:8b",
+ "parts": [
+  "1",
+  "8",
+  "10"
+ ],
+ "question": "估计该零件需要多少道加工工序",
+ "rows": [
+  {
+   "part": "1",
+   "variant": "L0 摘要",
+   "chars": 59,
+   "prompt_tokens": 95,
+   "est_ops": 10,
+   "truth_ops": 2,
+   "abs_err": 8,
+   "seconds": 0.21,
+   "error": null,
+   "x_vs_L0": 1.0
+  },
+  {
+   "part": "1",
+   "variant": "L0+特征实例",
+   "chars": 122,
+   "prompt_tokens": 141,
+   "est_ops": 10,
+   "truth_ops": 2,
+   "abs_err": 8,
+   "seconds": 0.1,
+   "error": null,
+   "x_vs_L0": 1.5
+  },
+  {
+   "part": "1",
+   "variant": "全量面表 L2",
+   "chars": 529,
+   "prompt_tokens": 510,
+   "est_ops": 5,
+   "truth_ops": 2,
+   "abs_err": 3,
+   "seconds": 0.12,
+   "error": null,
+   "x_vs_L0": 5.4
+  },
+  {
+   "part": "8",
+   "variant": "L0 摘要",
+   "chars": 70,
+   "prompt_tokens": 100,
+   "est_ops": 27,
+   "truth_ops": 5,
+   "abs_err": 22,
+   "seconds": 1.81,
+   "error": null,
+   "x_vs_L0": 1.0
+  },
+  {
+   "part": "8",
+   "variant": "L0+特征实例",
+   "chars": 211,
+   "prompt_tokens": 203,
+   "est_ops": 8,
+   "truth_ops": 5,
+   "abs_err": 3,
+   "seconds": 0.1,
+   "error": null,
+   "x_vs_L0": 2.0
+  },
+  {
+   "part": "8",
+   "variant": "全量面表 L2",
+   "chars": 1287,
+   "prompt_tokens": 1165,
+   "est_ops": 12,
+   "truth_ops": 5,
+   "abs_err": 7,
+   "seconds": 0.15,
+   "error": null,
+   "x_vs_L0": 11.7
+  },
+  {
+   "part": "10",
+   "variant": "L0 摘要",
+   "chars": 88,
+   "prompt_tokens": 107,
+   "est_ops": 33,
+   "truth_ops": 7,
+   "abs_err": 26,
+   "seconds": 0.19,
+   "error": null,
+   "x_vs_L0": 1.0
+  },
+  {
+   "part": "10",
+   "variant": "L0+特征实例",
+   "chars": 396,
+   "prompt_tokens": 329,
+   "est_ops": 12,
+   "truth_ops": 7,
+   "abs_err": 5,
+   "seconds": 0.11,
+   "error": null,
+   "x_vs_L0": 3.1
+  },
+  {
+   "part": "10",
+   "variant": "全量面表 L2",
+   "chars": 1685,
+   "prompt_tokens": 1523,
+   "est_ops": 12,
+   "truth_ops": 7,
+   "abs_err": 5,
+   "seconds": 0.18,
+   "error": null,
+   "x_vs_L0": 14.2
+  }
+ ],
+ "summary": [
+  {
+   "variant": "L0 摘要",
+   "mean_prompt_tokens": 100.67,
+   "mean_x_vs_L0": 1.0,
+   "mean_chars": 72.33,
+   "mean_abs_err": 18.67
+  },
+  {
+   "variant": "L0+特征实例",
+   "mean_prompt_tokens": 224.33,
+   "mean_x_vs_L0": 2.2,
+   "mean_chars": 243.0,
+   "mean_abs_err": 5.33
+  },
+  {
+   "variant": "全量面表 L2",
+   "mean_prompt_tokens": 1066.0,
+   "mean_x_vs_L0": 10.43,
+   "mean_chars": 1167.0,
+   "mean_abs_err": 5.0
+  }
+ ],
+ "meter": {
+  "calls": 9,
+  "failed_calls": 0,
+  "prompt_tokens": 4173,
+  "completion_tokens": 106,
+  "total_tokens": 4279,
+  "seconds": 2.97,
+  "tokens_per_call": 475.4
+ }
+}

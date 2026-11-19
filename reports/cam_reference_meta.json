@@ -1,0 +1,1037 @@
+{
+ "freecad": [
+  "1",
+  "1",
+  "4",
+  "20260928 (Git shallow)",
+  "Unknown",
+  "2026/09/28 13:46:34",
+  "(HEAD detached at 4fd3bf320)",
+  "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+ ],
+ "allowance_mm": 1.0,
+ "parts": [
+  {
+   "part": "1",
+   "up_faces": 3,
+   "ops": 4,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      6
+     ],
+     "commands": 70,
+     "gcode_lines": 70,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 52.0,
+     "faces": [
+      10
+     ],
+     "commands": 70,
+     "gcode_lines": 70,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 46.0,
+     "faces": [
+      4
+     ],
+     "commands": 100,
+     "gcode_lines": 100,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 257,
+   "bbox": {
+    "min": [
+     -40.000000596046405,
+     -40.0,
+     2.0
+    ],
+    "max": [
+     40.000000596046405,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "2",
+   "up_faces": 5,
+   "ops": 6,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      10
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      11
+     ],
+     "commands": 10,
+     "gcode_lines": 10,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 48.0,
+     "faces": [
+      12
+     ],
+     "commands": 10,
+     "gcode_lines": 10,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 48.0,
+     "faces": [
+      13
+     ],
+     "commands": 10,
+     "gcode_lines": 10,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 48.0,
+     "faces": [
+      14
+     ],
+     "commands": 10,
+     "gcode_lines": 10,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [
+      "(<Part::Feature>, ('Face4', 'Face5', 'Face6', 'Face7'))"
+     ],
+     "commands": 16,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 165,
+   "bbox": {
+    "min": [
+     -40.0,
+     -40.0,
+     2.0
+    ],
+    "max": [
+     40.0,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "3",
+   "up_faces": 6,
+   "ops": 7,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      15
+     ],
+     "commands": 82,
+     "gcode_lines": 82,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      6
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 45.0,
+     "faces": [
+      16
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 45.0,
+     "faces": [
+      17
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 45.0,
+     "faces": [
+      18
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 45.0,
+     "faces": [
+      19
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [
+      "(<Part::Feature>, ('Face9', 'Face10', 'Face11', 'Face12'))"
+     ],
+     "commands": 16,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 264,
+   "bbox": {
+    "min": [
+     -40.0,
+     -40.0,
+     2.0
+    ],
+    "max": [
+     40.0,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "4",
+   "up_faces": 6,
+   "ops": 7,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      12
+     ],
+     "commands": 58,
+     "gcode_lines": 58,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      6
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 45.0,
+     "faces": [
+      13
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 45.0,
+     "faces": [
+      14
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 45.0,
+     "faces": [
+      15
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 45.0,
+     "faces": [
+      16
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [
+      "(<Part::Feature>, ('Face7', 'Face8', 'Face9', 'Face10'))"
+     ],
+     "commands": 16,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 240,
+   "bbox": {
+    "min": [
+     -40.00000000000001,
+     -40.0,
+     2.0
+    ],
+    "max": [
+     40.000000000000014,
+     40.00000000000001,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "5",
+   "up_faces": 6,
+   "ops": 7,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      14
+     ],
+     "commands": 70,
+     "gcode_lines": 70,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      5
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 46.0,
+     "faces": [
+      15
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 46.0,
+     "faces": [
+      16
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 46.0,
+     "faces": [
+      17
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 46.0,
+     "faces": [
+      18
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [
+      "(<Part::Feature>, ('Face8', 'Face9', 'Face10', 'Face11'))"
+     ],
+     "commands": 16,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 252,
+   "bbox": {
+    "min": [
+     -40.0,
+     -40.0,
+     0.0
+    ],
+    "max": [
+     40.0,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "6",
+   "up_faces": 7,
+   "ops": 8,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      15
+     ],
+     "commands": 82,
+     "gcode_lines": 82,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      5
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 46.0,
+     "faces": [
+      17
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 46.0,
+     "faces": [
+      16
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 46.0,
+     "faces": [
+      18
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 46.0,
+     "faces": [
+      19
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE7",
+     "z": 46.0,
+     "faces": [
+      20
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [
+      "(<Part::Feature>, ('Face8', 'Face9', 'Face10', 'Face11', 'Face12'))"
+     ],
+     "commands": 18,
+     "gcode_lines": 16,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 361,
+   "bbox": {
+    "min": [
+     -40.0,
+     -40.0,
+     0.0
+    ],
+    "max": [
+     40.0,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "7",
+   "up_faces": 3,
+   "ops": 4,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      16
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      2
+     ],
+     "commands": 87,
+     "gcode_lines": 87,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 42.0,
+     "faces": [
+      3
+     ],
+     "commands": 243,
+     "gcode_lines": 243,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 441,
+   "bbox": {
+    "min": [
+     -40.0,
+     -40.0,
+     0.0
+    ],
+    "max": [
+     40.0,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "8",
+   "up_faces": 9,
+   "ops": 10,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 50.055555921900485,
+     "faces": [
+      25
+     ],
+     "commands": 46,
+     "gcode_lines": 46,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 46.055555921900485,
+     "faces": [
+      16
+     ],
+     "commands": 16,
+     "gcode_lines": 16,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 46.05555592190041,
+     "faces": [
+      17
+     ],
+     "commands": 16,
+     "gcode_lines": 16,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 46.0555559219004,
+     "faces": [
+      18
+     ],
+     "commands": 15,
+     "gcode_lines": 15,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 46.0555559219004,
+     "faces": [
+      19
+     ],
+     "commands": 15,
+     "gcode_lines": 15,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 42.0555559219004,
+     "faces": [
+      11
+     ],
+     "commands": 172,
+     "gcode_lines": 172,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE7",
+     "z": 38.05555592190046,
+     "faces": [
+      4
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE8",
+     "z": 38.05555592190039,
+     "faces": [
+      8
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE9",
+     "z": 34.05555592190037,
+     "faces": [
+      3
+     ],
+     "commands": 358,
+     "gcode_lines": 358,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 665,
+   "bbox": {
+    "min": [
+     -27.5340798026331,
+     -39.962259747535,
+     0.055555921900425374
+    ],
+    "max": [
+     52.4659201973669,
+     40.037740252465014,
+     50.05555592190051
+    ]
+   },
+   "stock_top": 51.05555592190051,
+   "safe_z": 56.05555592190051,
+   "ok": true
+  },
+  {
+   "part": "9",
+   "up_faces": 14,
+   "ops": 15,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      28
+     ],
+     "commands": 94,
+     "gcode_lines": 94,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 50.0,
+     "faces": [
+      5
+     ],
+     "commands": 28,
+     "gcode_lines": 28,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 50.0,
+     "faces": [
+      9
+     ],
+     "commands": 29,
+     "gcode_lines": 29,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 50.0,
+     "faces": [
+      13
+     ],
+     "commands": 30,
+     "gcode_lines": 30,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 50.0,
+     "faces": [
+      19
+     ],
+     "commands": 19,
+     "gcode_lines": 19,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 50.0,
+     "faces": [
+      7
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE7",
+     "z": 50.0,
+     "faces": [
+      11
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE8",
+     "z": 50.0,
+     "faces": [
+      15
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE9",
+     "z": 50.0,
+     "faces": [
+      17
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE10",
+     "z": 46.0,
+     "faces": [
+      29
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE11",
+     "z": 46.0,
+     "faces": [
+      30
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE12",
+     "z": 46.0,
+     "faces": [
+      31
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE13",
+     "z": 46.0,
+     "faces": [
+      32
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE14",
+     "z": 44.0,
+     "faces": [
+      20
+     ],
+     "commands": 118,
+     "gcode_lines": 118,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [
+      "(<Part::Feature>, ('Face21', 'Face22', 'Face23', 'Face24', 'Face25'))"
+     ],
+     "commands": 18,
+     "gcode_lines": 16,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 424,
+   "bbox": {
+    "min": [
+     -40.0,
+     -40.0,
+     2.0
+    ],
+    "max": [
+     40.0,
+     40.0,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  },
+  {
+   "part": "10",
+   "up_faces": 11,
+   "ops": 12,
+   "ops_detail": [
+    {
+     "label": "MILLFACE1",
+     "z": 52.0,
+     "faces": [
+      18
+     ],
+     "commands": 62,
+     "gcode_lines": 62,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE2",
+     "z": 48.0,
+     "faces": [
+      2
+     ],
+     "commands": 38,
+     "gcode_lines": 38,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE3",
+     "z": 48.0,
+     "faces": [
+      4
+     ],
+     "commands": 14,
+     "gcode_lines": 14,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE4",
+     "z": 48.0,
+     "faces": [
+      6
+     ],
+     "commands": 18,
+     "gcode_lines": 18,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE5",
+     "z": 48.0,
+     "faces": [
+      7
+     ],
+     "commands": 21,
+     "gcode_lines": 21,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE6",
+     "z": 48.0,
+     "faces": [
+      8
+     ],
+     "commands": 18,
+     "gcode_lines": 18,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE7",
+     "z": 44.0,
+     "faces": [
+      27
+     ],
+     "commands": 176,
+     "gcode_lines": 176,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE8",
+     "z": 44.0,
+     "faces": [
+      3
+     ],
+     "commands": 82,
+     "gcode_lines": 82,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE9",
+     "z": 40.0,
+     "faces": [
+      22
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE10",
+     "z": 40.0,
+     "faces": [
+      20
+     ],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "MILLFACE11",
+     "z": 34.0,
+     "faces": [
+      32
+     ],
+     "commands": 358,
+     "gcode_lines": 358,
+     "tool_d_mm": 5.0
+    },
+    {
+     "label": "DRILLALL",
+     "z": null,
+     "faces": [],
+     "commands": 2,
+     "gcode_lines": 2,
+     "tool_d_mm": 5.0
+    }
+   ],
+   "gcode_lines": 816,
+   "bbox": {
+    "min": [
+     -40.00000000000001,
+     -40.0000002980232,
+     0.0
+    ],
+    "max": [
+     40.0000002980232,
+     40.0000002980232,
+     52.0
+    ]
+   },
+   "stock_top": 53.0,
+   "safe_z": 58.0,
+   "ok": true
+  }
+ ]
+}

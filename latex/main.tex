@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{authblk}
+\usepackage{setspace}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {./figures/} }
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{lineno}
+\usepackage[hidelinks]{hyperref}
+\linenumbers
+\emergencystretch=3em
+\setlength{\tabcolsep}{4pt}
+
+%%%%%% Bibliography %%%%%%
+\usepackage[style=nejm,
+citestyle=numeric-comp,
+sorting=none,
+maxnames=99,
+minnames=99,
+doi=true,
+url=true,
+articledoi=true]{biblatex}
+\addbibresource{refs.bib}
+
+\title{Auditing Foundation Model Grounding in Design and Manufacturing}
+
+%%%%%% Authors -- REPLACE ALL BRACKETED FIELDS BEFORE SUBMISSION %%%%%%
+\author[1*]{[First M. Last]}
+\author[1]{[Second M. Last]}
+\affil[1]{[Full department, institution, city, postal code, country]}
+\affil[*]{Address correspondence to: [corresponding.author@institution.edu]}
+
+\date{}
+\onehalfspacing
+
+\begin{document}
+
+\maketitle
+
+%%%%%% Abstract: single paragraph, plain language, no citations, no undefined abbreviations %%%%%%
+\begin{abstract}
+Foundation models can interact with engineering geometry through tools, but agreement with an evaluator does not establish that a requested physical change is correct. We study this distinction in a design-and-manufacturing pipeline combining typed contracts, region-masked toolpaths and grid-based removal verification. Models access non-text engineering states through textual interfaces; no new multimodal encoder is trained. A paired comparison of contract calls and free-form scripts on twenty Chinese work orders separates export success from removed-material fidelity. Auditing the original references reveals shared execution errors that can reward the same omitted feature in the reference and model output. Fifteen-model contract evaluations additionally show that call legality does not imply successful execution or semantic agreement. In a separate constructed orchestration suite, bounded repair raises internal acceptance from 2 of 20 to 20 of 20. External verification exposes another shared assumption: although all 130 external parts pass the grid-based criterion, a finite-cutter check predicts violations deeper than 0.5 millimetres on 94 of 130 (Wilson 95% confidence interval 0.64 to 0.79). A half-cell guard reduces this to 8 of 130 (0.03 to 0.12), but increases residual volume by a factor of 4.42 and lowers internal acceptance to 107 of 130. The contribution is a reproducible audit of grounding across language, geometry and manufacturing interfaces, not a claim of general multimodal intelligence or manufacturing safety.
+\end{abstract}
+
+\input{sections/01-introduction}
+\input{sections/02-methods}
+\input{sections/03-results}
+\input{sections/04-conclusion}
+\input{sections/05-backmatter}
+
+\printbibliography
+
+\end{document}

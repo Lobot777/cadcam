@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "generated_at": "2026-11-04T16:37:32",
+    "dataset": "data\\zenodo_rptu",
+    "kernel": {
+      "cmd": "E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe",
+      "version": "1.1.4"
+    },
+    "parser": "1.2.0"
+  },
+  "parts": [
+    {
+      "part": "1",
+      "geometry": {
+        "faces": 10,
+        "edges": 24,
+        "size_mm": [
+          80.0,
+          80.0,
+          50.0
+        ],
+        "volume_mm3": 317120.0,
+        "surfaces": {
+          "Plane": 10
+        },
+        "concave_edges": 2,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 318,
+        "segments": 303,
+        "operations": 2,
+        "op_labels": [
+          "PLANEN1",
+          "NUT2"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 4323.1,
+        "rapid_mm": 3925.6,
+        "air_cut_ratio": 0.4759,
+        "z_min": -7.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "2",
+      "geometry": {
+        "faces": 14,
+        "edges": 24,
+        "size_mm": [
+          80.0,
+          80.0,
+          50.0
+        ],
+        "volume_mm3": 318743.36,
+        "surfaces": {
+          "Plane": 10,
+          "Cylinder": 4
+        },
+        "concave_edges": 6,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 512,
+        "segments": 492,
+        "operations": 2,
+        "op_labels": [
+          "PLANEN2",
+          "2D-TASCHE1"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 4842.6,
+        "rapid_mm": 4242.9,
+        "air_cut_ratio": 0.467,
+        "z_min": -5.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "3",
+      "geometry": {
+        "faces": 19,
+        "edges": 36,
+        "size_mm": [
+          80.0,
+          80.0,
+          50.0
+        ],
+        "volume_mm3": 311800.89,
+        "surfaces": {
+          "Plane": 15,
+          "Cylinder": 4
+        },
+        "concave_edges": 6,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 1331,
+        "segments": 1314,
+        "operations": 3,
+        "op_labels": [
+          "PLANEN2",
+          "2D ADAPTIVE2",
+          "2D-TASCHE1"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 7594.3,
+        "rapid_mm": 4358.8,
+        "air_cut_ratio": 0.3647,
+        "z_min": -8.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "4",
+      "geometry": {
+        "faces": 16,
+        "edges": 27,
+        "size_mm": [
+          80.0,
+          80.0,
+          50.0
+        ],
+        "volume_mm3": 307594.69,
+        "surfaces": {
+          "Plane": 11,
+          "Cylinder": 5
+        },
+        "concave_edges": 7,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 3674,
+        "segments": 3653,
+        "operations": 3,
+        "op_labels": [
+          "PLANEN2",
+          "2D ADAPTIVE2",
+          "2D-TASCHE1"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 8378.8,
+        "rapid_mm": 5529.3,
+        "air_cut_ratio": 0.3976,
+        "z_min": -8.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "5",
+      "geometry": {
+        "faces": 19,
+        "edges": 36,
+        "size_mm": [
+          80.0,
+          80.0,
+          52.0
+        ],
+        "volume_mm3": 322811.95,
+        "surfaces": {
+          "Plane": 14,
+          "Cylinder": 5
+        },
+        "concave_edges": 6,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 2507,
+        "segments": 2486,
+        "operations": 3,
+        "op_labels": [
+          "PLANEN2",
+          "2D ADAPTIVE2",
+          "2D-TASCHE1"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 7718.2,
+        "rapid_mm": 5317.0,
+        "air_cut_ratio": 0.4079,
+        "z_min": -7.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "6",
+      "geometry": {
+        "faces": 21,
+        "edges": 39,
+        "size_mm": [
+          80.0,
+          80.0,
+          52.0
+        ],
+        "volume_mm3": 307950.44,
+        "surfaces": {
+          "Plane": 16,
+          "Cylinder": 5
+        },
+        "concave_edges": 7,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 6609,
+        "segments": 6587,
+        "operations": 4,
+        "op_labels": [
+          "PLANEN2",
+          "2D ADAPTIVE3",
+          "2D ADAPTIVE4",
+          "2D-TASCHE2"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 11631.5,
+        "rapid_mm": 4608.7,
+        "air_cut_ratio": 0.2838,
+        "z_min": -7.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "7",
+      "geometry": {
+        "faces": 17,
+        "edges": 39,
+        "size_mm": [
+          80.0,
+          80.0,
+          52.0
+        ],
+        "volume_mm3": 293302.97,
+        "surfaces": {
+          "BSplineSurface": 1,
+          "Plane": 12,
+          "Cylinder": 4
+        },
+        "concave_edges": 25,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 40012,
+        "segments": 39988,
+        "operations": 5,
+        "op_labels": [
+          "PLANEN3",
+          "2D-TASCHE2",
+          "2D ADAPTIVE2",
+          "2D-KONTUR3",
+          "2D-KONTUR2"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 26804.2,
+        "rapid_mm": 4554.1,
+        "air_cut_ratio": 0.1452,
+        "z_min": -11.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "8",
+      "geometry": {
+        "faces": 25,
+        "edges": 56,
+        "size_mm": [
+          80.0,
+          80.0,
+          50.0
+        ],
+        "volume_mm3": 285886.58,
+        "surfaces": {
+          "Plane": 24,
+          "Cylinder": 1
+        },
+        "concave_edges": 7,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 11892,
+        "segments": 11859,
+        "operations": 9,
+        "op_labels": [
+          "PLANEN2",
+          "2D ADAPTIVE6",
+          "2D-KONTUR1",
+          "2D ADAPTIVE7",
+          "2D-KONTUR2",
+          "2D ADAPTIVE9",
+          "2D ADAPTIVE8",
+          "2D-KONTUR5",
+          "2D-KONTUR4"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 18999.2,
+        "rapid_mm": 9985.1,
+        "air_cut_ratio": 0.3445,
+        "z_min": -17.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "9",
+      "geometry": {
+        "faces": 32,
+        "edges": 51,
+        "size_mm": [
+          80.0,
+          80.0,
+          50.0
+        ],
+        "volume_mm3": 286349.29,
+        "surfaces": {
+          "Plane": 19,
+          "BSplineSurface": 4,
+          "Cylinder": 9
+        },
+        "concave_edges": 13,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 71375,
+        "segments": 71347,
+        "operations": 6,
+        "op_labels": [
+          "PLANEN2",
+          "2D-TASCHE1",
+          "2D-KONTUR3",
+          "2D-TASCHE2",
+          "2D ADAPTIVE8",
+          "2D-KONTUR1"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 30241.1,
+        "rapid_mm": 7503.6,
+        "air_cut_ratio": 0.1988,
+        "z_min": -9.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    },
+    {
+      "part": "10",
+      "geometry": {
+        "faces": 33,
+        "edges": 73,
+        "size_mm": [
+          80.0,
+          80.0,
+          52.0
+        ],
+        "volume_mm3": 294978.25,
+        "surfaces": {
+          "BSplineSurface": 1,
+          "Plane": 26,
+          "Cylinder": 6
+        },
+        "concave_edges": 33,
+        "openness_z": 1.0
+      },
+      "gcode": {
+        "blocks": 14212,
+        "segments": 14174,
+        "operations": 11,
+        "op_labels": [
+          "PLANEN2",
+          "2D ADAPTIVE3",
+          "2D-KONTUR1",
+          "2D-TASCHE2",
+          "2D-KONTUR2",
+          "2D ADAPTIVE5",
+          "2D-KONTUR3",
+          "2D ADAPTIVE7",
+          "2D ADAPTIVE6",
+          "2D-KONTUR4",
+          "2D-KONTUR6"
+        ],
+        "tools": [
+          1
+        ],
+        "cut_mm": 21160.4,
+        "rapid_mm": 10114.6,
+        "air_cut_ratio": 0.3234,
+        "z_min": -19.0,
+        "warnings": 0,
+        "unknown_codes": []
+      }
+    }
+  ]
+}

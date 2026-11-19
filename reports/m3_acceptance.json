@@ -1,0 +1,1159 @@
+{
+ "summary": {
+  "version": "M3.2",
+  "res_mm": 0.5,
+  "parts": 10,
+  "all_whitelist_ok": true,
+  "total_ops": 65,
+  "total_gcode_lines": 2271,
+  "total_parse_segments": 1797,
+  "gouge_defect_detected": 10,
+  "residual_defect_detected": 10,
+  "collision_defect_detected": 10,
+  "clean_collisions": 0,
+  "errors_with_op_id": 9,
+  "total_dfm_errors": 6,
+  "target_coverage_min": 1.0
+ },
+ "parts": [
+  {
+   "part": "1",
+   "instances": 2,
+   "ops": 2,
+   "skipped_instances": 0,
+   "gcode_lines": 96,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 78,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 2880.0,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 1920,
+    "residual_columns": 0,
+    "max_deviation_mm": 6.0,
+    "mean_deviation_mm": 0.45,
+    "p95_deviation_mm": 6.0,
+    "p99_deviation_mm": 6.0,
+    "columns_over_0_5mm": 1920,
+    "columns_over_0_5mm_pct": 7.5,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "POCKET1",
+      "face_ids": [
+       4,
+       5,
+       7
+      ],
+      "columns": 1920,
+      "volume_mm3": 2880.0
+     }
+    ],
+    "residual_by_op": []
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 2880.0,
+     "columns": 1920,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "POCKET1",
+     "face_ids": [
+      4,
+      5,
+      7
+     ],
+     "by_op": [
+      {
+       "op": "POCKET1",
+       "face_ids": [
+        4,
+        5,
+        7
+       ],
+       "columns": 1920,
+       "volume_mm3": 2880.0
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 9280.0,
+     "delta_vs_clean_mm3": 6400.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 5920.0,
+     "delta_vs_clean_mm3": 5920.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "2",
+   "instances": 5,
+   "ops": 5,
+   "skipped_instances": 0,
+   "gcode_lines": 101,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 61,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T5"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 0.0,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 0,
+    "residual_columns": 0,
+    "max_deviation_mm": 0.0,
+    "mean_deviation_mm": 0.0,
+    "p95_deviation_mm": 0.0,
+    "p99_deviation_mm": 0.0,
+    "columns_over_0_5mm": 0,
+    "columns_over_0_5mm_pct": 0.0,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [],
+    "residual_by_op": []
+   },
+   "simulation_errors": [],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 6084.0,
+     "delta_vs_clean_mm3": 6084.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 6084.0,
+     "delta_vs_clean_mm3": 6084.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "3",
+   "instances": 7,
+   "ops": 7,
+   "skipped_instances": 0,
+   "gcode_lines": 169,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 117,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T5"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 18336.0,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 18336,
+    "residual_columns": 0,
+    "max_deviation_mm": 4.0,
+    "mean_deviation_mm": 2.865,
+    "p95_deviation_mm": 4.0,
+    "p99_deviation_mm": 4.0,
+    "columns_over_0_5mm": 18336,
+    "columns_over_0_5mm_pct": 71.625,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "STEP1",
+      "face_ids": [
+       6
+      ],
+      "columns": 18336,
+      "volume_mm3": 18336.0
+     }
+    ],
+    "residual_by_op": []
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 18336.0,
+     "columns": 18336,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "STEP1",
+     "face_ids": [
+      6
+     ],
+     "by_op": [
+      {
+       "op": "STEP1",
+       "face_ids": [
+        6
+       ],
+       "columns": 18336,
+       "volume_mm3": 18336.0
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 24420.0,
+     "delta_vs_clean_mm3": 6084.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 1500.0,
+     "delta_vs_clean_mm3": 1500.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "4",
+   "instances": 7,
+   "ops": 7,
+   "skipped_instances": 0,
+   "gcode_lines": 169,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 117,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T2",
+    "T5"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 14108.0,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 14108,
+    "residual_columns": 0,
+    "max_deviation_mm": 4.0,
+    "mean_deviation_mm": 2.2044,
+    "p95_deviation_mm": 4.0,
+    "p99_deviation_mm": 4.0,
+    "columns_over_0_5mm": 14108,
+    "columns_over_0_5mm_pct": 55.109,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "STEP1",
+      "face_ids": [
+       6
+      ],
+      "columns": 14108,
+      "volume_mm3": 14108.0
+     }
+    ],
+    "residual_by_op": []
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 14108.0,
+     "columns": 14108,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "STEP1",
+     "face_ids": [
+      6
+     ],
+     "by_op": [
+      {
+       "op": "STEP1",
+       "face_ids": [
+        6
+       ],
+       "columns": 14108,
+       "volume_mm3": 14108.0
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 20192.0,
+     "delta_vs_clean_mm3": 6084.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 2557.0,
+     "delta_vs_clean_mm3": 2557.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "5",
+   "instances": 7,
+   "ops": 7,
+   "skipped_instances": 0,
+   "gcode_lines": 169,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 117,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T2",
+    "T5"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 16222.0,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 16222,
+    "residual_columns": 0,
+    "max_deviation_mm": 4.0,
+    "mean_deviation_mm": 2.5347,
+    "p95_deviation_mm": 4.0,
+    "p99_deviation_mm": 4.0,
+    "columns_over_0_5mm": 16222,
+    "columns_over_0_5mm_pct": 63.367,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "STEP1",
+      "face_ids": [
+       5
+      ],
+      "columns": 16222,
+      "volume_mm3": 16222.0
+     }
+    ],
+    "residual_by_op": []
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 16222.0,
+     "columns": 16222,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "STEP1",
+     "face_ids": [
+      5
+     ],
+     "by_op": [
+      {
+       "op": "STEP1",
+       "face_ids": [
+        5
+       ],
+       "columns": 16222,
+       "volume_mm3": 16222.0
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 22306.0,
+     "delta_vs_clean_mm3": 6084.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 2028.5,
+     "delta_vs_clean_mm3": 2028.5,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "6",
+   "instances": 8,
+   "ops": 8,
+   "skipped_instances": 0,
+   "gcode_lines": 284,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 226,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T2",
+    "T5"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 10506.0,
+    "residual_volume_mm3": 8.0,
+    "gouge_columns": 7032,
+    "residual_columns": 16,
+    "max_deviation_mm": 6.0,
+    "mean_deviation_mm": 1.6428,
+    "p95_deviation_mm": 6.0,
+    "p99_deviation_mm": 6.0,
+    "columns_over_0_5mm": 7048,
+    "columns_over_0_5mm_pct": 27.531,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "POCKET1",
+      "face_ids": [
+       11,
+       17
+      ],
+      "columns": 6948,
+      "volume_mm3": 10422.0
+     },
+     {
+      "op": "STEP2",
+      "face_ids": [
+       5
+      ],
+      "columns": 84,
+      "volume_mm3": 84.0
+     }
+    ],
+    "residual_by_op": [
+     {
+      "op": "STEP2",
+      "face_ids": [
+       5
+      ],
+      "columns": 16,
+      "volume_mm3": 8.0
+     }
+    ]
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 10506.0,
+     "columns": 7032,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "POCKET1",
+     "face_ids": [
+      11,
+      17
+     ],
+     "by_op": [
+      {
+       "op": "POCKET1",
+       "face_ids": [
+        11,
+        17
+       ],
+       "columns": 6948,
+       "volume_mm3": 10422.0
+      },
+      {
+       "op": "STEP2",
+       "face_ids": [
+        5
+       ],
+       "columns": 84,
+       "volume_mm3": 84.0
+      }
+     ]
+    },
+    {
+     "code": "E_RESIDUAL",
+     "magnitude_mm3": 8.0,
+     "columns": 16,
+     "cause": "存在未切削到的材料",
+     "suggest": {
+      "increase_stepover_coverage": true
+     },
+     "op_id": "OP03",
+     "op_label": "STEP2",
+     "face_ids": [
+      5
+     ],
+     "by_op": [
+      {
+       "op": "STEP2",
+       "face_ids": [
+        5
+       ],
+       "columns": 16,
+       "volume_mm3": 8.0
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 16902.0,
+     "delta_vs_clean_mm3": 6396.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 4334.0,
+     "delta_vs_clean_mm3": 4326.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "7",
+   "instances": 7,
+   "ops": 3,
+   "skipped_instances": 4,
+   "gcode_lines": 393,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 369,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 17514.07,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 9341,
+    "residual_columns": 0,
+    "max_deviation_mm": 10.0,
+    "mean_deviation_mm": 2.7366,
+    "p95_deviation_mm": 10.0,
+    "p99_deviation_mm": 10.0,
+    "columns_over_0_5mm": 9340,
+    "columns_over_0_5mm_pct": 36.484,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "POCKET1",
+      "face_ids": [
+       3,
+       5,
+       7,
+       8,
+       10
+      ],
+      "columns": 9341,
+      "volume_mm3": 17514.07
+     }
+    ],
+    "residual_by_op": []
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 17514.07,
+     "columns": 9341,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "POCKET1",
+     "face_ids": [
+      3,
+      5,
+      7,
+      8,
+      10
+     ],
+     "by_op": [
+      {
+       "op": "POCKET1",
+       "face_ids": [
+        3,
+        5,
+        7,
+        8,
+        10
+       ],
+       "columns": 9341,
+       "volume_mm3": 17514.07
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 23914.07,
+     "delta_vs_clean_mm3": 6400.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 4064.93,
+     "delta_vs_clean_mm3": 4064.93,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "8",
+   "instances": 5,
+   "ops": 5,
+   "skipped_instances": 0,
+   "gcode_lines": 193,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 157,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T2"
+   ],
+   "dfm_errors": [
+    {
+     "code": "E_DFM_OUT_OF_STOCK",
+     "op_id": "OP01",
+     "cause": "operation bbox outside stock XY",
+     "suggest": {
+      "recheck_wcs": true
+     }
+    },
+    {
+     "code": "E_DFM_OUT_OF_STOCK",
+     "op_id": "OP02",
+     "cause": "operation bbox outside stock XY",
+     "suggest": {
+      "recheck_wcs": true
+     }
+    }
+   ],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 20840.0,
+    "residual_volume_mm3": 3736.0,
+    "gouge_columns": 11664,
+    "residual_columns": 2472,
+    "max_deviation_mm": 8.0,
+    "mean_deviation_mm": 3.84,
+    "p95_deviation_mm": 8.0,
+    "p99_deviation_mm": 8.0,
+    "columns_over_0_5mm": 14136,
+    "columns_over_0_5mm_pct": 55.219,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "STEP1",
+      "face_ids": [
+       1,
+       2,
+       3,
+       4,
+       8,
+       12,
+       13,
+       14
+      ],
+      "columns": 11664,
+      "volume_mm3": 20840.0
+     }
+    ],
+    "residual_by_op": [
+     {
+      "op": "STEP1",
+      "face_ids": [
+       1,
+       2,
+       3,
+       4,
+       8,
+       12,
+       13,
+       14
+      ],
+      "columns": 2472,
+      "volume_mm3": 3736.0
+     }
+    ]
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 20840.0,
+     "columns": 11664,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "STEP1",
+     "face_ids": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      12,
+      13,
+      14
+     ],
+     "by_op": [
+      {
+       "op": "STEP1",
+       "face_ids": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        12,
+        13,
+        14
+       ],
+       "columns": 11664,
+       "volume_mm3": 20840.0
+      }
+     ]
+    },
+    {
+     "code": "E_RESIDUAL",
+     "magnitude_mm3": 3736.0,
+     "columns": 2472,
+     "cause": "存在未切削到的材料",
+     "suggest": {
+      "increase_stepover_coverage": true
+     },
+     "op_id": "OP02",
+     "op_label": "STEP1",
+     "face_ids": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      12,
+      13,
+      14
+     ],
+     "by_op": [
+      {
+       "op": "STEP1",
+       "face_ids": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        12,
+        13,
+        14
+       ],
+       "columns": 2472,
+       "volume_mm3": 3736.0
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 26622.0,
+     "delta_vs_clean_mm3": 5782.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 7220.0,
+     "delta_vs_clean_mm3": 3484.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "9",
+   "instances": 14,
+   "ops": 14,
+   "skipped_instances": 0,
+   "gcode_lines": 372,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 278,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T2",
+    "T5"
+   ],
+   "dfm_errors": [
+    {
+     "code": "E_DFM_CORNER_RADIUS",
+     "op_id": "OP08",
+     "magnitude_mm": 1.0,
+     "cause": "tool_radius(3.00) > corner_radius(2.00)",
+     "suggest": {
+      "tool_radius_max": 2.0
+     }
+    },
+    {
+     "code": "E_DFM_CORNER_RADIUS",
+     "op_id": "OP10",
+     "magnitude_mm": 1.0,
+     "cause": "tool_radius(3.00) > corner_radius(2.00)",
+     "suggest": {
+      "tool_radius_max": 2.0
+     }
+    },
+    {
+     "code": "E_DFM_CORNER_RADIUS",
+     "op_id": "OP12",
+     "magnitude_mm": 1.0,
+     "cause": "tool_radius(3.00) > corner_radius(2.00)",
+     "suggest": {
+      "tool_radius_max": 2.0
+     }
+    },
+    {
+     "code": "E_DFM_CORNER_RADIUS",
+     "op_id": "OP13",
+     "magnitude_mm": 1.0,
+     "cause": "tool_radius(3.00) > corner_radius(2.00)",
+     "suggest": {
+      "tool_radius_max": 2.0
+     }
+    }
+   ],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 18768.56,
+    "residual_volume_mm3": 194.0,
+    "gouge_columns": 11136,
+    "residual_columns": 100,
+    "max_deviation_mm": 8.0,
+    "mean_deviation_mm": 2.9629,
+    "p95_deviation_mm": 8.0,
+    "p99_deviation_mm": 8.0,
+    "columns_over_0_5mm": 11236,
+    "columns_over_0_5mm_pct": 43.891,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "POCKET1",
+      "face_ids": [
+       20,
+       25
+      ],
+      "columns": 11136,
+      "volume_mm3": 18768.56
+     }
+    ],
+    "residual_by_op": [
+     {
+      "op": "FACE",
+      "face_ids": [],
+      "columns": 88,
+      "volume_mm3": 176.0
+     },
+     {
+      "op": "CONTOUR2",
+      "face_ids": [
+       6,
+       7
+      ],
+      "columns": 3,
+      "volume_mm3": 4.5
+     },
+     {
+      "op": "CONTOUR4",
+      "face_ids": [
+       10,
+       11
+      ],
+      "columns": 3,
+      "volume_mm3": 4.5
+     },
+     {
+      "op": "CONTOUR6",
+      "face_ids": [
+       14,
+       15
+      ],
+      "columns": 3,
+      "volume_mm3": 4.5
+     },
+     {
+      "op": "CONTOUR7",
+      "face_ids": [
+       16,
+       17
+      ],
+      "columns": 3,
+      "volume_mm3": 4.5
+     }
+    ]
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 18768.56,
+     "columns": 11136,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP02",
+     "op_label": "POCKET1",
+     "face_ids": [
+      20,
+      25
+     ],
+     "by_op": [
+      {
+       "op": "POCKET1",
+       "face_ids": [
+        20,
+        25
+       ],
+       "columns": 11136,
+       "volume_mm3": 18768.56
+      }
+     ]
+    },
+    {
+     "code": "E_RESIDUAL",
+     "magnitude_mm3": 194.0,
+     "columns": 100,
+     "cause": "存在未切削到的材料",
+     "suggest": {
+      "increase_stepover_coverage": true
+     },
+     "op_id": "OP01",
+     "op_label": "FACE",
+     "face_ids": [],
+     "by_op": [
+      {
+       "op": "FACE",
+       "face_ids": [],
+       "columns": 88,
+       "volume_mm3": 176.0
+      },
+      {
+       "op": "CONTOUR2",
+       "face_ids": [
+        6,
+        7
+       ],
+       "columns": 3,
+       "volume_mm3": 4.5
+      },
+      {
+       "op": "CONTOUR4",
+       "face_ids": [
+        10,
+        11
+       ],
+       "columns": 3,
+       "volume_mm3": 4.5
+      },
+      {
+       "op": "CONTOUR6",
+       "face_ids": [
+        14,
+        15
+       ],
+       "columns": 3,
+       "volume_mm3": 4.5
+      },
+      {
+       "op": "CONTOUR7",
+       "face_ids": [
+        16,
+        17
+       ],
+       "columns": 3,
+       "volume_mm3": 4.5
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 25143.56,
+     "delta_vs_clean_mm3": 6375.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 3810.0,
+     "delta_vs_clean_mm3": 3616.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  },
+  {
+   "part": "10",
+   "instances": 11,
+   "ops": 7,
+   "skipped_instances": 4,
+   "gcode_lines": 325,
+   "whitelist_ok": true,
+   "syntax_errors": [],
+   "parse_segments": 277,
+   "parse_unknown_codes": [],
+   "tool_ids": [
+    "T1",
+    "T2"
+   ],
+   "dfm_errors": [],
+   "simulation": {
+    "res_mm": 0.5,
+    "columns": 25600,
+    "gouge_volume_mm3": 77552.05,
+    "residual_volume_mm3": 0.0,
+    "gouge_columns": 24336,
+    "residual_columns": 0,
+    "max_deviation_mm": 18.0,
+    "mean_deviation_mm": 12.1175,
+    "p95_deviation_mm": 18.0,
+    "p99_deviation_mm": 18.0,
+    "columns_over_0_5mm": 24336,
+    "columns_over_0_5mm_pct": 95.062,
+    "through_cut_volume_mm3": 0.0,
+    "gouge_by_op": [
+     {
+      "op": "STEP3",
+      "face_ids": [
+       32
+      ],
+      "columns": 24336,
+      "volume_mm3": 77552.05
+     }
+    ],
+    "residual_by_op": []
+   },
+   "simulation_errors": [
+    {
+     "code": "E_GOUGE",
+     "magnitude_mm3": 77552.05,
+     "columns": 24336,
+     "cause": "刀路切深超过目标表面",
+     "suggest": {
+      "reduce_ap_mm": 0.5
+     },
+     "op_id": "OP04",
+     "op_label": "STEP3",
+     "face_ids": [
+      32
+     ],
+     "by_op": [
+      {
+       "op": "STEP3",
+       "face_ids": [
+        32
+       ],
+       "columns": 24336,
+       "volume_mm3": 77552.05
+      }
+     ]
+    }
+   ],
+   "defect_injection": {
+    "gouge": {
+     "detected": true,
+     "volume_mm3": 83952.05,
+     "delta_vs_clean_mm3": 6400.0,
+     "syntax_ok": true
+    },
+    "residual": {
+     "detected": true,
+     "volume_mm3": 316.0,
+     "delta_vs_clean_mm3": 316.0,
+     "syntax_ok": true
+    },
+    "collision": {
+     "detected": true,
+     "clean_collisions": 0
+    }
+   },
+   "target_coverage": 1.0
+  }
+ ]
+}

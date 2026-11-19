@@ -1,0 +1,212 @@
+{
+ "H01": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "1",
+  "amount_mm": 0.0
+ },
+ "H02": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "2",
+  "amount_mm": 0.0
+ },
+ "H03": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "3",
+  "amount_mm": 0.0
+ },
+ "H04": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "4",
+  "amount_mm": 0.0
+ },
+ "H05": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "5",
+  "amount_mm": 0.0
+ },
+ "H06": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "6",
+  "amount_mm": 0.0
+ },
+ "H07": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "7",
+  "amount_mm": 0.0
+ },
+ "H08": {
+  "truth": "no_gouge",
+  "kind": "clean",
+  "difficulty": "easy",
+  "part": "8",
+  "amount_mm": 0.0
+ },
+ "H09": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "9",
+  "amount_mm": 0.5
+ },
+ "H10": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "10",
+  "amount_mm": 0.5
+ },
+ "H11": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "1",
+  "amount_mm": 0.5
+ },
+ "H12": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "3",
+  "amount_mm": 0.5
+ },
+ "H13": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "5",
+  "amount_mm": 0.5
+ },
+ "H14": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "7",
+  "amount_mm": 0.5
+ },
+ "H15": {
+  "truth": "no_gouge",
+  "kind": "residual",
+  "difficulty": "medium",
+  "part": "9",
+  "amount_mm": 0.5
+ },
+ "H16": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "1",
+  "amount_mm": 1.0
+ },
+ "H17": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "2",
+  "amount_mm": 1.0
+ },
+ "H18": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "3",
+  "amount_mm": 1.0
+ },
+ "H19": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "4",
+  "amount_mm": 1.0
+ },
+ "H20": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "5",
+  "amount_mm": 1.0
+ },
+ "H21": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "6",
+  "amount_mm": 1.0
+ },
+ "H22": {
+  "truth": "gouge",
+  "kind": "gouge1",
+  "difficulty": "easy",
+  "part": "7",
+  "amount_mm": 1.0
+ },
+ "H23": {
+  "truth": "gouge",
+  "kind": "gouge03",
+  "difficulty": "medium",
+  "part": "8",
+  "amount_mm": 0.3
+ },
+ "H24": {
+  "truth": "gouge",
+  "kind": "gouge03",
+  "difficulty": "medium",
+  "part": "9",
+  "amount_mm": 0.3
+ },
+ "H25": {
+  "truth": "gouge",
+  "kind": "gouge03",
+  "difficulty": "medium",
+  "part": "10",
+  "amount_mm": 0.3
+ },
+ "H26": {
+  "truth": "gouge",
+  "kind": "gouge03",
+  "difficulty": "medium",
+  "part": "2",
+  "amount_mm": 0.3
+ },
+ "H27": {
+  "truth": "gouge",
+  "kind": "local",
+  "difficulty": "hard",
+  "part": "4",
+  "amount_mm": 0.8
+ },
+ "H28": {
+  "truth": "gouge",
+  "kind": "local",
+  "difficulty": "hard",
+  "part": "6",
+  "amount_mm": 0.8
+ },
+ "H29": {
+  "truth": "gouge",
+  "kind": "local",
+  "difficulty": "hard",
+  "part": "8",
+  "amount_mm": 0.8
+ },
+ "H30": {
+  "truth": "gouge",
+  "kind": "local",
+  "difficulty": "hard",
+  "part": "10",
+  "amount_mm": 0.8
+ }
+}

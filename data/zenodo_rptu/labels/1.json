@@ -1,0 +1,98 @@
+{
+ "part": "1",
+ "source": "1.step",
+ "n_faces": 10,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-visual+rule",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [],
+ "evidence": {},
+ "stock_faces": [
+  1,
+  2,
+  3,
+  6,
+  8,
+  9,
+  10
+ ],
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "4": {
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "feature": "F1",
+   "source": "human"
+  },
+  "5": {
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "feature": "F1",
+   "source": "human"
+  },
+  "6": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "7": {
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "feature": "F1",
+   "source": "human"
+  },
+  "8": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "9": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "10": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "slot",
+   "mfcad_class": "rectangular_through_slot",
+   "faces": [
+    4,
+    5,
+    7
+   ],
+   "note": "顶面通槽：宽6×深6，沿 X 贯通；两端开口",
+   "reviewed": true
+  }
+ ]
+}

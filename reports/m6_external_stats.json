@@ -1,0 +1,255 @@
+{
+  "coverage_analysis": {
+    "bands": [
+      {
+        "band": "<96%",
+        "guard_over_0_5": 5,
+        "guard_rate": 0.1389,
+        "n": 36,
+        "plain_over_0_5": 34,
+        "plain_rate": 0.9444
+      },
+      {
+        "band": "96-99%",
+        "guard_over_0_5": 2,
+        "guard_rate": 0.0625,
+        "n": 32,
+        "plain_over_0_5": 28,
+        "plain_rate": 0.875
+      },
+      {
+        "band": ">=99%",
+        "guard_over_0_5": 1,
+        "guard_rate": 0.0161,
+        "n": 62,
+        "plain_over_0_5": 32,
+        "plain_rate": 0.5161
+      }
+    ],
+    "interpretation": "Association only; low coverage and difficult geometry co-occur.",
+    "spearman_coverage_vs_violation": -0.4175,
+    "spearman_coverage_vs_worst_depth": -0.1044
+  },
+  "depth_summary": {
+    "guard_max_mm": 42.288,
+    "guard_median_mm": 0.0,
+    "guard_over_0_5": 8,
+    "plain_max_mm": 71.104,
+    "plain_median_mm": 16.094,
+    "plain_over_0_5": 94
+  },
+  "level_strata": [
+    {
+      "guard_parts_over_0_5": 0,
+      "guard_rate": 0.0,
+      "guard_wilson95": [
+        0.0,
+        0.0918
+      ],
+      "levels": [
+        2,
+        10
+      ],
+      "n": 38,
+      "plain_parts_over_0_5": 36,
+      "plain_rate": 0.9474,
+      "plain_wilson95": [
+        0.8271,
+        0.9854
+      ]
+    },
+    {
+      "guard_parts_over_0_5": 2,
+      "guard_rate": 0.1538,
+      "guard_wilson95": [
+        0.0433,
+        0.4224
+      ],
+      "levels": [
+        11,
+        20
+      ],
+      "n": 13,
+      "plain_parts_over_0_5": 7,
+      "plain_rate": 0.5385,
+      "plain_wilson95": [
+        0.2914,
+        0.7679
+      ]
+    },
+    {
+      "guard_parts_over_0_5": 6,
+      "guard_rate": 0.0779,
+      "guard_wilson95": [
+        0.0362,
+        0.1598
+      ],
+      "levels": [
+        21,
+        40
+      ],
+      "n": 77,
+      "plain_parts_over_0_5": 50,
+      "plain_rate": 0.6494,
+      "plain_wilson95": [
+        0.538,
+        0.7465
+      ]
+    },
+    {
+      "guard_parts_over_0_5": 0,
+      "guard_rate": 0.0,
+      "guard_wilson95": [
+        0.0,
+        0.6576
+      ],
+      "levels": [
+        41,
+        null
+      ],
+      "n": 2,
+      "plain_parts_over_0_5": 1,
+      "plain_rate": 0.5,
+      "plain_wilson95": [
+        0.0945,
+        0.9055
+      ]
+    }
+  ],
+  "levels_summary": {
+    "distinct": 28,
+    "max": 62,
+    "median": 24,
+    "min": 2
+  },
+  "n_parts": 130,
+  "paired_guard_effect": {
+    "both_bad": 8,
+    "exact_two_sided_p": 2.5849394142282115e-26,
+    "guard_only_bad": 0,
+    "neither_bad": 36,
+    "plain_only_bad": 86,
+    "threshold_mm": 0.5
+  },
+  "source": "reports/m6_ocl_external.json",
+  "threshold_sensitivity": [
+    {
+      "guard_parts": 18,
+      "guard_wilson95": [
+        0.0894,
+        0.2083
+      ],
+      "plain_parts": 128,
+      "plain_wilson95": [
+        0.9456,
+        0.9958
+      ],
+      "threshold_mm": 0.1
+    },
+    {
+      "guard_parts": 13,
+      "guard_wilson95": [
+        0.0594,
+        0.1636
+      ],
+      "plain_parts": 102,
+      "plain_wilson95": [
+        0.7063,
+        0.8466
+      ],
+      "threshold_mm": 0.25
+    },
+    {
+      "guard_parts": 8,
+      "guard_wilson95": [
+        0.0315,
+        0.1167
+      ],
+      "plain_parts": 94,
+      "plain_wilson95": [
+        0.6406,
+        0.7928
+      ],
+      "threshold_mm": 0.5
+    },
+    {
+      "guard_parts": 6,
+      "guard_wilson95": [
+        0.0213,
+        0.097
+      ],
+      "plain_parts": 94,
+      "plain_wilson95": [
+        0.6406,
+        0.7928
+      ],
+      "threshold_mm": 0.75
+    },
+    {
+      "guard_parts": 6,
+      "guard_wilson95": [
+        0.0213,
+        0.097
+      ],
+      "plain_parts": 94,
+      "plain_wilson95": [
+        0.6406,
+        0.7928
+      ],
+      "threshold_mm": 1.0
+    },
+    {
+      "guard_parts": 6,
+      "guard_wilson95": [
+        0.0213,
+        0.097
+      ],
+      "plain_parts": 94,
+      "plain_wilson95": [
+        0.6406,
+        0.7928
+      ],
+      "threshold_mm": 2.0
+    },
+    {
+      "guard_parts": 6,
+      "guard_wilson95": [
+        0.0213,
+        0.097
+      ],
+      "plain_parts": 94,
+      "plain_wilson95": [
+        0.6406,
+        0.7928
+      ],
+      "threshold_mm": 5.0
+    },
+    {
+      "guard_parts": 6,
+      "guard_wilson95": [
+        0.0213,
+        0.097
+      ],
+      "plain_parts": 87,
+      "plain_wilson95": [
+        0.5845,
+        0.7442
+      ],
+      "threshold_mm": 10.0
+    },
+    {
+      "guard_parts": 2,
+      "guard_wilson95": [
+        0.0042,
+        0.0544
+      ],
+      "plain_parts": 49,
+      "plain_wilson95": [
+        0.2983,
+        0.4626
+      ],
+      "threshold_mm": 20.0
+    }
+  ],
+  "unit": "part; tool-centre samples within a part are correlated"
+}

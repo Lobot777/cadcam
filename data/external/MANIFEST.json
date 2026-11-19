@@ -1,0 +1,8426 @@
+{
+ "dataset": "mfcad",
+ "generated_at": "2026-11-06 15:41:13",
+ "kept": 130,
+ "rejects": {
+  "层数": 1531,
+  "不可映射": 13541
+ },
+ "level_hist": {
+  "3": 18,
+  "4": 17,
+  "5": 10,
+  "6": 17,
+  "7": 17,
+  "8": 17,
+  "9": 17,
+  "10": 17
+ },
+ "items": [
+  {
+   "id": "mfcad_0-0-0-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 16,
+   "levels": 3,
+   "volume_mm3": 783.2,
+   "res": 0.25,
+   "labeled_faces": 10,
+   "geom": "geom\\mfcad_0-0-0-12-14-23.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-12-13-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 4,
+   "volume_mm3": 886.8,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-1-12-13-13-23.json",
+   "labels": {
+    "1": {
+     "family": "hole"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-0-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 13,
+   "levels": 5,
+   "volume_mm3": 838.8,
+   "res": 0.25,
+   "labeled_faces": 7,
+   "geom": "geom\\mfcad_0-0-0-0-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "hole"
+    },
+    "12": {
+     "family": "hole"
+    },
+    "13": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-10-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 6,
+   "volume_mm3": 895.4,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-0-0-10-10-23.json",
+   "labels": {
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-14-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 12,
+   "levels": 7,
+   "volume_mm3": 878.4,
+   "res": 0.25,
+   "labeled_faces": 6,
+   "geom": "geom\\mfcad_0-0-0-14-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "11": {
+     "family": "hole"
+    },
+    "12": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-10-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 8,
+   "volume_mm3": 884.2,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-0-0-10-12-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-10-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 9,
+   "volume_mm3": 873.3,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-0-10-11-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-0-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 10,
+   "volume_mm3": 838.2,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-0-0-10-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-2-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 3,
+   "volume_mm3": 793.2,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-0-1-2-14-23.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-14-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 4,
+   "volume_mm3": 836.4,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-1-14-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "hole"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "hole"
+    },
+    "9": {
+     "family": "hole"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-10-13-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 5,
+   "volume_mm3": 852.2,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-10-13-19.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-2-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 6,
+   "volume_mm3": 845.1,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-0-0-2-10-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-2-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 7,
+   "volume_mm3": 808.3,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-0-2-13-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 8,
+   "volume_mm3": 825.9,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-0-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "hole"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "11": {
+     "family": "hole"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-10-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 14,
+   "levels": 9,
+   "volume_mm3": 900.9,
+   "res": 0.25,
+   "labeled_faces": 8,
+   "geom": "geom\\mfcad_0-0-0-10-19.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-12-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 13,
+   "levels": 10,
+   "volume_mm3": 902.3,
+   "res": 0.25,
+   "labeled_faces": 7,
+   "geom": "geom\\mfcad_0-0-0-12-19.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-11-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 3,
+   "volume_mm3": 806.8,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-0-11-12-12-23.json",
+   "labels": {
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-12-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 4,
+   "volume_mm3": 822.0,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-10-12-12-12-23.json",
+   "labels": {
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-11-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 5,
+   "volume_mm3": 921.1,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-1-1-11-12-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-13-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 16,
+   "levels": 6,
+   "volume_mm3": 777.8,
+   "res": 0.25,
+   "labeled_faces": 10,
+   "geom": "geom\\mfcad_0-0-1-13-14-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "hole"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-2-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 16,
+   "levels": 7,
+   "volume_mm3": 903.0,
+   "res": 0.25,
+   "labeled_faces": 10,
+   "geom": "geom\\mfcad_0-0-0-2-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 8,
+   "volume_mm3": 914.4,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-0-1-12-14-23.json",
+   "labels": {
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-3-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 9,
+   "volume_mm3": 868.9,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-0-0-3-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-2-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 17,
+   "levels": 10,
+   "volume_mm3": 821.5,
+   "res": 0.25,
+   "labeled_faces": 11,
+   "geom": "geom\\mfcad_0-0-0-2-12-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-12-13-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 16,
+   "levels": 3,
+   "volume_mm3": 859.6,
+   "res": 0.25,
+   "labeled_faces": 10,
+   "geom": "geom\\mfcad_0-0-12-13-13-23.json",
+   "labels": {
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-12-12-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 4,
+   "volume_mm3": 870.0,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-10-12-12-13-23.json",
+   "labels": {
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-2-2-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 5,
+   "volume_mm3": 839.0,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-1-2-2-13-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "hole"
+    },
+    "23": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-3-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 6,
+   "volume_mm3": 865.0,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-1-3-12-23.json",
+   "labels": {
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-3-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 7,
+   "volume_mm3": 768.2,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-0-0-3-12-23.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-12-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 8,
+   "volume_mm3": 928.6,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-1-12-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-10-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 9,
+   "volume_mm3": 901.8,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-1-10-10-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-11-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 10,
+   "volume_mm3": 917.1,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-0-1-11-13-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-14-14-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 14,
+   "levels": 3,
+   "volume_mm3": 781.7,
+   "res": 0.25,
+   "labeled_faces": 8,
+   "geom": "geom\\mfcad_0-0-14-14-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "hole"
+    },
+    "6": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "hole"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "hole"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-14-14-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 4,
+   "volume_mm3": 856.6,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-10-14-14-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "hole"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-11-11-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 30,
+   "levels": 5,
+   "volume_mm3": 715.3,
+   "res": 0.25,
+   "labeled_faces": 24,
+   "geom": "geom\\mfcad_0-10-11-11-12-23.json",
+   "labels": {
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-10-10-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 6,
+   "volume_mm3": 875.0,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-0-10-10-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-0-3-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 7,
+   "volume_mm3": 839.0,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-0-3-19.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 11,
+   "levels": 8,
+   "volume_mm3": 950.9,
+   "res": 0.25,
+   "labeled_faces": 5,
+   "geom": "geom\\mfcad_0-0-1-19.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-2-2-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 9,
+   "volume_mm3": 775.6,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-0-1-2-2-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-10-10-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 10,
+   "volume_mm3": 873.8,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-0-10-10-10-23.json",
+   "labels": {
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-11-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 3,
+   "volume_mm3": 850.5,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-0-3-11-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "hole"
+    },
+    "23": {
+     "family": "hole"
+    },
+    "24": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-11-11-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 4,
+   "volume_mm3": 831.2,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_0-11-11-12-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "hole"
+    },
+    "27": {
+     "family": "hole"
+    },
+    "28": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-2-10-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 5,
+   "volume_mm3": 874.3,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-2-2-10-13-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-11-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 6,
+   "volume_mm3": 880.3,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-0-2-11-12-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-1-1-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 7,
+   "volume_mm3": 887.8,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-0-1-1-1-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-10-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 13,
+   "levels": 8,
+   "volume_mm3": 916.5,
+   "res": 0.25,
+   "labeled_faces": 7,
+   "geom": "geom\\mfcad_0-0-10-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-2-3-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 9,
+   "volume_mm3": 798.2,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-0-1-2-3-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-10-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 10,
+   "volume_mm3": 769.4,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-0-2-10-10-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 3,
+   "volume_mm3": 865.7,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-3-12-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-12-14-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 4,
+   "volume_mm3": 697.8,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-12-14-14-14-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "hole"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "hole"
+    },
+    "10": {
+     "family": "step"
+    },
+    "12": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-2-11-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 25,
+   "levels": 5,
+   "volume_mm3": 859.5,
+   "res": 0.25,
+   "labeled_faces": 19,
+   "geom": "geom\\mfcad_0-2-2-11-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "2": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "hole"
+    },
+    "24": {
+     "family": "hole"
+    },
+    "25": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-12-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 6,
+   "volume_mm3": 858.3,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-0-3-12-19.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-1-3-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 17,
+   "levels": 7,
+   "volume_mm3": 930.6,
+   "res": 0.25,
+   "labeled_faces": 11,
+   "geom": "geom\\mfcad_0-0-1-3-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-11-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 8,
+   "volume_mm3": 873.9,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_0-0-3-11-11-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-11-11-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 29,
+   "levels": 9,
+   "volume_mm3": 907.1,
+   "res": 0.25,
+   "labeled_faces": 23,
+   "geom": "geom\\mfcad_0-0-11-11-11-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-11-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 10,
+   "volume_mm3": 910.4,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-0-2-11-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-10-10-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 3,
+   "volume_mm3": 822.4,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-1-10-10-12-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_1-11-11-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 31,
+   "levels": 4,
+   "volume_mm3": 876.0,
+   "res": 0.25,
+   "labeled_faces": 25,
+   "geom": "geom\\mfcad_1-11-11-12-12-23.json",
+   "labels": {
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-3-3-10-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 31,
+   "levels": 5,
+   "volume_mm3": 810.4,
+   "res": 0.25,
+   "labeled_faces": 25,
+   "geom": "geom\\mfcad_0-3-3-10-11-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-3-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 6,
+   "volume_mm3": 876.3,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-0-3-3-12-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-12-14-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 7,
+   "volume_mm3": 816.4,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-0-12-14-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-11-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 8,
+   "volume_mm3": 894.5,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-3-11-19.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-11-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 9,
+   "volume_mm3": 750.0,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-11-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "hole"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-10-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 10,
+   "volume_mm3": 807.0,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-0-3-10-12-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-10-10-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 3,
+   "volume_mm3": 911.6,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-1-10-10-13-23.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_1-12-13-14-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 4,
+   "volume_mm3": 852.1,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_1-12-13-14-19.json",
+   "labels": {
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "8": {
+     "family": "hole"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "hole"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_12-14-14-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 5,
+   "volume_mm3": 698.9,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_12-14-14-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "2": {
+     "family": "step"
+    },
+    "4": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "step"
+    },
+    "7": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "hole"
+    },
+    "9": {
+     "family": "hole"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "11": {
+     "family": "step"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-3-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 6,
+   "volume_mm3": 922.8,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-0-3-3-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-2-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 16,
+   "levels": 7,
+   "volume_mm3": 834.2,
+   "res": 0.25,
+   "labeled_faces": 10,
+   "geom": "geom\\mfcad_0-0-2-2-19.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-12-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 8,
+   "volume_mm3": 850.3,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-0-3-12-13-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-2-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 27,
+   "levels": 9,
+   "volume_mm3": 771.2,
+   "res": 0.25,
+   "labeled_faces": 21,
+   "geom": "geom\\mfcad_0-0-2-2-11-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-3-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 10,
+   "volume_mm3": 728.5,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_0-0-3-3-13-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "hole"
+    },
+    "28": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-10-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 3,
+   "volume_mm3": 740.0,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-1-10-12-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_1-14-14-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 4,
+   "volume_mm3": 651.3,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_1-14-14-14-14-23.json",
+   "labels": {
+    "2": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "hole"
+    },
+    "7": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "hole"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_3-10-10-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 29,
+   "levels": 5,
+   "volume_mm3": 899.2,
+   "res": 0.25,
+   "labeled_faces": 23,
+   "geom": "geom\\mfcad_3-10-10-12-14-23.json",
+   "labels": {
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "27": {
+     "family": "hole"
+    },
+    "28": {
+     "family": "hole"
+    },
+    "29": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-10-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 6,
+   "volume_mm3": 949.3,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-1-10-19.json",
+   "labels": {
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-2-3-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 27,
+   "levels": 7,
+   "volume_mm3": 784.0,
+   "res": 0.25,
+   "labeled_faces": 21,
+   "geom": "geom\\mfcad_0-0-2-2-3-23.json",
+   "labels": {
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-1-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 8,
+   "volume_mm3": 923.6,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-1-1-1-11-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-3-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 25,
+   "levels": 9,
+   "volume_mm3": 888.8,
+   "res": 0.25,
+   "labeled_faces": 19,
+   "geom": "geom\\mfcad_0-0-2-3-13-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "hole"
+    },
+    "25": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-1-3-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 10,
+   "volume_mm3": 875.0,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_0-1-1-1-3-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "pocket"
+    },
+    "28": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-11-13-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 3,
+   "volume_mm3": 907.0,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-1-11-13-14-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_1-3-11-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 34,
+   "levels": 4,
+   "volume_mm3": 874.8,
+   "res": 0.25,
+   "labeled_faces": 28,
+   "geom": "geom\\mfcad_1-3-11-12-12-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "step"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "step"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "28": {
+     "family": "pocket"
+    },
+    "29": {
+     "family": "pocket"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    },
+    "32": {
+     "family": "step"
+    },
+    "33": {
+     "family": "step"
+    },
+    "34": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-12-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 6,
+   "volume_mm3": 829.2,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-1-12-12-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-10-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 7,
+   "volume_mm3": 867.6,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-0-3-10-10-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-2-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 27,
+   "levels": 8,
+   "volume_mm3": 680.0,
+   "res": 0.25,
+   "labeled_faces": 21,
+   "geom": "geom\\mfcad_0-1-1-2-10-23.json",
+   "labels": {
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-2-3-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 9,
+   "volume_mm3": 853.5,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-0-2-3-19.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-2-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 25,
+   "levels": 10,
+   "volume_mm3": 868.7,
+   "res": 0.25,
+   "labeled_faces": 19,
+   "geom": "geom\\mfcad_0-1-1-2-12-23.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-12-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 3,
+   "volume_mm3": 873.6,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-1-12-14-14-23.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "11": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_10-10-10-11-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 31,
+   "levels": 4,
+   "volume_mm3": 818.5,
+   "res": 0.25,
+   "labeled_faces": 25,
+   "geom": "geom\\mfcad_10-10-10-11-14-23.json",
+   "labels": {
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "hole"
+    },
+    "30": {
+     "family": "hole"
+    },
+    "31": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-2-3-10-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 31,
+   "levels": 6,
+   "volume_mm3": 877.0,
+   "res": 0.25,
+   "labeled_faces": 25,
+   "geom": "geom\\mfcad_0-1-2-3-10-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-10-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 7,
+   "volume_mm3": 893.6,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-1-1-10-12-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-10-11-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 29,
+   "levels": 8,
+   "volume_mm3": 931.9,
+   "res": 0.25,
+   "labeled_faces": 23,
+   "geom": "geom\\mfcad_0-1-10-11-11-23.json",
+   "labels": {
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-0-3-3-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 33,
+   "levels": 9,
+   "volume_mm3": 863.2,
+   "res": 0.25,
+   "labeled_faces": 27,
+   "geom": "geom\\mfcad_0-0-3-3-11-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    },
+    "32": {
+     "family": "step"
+    },
+    "33": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-2-3-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 25,
+   "levels": 10,
+   "volume_mm3": 873.8,
+   "res": 0.25,
+   "labeled_faces": 19,
+   "geom": "geom\\mfcad_0-1-1-2-3-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-2-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 3,
+   "volume_mm3": 799.4,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-1-2-14-14-23.json",
+   "labels": {
+    "5": {
+     "family": "hole"
+    },
+    "6": {
+     "family": "hole"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_10-10-10-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 27,
+   "levels": 4,
+   "volume_mm3": 703.6,
+   "res": 0.25,
+   "labeled_faces": 21,
+   "geom": "geom\\mfcad_10-10-10-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "3": {
+     "family": "hole"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "hole"
+    },
+    "26": {
+     "family": "hole"
+    },
+    "27": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-11-12-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 6,
+   "volume_mm3": 834.7,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-10-11-12-19.json",
+   "labels": {
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 7,
+   "volume_mm3": 896.5,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-1-1-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-12-13-13-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 15,
+   "levels": 8,
+   "volume_mm3": 885.1,
+   "res": 0.25,
+   "labeled_faces": 9,
+   "geom": "geom\\mfcad_0-12-13-13-19.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "hole"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-11-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 9,
+   "volume_mm3": 940.1,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-1-1-11-13-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-12-13-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 16,
+   "levels": 10,
+   "volume_mm3": 831.4,
+   "res": 0.25,
+   "labeled_faces": 10,
+   "geom": "geom\\mfcad_0-1-12-13-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-3-12-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 26,
+   "levels": 3,
+   "volume_mm3": 820.8,
+   "res": 0.25,
+   "labeled_faces": 20,
+   "geom": "geom\\mfcad_0-1-3-12-14-23.json",
+   "labels": {
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "hole"
+    },
+    "25": {
+     "family": "hole"
+    },
+    "26": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_10-10-11-11-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 33,
+   "levels": 4,
+   "volume_mm3": 922.1,
+   "res": 0.25,
+   "labeled_faces": 27,
+   "geom": "geom\\mfcad_10-10-11-11-14-23.json",
+   "labels": {
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "hole"
+    },
+    "32": {
+     "family": "hole"
+    },
+    "33": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-11-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 6,
+   "volume_mm3": 806.9,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-2-11-14-14-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "step"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "hole"
+    },
+    "23": {
+     "family": "hole"
+    },
+    "24": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-3-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 7,
+   "volume_mm3": 916.4,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_0-1-1-3-11-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-12-12-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 19,
+   "levels": 8,
+   "volume_mm3": 551.4,
+   "res": 0.25,
+   "labeled_faces": 13,
+   "geom": "geom\\mfcad_0-2-12-12-19.json",
+   "labels": {
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-13-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 9,
+   "volume_mm3": 905.6,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-1-1-13-14-23.json",
+   "labels": {
+    "2": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-2-12-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 10,
+   "volume_mm3": 781.3,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-1-2-12-13-23.json",
+   "labels": {
+    "3": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-10-12-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 3,
+   "volume_mm3": 811.1,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-10-10-12-13-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "hole"
+    },
+    "23": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_10-10-11-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 31,
+   "levels": 4,
+   "volume_mm3": 899.4,
+   "res": 0.25,
+   "labeled_faces": 25,
+   "geom": "geom\\mfcad_10-10-11-12-12-23.json",
+   "labels": {
+    "2": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-2-3-11-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 32,
+   "levels": 6,
+   "volume_mm3": 788.8,
+   "res": 0.25,
+   "labeled_faces": 26,
+   "geom": "geom\\mfcad_0-2-2-3-11-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    },
+    "29": {
+     "family": "step"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    },
+    "32": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-2-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 7,
+   "volume_mm3": 876.7,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-1-2-12-12-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-12-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 8,
+   "volume_mm3": 829.1,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-2-12-14-14-23.json",
+   "labels": {
+    "3": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "hole"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-1-2-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 23,
+   "levels": 9,
+   "volume_mm3": 895.2,
+   "res": 0.25,
+   "labeled_faces": 17,
+   "geom": "geom\\mfcad_0-1-1-2-13-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "hole"
+    },
+    "23": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-2-2-3-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 30,
+   "levels": 10,
+   "volume_mm3": 851.0,
+   "res": 0.25,
+   "labeled_faces": 24,
+   "geom": "geom\\mfcad_0-1-2-2-3-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "pocket"
+    },
+    "24": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "pocket"
+    },
+    "28": {
+     "family": "pocket"
+    },
+    "29": {
+     "family": "pocket"
+    },
+    "30": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-11-13-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 3,
+   "volume_mm3": 880.3,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-10-11-13-19.json",
+   "labels": {
+    "4": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_10-10-11-13-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 4,
+   "volume_mm3": 837.2,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_10-10-11-13-14-23.json",
+   "labels": {
+    "1": {
+     "family": "hole"
+    },
+    "2": {
+     "family": "step"
+    },
+    "3": {
+     "family": "step"
+    },
+    "5": {
+     "family": "hole"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "hole"
+    },
+    "27": {
+     "family": "hole"
+    },
+    "28": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-2-3-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 33,
+   "levels": 6,
+   "volume_mm3": 733.1,
+   "res": 0.25,
+   "labeled_faces": 27,
+   "geom": "geom\\mfcad_0-2-2-3-12-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "25": {
+     "family": "pocket"
+    },
+    "26": {
+     "family": "pocket"
+    },
+    "27": {
+     "family": "pocket"
+    },
+    "28": {
+     "family": "pocket"
+    },
+    "29": {
+     "family": "pocket"
+    },
+    "30": {
+     "family": "step"
+    },
+    "31": {
+     "family": "step"
+    },
+    "32": {
+     "family": "step"
+    },
+    "33": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-3-3-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 22,
+   "levels": 7,
+   "volume_mm3": 922.0,
+   "res": 0.25,
+   "labeled_faces": 16,
+   "geom": "geom\\mfcad_0-1-3-3-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-2-3-11-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 25,
+   "levels": 8,
+   "volume_mm3": 913.2,
+   "res": 0.25,
+   "labeled_faces": 19,
+   "geom": "geom\\mfcad_0-2-3-11-19.json",
+   "labels": {
+    "5": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-3-3-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 26,
+   "levels": 9,
+   "volume_mm3": 891.0,
+   "res": 0.25,
+   "labeled_faces": 20,
+   "geom": "geom\\mfcad_0-1-3-3-12-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "pocket"
+    },
+    "22": {
+     "family": "pocket"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-1-3-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 24,
+   "levels": 10,
+   "volume_mm3": 866.4,
+   "res": 0.25,
+   "labeled_faces": 18,
+   "geom": "geom\\mfcad_0-1-3-14-14-23.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "2": {
+     "family": "pocket"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "pocket"
+    },
+    "7": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "pocket"
+    },
+    "21": {
+     "family": "hole"
+    },
+    "22": {
+     "family": "hole"
+    },
+    "23": {
+     "family": "hole"
+    },
+    "24": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-12-13-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 3,
+   "volume_mm3": 829.5,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-10-12-13-14-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "3": {
+     "family": "hole"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "step"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_10-10-12-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 28,
+   "levels": 4,
+   "volume_mm3": 861.1,
+   "res": 0.25,
+   "labeled_faces": 22,
+   "geom": "geom\\mfcad_10-10-12-12-12-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "2": {
+     "family": "step"
+    },
+    "4": {
+     "family": "step"
+    },
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "step"
+    },
+    "27": {
+     "family": "step"
+    },
+    "28": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-3-12-12-12-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 25,
+   "levels": 6,
+   "volume_mm3": 825.9,
+   "res": 0.25,
+   "labeled_faces": 19,
+   "geom": "geom\\mfcad_0-3-12-12-12-23.json",
+   "labels": {
+    "1": {
+     "family": "step"
+    },
+    "3": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "pocket"
+    },
+    "16": {
+     "family": "pocket"
+    },
+    "17": {
+     "family": "pocket"
+    },
+    "18": {
+     "family": "pocket"
+    },
+    "19": {
+     "family": "pocket"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "24": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-10-14-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 20,
+   "levels": 7,
+   "volume_mm3": 901.0,
+   "res": 0.25,
+   "labeled_faces": 14,
+   "geom": "geom\\mfcad_0-10-10-14-19.json",
+   "labels": {
+    "1": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "hole"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-3-10-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 8,
+   "volume_mm3": 944.0,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-3-10-19.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "8": {
+     "family": "pocket"
+    },
+    "9": {
+     "family": "pocket"
+    },
+    "10": {
+     "family": "pocket"
+    },
+    "11": {
+     "family": "pocket"
+    },
+    "12": {
+     "family": "pocket"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-12-13-19",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 18,
+   "levels": 9,
+   "volume_mm3": 900.6,
+   "res": 0.25,
+   "labeled_faces": 12,
+   "geom": "geom\\mfcad_0-10-12-13-19.json",
+   "labels": {
+    "5": {
+     "family": "step"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "13": {
+     "family": "pocket"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-11-11-12-13-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 27,
+   "levels": 10,
+   "volume_mm3": 867.0,
+   "res": 0.25,
+   "labeled_faces": 21,
+   "geom": "geom\\mfcad_0-11-11-12-13-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "4": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "10": {
+     "family": "step"
+    },
+    "11": {
+     "family": "step"
+    },
+    "12": {
+     "family": "step"
+    },
+    "13": {
+     "family": "step"
+    },
+    "14": {
+     "family": "step"
+    },
+    "15": {
+     "family": "step"
+    },
+    "16": {
+     "family": "step"
+    },
+    "17": {
+     "family": "step"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "step"
+    },
+    "20": {
+     "family": "step"
+    },
+    "21": {
+     "family": "step"
+    },
+    "22": {
+     "family": "step"
+    },
+    "23": {
+     "family": "step"
+    },
+    "25": {
+     "family": "step"
+    },
+    "26": {
+     "family": "hole"
+    },
+    "27": {
+     "family": "hole"
+    }
+   }
+  },
+  {
+   "id": "mfcad_0-10-14-14-14-23",
+   "ok": true,
+   "size": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "faces": 21,
+   "levels": 3,
+   "volume_mm3": 670.4,
+   "res": 0.25,
+   "labeled_faces": 15,
+   "geom": "geom\\mfcad_0-10-14-14-14-23.json",
+   "labels": {
+    "2": {
+     "family": "pocket"
+    },
+    "6": {
+     "family": "step"
+    },
+    "7": {
+     "family": "step"
+    },
+    "8": {
+     "family": "step"
+    },
+    "9": {
+     "family": "step"
+    },
+    "10": {
+     "family": "hole"
+    },
+    "13": {
+     "family": "hole"
+    },
+    "14": {
+     "family": "hole"
+    },
+    "15": {
+     "family": "hole"
+    },
+    "16": {
+     "family": "hole"
+    },
+    "17": {
+     "family": "hole"
+    },
+    "18": {
+     "family": "step"
+    },
+    "19": {
+     "family": "hole"
+    },
+    "20": {
+     "family": "hole"
+    },
+    "21": {
+     "family": "hole"
+    }
+   }
+  }
+ ]
+}

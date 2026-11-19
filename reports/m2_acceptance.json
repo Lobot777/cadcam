@@ -1,0 +1,79 @@
+{
+  "kernel": "1.1.4",
+  "alignment": {
+    "checked": 5,
+    "agree": 5
+  },
+  "synthetic": {
+    "faces": 8771,
+    "accuracy": 0.9643
+  },
+  "real_parts": {
+    "9": {
+      "text": "stock ×6；chamfer ×4；boss_or_fillet ×4（Ø10）；hole ×3；groove ×1（Ø4）",
+      "mean_confidence": 0.9667,
+      "conflicts": 4
+    },
+    "10": {
+      "text": "boss_or_fillet ×2（Ø52.326/74）；chamfer ×1；hole ×1；pocket ×1（Ø6）；step ×1；stock ×1",
+      "mean_confidence": 0.9108,
+      "conflicts": 2
+    }
+  },
+  "checks": [
+    {
+      "item": "面顺序逐位一致",
+      "pass": true,
+      "detail": "5/5"
+    },
+    {
+      "item": "面级准确率 ≥ 0.95",
+      "pass": true,
+      "detail": "0.9643（8771 面）"
+    },
+    {
+      "item": "平均置信度 ≥ 0.90",
+      "pass": true,
+      "detail": "0.9706"
+    },
+    {
+      "item": "几何校验纠正圆角误判",
+      "pass": true,
+      "detail": "9.step 冲突 4 处"
+    },
+    {
+      "item": "纠正后不再出现纯 hole 的 Ø10",
+      "pass": true,
+      "detail": "stock ×6；chamfer ×4；boss_or_fillet ×4（Ø10）；hole ×3；groove ×1（Ø4）"
+    },
+    {
+      "item": "工具可调用并返回实例",
+      "pass": true,
+      "detail": "18 个实例"
+    },
+    {
+      "item": "返回包含冲突记录",
+      "pass": true,
+      "detail": "4 处"
+    },
+    {
+      "item": "越界参数被拒绝",
+      "pass": true,
+      "detail": "ErrorCode.PARAM_INVALID"
+    },
+    {
+      "item": "未知参数被拒绝",
+      "pass": true,
+      "detail": "ErrorCode.PARAM_INVALID"
+    },
+    {
+      "item": "工具总数 10",
+      "pass": true,
+      "detail": "10"
+    }
+  ],
+  "summary": {
+    "passed": 10,
+    "total": 10
+  }
+}

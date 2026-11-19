@@ -1,0 +1,45 @@
+{
+ "steps": {
+  "MillFace.Create": {
+   "ok": true,
+   "value": "<Path::FeaturePython object>"
+  },
+  "op properties": {
+   "ok": true,
+   "value": "['Base', 'ClearanceHeight', 'FinalDepth', 'FinishDepth', 'KeepToolDown', 'OpFinalDepth', 'OpStartDepth', 'OpToolDiameter', 'Path', 'PathParams', 'PocketLastStepOver', 'SafeHeight', 'StartDepth', 'StepDown', 'StepOver', 'ToolController']"
+  },
+  "set Base": {
+   "ok": true,
+   "value": "[(<Part::Feature>, ('Face6',))]"
+  },
+  "set depths": {
+   "ok": true,
+   "value": "ok"
+  },
+  "recompute job": {
+   "ok": true,
+   "value": "ok"
+  },
+  "op.Path commands": {
+   "ok": true,
+   "value": "94"
+  },
+  "first commands": {
+   "ok": true,
+   "value": "['Command (MillFace) [ ]', 'Command G0 [ Z:58 ]', 'Command G0 [ X:37.5 Y:-37.5 ]', 'Command G0 [ Z:56 ]', 'Command G1 [ X:37.5 Y:-37.5 Z:52 ]', 'Command G1 [ X:37.5 Y:-33.964 Z:52 ]']"
+  },
+  "job.Path commands": {
+   "ok": true,
+   "value": "0"
+  },
+  "postprocessor factory": {
+   "ok": true,
+   "value": "['get_post_processor']"
+  },
+  "serialize commands": {
+   "ok": true,
+   "value": "[{'Name': '(MillFace)', 'Parameters': {}}, {'Name': 'G0', 'Parameters': {'Z': 58.0}}, {'Name': 'G0', 'Parameters': {'X': 37.49999993707382, 'Y': -37.49999993707382}}, {'Name': 'G0', 'Parameters': {'Z': 56.0}}, {'Name': 'G1', 'Parameters': {'X': 37.49999993707382, 'Y': -37.49999993707382, 'Z': 52.000001}}]"
+  }
+ },
+ "top_face": 6
+}

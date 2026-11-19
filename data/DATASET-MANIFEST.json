@@ -1,0 +1,359 @@
+{
+ "version": "v1",
+ "frozen_at": "2026-11-05",
+ "parts": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "n_parts": 10,
+ "n_files": 60,
+ "total_bytes": 7673653,
+ "groups": {
+  "zenodo_rptu": {
+   "dir": "data/zenodo_rptu",
+   "n_files": 30,
+   "files": [
+    {
+     "path": "data/zenodo_rptu/1.ngc",
+     "bytes": 6887,
+     "sha256": "8e48a4bf3647fc3319bd53fe131c411a1b7e79a7838605167795c916c7c71d29"
+    },
+    {
+     "path": "data/zenodo_rptu/1.png",
+     "bytes": 78320,
+     "sha256": "99ffdf93e07444ad1bfb86e967d6fe78784c3d4c144cd37b43785ec466f90a45"
+    },
+    {
+     "path": "data/zenodo_rptu/1.step",
+     "bytes": 14381,
+     "sha256": "8c2142896328cb3af5d4bc7ea3ee8d9acec62d0128fab2f06d14fc4d81f7c349"
+    },
+    {
+     "path": "data/zenodo_rptu/10.ngc",
+     "bytes": 365273,
+     "sha256": "4b90bb4a916bcda7f4812298ae1aabe907b2fefbcd18e76e2f901709d4e942b9"
+    },
+    {
+     "path": "data/zenodo_rptu/10.png",
+     "bytes": 146855,
+     "sha256": "45b0870f7b08e2f9f5f16c84ac7f9d505cfa4129e9e3816a17725ed0ba40323c"
+    },
+    {
+     "path": "data/zenodo_rptu/10.step",
+     "bytes": 69482,
+     "sha256": "91c23f1fb78ab88b50e9bf46af2f5a08774a56a772d66d8922801a6fbe2001ab"
+    },
+    {
+     "path": "data/zenodo_rptu/2.ngc",
+     "bytes": 14483,
+     "sha256": "4e45f52841ce0baaa4473cf3f80a276297ccbe4a7392b26927e6078acf64f11d"
+    },
+    {
+     "path": "data/zenodo_rptu/2.png",
+     "bytes": 84469,
+     "sha256": "31c93f8753f8397d4ca4decd5d42f4f8ec74dfb3f1bc100df73861297bc5ff42"
+    },
+    {
+     "path": "data/zenodo_rptu/2.step",
+     "bytes": 15929,
+     "sha256": "e6c3d7d0638ca832e59ab0d5d1c45bacb78c0738df76c19d5a64196cd831db45"
+    },
+    {
+     "path": "data/zenodo_rptu/3.ngc",
+     "bytes": 36113,
+     "sha256": "5363a4888613a1732bacf9999958893a72b60481d919071214e992f770eccaec"
+    },
+    {
+     "path": "data/zenodo_rptu/3.png",
+     "bytes": 92720,
+     "sha256": "d08cada9191732b333764785c545db96f5397471eb458ee185f83cce33518687"
+    },
+    {
+     "path": "data/zenodo_rptu/3.step",
+     "bytes": 21295,
+     "sha256": "872917f49b6c8cb458260571e45df3ffd8476c5e2dccb27121fefb16002f2991"
+    },
+    {
+     "path": "data/zenodo_rptu/4.ngc",
+     "bytes": 93957,
+     "sha256": "6240d35afb5e7de046e0249b23072db63f3a20d0aecb756de2419c91f697b1f6"
+    },
+    {
+     "path": "data/zenodo_rptu/4.png",
+     "bytes": 96405,
+     "sha256": "852a37b8bef2c5fa08fa1b6b4d8ed337b8c3b60db879b485462270800130f651"
+    },
+    {
+     "path": "data/zenodo_rptu/4.step",
+     "bytes": 18768,
+     "sha256": "9779d88de7a615c439a76582341eb8244c2c73acc3e67c64c8332856e19437da"
+    },
+    {
+     "path": "data/zenodo_rptu/5.ngc",
+     "bytes": 63469,
+     "sha256": "d268fec818e49cbc329969d5ccc29334ca2f0ad8851b1f288caafe6ca60dbf5e"
+    },
+    {
+     "path": "data/zenodo_rptu/5.png",
+     "bytes": 93621,
+     "sha256": "06684bcae0e31ea2bd877b75e73bb8ca4e616883228c9932f417e338e7220706"
+    },
+    {
+     "path": "data/zenodo_rptu/5.step",
+     "bytes": 21722,
+     "sha256": "2e77b32274a0b7ab62dcf6ccb8fc47077a8968cce0e3cd466de7abad1cd693f7"
+    },
+    {
+     "path": "data/zenodo_rptu/6.ngc",
+     "bytes": 159777,
+     "sha256": "318245efdccabd466cb53b6a0349242fcda79f82feb7c776187d03338c746d96"
+    },
+    {
+     "path": "data/zenodo_rptu/6.png",
+     "bytes": 110674,
+     "sha256": "392457b9ed3d44dced973098e6ac22e4f84a2d9d2284227fac0af1bce6204534"
+    },
+    {
+     "path": "data/zenodo_rptu/6.step",
+     "bytes": 23208,
+     "sha256": "30328dbe66955e34db199c9a36f0674548941c59164c12e48ea3bf4bca5eade7"
+    },
+    {
+     "path": "data/zenodo_rptu/7.ngc",
+     "bytes": 1005109,
+     "sha256": "df9c904dd52e5908006b37744abbff6a9f9cf4094eaf3602dfe3f97e147e6860"
+    },
+    {
+     "path": "data/zenodo_rptu/7.png",
+     "bytes": 112491,
+     "sha256": "b93436d7bb4ef3ffaa0692e7126b3fd16bc3b8462c19a48c4e20a43cddfb9842"
+    },
+    {
+     "path": "data/zenodo_rptu/7.step",
+     "bytes": 61497,
+     "sha256": "1fdc0a1ccfdf92f6bee6e67c8e29c0308dafee104025923315a58a0998f9cec3"
+    },
+    {
+     "path": "data/zenodo_rptu/8.ngc",
+     "bytes": 295756,
+     "sha256": "57b637a6533710dc9e11cc90945edea39bc3d0792d1e7ba7273805dd3af6dfb3"
+    },
+    {
+     "path": "data/zenodo_rptu/8.png",
+     "bytes": 74913,
+     "sha256": "781d89c0dd409571fbe04161102dc5a56e39914692d0e77834d6e5adccc948d9"
+    },
+    {
+     "path": "data/zenodo_rptu/8.step",
+     "bytes": 37516,
+     "sha256": "bb7f3809b3e5610dfde77aaf4cd388426bd06a47267cf021587f6bca23822bb7"
+    },
+    {
+     "path": "data/zenodo_rptu/9.ngc",
+     "bytes": 1839803,
+     "sha256": "d944a8d0d40f0c97e5d0f64c097785561503b61f8b1b0eb7b5682f84925445da"
+    },
+    {
+     "path": "data/zenodo_rptu/9.png",
+     "bytes": 137413,
+     "sha256": "c5f99a9dedd360e4a7636a5ee2abb139b3f7c4179b743120eee9809117f56174"
+    },
+    {
+     "path": "data/zenodo_rptu/9.step",
+     "bytes": 146125,
+     "sha256": "3658eb09d100e75cc57e0e18fb7850eb0de456ac141c6b8a17e21141f8edfd32"
+    }
+   ]
+  },
+  "face_labels": {
+   "dir": "data/zenodo_rptu/labels",
+   "n_files": 20,
+   "files": [
+    {
+     "path": "data/zenodo_rptu/labels/1.draft.json",
+     "bytes": 2189,
+     "sha256": "0352cc8b079218970f6e9e9bde082fcfbe4123d9d43c31760134df50935f42bb"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/1.json",
+     "bytes": 1780,
+     "sha256": "00a5caea19f2cc2b54d89e94844a964bb361d3bc3d28a585d11f8593d6614434"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/10.draft.json",
+     "bytes": 6573,
+     "sha256": "a144f78bdeaf4b961116d8a5d548784e794bec28c793c29079f9259a5c3a4555"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/10.json",
+     "bytes": 7425,
+     "sha256": "a98f9ec0fdad4e813fd105735989e30d94d5eb914b6d21484446cb8f96069511"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/2.draft.json",
+     "bytes": 5789,
+     "sha256": "9466cbb2a6b14e56dc5df03134e352f432102805017b8d464e5a3b2fd5f6c18b"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/2.json",
+     "bytes": 2655,
+     "sha256": "252dcf79e502501dd014ee226ee2fd4650d308257f10833bb10e4afbe2d43bf2"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/3.draft.json",
+     "bytes": 6992,
+     "sha256": "28c15c5c90c6c376a540769213b014ea23172739e0d48ad323778409fb3a9fe0"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/3.json",
+     "bytes": 4217,
+     "sha256": "2dc4a65151bfcd47d66570655d57cc1f1c61244ad502794e88075cd58cdc40c9"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/4.draft.json",
+     "bytes": 6990,
+     "sha256": "c56516dc237356ceef1fa2a742d5e006d5f39f950a5ca0ed9f75c36ef5e77fe2"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/4.json",
+     "bytes": 3250,
+     "sha256": "e424f85341dc3af6c8405a8b1efb88d873fadea03e473ad7d7fd6664c1941e76"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/5.draft.json",
+     "bytes": 7385,
+     "sha256": "e90cfc9030864f64806ea26dc3d39539ff398c0dc0927530cd8b7ef8cc8ff1d8"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/5.json",
+     "bytes": 3629,
+     "sha256": "d4c3db15671e0c67a9ec601b204c6cf3fa8313c1dce30f9d43fb5b7442f7ec91"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/6.draft.json",
+     "bytes": 8167,
+     "sha256": "7026e2ed64a2e86ab6f2457f134658e1ada206eb6a2e6e8a6f565bdc8530dd25"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/6.json",
+     "bytes": 4128,
+     "sha256": "44a6e38122b67179bb23709a090c075eb1699e5ce79b413d551393368f766493"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/7.draft.json",
+     "bytes": 3598,
+     "sha256": "5c1274d1d8d5def972b05606cf2b7bf6b3e8b528dbe7dbd84a2014d659599cd1"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/7.json",
+     "bytes": 3326,
+     "sha256": "86dc69fd6a5558a5d5d0f1c87538796d2a54ab59a4f7021bf42765510aa7024a"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/8.draft.json",
+     "bytes": 4690,
+     "sha256": "fe347538fa564d9c497584f83bcd15d8051d6a8f3f128f4caa86677968cfd497"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/8.json",
+     "bytes": 4252,
+     "sha256": "149999e862afc6fa18947b709dcafbe5ce76c74c85f9a59066c08afa8bb22fae"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/9.draft.json",
+     "bytes": 9110,
+     "sha256": "127b81a1ea1f5446a602fb1ddb6261094fd52ebbe72734cfda76411bb1ec836f"
+    },
+    {
+     "path": "data/zenodo_rptu/labels/9.json",
+     "bytes": 6456,
+     "sha256": "ce976a14a9324f7876cd5543b65a1d4419a9ca013f9cb386c43f90f69cac67fe"
+    }
+   ]
+  },
+  "geom_cache": {
+   "dir": "reports/annotation/geom",
+   "n_files": 10,
+   "files": [
+    {
+     "path": "reports/annotation/geom/1.json",
+     "bytes": 7208,
+     "sha256": "48bb8897ffe4980fbc86a90f2f6e3512105f60b1e83d77273a2093cd4caa5d30"
+    },
+    {
+     "path": "reports/annotation/geom/10.json",
+     "bytes": 245031,
+     "sha256": "9f4cd83b4667c81df9431a6700aa5667a15c966918cac8c4b6315ba21d591df3"
+    },
+    {
+     "path": "reports/annotation/geom/2.json",
+     "bytes": 160004,
+     "sha256": "cf469d5b20393704a54b896928710eb2763ed812ff7306701275749d2247a4be"
+    },
+    {
+     "path": "reports/annotation/geom/3.json",
+     "bytes": 163723,
+     "sha256": "8be9b641ae5c1393fd9193ec205803559831a20f696c88b698aebdfb0c114dd0"
+    },
+    {
+     "path": "reports/annotation/geom/4.json",
+     "bytes": 199076,
+     "sha256": "4a681ed45dc280e4cb2bb359410e8dde1e2ec68ea5f4b4aaa386ccc5e8df9d25"
+    },
+    {
+     "path": "reports/annotation/geom/5.json",
+     "bytes": 181986,
+     "sha256": "d0622a752d7397792805393687589883537185bd19935c4151ecb0a8e9d3187d"
+    },
+    {
+     "path": "reports/annotation/geom/6.json",
+     "bytes": 202381,
+     "sha256": "c4753a61b1e7a7f8c61126de974288742aa3da20f6ff9a3df0bf07694d5117b8"
+    },
+    {
+     "path": "reports/annotation/geom/7.json",
+     "bytes": 261887,
+     "sha256": "3157492827165f8df59e69227e61f22d97870558379835423f3e09855df51494"
+    },
+    {
+     "path": "reports/annotation/geom/8.json",
+     "bytes": 59655,
+     "sha256": "21e0290af013e7da4e88b47a733f2aa67203f92d425b4eb9eb6f6f719bf5e79a"
+    },
+    {
+     "path": "reports/annotation/geom/9.json",
+     "bytes": 751670,
+     "sha256": "c9de8b609b296a43d3f8ec3ea8c1cbc3f7753f3fb5e3cdca204d666ad417c4cc"
+    }
+   ]
+  }
+ },
+ "external": [
+  {
+   "name": "MFCAD++",
+   "used_for": "M2 面级特征识别训练/测试（7998/1500/1998 件）",
+   "in_repo": false,
+   "why_not_vendored": "第三方数据集体量大，按上游许可单独分发；复现需按其发布页下载后运行 scripts/extract_mfcad.py",
+   "artifact": "reports/mfr_test_v2.json（训练产物与指标）"
+  }
+ ],
+ "derived": [
+  "reports/m0_baseline.json",
+  "reports/m1_acceptance.json",
+  "reports/m2_acceptance.json",
+  "reports/m3_acceptance.json",
+  "reports/m3_cam_eval.json",
+  "reports/m3_heightmap_eval.json",
+  "reports/m3_criterion_analysis.json",
+  "reports/m4_run.json"
+ ],
+ "note": "derived 里的文件由 scripts/ 下脚本从本清单输入重算，不入哈希链；bench 会重算并比对关键数字。"
+}

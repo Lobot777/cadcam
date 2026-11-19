@@ -1,0 +1,86 @@
+{
+ "model": "qwen3:8b",
+ "criterion": "执行成功 + 体积相对误差 ≤5%",
+ "safety_gate": [
+  "os.system",
+  "os.remove",
+  "os.rmdir",
+  "os.popen",
+  "os.walk",
+  "subprocess",
+  "shutil",
+  "socket",
+  "urllib",
+  "requests",
+  "eval(",
+  "exec(",
+  "__import__",
+  "open(",
+  "pathlib"
+ ],
+ "summary": {
+  "route": "LLM 直写 FreeCAD 脚本",
+  "n": 5,
+  "exec_ok": 3,
+  "blocked_by_gate": 0,
+  "volume_within_5pct": 1,
+  "mean_volume_rel_err": 0.0393,
+  "prompt_tokens": 2762,
+  "completion_tokens": 3026,
+  "wall_seconds": 1.1
+ },
+ "rows": [
+  {
+   "part": "1",
+   "exec_ok": false,
+   "seconds": 0.2,
+   "prompt_tokens": 312,
+   "completion_tokens": 1200,
+   "ref_volume_mm3": 317120.0,
+   "tail": "FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n"
+  },
+  {
+   "part": "2",
+   "exec_ok": true,
+   "seconds": 0.2,
+   "prompt_tokens": 449,
+   "completion_tokens": 243,
+   "ref_volume_mm3": 318743.36,
+   "volume_mm3": 314973.5,
+   "volume_rel_err": 0.0118,
+   "faces": 20,
+   "bbox_err_mm": 0.0
+  },
+  {
+   "part": "8",
+   "exec_ok": true,
+   "seconds": 0.2,
+   "prompt_tokens": 449,
+   "completion_tokens": 237,
+   "ref_volume_mm3": 285886.58,
+   "volume_mm3": 316195.2,
+   "volume_rel_err": 0.106,
+   "faces": 27,
+   "bbox_err_mm": 25.03
+  },
+  {
+   "part": "9",
+   "exec_ok": true,
+   "seconds": 0.3,
+   "prompt_tokens": 830,
+   "completion_tokens": 725,
+   "ref_volume_mm3": 286349.29,
+   "measure_error": "FreeCADError: FreeCAD 内核执行失败:\nTraceback (most recent call last):\n  File \"E:\\CAD2CAM/src/cadcam/adapters\\freecad_worker.py\", line 238, "
+  },
+  {
+   "part": "10",
+   "exec_ok": false,
+   "seconds": 0.2,
+   "prompt_tokens": 722,
+   "completion_tokens": 621,
+   "ref_volume_mm3": 294978.25,
+   "tail": "Exception while processing file: E:/CAD2CAM/build/llm_scripts/part10.py [height of box too small]\n"
+  }
+ ],
+ "generated_at": "2026-11-06 09:41:01"
+}

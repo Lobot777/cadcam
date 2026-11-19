@@ -1,0 +1,82 @@
+[
+ {
+  "boundary": "Boundbox",
+  "exclude_raised": false,
+  "commands": 358,
+  "x_range": [
+   -37.5,
+   37.5
+  ],
+  "y_range": [
+   -37.5,
+   37.5
+  ]
+ },
+ {
+  "boundary": "Boundbox",
+  "exclude_raised": true,
+  "commands": 2,
+  "x_range": null,
+  "y_range": null
+ },
+ {
+  "boundary": "Face Region",
+  "exclude_raised": false,
+  "commands": 358,
+  "x_range": [
+   -37.5,
+   37.5
+  ],
+  "y_range": [
+   -37.5,
+   37.5
+  ]
+ },
+ {
+  "boundary": "Face Region",
+  "exclude_raised": true,
+  "commands": 0,
+  "x_range": null,
+  "y_range": null
+ },
+ {
+  "boundary": "Perimeter",
+  "exclude_raised": false,
+  "commands": 358,
+  "x_range": [
+   -37.5,
+   37.5
+  ],
+  "y_range": [
+   -37.5,
+   37.5
+  ]
+ },
+ {
+  "boundary": "Perimeter",
+  "exclude_raised": true,
+  "commands": 2,
+  "x_range": null,
+  "y_range": null
+ },
+ {
+  "boundary": "Stock",
+  "exclude_raised": false,
+  "commands": 366,
+  "x_range": [
+   -38.5,
+   38.5
+  ],
+  "y_range": [
+   -38.5,
+   38.5
+  ]
+ },
+ {
+  "boundary": "Stock",
+  "exclude_raised": true,
+  "commands": 2,
+  "x_range": null,
+  "y_range": null
+ }
+]

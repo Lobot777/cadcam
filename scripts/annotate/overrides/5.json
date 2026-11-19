@@ -1,0 +1,63 @@
+{
+ "annotator": "ai-visual+rule",
+ "review_needed": false,
+ "open_questions": [],
+ "features": [
+  [
+   "step",
+   "rectangular_blind_step",
+   [
+    5
+   ],
+   "凸台外周台阶面，深4"
+  ],
+  [
+   "boss",
+   null,
+   [
+    6,
+    7,
+    12,
+    13,
+    14
+   ],
+   "D 形凸台（半圆+矩形），高4；侧壁含 Ø70 圆弧面"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    8,
+    18
+   ],
+   "Ø10 盲孔 深6"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    9,
+    17
+   ],
+   "Ø10 盲孔 深6"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    10,
+    16
+   ],
+   "Ø10 盲孔 深6"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    11,
+    15
+   ],
+   "Ø10 盲孔 深6"
+  ]
+ ]
+}

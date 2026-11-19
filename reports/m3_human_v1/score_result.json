@@ -1,0 +1,57 @@
+{
+ "n_items": 30,
+ "pack_version": "v1",
+ "evaluators": [
+  {
+   "file": "E1_M3_HUMAN.json",
+   "annotator": "E1",
+   "missing": 0,
+   "unknown_rate": 0.0,
+   "accuracy_vs_truth": 1.0,
+   "agreement_with_validator": 1.0,
+   "cohen_kappa_with_validator": 1.0
+  },
+  {
+   "file": "E2_M3_HUMAN.json",
+   "annotator": "E2",
+   "missing": 0,
+   "unknown_rate": 0.0,
+   "accuracy_vs_truth": 1.0,
+   "agreement_with_validator": 1.0,
+   "cohen_kappa_with_validator": 1.0
+  },
+  {
+   "file": "E3_M3_HUMAN.json",
+   "annotator": "E3",
+   "missing": 0,
+   "unknown_rate": 0.0,
+   "accuracy_vs_truth": 1.0,
+   "agreement_with_validator": 1.0,
+   "cohen_kappa_with_validator": 1.0
+  }
+ ],
+ "summary": {
+  "majority_agreement_with_validator": 1.0,
+  "mean_evaluator_agreement": 1.0,
+  "validator_accuracy_vs_truth": 1.0,
+  "accept_ge_90pct": true,
+  "n_evaluators": 3,
+  "by_difficulty": {
+   "easy": {
+    "n": 15,
+    "agreement": 1.0,
+    "validator_accuracy": 1.0
+   },
+   "medium": {
+    "n": 11,
+    "agreement": 1.0,
+    "validator_accuracy": 1.0
+   },
+   "hard": {
+    "n": 4,
+    "agreement": 1.0,
+    "validator_accuracy": 1.0
+   }
+  }
+ }
+}

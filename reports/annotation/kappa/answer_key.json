@@ -1,0 +1,182 @@
+{
+ "S01": {
+  "part": "3",
+  "face": 4,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S02": {
+  "part": "1",
+  "face": 9,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S03": {
+  "part": "8",
+  "face": 7,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S04": {
+  "part": "7",
+  "face": 14,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S05": {
+  "part": "9",
+  "face": 28,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S06": {
+  "part": "10",
+  "face": 31,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S07": {
+  "part": "5",
+  "face": 4,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S08": {
+  "part": "6",
+  "face": 4,
+  "family": "stock",
+  "mfcad_class": "stock"
+ },
+ "S09": {
+  "part": "4",
+  "face": 8,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S10": {
+  "part": "2",
+  "face": 5,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S11": {
+  "part": "5",
+  "face": 18,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S12": {
+  "part": "3",
+  "face": 19,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S13": {
+  "part": "6",
+  "face": 12,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S14": {
+  "part": "9",
+  "face": 32,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S15": {
+  "part": "4",
+  "face": 9,
+  "family": "hole",
+  "mfcad_class": "blind_hole"
+ },
+ "S16": {
+  "part": "10",
+  "face": 26,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S17": {
+  "part": "5",
+  "face": 14,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S18": {
+  "part": "7",
+  "face": 2,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S19": {
+  "part": "6",
+  "face": 15,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S20": {
+  "part": "4",
+  "face": 12,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S21": {
+  "part": "7",
+  "face": 7,
+  "family": "pocket",
+  "mfcad_class": null
+ },
+ "S22": {
+  "part": "6",
+  "face": 11,
+  "family": "pocket",
+  "mfcad_class": "circular_end_pocket"
+ },
+ "S23": {
+  "part": "9",
+  "face": 20,
+  "family": "pocket",
+  "mfcad_class": "circular_end_pocket"
+ },
+ "S24": {
+  "part": "3",
+  "face": 14,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S25": {
+  "part": "8",
+  "face": 15,
+  "family": "step",
+  "mfcad_class": "rectangular_blind_step"
+ },
+ "S26": {
+  "part": "5",
+  "face": 5,
+  "family": "step",
+  "mfcad_class": "rectangular_blind_step"
+ },
+ "S27": {
+  "part": "10",
+  "face": 27,
+  "family": "step",
+  "mfcad_class": "rectangular_blind_step"
+ },
+ "S28": {
+  "part": "7",
+  "face": 11,
+  "family": "fillet",
+  "mfcad_class": "round"
+ },
+ "S29": {
+  "part": "9",
+  "face": 16,
+  "family": "boss",
+  "mfcad_class": null
+ },
+ "S30": {
+  "part": "1",
+  "face": 5,
+  "family": "slot",
+  "mfcad_class": "rectangular_through_slot"
+ }
+}

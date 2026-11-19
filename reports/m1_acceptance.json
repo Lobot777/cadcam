@@ -1,0 +1,137 @@
+{
+  "session": "E:\\CAD2CAM\\build\\m1_session",
+  "checks": [
+    {
+      "check": "建毛坯 100×80×40，体积 320000",
+      "ok": true,
+      "detail": "volume=320000"
+    },
+    {
+      "check": "挖腔 40×30×12，切除 14400",
+      "ok": true,
+      "detail": "切除=14400（偏差 0.00%）"
+    },
+    {
+      "check": "快照打点成功",
+      "ok": true,
+      "detail": "hash=56a87415feed50f7"
+    },
+    {
+      "check": "钻孔 Ø10×10，切除 785",
+      "ok": true,
+      "detail": "切除=785"
+    },
+    {
+      "check": "回滚后指纹与快照点一致",
+      "ok": true,
+      "detail": "56a87415feed50f7 vs 56a87415feed50f7"
+    },
+    {
+      "check": "回滚后体积回到挖腔后",
+      "ok": true,
+      "detail": "volume=305600"
+    },
+    {
+      "check": "拒绝 cad.pocket（E_PRECONDITION）",
+      "ok": true,
+      "detail": "型腔深度 45.00 超过可用切深 39.50（保留 0.5mm 底厚） | 状态未变=True"
+    },
+    {
+      "check": "拒绝 cad.pocket（E_PRECONDITION）",
+      "ok": true,
+      "detail": "型腔轮廓超出毛坯范围 | 状态未变=True"
+    },
+    {
+      "check": "拒绝 cad.pocket（E_PARAM_INVALID）",
+      "ok": true,
+      "detail": "参数 depth = -3.0 小于下限 0.05 | 状态未变=True"
+    },
+    {
+      "check": "拒绝 cad.pocket（E_PARAM_INVALID）",
+      "ok": true,
+      "detail": "存在未声明参数：speed | 状态未变=True"
+    },
+    {
+      "check": "拒绝 cad.thread（E_UNKNOWN_TOOL）",
+      "ok": true,
+      "detail": "不存在工具 cad.thread | 状态未变=True"
+    },
+    {
+      "check": "拒绝 cad.pocket（E_POSTCONDITION）",
+      "ok": true,
+      "detail": "型腔 体积不守恒：预期切除 14400.0 mm³，实际切除 0.0 mm³（偏差 100.0%） | 状态未变=True"
+    },
+    {
+      "check": "拒绝 cad.hole（E_POSTCONDITION）",
+      "ok": true,
+      "detail": "孔 体积不守恒：预期切除 392.7 mm³，实际切除 0.0 mm³（偏差 100.0%） | 状态未变=True"
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "stats": {
+    "calls": 9,
+    "errors": 4,
+    "rollbacks": 1
+  },
+  "history": [
+    {
+      "tool": "cad.create_box",
+      "params": {
+        "length": 100.0,
+        "width": 80.0,
+        "height": 40.0
+      },
+      "state_hash": "c68beae5341323cd",
+      "at": "2026-11-05T23:44:08"
+    },
+    {
+      "tool": "cad.pocket",
+      "params": {
+        "center_x": 50.0,
+        "center_y": 40.0,
+        "width": 40.0,
+        "height": 30.0,
+        "depth": 12.0
+      },
+      "state_hash": "56a87415feed50f7",
+      "at": "2026-11-05T23:44:09"
+    },
+    {
+      "tool": "cad.snapshot",
+      "params": {
+        "label": "before-drill"
+      },
+      "state_hash": null,
+      "at": "2026-11-05T23:44:09"
+    },
+    {
+      "tool": "cad.hole",
+      "params": {
+        "x": 15.0,
+        "y": 15.0,
+        "diameter": 10.0,
+        "depth": 10.0,
+        "through": false
+      },
+      "state_hash": "9d3feedc95ab2fe0",
+      "at": "2026-11-05T23:44:09"
+    },
+    {
+      "tool": "cad.rollback",
+      "params": {
+        "snapshot_id": "before-drill"
+      },
+      "state_hash": null,
+      "at": "2026-11-05T23:44:09"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "s1",
+      "label": "before-drill",
+      "state_hash": "56a87415feed50f7",
+      "created_at": "2026-11-05T23:44:09"
+    }
+  ]
+}

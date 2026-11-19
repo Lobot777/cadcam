@@ -1,0 +1,195 @@
+{
+ "rule": "唯一的差别是掩码是否按刀半径膨胀，其余完全相同",
+ "summary": {
+  "n": 10,
+  "pass_b2": 10,
+  "pass_b3": 0,
+  "b2_max_gouge": 0.0,
+  "b3_max_gouge": 18.0,
+  "b2_mean_dev": 0.072,
+  "b3_mean_dev": 0.914,
+  "seconds": 22.5
+ },
+ "parts": [
+  {
+   "part": 1,
+   "levels": 2,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0375,
+    "columns_over_0_5mm_pct": 0.625,
+    "lines": 470,
+    "segments": 452
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 6.0,
+    "mean_deviation_mm": 0.2259,
+    "columns_over_0_5mm_pct": 3.766,
+    "lines": 495,
+    "segments": 476
+   }
+  },
+  {
+   "part": 2,
+   "levels": 2,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.01,
+    "columns_over_0_5mm_pct": 0.25,
+    "lines": 599,
+    "segments": 580
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 4.0,
+    "mean_deviation_mm": 0.1675,
+    "columns_over_0_5mm_pct": 4.188,
+    "lines": 631,
+    "segments": 612
+   }
+  },
+  {
+   "part": 3,
+   "levels": 3,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0391,
+    "columns_over_0_5mm_pct": 0.789,
+    "lines": 1553,
+    "segments": 1532
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 7.0,
+    "mean_deviation_mm": 0.5981,
+    "columns_over_0_5mm_pct": 11.812,
+    "lines": 1605,
+    "segments": 1584
+   }
+  },
+  {
+   "part": 4,
+   "levels": 3,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0344,
+    "columns_over_0_5mm_pct": 0.672,
+    "lines": 1553,
+    "segments": 1532
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 7.0,
+    "mean_deviation_mm": 0.5753,
+    "columns_over_0_5mm_pct": 11.242,
+    "lines": 1605,
+    "segments": 1584
+   }
+  },
+  {
+   "part": 5,
+   "levels": 3,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0281,
+    "columns_over_0_5mm_pct": 0.547,
+    "lines": 1537,
+    "segments": 1516
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 6.0,
+    "mean_deviation_mm": 0.6153,
+    "columns_over_0_5mm_pct": 12.883,
+    "lines": 1621,
+    "segments": 1600
+   }
+  },
+  {
+   "part": 6,
+   "levels": 3,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0563,
+    "columns_over_0_5mm_pct": 1.117,
+    "lines": 2153,
+    "segments": 2132
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 6.0,
+    "mean_deviation_mm": 0.885,
+    "columns_over_0_5mm_pct": 16.922,
+    "lines": 2221,
+    "segments": 2200
+   }
+  },
+  {
+   "part": 7,
+   "levels": 4,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0826,
+    "columns_over_0_5mm_pct": 1.012,
+    "lines": 2991,
+    "segments": 2968
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 10.0,
+    "mean_deviation_mm": 1.2546,
+    "columns_over_0_5mm_pct": 15.582,
+    "lines": 3051,
+    "segments": 3028
+   }
+  },
+  {
+   "part": 8,
+   "levels": 5,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.1383,
+    "columns_over_0_5mm_pct": 2.195,
+    "lines": 3016,
+    "segments": 2992
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 12.0,
+    "mean_deviation_mm": 1.2031,
+    "columns_over_0_5mm_pct": 22.793,
+    "lines": 3545,
+    "segments": 3520
+   }
+  },
+  {
+   "part": 9,
+   "levels": 6,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.0876,
+    "columns_over_0_5mm_pct": 1.312,
+    "lines": 5583,
+    "segments": 5556
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 8.0,
+    "mean_deviation_mm": 1.5386,
+    "columns_over_0_5mm_pct": 22.84,
+    "lines": 5451,
+    "segments": 5424
+   }
+  },
+  {
+   "part": 10,
+   "levels": 8,
+   "B2_masked": {
+    "max_gouge_depth_mm": 0.0,
+    "mean_deviation_mm": 0.2059,
+    "columns_over_0_5mm_pct": 2.844,
+    "lines": 10439,
+    "segments": 10405
+   },
+   "B3_no_inflate": {
+    "max_gouge_depth_mm": 18.0,
+    "mean_deviation_mm": 2.0778,
+    "columns_over_0_5mm_pct": 31.473,
+    "lines": 11455,
+    "segments": 11420
+   }
+  }
+ ]
+}

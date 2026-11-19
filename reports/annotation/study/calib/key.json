@@ -1,0 +1,122 @@
+{
+ "Q003": {
+  "part": "6",
+  "face": 10,
+  "family": "hole",
+  "hard": false
+ },
+ "Q009": {
+  "part": "9",
+  "face": 31,
+  "family": "hole",
+  "hard": false
+ },
+ "Q039": {
+  "part": "7",
+  "face": 11,
+  "family": "fillet",
+  "hard": false
+ },
+ "Q040": {
+  "part": "7",
+  "face": 10,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q044": {
+  "part": "6",
+  "face": 5,
+  "family": "step",
+  "hard": false
+ },
+ "Q052": {
+  "part": "10",
+  "face": 7,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q081": {
+  "part": "1",
+  "face": 4,
+  "family": "slot",
+  "hard": false
+ },
+ "Q083": {
+  "part": "5",
+  "face": 1,
+  "family": "stock",
+  "hard": false
+ },
+ "Q106": {
+  "part": "5",
+  "face": 14,
+  "family": "boss",
+  "hard": false
+ },
+ "Q120": {
+  "part": "9",
+  "face": 19,
+  "family": "boss",
+  "hard": false
+ },
+ "Q121": {
+  "part": "4",
+  "face": 11,
+  "family": "boss",
+  "hard": false
+ },
+ "Q128": {
+  "part": "8",
+  "face": 11,
+  "family": "boss",
+  "hard": false
+ },
+ "Q151": {
+  "part": "2",
+  "face": 4,
+  "family": "hole",
+  "hard": false
+ },
+ "Q157": {
+  "part": "10",
+  "face": 27,
+  "family": "step",
+  "hard": false
+ },
+ "Q162": {
+  "part": "3",
+  "face": 12,
+  "family": "hole",
+  "hard": false
+ },
+ "Q166": {
+  "part": "6",
+  "face": 21,
+  "family": "stock",
+  "hard": false
+ },
+ "Q173": {
+  "part": "3",
+  "face": 1,
+  "family": "stock",
+  "hard": false
+ },
+ "Q175": {
+  "part": "7",
+  "face": 9,
+  "family": "fillet",
+  "hard": false
+ },
+ "Q192": {
+  "part": "3",
+  "face": 10,
+  "family": "hole",
+  "hard": false
+ },
+ "Q194": {
+  "part": "9",
+  "face": 20,
+  "family": "pocket",
+  "hard": false
+ }
+}

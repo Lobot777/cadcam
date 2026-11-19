@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+\begin{document}
+
+\begin{flushright}
+\texttt{[Date of submission]}
+\end{flushright}
+
+\noindent Professor Jieping Ye, Professor Lei Wang and Professor Zicheng Pan\\
+Guest Editors, \emph{Intelligent Computing}\\
+Special Issue: ``Foundation Models Beyond Text: Towards General Multimodal Intelligence''
+
+\vspace{1.0em}
+
+\noindent Dear Guest Editors,
+
+\vspace{0.5em}
+
+\noindent \textbf{Re: Auditing Foundation Model Grounding in Design and Manufacturing}
+
+\vspace{0.5em}
+
+\noindent This submission is intended for inclusion in the special issue ``Foundation Models Beyond Text: Towards General Multimodal Intelligence''.
+
+\vspace{0.5em}
+
+\noindent We study how to evaluate foundation models that act on non-text engineering states through tools. The testbed connects language instructions to geometric construction and simulated material removal. Its contribution is an audit across interface boundaries: exported solids must be distinguished from correct solids, and agreement with a deterministic simulator must be distinguished from externally checked geometric safety.
+
+\noindent The experiments include a paired twenty-work-order comparison, fifteen-model contract evaluations and an external audit on 130 parts. Revision identified a reference-construction failure: both the reference and the evaluated contract could reject an overlapping feature, yet agree geometrically. The revised evaluation separates this shared-error effect from execution and semantic fidelity. It also keeps direct program generation on ten anchor parts separate from the work-order comparison. Different prompts and output budgets are disclosed rather than interpreted as a controlled effect of action space or model scale.
+
+\noindent The work addresses the special issue's interest in evaluation methodology and real-world reliability. The models use textual interfaces to geometry rather than a new multimodal encoder, so the intended contribution is tool-mediated grounding and its evaluation. Independent finite-cutter checks identify violations deeper than 0.5 mm on 94/130 parts that all passed the internal grid-based criterion. A half-cell guard reduces this to 8/130, but does not establish safety. CAMotics supplies a separate aggregate-volume comparison. The manuscript distinguishes these measurements, reports per-part as well as per-point outcomes, and states the limits of simulation-only evidence.
+
+\noindent Structured intermediate representations are established in related design-generation work. Our additional contribution is to test whether the reference construction and manufacturing evaluator can conceal errors shared with the system being evaluated. Input hashes, retained original archives and offline revision scripts make the corrective analysis inspectable. We present a bounded engineering case study, not a claim of general multimodal intelligence or readiness for autonomous machine operation.
+
+\noindent [AUTHORS: confirm prior publication and concurrent-submission status, disclose related proposals or manuscripts and any data overlap, and confirm that every author has approved this revised manuscript and the journal's ethics policies. Add author names, e-mail addresses, ORCID IDs and the corresponding author. Supply potential referees and related papers as required by the submission checklist.]
+
+\noindent Language models were used as experimental subjects, producing tool calls, programs and clarification responses to supplied work orders. AI assistance also supported drafting, code development, experimental audit design and numerical analysis during revision. [AUTHORS: specify the assistants and versions used, confirm the full scope of assistance and complete review of the code, analyses and final text.] Human authors remain responsible for the work; no AI tool is listed as an author. The same disclosure appears in the Acknowledgments.
+
+\vspace{1.0em}
+
+\noindent Yours sincerely,
+
+\vspace{1.5em}
+
+\noindent [Corresponding author name]\\
+{[Affiliation]}\\
+{[E-mail]} \quad {[ORCID]}
+
+\end{document}

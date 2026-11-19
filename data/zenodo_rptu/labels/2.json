@@ -1,0 +1,153 @@
+{
+ "part": "2",
+ "source": "2.step",
+ "n_faces": 14,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-visual+rule",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [],
+ "evidence": {},
+ "stock_faces": [
+  1,
+  2,
+  3,
+  8,
+  9,
+  10
+ ],
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "4": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "human"
+  },
+  "5": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F2",
+   "source": "human"
+  },
+  "6": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "human"
+  },
+  "7": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "8": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "9": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "10": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "11": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "12": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "human"
+  },
+  "13": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F2",
+   "source": "human"
+  },
+  "14": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    4,
+    14
+   ],
+   "note": "Ø10 盲孔 深4",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    5,
+    13
+   ],
+   "note": "Ø10 盲孔 深4",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    6,
+    12
+   ],
+   "note": "Ø10 盲孔 深4",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    7,
+    11
+   ],
+   "note": "Ø10 盲孔 深4",
+   "reviewed": true
+  }
+ ]
+}

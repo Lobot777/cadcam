@@ -1,0 +1,17 @@
+{
+ "annotator": "ai-visual+rule",
+ "review_needed": false,
+ "open_questions": [],
+ "features": [
+  [
+   "slot",
+   "rectangular_through_slot",
+   [
+    4,
+    5,
+    7
+   ],
+   "顶面通槽：宽6×深6，沿 X 贯通；两端开口"
+  ]
+ ]
+}

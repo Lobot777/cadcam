@@ -1,0 +1,482 @@
+{
+ "Q001": {
+  "part": "5",
+  "face": 14,
+  "family": "boss",
+  "hard": false
+ },
+ "Q002": {
+  "part": "8",
+  "face": 2,
+  "family": "step",
+  "hard": false
+ },
+ "Q003": {
+  "part": "4",
+  "face": 3,
+  "family": "stock",
+  "hard": false
+ },
+ "Q004": {
+  "part": "9",
+  "face": 25,
+  "family": "pocket",
+  "hard": true
+ },
+ "Q005": {
+  "part": "5",
+  "face": 13,
+  "family": "boss",
+  "hard": false
+ },
+ "Q006": {
+  "part": "10",
+  "face": 3,
+  "family": "pocket",
+  "hard": true
+ },
+ "Q007": {
+  "part": "10",
+  "face": 5,
+  "family": "pocket",
+  "hard": true
+ },
+ "Q008": {
+  "part": "10",
+  "face": 8,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q009": {
+  "part": "8",
+  "face": 11,
+  "family": "boss",
+  "hard": false
+ },
+ "Q010": {
+  "part": "8",
+  "face": 24,
+  "family": "boss",
+  "hard": true
+ },
+ "Q011": {
+  "part": "10",
+  "face": 26,
+  "family": "boss",
+  "hard": true
+ },
+ "Q012": {
+  "part": "4",
+  "face": 9,
+  "family": "hole",
+  "hard": false
+ },
+ "Q013": {
+  "part": "3",
+  "face": 14,
+  "family": "boss",
+  "hard": true
+ },
+ "Q014": {
+  "part": "5",
+  "face": 4,
+  "family": "stock",
+  "hard": false
+ },
+ "Q015": {
+  "part": "4",
+  "face": 1,
+  "family": "stock",
+  "hard": false
+ },
+ "Q016": {
+  "part": "6",
+  "face": 1,
+  "family": "stock",
+  "hard": false
+ },
+ "Q017": {
+  "part": "3",
+  "face": 18,
+  "family": "hole",
+  "hard": false
+ },
+ "Q018": {
+  "part": "2",
+  "face": 3,
+  "family": "stock",
+  "hard": false
+ },
+ "Q019": {
+  "part": "4",
+  "face": 15,
+  "family": "hole",
+  "hard": false
+ },
+ "Q020": {
+  "part": "5",
+  "face": 15,
+  "family": "hole",
+  "hard": false
+ },
+ "Q021": {
+  "part": "1",
+  "face": 10,
+  "family": "stock",
+  "hard": false
+ },
+ "Q022": {
+  "part": "3",
+  "face": 9,
+  "family": "hole",
+  "hard": false
+ },
+ "Q023": {
+  "part": "9",
+  "face": 15,
+  "family": "boss",
+  "hard": false
+ },
+ "Q024": {
+  "part": "1",
+  "face": 9,
+  "family": "stock",
+  "hard": false
+ },
+ "Q025": {
+  "part": "9",
+  "face": 16,
+  "family": "boss",
+  "hard": true
+ },
+ "Q026": {
+  "part": "10",
+  "face": 4,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q027": {
+  "part": "1",
+  "face": 4,
+  "family": "slot",
+  "hard": false
+ },
+ "Q028": {
+  "part": "7",
+  "face": 12,
+  "family": "stock",
+  "hard": false
+ },
+ "Q029": {
+  "part": "9",
+  "face": 12,
+  "family": "boss",
+  "hard": false
+ },
+ "Q030": {
+  "part": "10",
+  "face": 1,
+  "family": "boss",
+  "hard": false
+ },
+ "Q031": {
+  "part": "4",
+  "face": 8,
+  "family": "hole",
+  "hard": false
+ },
+ "Q032": {
+  "part": "3",
+  "face": 7,
+  "family": "boss",
+  "hard": false
+ },
+ "Q033": {
+  "part": "4",
+  "face": 5,
+  "family": "stock",
+  "hard": false
+ },
+ "Q034": {
+  "part": "8",
+  "face": 7,
+  "family": "stock",
+  "hard": false
+ },
+ "Q035": {
+  "part": "3",
+  "face": 4,
+  "family": "stock",
+  "hard": false
+ },
+ "Q036": {
+  "part": "6",
+  "face": 9,
+  "family": "hole",
+  "hard": false
+ },
+ "Q037": {
+  "part": "5",
+  "face": 9,
+  "family": "hole",
+  "hard": false
+ },
+ "Q038": {
+  "part": "9",
+  "face": 28,
+  "family": "stock",
+  "hard": false
+ },
+ "Q039": {
+  "part": "7",
+  "face": 4,
+  "family": "fillet",
+  "hard": false
+ },
+ "Q040": {
+  "part": "10",
+  "face": 7,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q041": {
+  "part": "3",
+  "face": 15,
+  "family": "boss",
+  "hard": true
+ },
+ "Q042": {
+  "part": "8",
+  "face": 22,
+  "family": "step",
+  "hard": false
+ },
+ "Q043": {
+  "part": "6",
+  "face": 17,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q044": {
+  "part": "9",
+  "face": 5,
+  "family": "boss",
+  "hard": false
+ },
+ "Q045": {
+  "part": "6",
+  "face": 2,
+  "family": "stock",
+  "hard": false
+ },
+ "Q046": {
+  "part": "5",
+  "face": 6,
+  "family": "boss",
+  "hard": false
+ },
+ "Q047": {
+  "part": "9",
+  "face": 24,
+  "family": "hole",
+  "hard": false
+ },
+ "Q048": {
+  "part": "8",
+  "face": 17,
+  "family": "step",
+  "hard": false
+ },
+ "Q049": {
+  "part": "8",
+  "face": 23,
+  "family": "step",
+  "hard": false
+ },
+ "Q050": {
+  "part": "2",
+  "face": 2,
+  "family": "stock",
+  "hard": false
+ },
+ "Q051": {
+  "part": "10",
+  "face": 30,
+  "family": "stock",
+  "hard": false
+ },
+ "Q052": {
+  "part": "4",
+  "face": 16,
+  "family": "hole",
+  "hard": false
+ },
+ "Q053": {
+  "part": "5",
+  "face": 12,
+  "family": "boss",
+  "hard": true
+ },
+ "Q054": {
+  "part": "10",
+  "face": 23,
+  "family": "boss",
+  "hard": false
+ },
+ "Q055": {
+  "part": "8",
+  "face": 15,
+  "family": "step",
+  "hard": false
+ },
+ "Q056": {
+  "part": "10",
+  "face": 27,
+  "family": "step",
+  "hard": false
+ },
+ "Q057": {
+  "part": "2",
+  "face": 13,
+  "family": "hole",
+  "hard": false
+ },
+ "Q058": {
+  "part": "8",
+  "face": 16,
+  "family": "step",
+  "hard": true
+ },
+ "Q059": {
+  "part": "7",
+  "face": 7,
+  "family": "pocket",
+  "hard": true
+ },
+ "Q060": {
+  "part": "6",
+  "face": 11,
+  "family": "pocket",
+  "hard": true
+ },
+ "Q061": {
+  "part": "9",
+  "face": 8,
+  "family": "boss",
+  "hard": false
+ },
+ "Q062": {
+  "part": "5",
+  "face": 8,
+  "family": "hole",
+  "hard": false
+ },
+ "Q063": {
+  "part": "9",
+  "face": 6,
+  "family": "boss",
+  "hard": true
+ },
+ "Q064": {
+  "part": "2",
+  "face": 7,
+  "family": "hole",
+  "hard": false
+ },
+ "Q065": {
+  "part": "6",
+  "face": 21,
+  "family": "stock",
+  "hard": false
+ },
+ "Q066": {
+  "part": "7",
+  "face": 6,
+  "family": "fillet",
+  "hard": false
+ },
+ "Q067": {
+  "part": "4",
+  "face": 10,
+  "family": "hole",
+  "hard": false
+ },
+ "Q068": {
+  "part": "8",
+  "face": 5,
+  "family": "stock",
+  "hard": false
+ },
+ "Q069": {
+  "part": "9",
+  "face": 1,
+  "family": "stock",
+  "hard": false
+ },
+ "Q070": {
+  "part": "7",
+  "face": 11,
+  "family": "fillet",
+  "hard": false
+ },
+ "Q071": {
+  "part": "4",
+  "face": 11,
+  "family": "boss",
+  "hard": false
+ },
+ "Q072": {
+  "part": "2",
+  "face": 14,
+  "family": "hole",
+  "hard": false
+ },
+ "Q073": {
+  "part": "6",
+  "face": 8,
+  "family": "hole",
+  "hard": false
+ },
+ "Q074": {
+  "part": "3",
+  "face": 6,
+  "family": "step",
+  "hard": true
+ },
+ "Q075": {
+  "part": "8",
+  "face": 19,
+  "family": "step",
+  "hard": false
+ },
+ "Q076": {
+  "part": "7",
+  "face": 3,
+  "family": "pocket",
+  "hard": false
+ },
+ "Q077": {
+  "part": "10",
+  "face": 22,
+  "family": "boss",
+  "hard": false
+ },
+ "Q078": {
+  "part": "9",
+  "face": 17,
+  "family": "boss",
+  "hard": false
+ },
+ "Q079": {
+  "part": "7",
+  "face": 2,
+  "family": "boss",
+  "hard": true
+ },
+ "Q080": {
+  "part": "2",
+  "face": 10,
+  "family": "stock",
+  "hard": false
+ }
+}

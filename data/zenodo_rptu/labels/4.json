@@ -1,0 +1,185 @@
+{
+ "part": "4",
+ "source": "4.step",
+ "n_faces": 16,
+ "schema": "cadcam-annotation/1",
+ "taxonomy": "family(9) + mfcad_class(25, 可为 null)",
+ "annotator": "ai-visual+rule",
+ "reviewed": true,
+ "review_needed": false,
+ "open_questions": [],
+ "resolved": [],
+ "evidence": {},
+ "stock_faces": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "4": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "5": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "human"
+  },
+  "6": {
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "feature": "F1",
+   "source": "human"
+  },
+  "7": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "human"
+  },
+  "8": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "9": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "human"
+  },
+  "10": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F6",
+   "source": "human"
+  },
+  "11": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "12": {
+   "family": "boss",
+   "mfcad_class": null,
+   "feature": "F2",
+   "source": "human"
+  },
+  "13": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F6",
+   "source": "human"
+  },
+  "14": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "human"
+  },
+  "15": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "human"
+  },
+  "16": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "human"
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "step",
+   "mfcad_class": "rectangular_blind_step",
+   "faces": [
+    6
+   ],
+   "note": "凸台外周台阶面（环），深4",
+   "reviewed": true
+  },
+  {
+   "id": "F2",
+   "family": "boss",
+   "mfcad_class": null,
+   "faces": [
+    11,
+    12
+   ],
+   "note": "Ø70 圆柱凸台，高4",
+   "reviewed": true
+  },
+  {
+   "id": "F3",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    7,
+    16
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  },
+  {
+   "id": "F4",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    8,
+    15
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  },
+  {
+   "id": "F5",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    9,
+    14
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  },
+  {
+   "id": "F6",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    10,
+    13
+   ],
+   "note": "Ø10 盲孔 深7",
+   "reviewed": true
+  }
+ ]
+}

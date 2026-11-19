@@ -1,0 +1,438 @@
+{
+ "part": "9",
+ "source": "9.step",
+ "n_faces": 32,
+ "schema": "cadcam-annotation/1",
+ "annotator": "rule-draft",
+ "faces": {
+  "1": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "2": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "3": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "4": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "5": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "6": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "7": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "8": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "9": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "10": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "11": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "12": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "13": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "14": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "15": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "16": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "17": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "18": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "19": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "20": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "21": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  },
+  "22": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "rule",
+   "evidence": []
+  },
+  "23": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "rule",
+   "evidence": []
+  },
+  "24": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "rule",
+   "evidence": []
+  },
+  "25": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F1",
+   "source": "rule",
+   "evidence": []
+  },
+  "26": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "27": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "28": {
+   "family": "stock",
+   "mfcad_class": "stock",
+   "feature": null,
+   "source": "rule",
+   "evidence": [
+    "包围盒可达"
+   ]
+  },
+  "29": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F5",
+   "source": "rule",
+   "evidence": []
+  },
+  "30": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F4",
+   "source": "rule",
+   "evidence": []
+  },
+  "31": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F3",
+   "source": "rule",
+   "evidence": []
+  },
+  "32": {
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "feature": "F2",
+   "source": "rule",
+   "evidence": []
+  }
+ },
+ "features": [
+  {
+   "id": "F1",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    25
+   ],
+   "params": {
+    "radii": [
+     2.0,
+     2.0,
+     2.0,
+     2.0,
+     37.5
+    ]
+   },
+   "confidence": "low",
+   "evidence": [
+    "faces=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25]",
+    "kinds={'BSplineSurface': 4, 'Plane': 9, 'Cylinder': 5}",
+    "floor=9 wall=0 overhang=0 slanted=0 depth=8.0 breakout=['+z']",
+    "cyl={'radius': 2.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 0, 'outward': None, 'z_span': [44.0, 50.0], 'reaches_top': False, 'reaches_bottom': False}",
+    "同轴多半径 -> 台阶孔"
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "F2",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    21,
+    32
+   ],
+   "params": {
+    "radius": 5.0,
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "vertical": true,
+    "arc_fraction": 1.0,
+    "smooth_edges": 0,
+    "concave_edges": 2,
+    "outward": null,
+    "z_span": [
+     46.0,
+     52.0
+    ],
+    "reaches_top": true,
+    "reaches_bottom": false
+   },
+   "confidence": "high",
+   "evidence": [
+    "faces=[21, 32]",
+    "kinds={'Cylinder': 1, 'Plane': 1}",
+    "floor=1 wall=0 overhang=0 slanted=0 depth=6.0 breakout=['+z']",
+    "cyl={'radius': 5.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 2, 'outward': None, 'z_span': [46.0, 52.0], 'reaches_top': True, 'reaches_bottom': False}",
+    "圆柱 + 底面无壁 -> 盲孔"
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "F3",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    22,
+    31
+   ],
+   "params": {
+    "radius": 5.0,
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "vertical": true,
+    "arc_fraction": 1.0,
+    "smooth_edges": 0,
+    "concave_edges": 2,
+    "outward": null,
+    "z_span": [
+     46.0,
+     52.0
+    ],
+    "reaches_top": true,
+    "reaches_bottom": false
+   },
+   "confidence": "high",
+   "evidence": [
+    "faces=[22, 31]",
+    "kinds={'Cylinder': 1, 'Plane': 1}",
+    "floor=1 wall=0 overhang=0 slanted=0 depth=6.0 breakout=['+z']",
+    "cyl={'radius': 5.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 2, 'outward': None, 'z_span': [46.0, 52.0], 'reaches_top': True, 'reaches_bottom': False}",
+    "圆柱 + 底面无壁 -> 盲孔"
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "F4",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    23,
+    30
+   ],
+   "params": {
+    "radius": 5.0,
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "vertical": true,
+    "arc_fraction": 1.0,
+    "smooth_edges": 0,
+    "concave_edges": 1,
+    "outward": null,
+    "z_span": [
+     46.0,
+     52.0
+    ],
+    "reaches_top": true,
+    "reaches_bottom": false
+   },
+   "confidence": "high",
+   "evidence": [
+    "faces=[23, 30]",
+    "kinds={'Cylinder': 1, 'Plane': 1}",
+    "floor=1 wall=0 overhang=0 slanted=0 depth=6.0 breakout=['+z']",
+    "cyl={'radius': 5.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 1, 'outward': None, 'z_span': [46.0, 52.0], 'reaches_top': True, 'reaches_bottom': False}",
+    "圆柱 + 底面无壁 -> 盲孔"
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "F5",
+   "family": "hole",
+   "mfcad_class": "blind_hole",
+   "faces": [
+    24,
+    29
+   ],
+   "params": {
+    "radius": 5.0,
+    "axis": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "vertical": true,
+    "arc_fraction": 1.0,
+    "smooth_edges": 0,
+    "concave_edges": 1,
+    "outward": null,
+    "z_span": [
+     46.0,
+     52.0
+    ],
+    "reaches_top": true,
+    "reaches_bottom": false
+   },
+   "confidence": "high",
+   "evidence": [
+    "faces=[24, 29]",
+    "kinds={'Cylinder': 1, 'Plane': 1}",
+    "floor=1 wall=0 overhang=0 slanted=0 depth=6.0 breakout=['+z']",
+    "cyl={'radius': 5.0, 'axis': [0.0, 0.0, 1.0], 'vertical': True, 'arc_fraction': 1.0, 'smooth_edges': 0, 'concave_edges': 1, 'outward': None, 'z_span': [46.0, 52.0], 'reaches_top': True, 'reaches_bottom': False}",
+    "圆柱 + 底面无壁 -> 盲孔"
+   ],
+   "reviewed": false
+  }
+ ]
+}

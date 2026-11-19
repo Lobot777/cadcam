@@ -1,0 +1,60 @@
+{
+ "annotator": "ai-visual+rule",
+ "review_needed": false,
+ "open_questions": [],
+ "features": [
+  [
+   "pocket",
+   null,
+   [
+    3,
+    5,
+    7,
+    8,
+    10
+   ],
+   "自由轮廓盲腔，深10（顶面→z=42），四直壁"
+  ],
+  [
+   "boss",
+   null,
+   [
+    1,
+    2
+   ],
+   "腔内自由曲面岛：顶面 z=48，侧壁为 BSpline 曲面"
+  ],
+  [
+   "fillet",
+   "round",
+   [
+    4
+   ],
+   "R3 内圆角"
+  ],
+  [
+   "fillet",
+   "round",
+   [
+    6
+   ],
+   "R3 内圆角"
+  ],
+  [
+   "fillet",
+   "round",
+   [
+    9
+   ],
+   "R3 内圆角"
+  ],
+  [
+   "fillet",
+   "round",
+   [
+    11
+   ],
+   "R3 内圆角"
+  ]
+ ]
+}

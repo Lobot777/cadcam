@@ -1,0 +1,60 @@
+{
+ "freecad_version": [
+  "1",
+  "1",
+  "4",
+  "20260928 (Git shallow)",
+  "Unknown",
+  "2026/09/28 13:46:34",
+  "(HEAD detached at 4fd3bf320)",
+  "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+ ],
+ "steps": {
+  "import Path": {
+   "ok": true,
+   "value": "Path imported"
+  },
+  "import PathScripts.post": {
+   "ok": false,
+   "error": "ModuleNotFoundError: No module named 'PathScripts.post'",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 41, in <lambda>\n    step(\"import PathScripts.post\", lambda: __import__(\"PathScripts.post\", fromlist=[\"post\"]) and \"ok\")\n                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'PathScripts.post'\n"
+  },
+  "part_feature": {
+   "ok": true,
+   "value": "Part::Feature created, volume=320000.0"
+  },
+  "path_job": {
+   "ok": false,
+   "error": "TypeError: Document::addObject: 'Path::Job' is not a document object type",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 53, in make_job\n    job = doc.addObject(\"Path::Job\", \"Job\")\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Document::addObject: 'Path::Job' is not a document object type\n"
+  },
+  "job_stock": {
+   "ok": false,
+   "error": "RuntimeError: no job",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 62, in make_stock\n    raise RuntimeError(\"no job\")\nRuntimeError: no job\n"
+  },
+  "import PathOp": {
+   "ok": false,
+   "error": "ModuleNotFoundError: No module named 'PathOp'",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 68, in list_ops\n    import PathOp\nModuleNotFoundError: No module named 'PathOp'\n"
+  },
+  "manual_path_feature": {
+   "ok": false,
+   "error": "TypeError: The list must contain only Path Commands",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 78, in make_profile\n    path = Path.Path([\"G0 X0 Y0 Z5\", \"G1 Z-1 F100\", \"G1 X10 Y0 F200\"])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: The list must contain only Path Commands\n"
+  },
+  "post_utils": {
+   "ok": false,
+   "error": "ImportError: cannot import name 'PostUtils' from 'PathScripts' (E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\Mod\\CAM\\PathScripts\\__init__.py)",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 86, in post_it\n    from PathScripts import PostUtils\nImportError: cannot import name 'PostUtils' from 'PathScripts' (E:\\FreeCAD_1.1.4-Windows-x86_64-py311\\Mod\\CAM\\PathScripts\\__init__.py)\n"
+  },
+  "export_gcode": {
+   "ok": false,
+   "error": "RuntimeError: no job",
+   "trace": "Traceback (most recent call last):\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 22, in step\n    value = fn()\n            ^^^^\n  File \"E:\\CAD2CAM\\scripts\\cam_probe.py\", line 93, in export_gcode\n    raise RuntimeError(\"no job\")\nRuntimeError: no job\n"
+  }
+ },
+ "path_api_names": [
+  "Area"
+ ]
+}

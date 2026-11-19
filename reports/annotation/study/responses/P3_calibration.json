@@ -1,0 +1,87 @@
+{
+ "annotator": "P3",
+ "round": "calibration",
+ "count": 20,
+ "picks": {
+  "Q003": {
+   "first": "stock",
+   "cur": "hole"
+  },
+  "Q009": {
+   "first": "hole",
+   "cur": "hole"
+  },
+  "Q039": {
+   "first": "boss",
+   "cur": "fillet"
+  },
+  "Q040": {
+   "first": "pocket",
+   "cur": "pocket"
+  },
+  "Q044": {
+   "first": "stock",
+   "cur": "step"
+  },
+  "Q052": {
+   "first": "hole",
+   "cur": "pocket"
+  },
+  "Q081": {
+   "first": "pocket",
+   "cur": "slot"
+  },
+  "Q083": {
+   "first": "stock",
+   "cur": "stock"
+  },
+  "Q106": {
+   "first": "boss",
+   "cur": "boss"
+  },
+  "Q120": {
+   "first": "boss",
+   "cur": "boss"
+  },
+  "Q121": {
+   "first": "boss",
+   "cur": "boss"
+  },
+  "Q128": {
+   "first": "boss",
+   "cur": "boss"
+  },
+  "Q151": {
+   "first": "hole",
+   "cur": "hole"
+  },
+  "Q157": {
+   "first": "step",
+   "cur": "step"
+  },
+  "Q162": {
+   "first": "hole",
+   "cur": "hole"
+  },
+  "Q166": {
+   "first": "stock",
+   "cur": "stock"
+  },
+  "Q173": {
+   "first": "stock",
+   "cur": "stock"
+  },
+  "Q175": {
+   "first": "fillet",
+   "cur": "fillet"
+  },
+  "Q192": {
+   "first": "hole",
+   "cur": "hole"
+  },
+  "Q194": {
+   "first": "pocket",
+   "cur": "pocket"
+  }
+ }
+}

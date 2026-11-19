@@ -1,0 +1,4709 @@
+{
+ "model": "qwen3:8b",
+ "seed": 20261106,
+ "rule": "两条路线都只拿到中文工单，不给结构化的特征表",
+ "criterion": "执行成功 + 与标准实体的体积 IoU",
+ "generated_at": "2026-11-06 11:09:53",
+ "runs": {
+  "easy/contract": {
+   "summary": {
+    "route": "contract",
+    "n": 20,
+    "mean_removed_iou": 0.985,
+    "removed_iou_ge_0.9": 20,
+    "exec_ok": 20,
+    "mean_iou": 0.999,
+    "iou_ge_0.9": 20,
+    "iou_ge_0.75": 20,
+    "legal_rate": 1.0,
+    "prompt_tokens": 6654,
+    "completion_tokens": 3958
+   },
+   "rows": [
+    {
+     "id": "NL01",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 38,
+        "width": 20,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 95,
+        "y": 49,
+        "diameter": 6,
+        "depth": 10,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 0.9998842336962147,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 314,
+     "completion_tokens": 130,
+     "seconds": 1.9,
+     "removed_iou": 0.9967663817960247
+    },
+    {
+     "id": "NL02",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 58,
+        "center_y": 20,
+        "width": 40,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 58,
+        "center_y": 38,
+        "width": 40,
+        "height": 40,
+        "depth": 5
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 8000.0 mm³，实际切除 5600.0 mm³（偏差 30.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 304,
+     "completion_tokens": 131,
+     "seconds": 2.2,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL03",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 40,
+        "width": 30,
+        "height": 40,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 40,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 20,
+        "width": 20,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 30,
+        "y": 21,
+        "diameter": 8,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 46,
+        "y": 34,
+        "diameter": 6,
+        "depth": 10,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 0.999264249428925,
+     "errors": [
+      {
+       "i": 3,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 3000.0 mm³，实际切除 1500.0 mm³（偏差 50.0%）"
+      },
+      {
+       "i": 4,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 502.7 mm³，实际切除 172.2 mm³（偏差 65.7%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 370,
+     "completion_tokens": 356,
+     "seconds": 4.7,
+     "removed_iou": 0.9863490469859196
+    },
+    {
+     "id": "NL04",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 20,
+        "width": 40,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 40,
+        "width": 30,
+        "height": 30,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 40,
+        "height": 20,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 328,
+     "completion_tokens": 181,
+     "seconds": 2.7,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL05",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 40,
+        "width": 20,
+        "height": 40,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 294,
+     "completion_tokens": 85,
+     "seconds": 1.3,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL06",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 60,
+        "width": 80,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 43,
+        "center_y": 40,
+        "width": 30,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 43,
+        "center_y": 60,
+        "width": 30,
+        "height": 30,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 7200.0 mm³，实际切除 5700.0 mm³（偏差 20.8%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 304,
+     "completion_tokens": 131,
+     "seconds": 2.1,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL07",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 60,
+        "width": 30,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 40,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 64,
+        "y": 22,
+        "diameter": 6,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 31,
+        "y": 33,
+        "diameter": 8,
+        "depth": 15,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 0.9993285344112474,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 18000.0 mm³，实际切除 17250.0 mm³（偏差 4.2%）"
+      },
+      {
+       "i": 3,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 6000.0 mm³，实际切除 3750.0 mm³（偏差 37.5%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 369,
+     "completion_tokens": 355,
+     "seconds": 4.5,
+     "removed_iou": 0.9611462264834432
+    },
+    {
+     "id": "NL08",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 58,
+        "center_y": 20,
+        "width": 40,
+        "height": 20,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 22,
+        "center_y": 40,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 60,
+        "y": 93,
+        "diameter": 10,
+        "depth": 10,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 0.9998367059314259,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 16000.0 mm³，实际切除 15600.0 mm³（偏差 2.5%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 344,
+     "completion_tokens": 179,
+     "seconds": 2.6,
+     "removed_iou": 0.9950663233680576
+    },
+    {
+     "id": "NL09",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 60,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 22,
+        "center_y": 40,
+        "width": 40,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 46,
+        "y": 53,
+        "diameter": 10,
+        "depth": 10,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 11,
+        "y": 79,
+        "diameter": 6,
+        "depth": 10,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 0.9966050826759488,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 785.4 mm³，实际切除 765.0 mm³（偏差 2.6%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 339,
+     "completion_tokens": 174,
+     "seconds": 2.6,
+     "removed_iou": 0.9041162469884227
+    },
+    {
+     "id": "NL10",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 30,
+        "height": 30,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 38,
+        "diameter": 6,
+        "depth": 50,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 0.9992067977200226,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 316,
+     "completion_tokens": 130,
+     "seconds": 1.8,
+     "removed_iou": 0.9797184184438451
+    },
+    {
+     "id": "NL11",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 38,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 58,
+        "center_y": 22,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 38,
+        "y": 10,
+        "diameter": 8,
+        "depth": 40,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 0.9988377711685967,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 16000.0 mm³，实际切除 10720.0 mm³（偏差 33.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 321,
+     "completion_tokens": 236,
+     "seconds": 3.1,
+     "removed_iou": 0.9888286525017832
+    },
+    {
+     "id": "NL12",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 40,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 40,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 6400.0 mm³，实际切除 3200.0 mm³（偏差 50.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 307,
+     "completion_tokens": 133,
+     "seconds": 2.0,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL13",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 40,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 58,
+        "center_y": 20,
+        "width": 40,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 20,
+        "width": 20,
+        "height": 30,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 74,
+        "y": 30,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 0.9985016615807908,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 6000.0 mm³，实际切除 4350.0 mm³（偏差 27.5%）"
+      },
+      {
+       "i": 3,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 4800.0 mm³，实际切除 3300.0 mm³（偏差 31.2%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 346,
+     "completion_tokens": 215,
+     "seconds": 3.4,
+     "removed_iou": 0.9504871801610515
+    },
+    {
+     "id": "NL14",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 60,
+        "width": 20,
+        "height": 30,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 22,
+        "width": 40,
+        "height": 40,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 20,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 46,
+        "y": 36,
+        "diameter": 10,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 32,
+        "y": 32,
+        "diameter": 8,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [
+      {
+       "i": 3,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 4000.0 mm³，实际切除 2400.0 mm³（偏差 40.0%）"
+      },
+      {
+       "i": 4,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 1178.1 mm³，实际切除 549.8 mm³（偏差 53.3%）"
+      },
+      {
+       "i": 5,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 502.7 mm³，实际切除 100.5 mm³（偏差 80.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 386,
+     "completion_tokens": 259,
+     "seconds": 4.2,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL15",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 40,
+        "width": 30,
+        "height": 30,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 57,
+        "y": 46,
+        "diameter": 8,
+        "depth": 60,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 0.9990702428466064,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 296,
+     "completion_tokens": 129,
+     "seconds": 1.8,
+     "removed_iou": 0.9716123143503497
+    },
+    {
+     "id": "NL16",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 100,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 22,
+        "width": 30,
+        "height": 40,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 30,
+        "height": 30,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 46,
+        "y": 78,
+        "diameter": 8,
+        "depth": 15,
+        "through": false
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 12,
+        "y": 29,
+        "diameter": 6,
+        "depth": 15,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 0.9997727520398367,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 356,
+     "completion_tokens": 293,
+     "seconds": 3.6,
+     "removed_iou": 0.990915744600635
+    },
+    {
+     "id": "NL17",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 60,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 20,
+        "width": 40,
+        "height": 30,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 22,
+        "center_y": 43,
+        "width": 40,
+        "height": 30,
+        "depth": 5
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 9600.0 mm³，实际切除 8400.0 mm³（偏差 12.5%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 335,
+     "completion_tokens": 180,
+     "seconds": 2.8,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL18",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 60,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 38,
+        "width": 20,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 20,
+        "width": 40,
+        "height": 30,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 40,
+        "width": 20,
+        "height": 30,
+        "depth": 5
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 18000.0 mm³，实际切除 14600.0 mm³（偏差 18.9%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 328,
+     "completion_tokens": 181,
+     "seconds": 2.6,
+     "removed_iou": 1.0
+    },
+    {
+     "id": "NL19",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 60,
+        "width": 80,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 38,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 21,
+        "y": 66,
+        "diameter": 10,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 0.9976625909720707,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 316,
+     "completion_tokens": 123,
+     "seconds": 1.9,
+     "removed_iou": 0.9812649955837967
+    },
+    {
+     "id": "NL20",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 60,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 20,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 38,
+        "center_y": 60,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 20,
+        "y": 54,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 16,
+        "y": 91,
+        "diameter": 8,
+        "depth": 15,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 0.9996458563812662,
+     "errors": [
+      {
+       "i": 3,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 4000.0 mm³，实际切除 2800.0 mm³（偏差 30.0%）"
+      },
+      {
+       "i": 4,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 2513.3 mm³，实际切除 2108.9 mm³（偏差 16.1%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 381,
+     "completion_tokens": 357,
+     "seconds": 4.8,
+     "removed_iou": 0.9952454632023894
+    }
+   ]
+  },
+  "easy/script": {
+   "summary": {
+    "route": "script",
+    "n": 20,
+    "mean_removed_iou": 0.174,
+    "removed_iou_ge_0.9": 2,
+    "exec_ok": 19,
+    "mean_iou": 0.881,
+    "iou_ge_0.9": 15,
+    "iou_ge_0.75": 18,
+    "legal_rate": null,
+    "prompt_tokens": 4754,
+    "completion_tokens": 7538
+   },
+   "rows": [
+    {
+     "id": "NL01",
+     "exec_ok": true,
+     "iou": 0.9414030257440483,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL01\\out.step(351 ents)  Write  Done\n",
+     "prompt_tokens": 219,
+     "completion_tokens": 186,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL02",
+     "exec_ok": true,
+     "iou": 0.9041666666666667,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL02\\out.step(492 ents)  Write  Done\n",
+     "prompt_tokens": 209,
+     "completion_tokens": 296,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL03",
+     "exec_ok": true,
+     "iou": 0.0,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL03\\out.step(720 ents)  Write  Done\n",
+     "prompt_tokens": 275,
+     "completion_tokens": 573,
+     "removed_iou": 0.050827433388230814
+    },
+    {
+     "id": "NL04",
+     "exec_ok": true,
+     "iou": 0.8893011750154605,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL04\\out.step(578 ents)  Write  Done\n",
+     "prompt_tokens": 233,
+     "completion_tokens": 208,
+     "removed_iou": 0.21720116618075802
+    },
+    {
+     "id": "NL05",
+     "exec_ok": true,
+     "iou": 0.9374999999999999,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/NL05/part.py ['Part.Face' object has no attribute 'makeFace']\n",
+     "prompt_tokens": 199,
+     "completion_tokens": 131,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL06",
+     "exec_ok": true,
+     "iou": 0.9693110049471443,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL06\\out.step(320 ents)  Write  Done\n",
+     "prompt_tokens": 209,
+     "completion_tokens": 268,
+     "removed_iou": 0.19086861217342255
+    },
+    {
+     "id": "NL07",
+     "exec_ok": true,
+     "iou": 0.9235650953513065,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL07\\out.step(731 ents)  Write  Done\n",
+     "prompt_tokens": 274,
+     "completion_tokens": 560,
+     "removed_iou": 0.041083204030489574
+    },
+    {
+     "id": "NL08",
+     "exec_ok": false,
+     "iou": null,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/NL08/part.py [float() argument must be a string or a number, not 'Base.Vector']\n",
+     "prompt_tokens": 249,
+     "completion_tokens": 344
+    },
+    {
+     "id": "NL09",
+     "exec_ok": true,
+     "iou": 0.969912780879966,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL09\\out.step(249 ents)  Write  Done\n",
+     "prompt_tokens": 244,
+     "completion_tokens": 284,
+     "removed_iou": 0.12685114958010493
+    },
+    {
+     "id": "NL10",
+     "exec_ok": true,
+     "iou": 0.9992067977200226,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL10\\out.step(351 ents)  Write  Done\n",
+     "prompt_tokens": 221,
+     "completion_tokens": 274,
+     "removed_iou": 0.9797184184438451
+    },
+    {
+     "id": "NL11",
+     "exec_ok": true,
+     "iou": 0.8278012285560835,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL11\\out.step(675 ents)  Write  Done\n",
+     "prompt_tokens": 226,
+     "completion_tokens": 287,
+     "removed_iou": 0.02830442365843656
+    },
+    {
+     "id": "NL12",
+     "exec_ok": true,
+     "iou": 0.9332782898242551,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL12\\out.step(285 ents)  Write  Done\n",
+     "prompt_tokens": 212,
+     "completion_tokens": 157,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL13",
+     "exec_ok": true,
+     "iou": 0.95631057088947,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL13\\out.step(727 ents)  Write  Done\n",
+     "prompt_tokens": 251,
+     "completion_tokens": 447,
+     "removed_iou": 0.14109332404585273
+    },
+    {
+     "id": "NL14",
+     "exec_ok": true,
+     "iou": 0.7841666666666666,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL14\\out.step(586 ents)  Write  Done\n",
+     "prompt_tokens": 291,
+     "completion_tokens": 338,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL15",
+     "exec_ok": true,
+     "iou": 0.9545038816975518,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL15\\out.step(361 ents)  Write  Done\n",
+     "prompt_tokens": 201,
+     "completion_tokens": 180,
+     "removed_iou": 0.05157216417357122
+    },
+    {
+     "id": "NL16",
+     "exec_ok": true,
+     "iou": 0.9652606551940902,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL16\\out.step(540 ents)  Write  Done\n",
+     "prompt_tokens": 261,
+     "completion_tokens": 454,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL17",
+     "exec_ok": true,
+     "iou": 0.9533680555555556,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL17\\out.step(665 ents)  Write  Done\n",
+     "prompt_tokens": 240,
+     "completion_tokens": 228,
+     "removed_iou": 0.4718836020448288
+    },
+    {
+     "id": "NL18",
+     "exec_ok": true,
+     "iou": 0.9163600948921505,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL18\\out.step(790 ents)  Write  Done\n",
+     "prompt_tokens": 233,
+     "completion_tokens": 547,
+     "removed_iou": 0.0
+    },
+    {
+     "id": "NL19",
+     "exec_ok": true,
+     "iou": 0.9976625909720707,
+     "tail": "FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+     "prompt_tokens": 221,
+     "completion_tokens": 1200,
+     "removed_iou": 0.9812649955837967
+    },
+    {
+     "id": "NL20",
+     "exec_ok": true,
+     "iou": 0.9225206680061334,
+     "tail": "**\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\NL20\\out.step(508 ents)  Write  Done\n",
+     "prompt_tokens": 286,
+     "completion_tokens": 576,
+     "removed_iou": 0.017122740389183367
+    }
+   ]
+  },
+  "hard/contractr2": {
+   "summary": {
+    "route": "contract",
+    "n": 30,
+    "mean_removed_iou": 0.769,
+    "removed_iou_ge_0.9": 22,
+    "exec_ok": 30,
+    "mean_iou": 0.978,
+    "iou_ge_0.9": 27,
+    "iou_ge_0.75": 30,
+    "legal_rate": 1.0,
+    "prompt_tokens": 8441,
+    "completion_tokens": 4301,
+    "by_tag": {
+     "方位": {
+      "n": 5,
+      "ok": 5,
+      "mean_iou": 0.229
+     },
+     "居中": {
+      "n": 3,
+      "ok": 3,
+      "mean_iou": 1.0
+     },
+     "对称": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.667
+     },
+     "单位": {
+      "n": 3,
+      "ok": 3,
+      "mean_iou": 1.0
+     },
+     "壁厚": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.5
+     },
+     "阵列": {
+      "n": 5,
+      "ok": 5,
+      "mean_iou": 1.0
+     },
+     "多特征": {
+      "n": 8,
+      "ok": 8,
+      "mean_iou": 1.0
+     },
+     "深度": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.292
+     }
+    }
+   },
+   "rows": [
+    {
+     "id": "H01",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 55,
+        "center_y": 35,
+        "width": 30,
+        "height": 30,
+        "depth": 12
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9325,
+     "removed_iou": 0.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 288,
+     "completion_tokens": 85,
+     "seconds": 1.5
+    },
+    {
+     "id": "H02",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9800000000000002,
+     "removed_iou": 0.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 274,
+     "completion_tokens": 84,
+     "seconds": 1.3
+    },
+    {
+     "id": "H03",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 20,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9879759519038076,
+     "removed_iou": 0.14285714285714282,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 278,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H04",
+     "tag": "居中",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 272,
+     "completion_tokens": 86,
+     "seconds": 1.3
+    },
+    {
+     "id": "H05",
+     "tag": "对称",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 75,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 288,
+     "completion_tokens": 132,
+     "seconds": 1.8
+    },
+    {
+     "id": "H06",
+     "tag": "对称",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 30,
+        "width": 40,
+        "height": 20,
+        "depth": 6
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 70,
+        "width": 40,
+        "height": 20,
+        "depth": 6
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 0.9757085020242918,
+     "removed_iou": 0.3333333333333334,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 279,
+     "completion_tokens": 132,
+     "seconds": 1.9
+    },
+    {
+     "id": "H07",
+     "tag": "单位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 60,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 30,
+        "center_y": 30,
+        "width": 30,
+        "height": 30,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 263,
+     "completion_tokens": 85,
+     "seconds": 1.4
+    },
+    {
+     "id": "H08",
+     "tag": "单位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 45,
+        "center_y": 45,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 15,
+        "y": 15,
+        "diameter": 10,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 283,
+     "completion_tokens": 123,
+     "seconds": 1.8
+    },
+    {
+     "id": "H09",
+     "tag": "壁厚",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 30,
+        "width": 60,
+        "height": 40,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 267,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H10",
+     "tag": "壁厚",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 15,
+        "center_y": 15,
+        "width": 70,
+        "height": 70,
+        "depth": 20
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 15,
+        "center_y": 85,
+        "width": 70,
+        "height": 70,
+        "depth": 20
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 85,
+        "center_y": 15,
+        "width": 70,
+        "height": 70,
+        "depth": 20
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 85,
+        "center_y": 85,
+        "width": 70,
+        "height": 70,
+        "depth": 20
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 0.8040000000000002,
+     "removed_iou": 0.0,
+     "errors": [
+      {
+       "i": 1,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔轮廓超出毛坯范围"
+      },
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔轮廓超出毛坯范围"
+      },
+      {
+       "i": 3,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔轮廓超出毛坯范围"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 265,
+     "completion_tokens": 231,
+     "seconds": 2.1
+    },
+    {
+     "id": "H11",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth": 20
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "depth": 40,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 90,
+        "y": 10,
+        "diameter": 8,
+        "depth": 40,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "depth": 40,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 90,
+        "y": 90,
+        "diameter": 8,
+        "depth": 40,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 283,
+     "completion_tokens": 263,
+     "seconds": 3.8
+    },
+    {
+     "id": "H12",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 45,
+        "center_y": 45,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 12,
+        "y": 12,
+        "diameter": 6,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 78,
+        "y": 12,
+        "diameter": 6,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 12,
+        "y": 78,
+        "diameter": 6,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 78,
+        "y": 78,
+        "diameter": 6,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 286,
+     "completion_tokens": 241,
+     "seconds": 3.5
+    },
+    {
+     "id": "H13",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 55,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 40,
+        "y": 40,
+        "diameter": 10,
+        "depth": 50,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [
+      {
+       "i": 3,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 3927.0 mm³，实际切除 3141.6 mm³（偏差 20.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 298,
+     "completion_tokens": 178,
+     "seconds": 2.8
+    },
+    {
+     "id": "H14",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 95,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 282,
+     "completion_tokens": 179,
+     "seconds": 2.8
+    },
+    {
+     "id": "H15",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 35,
+        "center_y": 40,
+        "width": 20,
+        "height": 60,
+        "depth": 6
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 85,
+        "center_y": 40,
+        "width": 20,
+        "height": 60,
+        "depth": 6
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 282,
+     "completion_tokens": 132,
+     "seconds": 1.9
+    },
+    {
+     "id": "H16",
+     "tag": "深度",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 40,
+        "height": 40,
+        "depth": 40
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.8421052631578947,
+     "removed_iou": 0.24999999999999997,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 267,
+     "completion_tokens": 85,
+     "seconds": 1.4
+    },
+    {
+     "id": "H17",
+     "tag": "深度",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth": 45
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.8666666666666667,
+     "removed_iou": 0.3333333333333333,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 266,
+     "completion_tokens": 87,
+     "seconds": 1.4
+    },
+    {
+     "id": "H18",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 20,
+        "y": 20,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 60,
+        "y": 20,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 100,
+        "y": 20,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 20,
+        "y": 60,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 60,
+        "y": 60,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 100,
+        "y": 60,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 7,
+     "legal": 7,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 284,
+     "completion_tokens": 262,
+     "seconds": 3.8
+    },
+    {
+     "id": "H19",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 12
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 15,
+        "y": 40,
+        "diameter": 8,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 85,
+        "y": 40,
+        "diameter": 8,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 297,
+     "completion_tokens": 164,
+     "seconds": 2.4
+    },
+    {
+     "id": "H20",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 42,
+        "width": 60,
+        "height": 20,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9519999999999998,
+     "removed_iou": 0.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 288,
+     "completion_tokens": 87,
+     "seconds": 1.3
+    },
+    {
+     "id": "H21",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 60,
+        "height": 60,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 30,
+        "height": 30,
+        "depth": 20
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 18000.0 mm³，实际切除 9000.0 mm³（偏差 50.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 285,
+     "completion_tokens": 133,
+     "seconds": 2.2
+    },
+    {
+     "id": "H22",
+     "tag": "居中",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 120,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 100,
+        "height": 100,
+        "depth": 25
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 267,
+     "completion_tokens": 89,
+     "seconds": 1.4
+    },
+    {
+     "id": "H23",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 30,
+        "center_y": 30,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 70,
+        "y": 70,
+        "diameter": 12,
+        "depth": 50,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 291,
+     "completion_tokens": 130,
+     "seconds": 1.9
+    },
+    {
+     "id": "H24",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 55
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 60,
+        "height": 40,
+        "depth": 12
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 8,
+        "y": 8,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 82,
+        "y": 8,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 8,
+        "y": 62,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 82,
+        "y": 62,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 277,
+     "completion_tokens": 229,
+     "seconds": 3.6
+    },
+    {
+     "id": "H25",
+     "tag": "单位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 25,
+        "width": 40,
+        "height": 40,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 275,
+     "completion_tokens": 85,
+     "seconds": 1.4
+    },
+    {
+     "id": "H26",
+     "tag": "居中",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 279,
+     "completion_tokens": 85,
+     "seconds": 1.4
+    },
+    {
+     "id": "H27",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 25,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 75,
+        "center_y": 25,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 75,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 75,
+        "center_y": 75,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 300,
+     "completion_tokens": 231,
+     "seconds": 3.1
+    },
+    {
+     "id": "H28",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 30,
+        "width": 20,
+        "height": 40,
+        "depth": 20
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 276,
+     "completion_tokens": 86,
+     "seconds": 1.3
+    },
+    {
+     "id": "H29",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 60,
+        "height": 60,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 50,
+        "y": 50,
+        "diameter": 16,
+        "depth": 15,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 10053.1 mm³，实际切除 7037.2 mm³（偏差 30.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 277,
+     "completion_tokens": 132,
+     "seconds": 2.1
+    },
+    {
+     "id": "H30",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 30,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 85,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 105,
+        "y": 65,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 15,
+        "y": 15,
+        "diameter": 8,
+        "depth": 12,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 324,
+     "completion_tokens": 295,
+     "seconds": 3.6
+    }
+   ]
+  },
+  "hard/contractr1": {
+   "summary": {
+    "route": "contract",
+    "n": 30,
+    "mean_removed_iou": 0.789,
+    "removed_iou_ge_0.9": 22,
+    "exec_ok": 30,
+    "mean_iou": 0.982,
+    "iou_ge_0.9": 28,
+    "iou_ge_0.75": 30,
+    "legal_rate": 1.0,
+    "prompt_tokens": 8441,
+    "completion_tokens": 4206,
+    "by_tag": {
+     "方位": {
+      "n": 5,
+      "ok": 5,
+      "mean_iou": 0.229
+     },
+     "居中": {
+      "n": 3,
+      "ok": 3,
+      "mean_iou": 1.0
+     },
+     "对称": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.667
+     },
+     "单位": {
+      "n": 3,
+      "ok": 3,
+      "mean_iou": 1.0
+     },
+     "壁厚": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.809
+     },
+     "阵列": {
+      "n": 5,
+      "ok": 5,
+      "mean_iou": 1.0
+     },
+     "多特征": {
+      "n": 8,
+      "ok": 8,
+      "mean_iou": 1.0
+     },
+     "深度": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.292
+     }
+    }
+   },
+   "rows": [
+    {
+     "id": "H01",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 55,
+        "center_y": 35,
+        "width": 30,
+        "height": 30,
+        "depth": 12
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9325,
+     "removed_iou": 0.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 288,
+     "completion_tokens": 85,
+     "seconds": 5.7
+    },
+    {
+     "id": "H02",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9800000000000002,
+     "removed_iou": 0.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 274,
+     "completion_tokens": 84,
+     "seconds": 1.3
+    },
+    {
+     "id": "H03",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 20,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9879759519038076,
+     "removed_iou": 0.14285714285714282,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 278,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H04",
+     "tag": "居中",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 272,
+     "completion_tokens": 86,
+     "seconds": 1.3
+    },
+    {
+     "id": "H05",
+     "tag": "对称",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 75,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 288,
+     "completion_tokens": 177,
+     "seconds": 2.2
+    },
+    {
+     "id": "H06",
+     "tag": "对称",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 30,
+        "width": 40,
+        "height": 20,
+        "depth": 6
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 70,
+        "width": 40,
+        "height": 20,
+        "depth": 6
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 0.9757085020242918,
+     "removed_iou": 0.3333333333333334,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 279,
+     "completion_tokens": 132,
+     "seconds": 1.9
+    },
+    {
+     "id": "H07",
+     "tag": "单位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 60,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 30,
+        "center_y": 30,
+        "width": 30,
+        "height": 30,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 263,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H08",
+     "tag": "单位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 45,
+        "center_y": 45,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 15,
+        "y": 15,
+        "diameter": 10,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 283,
+     "completion_tokens": 123,
+     "seconds": 1.8
+    },
+    {
+     "id": "H09",
+     "tag": "壁厚",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 30,
+        "width": 60,
+        "height": 40,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 267,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H10",
+     "tag": "壁厚",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 42.5,
+        "center_y": 42.5,
+        "width": 55,
+        "height": 55,
+        "depth": 20
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9146757679180889,
+     "removed_iou": 0.6173469387755102,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 265,
+     "completion_tokens": 91,
+     "seconds": 1.3
+    },
+    {
+     "id": "H11",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth": 20
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 10,
+        "diameter": 8,
+        "depth": 60,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 90,
+        "y": 10,
+        "diameter": 8,
+        "depth": 60,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 10,
+        "y": 90,
+        "diameter": 8,
+        "depth": 60,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 90,
+        "y": 90,
+        "diameter": 8,
+        "depth": 60,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 283,
+     "completion_tokens": 263,
+     "seconds": 3.6
+    },
+    {
+     "id": "H12",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 90,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 45,
+        "center_y": 45,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 12,
+        "y": 12,
+        "diameter": 6,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 78,
+        "y": 12,
+        "diameter": 6,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 12,
+        "y": 78,
+        "diameter": 6,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 78,
+        "y": 78,
+        "diameter": 6,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 286,
+     "completion_tokens": 241,
+     "seconds": 3.5
+    },
+    {
+     "id": "H13",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 55,
+        "center_y": 40,
+        "width": 30,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 40,
+        "y": 40,
+        "diameter": 10,
+        "depth": 50,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [
+      {
+       "i": 3,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 3927.0 mm³，实际切除 3141.6 mm³（偏差 20.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 298,
+     "completion_tokens": 178,
+     "seconds": 2.8
+    },
+    {
+     "id": "H14",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 95,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 282,
+     "completion_tokens": 179,
+     "seconds": 2.4
+    },
+    {
+     "id": "H15",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 35,
+        "center_y": 40,
+        "width": 20,
+        "height": 60,
+        "depth": 6
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 85,
+        "center_y": 40,
+        "width": 20,
+        "height": 60,
+        "depth": 6
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 282,
+     "completion_tokens": 132,
+     "seconds": 1.9
+    },
+    {
+     "id": "H16",
+     "tag": "深度",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 40,
+        "height": 40,
+        "depth": 40
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.8421052631578947,
+     "removed_iou": 0.24999999999999997,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 267,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H17",
+     "tag": "深度",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 50,
+        "height": 50,
+        "depth": 45
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.8666666666666667,
+     "removed_iou": 0.3333333333333333,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 266,
+     "completion_tokens": 87,
+     "seconds": 1.2
+    },
+    {
+     "id": "H18",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 20,
+        "y": 20,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 60,
+        "y": 20,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 100,
+        "y": 20,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 20,
+        "y": 60,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 60,
+        "y": 60,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 100,
+        "y": 60,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 7,
+     "legal": 7,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 284,
+     "completion_tokens": 262,
+     "seconds": 3.6
+    },
+    {
+     "id": "H19",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 12
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 15,
+        "y": 40,
+        "diameter": 8,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 85,
+        "y": 40,
+        "diameter": 8,
+        "depth": 15
+       }
+      }
+     ],
+     "n_calls": 4,
+     "legal": 4,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 297,
+     "completion_tokens": 164,
+     "seconds": 2.4
+    },
+    {
+     "id": "H20",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 42,
+        "width": 60,
+        "height": 20,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 0.9519999999999998,
+     "removed_iou": 0.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 288,
+     "completion_tokens": 87,
+     "seconds": 1.3
+    },
+    {
+     "id": "H21",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 60,
+        "height": 60,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 40,
+        "center_y": 40,
+        "width": 30,
+        "height": 30,
+        "depth": 20
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.pocket",
+       "code": "ToolError",
+       "msg": "型腔 体积不守恒：预期切除 18000.0 mm³，实际切除 9000.0 mm³（偏差 50.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 285,
+     "completion_tokens": 133,
+     "seconds": 2.1
+    },
+    {
+     "id": "H22",
+     "tag": "居中",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 120,
+        "height": 60
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 60,
+        "center_y": 60,
+        "width": 100,
+        "height": 100,
+        "depth": 25
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 267,
+     "completion_tokens": 89,
+     "seconds": 1.3
+    },
+    {
+     "id": "H23",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 80,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 30,
+        "center_y": 30,
+        "width": 40,
+        "height": 40,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 70,
+        "y": 70,
+        "diameter": 12,
+        "depth": 50,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 291,
+     "completion_tokens": 130,
+     "seconds": 1.8
+    },
+    {
+     "id": "H24",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 90,
+        "width": 70,
+        "height": 55
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 45,
+        "center_y": 35,
+        "width": 60,
+        "height": 40,
+        "depth": 12
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 8,
+        "y": 8,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 82,
+        "y": 8,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 8,
+        "y": 62,
+        "diameter": 8,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 82,
+        "y": 62,
+        "diameter": 8,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 6,
+     "legal": 6,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 277,
+     "completion_tokens": 229,
+     "seconds": 3.5
+    },
+    {
+     "id": "H25",
+     "tag": "单位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 25,
+        "width": 40,
+        "height": 40,
+        "depth": 8
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 275,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H26",
+     "tag": "居中",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 40,
+        "width": 60,
+        "height": 40,
+        "depth": 5
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 279,
+     "completion_tokens": 85,
+     "seconds": 1.3
+    },
+    {
+     "id": "H27",
+     "tag": "阵列",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 25,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 75,
+        "center_y": 25,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 25,
+        "center_y": 75,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 75,
+        "center_y": 75,
+        "width": 20,
+        "height": 20,
+        "depth": 10
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 300,
+     "completion_tokens": 231,
+     "seconds": 3.1
+    },
+    {
+     "id": "H28",
+     "tag": "方位",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 60,
+        "height": 40
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 20,
+        "center_y": 30,
+        "width": 20,
+        "height": 40,
+        "depth": 20
+       }
+      }
+     ],
+     "n_calls": 2,
+     "legal": 2,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 276,
+     "completion_tokens": 86,
+     "seconds": 1.4
+    },
+    {
+     "id": "H29",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 100,
+        "width": 100,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 50,
+        "center_y": 50,
+        "width": 60,
+        "height": 60,
+        "depth": 15
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 50,
+        "y": 50,
+        "diameter": 16,
+        "depth": 15,
+        "through": true
+       }
+      }
+     ],
+     "n_calls": 3,
+     "legal": 3,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [
+      {
+       "i": 2,
+       "tool": "cad.hole",
+       "code": "ToolError",
+       "msg": "孔 体积不守恒：预期切除 10053.1 mm³，实际切除 7037.2 mm³（偏差 30.0%）"
+      }
+     ],
+     "error": null,
+     "prompt_tokens": 277,
+     "completion_tokens": 132,
+     "seconds": 2.0
+    },
+    {
+     "id": "H30",
+     "tag": "多特征",
+     "calls": [
+      {
+       "tool": "cad.create_box",
+       "args": {
+        "length": 120,
+        "width": 80,
+        "height": 50
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 30,
+        "center_y": 40,
+        "width": 40,
+        "height": 30,
+        "depth": 10
+       }
+      },
+      {
+       "tool": "cad.pocket",
+       "args": {
+        "center_x": 85,
+        "center_y": 40,
+        "width": 20,
+        "height": 20,
+        "depth": 5
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 105,
+        "y": 65,
+        "diameter": 8,
+        "depth": 10,
+        "through": true
+       }
+      },
+      {
+       "tool": "cad.hole",
+       "args": {
+        "x": 15,
+        "y": 15,
+        "diameter": 8,
+        "depth": 12,
+        "through": false
+       }
+      }
+     ],
+     "n_calls": 5,
+     "legal": 5,
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "errors": [],
+     "error": null,
+     "prompt_tokens": 324,
+     "completion_tokens": 295,
+     "seconds": 3.5
+    }
+   ]
+  },
+  "hard/scriptr1": {
+   "summary": {
+    "route": "script",
+    "n": 30,
+    "mean_removed_iou": 0.114,
+    "removed_iou_ge_0.9": 2,
+    "exec_ok": 26,
+    "mean_iou": 0.876,
+    "iou_ge_0.9": 17,
+    "iou_ge_0.75": 23,
+    "legal_rate": null,
+    "prompt_tokens": 5591,
+    "completion_tokens": 5012,
+    "by_tag": {
+     "方位": {
+      "n": 5,
+      "ok": 5,
+      "mean_iou": 0.0
+     },
+     "居中": {
+      "n": 3,
+      "ok": 3,
+      "mean_iou": 0.351
+     },
+     "对称": {
+      "n": 2,
+      "ok": 1,
+      "mean_iou": 0.0
+     },
+     "单位": {
+      "n": 3,
+      "ok": 2,
+      "mean_iou": 0.0
+     },
+     "壁厚": {
+      "n": 2,
+      "ok": 2,
+      "mean_iou": 0.413
+     },
+     "阵列": {
+      "n": 5,
+      "ok": 4,
+      "mean_iou": 0.259
+     },
+     "多特征": {
+      "n": 8,
+      "ok": 8,
+      "mean_iou": 0.006
+     },
+     "深度": {
+      "n": 2,
+      "ok": 1,
+      "mean_iou": 0.0
+     }
+    }
+   },
+   "rows": [
+    {
+     "id": "H01",
+     "tag": "方位",
+     "exec_ok": true,
+     "iou": 0.9324999999999998,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H01\\out.step(312 ents)  Write  Done\n",
+     "prompt_tokens": 193,
+     "completion_tokens": 97
+    },
+    {
+     "id": "H02",
+     "tag": "方位",
+     "exec_ok": true,
+     "iou": 0.9821460183660252,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H02\\out.step(215 ents)  Write  Done\n",
+     "prompt_tokens": 179,
+     "completion_tokens": 79
+    },
+    {
+     "id": "H03",
+     "tag": "方位",
+     "exec_ok": true,
+     "iou": 0.9840000000000003,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H03\\out.step(312 ents)  Write  Done\n",
+     "prompt_tokens": 183,
+     "completion_tokens": 73
+    },
+    {
+     "id": "H04",
+     "tag": "居中",
+     "exec_ok": true,
+     "iou": 0.94,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H04\\out.step(312 ents)  Write  Done\n",
+     "prompt_tokens": 177,
+     "completion_tokens": 74
+    },
+    {
+     "id": "H05",
+     "tag": "对称",
+     "exec_ok": true,
+     "iou": 0.9458407105255382,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H05\\out.step(260 ents)  Write  Done\n",
+     "prompt_tokens": 193,
+     "completion_tokens": 126
+    },
+    {
+     "id": "H06",
+     "tag": "对称",
+     "exec_ok": false,
+     "iou": null,
+     "removed_iou": null,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/H06/part.py [function takes exactly 2 arguments (1 given)]\n",
+     "prompt_tokens": 184,
+     "completion_tokens": 98
+    },
+    {
+     "id": "H07",
+     "tag": "单位",
+     "exec_ok": true,
+     "iou": 0.8988868922181489,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H07\\out.step(215 ents)  Write  Done\n",
+     "prompt_tokens": 168,
+     "completion_tokens": 81
+    },
+    {
+     "id": "H08",
+     "tag": "单位",
+     "exec_ok": false,
+     "iou": null,
+     "removed_iou": null,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/H08/part.py [function takes at most 5 arguments (6 given)]\n",
+     "prompt_tokens": 188,
+     "completion_tokens": 161
+    },
+    {
+     "id": "H09",
+     "tag": "壁厚",
+     "exec_ok": true,
+     "iou": 0.7692307692307693,
+     "removed_iou": 0.5,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H09\\out.step(312 ents)  Write  Done\n",
+     "prompt_tokens": 172,
+     "completion_tokens": 74
+    },
+    {
+     "id": "H10",
+     "tag": "壁厚",
+     "exec_ok": true,
+     "iou": 0.49751243781094506,
+     "removed_iou": 0.32666666666666666,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/H10/part.py [name 'cut' is not defined]\n",
+     "prompt_tokens": 170,
+     "completion_tokens": 1200
+    },
+    {
+     "id": "H11",
+     "tag": "阵列",
+     "exec_ok": true,
+     "iou": 0.8353093494791827,
+     "removed_iou": 0.029762371359055496,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H11\\out.step(254 ents)  Write  Done\n",
+     "prompt_tokens": 188,
+     "completion_tokens": 195
+    },
+    {
+     "id": "H12",
+     "tag": "阵列",
+     "exec_ok": true,
+     "iou": 0.924901681255802,
+     "removed_iou": 0.004628221079616215,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H12\\out.step(268 ents)  Write  Done\n",
+     "prompt_tokens": 191,
+     "completion_tokens": 164
+    },
+    {
+     "id": "H13",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.9268978153696915,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H13\\out.step(482 ents)  Write  Done\n",
+     "prompt_tokens": 203,
+     "completion_tokens": 213
+    },
+    {
+     "id": "H14",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.9642920367320514,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H14\\out.step(305 ents)  Write  Done\n",
+     "prompt_tokens": 187,
+     "completion_tokens": 174
+    },
+    {
+     "id": "H15",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.94,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H15\\out.step(434 ents)  Write  Done\n",
+     "prompt_tokens": 187,
+     "completion_tokens": 118
+    },
+    {
+     "id": "H16",
+     "tag": "深度",
+     "exec_ok": true,
+     "iou": 0.7929203673205105,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H16\\out.step(215 ents)  Write  Done\n",
+     "prompt_tokens": 172,
+     "completion_tokens": 80
+    },
+    {
+     "id": "H17",
+     "tag": "深度",
+     "exec_ok": false,
+     "iou": null,
+     "removed_iou": null,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/H17/part.py ['Part.Compound' object has no attribute 'makeSolid']\n",
+     "prompt_tokens": 171,
+     "completion_tokens": 80
+    },
+    {
+     "id": "H18",
+     "tag": "阵列",
+     "exec_ok": false,
+     "iou": null,
+     "removed_iou": null,
+     "tail": "Exception while processing file: E:/CAD2CAM/build/nl_eval/script/H18/part.py [module 'Part' has no attribute 'booleanOperation']\n",
+     "prompt_tokens": 189,
+     "completion_tokens": 111
+    },
+    {
+     "id": "H19",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.9187610657883071,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H19\\out.step(305 ents)  Write  Done\n",
+     "prompt_tokens": 202,
+     "completion_tokens": 177
+    },
+    {
+     "id": "H20",
+     "tag": "方位",
+     "exec_ok": true,
+     "iou": 0.9520000000000001,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H20\\out.step(312 ents)  Write  Done\n",
+     "prompt_tokens": 193,
+     "completion_tokens": 74
+    },
+    {
+     "id": "H21",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.7468750000000002,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H21\\out.step(454 ents)  Write  Done\n",
+     "prompt_tokens": 190,
+     "completion_tokens": 180
+    },
+    {
+     "id": "H22",
+     "tag": "居中",
+     "exec_ok": true,
+     "iou": 0.463647199046484,
+     "removed_iou": 0.05263157894736842,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H22\\out.step(320 ents)  Write  Done\n",
+     "prompt_tokens": 172,
+     "completion_tokens": 82
+    },
+    {
+     "id": "H23",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.9200318610074483,
+     "removed_iou": 0.022730136121698562,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H23\\out.step(426 ents)  Write  Done\n",
+     "prompt_tokens": 196,
+     "completion_tokens": 159
+    },
+    {
+     "id": "H24",
+     "tag": "阵列",
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H24\\out.step(468 ents)  Write  Done\n",
+     "prompt_tokens": 182,
+     "completion_tokens": 195
+    },
+    {
+     "id": "H25",
+     "tag": "单位",
+     "exec_ok": true,
+     "iou": 0.9428672587712813,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H25\\out.step(215 ents)  Write  Done\n",
+     "prompt_tokens": 180,
+     "completion_tokens": 80
+    },
+    {
+     "id": "H26",
+     "tag": "居中",
+     "exec_ok": true,
+     "iou": 1.0,
+     "removed_iou": 1.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H26\\out.step(312 ents)  Write  Done\n",
+     "prompt_tokens": 184,
+     "completion_tokens": 76
+    },
+    {
+     "id": "H27",
+     "tag": "阵列",
+     "exec_ok": true,
+     "iou": 0.9177345175425639,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H27\\out.step(350 ents)  Write  Done\n",
+     "prompt_tokens": 205,
+     "completion_tokens": 230
+    },
+    {
+     "id": "H28",
+     "tag": "方位",
+     "exec_ok": true,
+     "iou": 0.8833333333333334,
+     "removed_iou": 0.0,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H28\\out.step(269 ents)  Write  Done\n",
+     "prompt_tokens": 181,
+     "completion_tokens": 73
+    },
+    {
+     "id": "H29",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.7680679551542491,
+     "removed_iou": 0.0064694442728558225,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H29\\out.step(366 ents)  Write  Done\n",
+     "prompt_tokens": 182,
+     "completion_tokens": 174
+    },
+    {
+     "id": "H30",
+     "tag": "多特征",
+     "exec_ok": true,
+     "iou": 0.9348964260357795,
+     "removed_iou": 0.015846798205096144,
+     "tail": "***\n******        Transferring Shape, ShapeType = 0                      ******\n** WorkSession : Sending all data\n Step File Name : E:\\CAD2CAM\\build\\nl_eval\\script\\H30\\out.step(544 ents)  Write  Done\n",
+     "prompt_tokens": 229,
+     "completion_tokens": 314
+    }
+   ]
+  }
+ }
+}

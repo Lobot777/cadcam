@@ -1,0 +1,152 @@
+{
+ "H01": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1406.4,
+  "residual_volume_mm3": 302.8
+ },
+ "H02": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 240.0
+ },
+ "H03": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 3728.5
+ },
+ "H04": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 3760.41
+ },
+ "H05": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6328.5,
+  "residual_volume_mm3": 288.5
+ },
+ "H06": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 3450.0
+ },
+ "H07": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 3440.0
+ },
+ "H08": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6384.0,
+  "residual_volume_mm3": 48.0
+ },
+ "H09": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 360.0
+ },
+ "H10": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 2821.6,
+  "residual_volume_mm3": 185.6
+ },
+ "H11": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1894.77,
+  "residual_volume_mm3": 535.18
+ },
+ "H12": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1865.16,
+  "residual_volume_mm3": 1262.87
+ },
+ "H13": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1877.85,
+  "residual_volume_mm3": 842.85
+ },
+ "H14": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 220.0
+ },
+ "H15": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6360.0,
+  "residual_volume_mm3": 200.0
+ },
+ "H16": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1279.2,
+  "residual_volume_mm3": 1273.7
+ },
+ "H17": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1835.2,
+  "residual_volume_mm3": 869.0
+ },
+ "H18": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6349.5,
+  "residual_volume_mm3": 199.5
+ },
+ "H19": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 250.0
+ },
+ "H20": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 528.5
+ },
+ "H21": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 885.0
+ },
+ "H22": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 4517.7
+ },
+ "H23": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6365.0,
+  "residual_volume_mm3": 145.0
+ },
+ "H24": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 180.0
+ },
+ "H25": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 64.0
+ },
+ "H26": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 1915.2,
+  "residual_volume_mm3": 59.2
+ },
+ "H27": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 3760.41
+ },
+ "H28": {
+  "predicted": "no_gouge",
+  "gouge_volume_mm3": 0.0,
+  "residual_volume_mm3": 3380.0
+ },
+ "H29": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6335.25,
+  "residual_volume_mm3": 463.75
+ },
+ "H30": {
+  "predicted": "gouge",
+  "gouge_volume_mm3": 6357.0,
+  "residual_volume_mm3": 177.0
+ }
+}

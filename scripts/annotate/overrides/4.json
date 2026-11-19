@@ -1,0 +1,60 @@
+{
+ "annotator": "ai-visual+rule",
+ "review_needed": false,
+ "open_questions": [],
+ "features": [
+  [
+   "step",
+   "rectangular_blind_step",
+   [
+    6
+   ],
+   "凸台外周台阶面（环），深4"
+  ],
+  [
+   "boss",
+   null,
+   [
+    11,
+    12
+   ],
+   "Ø70 圆柱凸台，高4"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    7,
+    16
+   ],
+   "Ø10 盲孔 深7"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    8,
+    15
+   ],
+   "Ø10 盲孔 深7"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    9,
+    14
+   ],
+   "Ø10 盲孔 深7"
+  ],
+  [
+   "hole",
+   "blind_hole",
+   [
+    10,
+    13
+   ],
+   "Ø10 盲孔 深7"
+  ]
+ ]
+}

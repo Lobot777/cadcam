@@ -1,0 +1,528 @@
+{
+ "key_n": 186,
+ "files": {
+  "P1_T0": "P1_T0.json",
+  "P1_T1": "P1_T1.json",
+  "P2_T0": "P2_T0.json",
+  "P2_T1": "P2_T1.json",
+  "P3_T0": "P3_T0.json",
+  "P3_T1": "P3_T1.json",
+  "P4_T0": "P4_T0.json",
+  "P4_T1": "P4_T1.json"
+ },
+ "simulation_included": false,
+ "rounds": {
+  "T0": {
+   "people": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "per_person": {
+    "P1": {
+     "n": 186,
+     "completed": 186,
+     "correct": 167,
+     "accuracy": 0.8978,
+     "unknown": 4,
+     "unknown_rate": 0.0215,
+     "out_of_taxonomy": 1,
+     "out_of_taxonomy_rate": 0.0054,
+     "latency_median_s": 30.5,
+     "latency_total_min": 96.1,
+     "under_5s": 0,
+     "fatigue_rho": -0.167,
+     "qc_pass": true
+    },
+    "P2": {
+     "n": 186,
+     "completed": 186,
+     "correct": 166,
+     "accuracy": 0.8925,
+     "unknown": 6,
+     "unknown_rate": 0.0323,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 30.0,
+     "latency_total_min": 96.1,
+     "under_5s": 0,
+     "fatigue_rho": 0.041,
+     "qc_pass": true
+    },
+    "P3": {
+     "n": 186,
+     "completed": 186,
+     "correct": 132,
+     "accuracy": 0.7097,
+     "unknown": 19,
+     "unknown_rate": 0.1022,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 28.5,
+     "latency_total_min": 96.1,
+     "under_5s": 0,
+     "fatigue_rho": -0.069,
+     "qc_pass": true
+    },
+    "P4": {
+     "n": 186,
+     "completed": 186,
+     "correct": 121,
+     "accuracy": 0.6505,
+     "unknown": 24,
+     "unknown_rate": 0.129,
+     "out_of_taxonomy": 3,
+     "out_of_taxonomy_rate": 0.0161,
+     "latency_median_s": 29.1,
+     "latency_total_min": 96.1,
+     "under_5s": 0,
+     "fatigue_rho": 0.02,
+     "qc_pass": true
+    }
+   },
+   "pairwise": {
+    "P1|P2": {
+     "kappa": 0.7597,
+     "po": 0.8065,
+     "pe": 0.1944
+    },
+    "P1|P3": {
+     "kappa": 0.5725,
+     "po": 0.6505,
+     "pe": 0.1825
+    },
+    "P1|P4": {
+     "kappa": 0.4974,
+     "po": 0.586,
+     "pe": 0.1764
+    },
+    "P2|P3": {
+     "kappa": 0.5509,
+     "po": 0.6344,
+     "pe": 0.1859
+    },
+    "P2|P4": {
+     "kappa": 0.5606,
+     "po": 0.6398,
+     "pe": 0.1803
+    },
+    "P3|P4": {
+     "kappa": 0.3928,
+     "po": 0.5,
+     "pe": 0.1766
+    }
+   },
+   "mean_kappa": 0.5556,
+   "ci95": [
+    0.4987,
+    0.6084
+   ],
+   "committed_mean_kappa": 0.6559,
+   "binary_mean_kappa": 0.6092,
+   "by_family": {
+    "boss": {
+     "n": 46,
+     "mean_kappa": 0.526,
+     "mode": "one-vs-rest"
+    },
+    "hole": {
+     "n": 43,
+     "mean_kappa": 0.706,
+     "mode": "one-vs-rest"
+    },
+    "pocket": {
+     "n": 16,
+     "mean_kappa": 0.5698,
+     "mode": "one-vs-rest"
+    },
+    "step": {
+     "n": 21,
+     "mean_kappa": 0.5186,
+     "mode": "one-vs-rest"
+    },
+    "stock": {
+     "n": 52,
+     "mean_kappa": 0.6092,
+     "mode": "one-vs-rest"
+    }
+   },
+   "hard_vs_easy": {
+    "hard": {
+     "n": 15,
+     "mean_kappa": 0.3158
+    },
+    "easy": {
+     "n": 171,
+     "mean_kappa": 0.5705
+    }
+   },
+   "human_vs_gold": {
+    "P1": {
+     "kappa": 0.8719,
+     "agreement": 0.8978
+    },
+    "P2": {
+     "kappa": 0.8649,
+     "agreement": 0.8925
+    },
+    "P3": {
+     "kappa": 0.6416,
+     "agreement": 0.7097
+    },
+    "P4": {
+     "kappa": 0.5716,
+     "agreement": 0.6505
+    }
+   },
+   "human_vs_rule": {
+    "P1": {
+     "kappa": 0.3691,
+     "agreement": 0.4892
+    },
+    "P2": {
+     "kappa": 0.3755,
+     "agreement": 0.4946
+    },
+    "P3": {
+     "kappa": 0.2627,
+     "agreement": 0.3978
+    },
+    "P4": {
+     "kappa": 0.2978,
+     "agreement": 0.4301
+    }
+   },
+   "committed_n": 140
+  },
+  "T1": {
+   "people": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "per_person": {
+    "P1": {
+     "n": 186,
+     "completed": 186,
+     "correct": 177,
+     "accuracy": 0.9516,
+     "unknown": 1,
+     "unknown_rate": 0.0054,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 27.5,
+     "latency_total_min": 89.9,
+     "under_5s": 0,
+     "fatigue_rho": -0.048,
+     "qc_pass": true
+    },
+    "P2": {
+     "n": 186,
+     "completed": 186,
+     "correct": 171,
+     "accuracy": 0.9194,
+     "unknown": 4,
+     "unknown_rate": 0.0215,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 27.9,
+     "latency_total_min": 89.9,
+     "under_5s": 0,
+     "fatigue_rho": -0.018,
+     "qc_pass": true
+    },
+    "P3": {
+     "n": 186,
+     "completed": 186,
+     "correct": 165,
+     "accuracy": 0.8871,
+     "unknown": 8,
+     "unknown_rate": 0.043,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 27.8,
+     "latency_total_min": 89.9,
+     "under_5s": 0,
+     "fatigue_rho": 0.006,
+     "qc_pass": true
+    },
+    "P4": {
+     "n": 186,
+     "completed": 186,
+     "correct": 157,
+     "accuracy": 0.8441,
+     "unknown": 10,
+     "unknown_rate": 0.0538,
+     "out_of_taxonomy": 0,
+     "out_of_taxonomy_rate": 0.0,
+     "latency_median_s": 27.9,
+     "latency_total_min": 89.9,
+     "under_5s": 0,
+     "fatigue_rho": 0.019,
+     "qc_pass": true
+    }
+   },
+   "pairwise": {
+    "P1|P2": {
+     "kappa": 0.844,
+     "po": 0.8763,
+     "pe": 0.2072
+    },
+    "P1|P3": {
+     "kappa": 0.8044,
+     "po": 0.8441,
+     "pe": 0.2028
+    },
+    "P1|P4": {
+     "kappa": 0.7521,
+     "po": 0.8011,
+     "pe": 0.1975
+    },
+    "P2|P3": {
+     "kappa": 0.7898,
+     "po": 0.8333,
+     "pe": 0.2072
+    },
+    "P2|P4": {
+     "kappa": 0.7184,
+     "po": 0.7742,
+     "pe": 0.1982
+    },
+    "P3|P4": {
+     "kappa": 0.686,
+     "po": 0.7473,
+     "pe": 0.1953
+    }
+   },
+   "mean_kappa": 0.7658,
+   "ci95": [
+    0.7147,
+    0.8127
+   ],
+   "committed_mean_kappa": 0.8333,
+   "binary_mean_kappa": 0.7879,
+   "by_family": {
+    "boss": {
+     "n": 46,
+     "mean_kappa": 0.7494,
+     "mode": "one-vs-rest"
+    },
+    "hole": {
+     "n": 43,
+     "mean_kappa": 0.8562,
+     "mode": "one-vs-rest"
+    },
+    "pocket": {
+     "n": 16,
+     "mean_kappa": 0.7484,
+     "mode": "one-vs-rest"
+    },
+    "step": {
+     "n": 21,
+     "mean_kappa": 0.7756,
+     "mode": "one-vs-rest"
+    },
+    "stock": {
+     "n": 52,
+     "mean_kappa": 0.7879,
+     "mode": "one-vs-rest"
+    }
+   },
+   "hard_vs_easy": {
+    "hard": {
+     "n": 15,
+     "mean_kappa": 0.4819
+    },
+    "easy": {
+     "n": 171,
+     "mean_kappa": 0.7824
+    }
+   },
+   "human_vs_gold": {
+    "P1": {
+     "kappa": 0.9388,
+     "agreement": 0.9516
+    },
+    "P2": {
+     "kappa": 0.8977,
+     "agreement": 0.9194
+    },
+    "P3": {
+     "kappa": 0.8576,
+     "agreement": 0.8871
+    },
+    "P4": {
+     "kappa": 0.8046,
+     "agreement": 0.8441
+    }
+   },
+   "human_vs_rule": {
+    "P1": {
+     "kappa": 0.4108,
+     "agreement": 0.5269
+    },
+    "P2": {
+     "kappa": 0.4322,
+     "agreement": 0.5538
+    },
+    "P3": {
+     "kappa": 0.4063,
+     "agreement": 0.5323
+    },
+    "P4": {
+     "kappa": 0.3343,
+     "agreement": 0.457
+    }
+   },
+   "committed_n": 163
+  }
+ },
+ "training_gain": {
+  "P1": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 167,
+    "accuracy": 0.8978,
+    "unknown": 4,
+    "unknown_rate": 0.0215,
+    "out_of_taxonomy": 1,
+    "out_of_taxonomy_rate": 0.0054,
+    "latency_median_s": 30.5,
+    "latency_total_min": 96.1,
+    "under_5s": 0,
+    "fatigue_rho": -0.167,
+    "qc_pass": true
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 177,
+    "accuracy": 0.9516,
+    "unknown": 1,
+    "unknown_rate": 0.0054,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 27.5,
+    "latency_total_min": 89.9,
+    "under_5s": 0,
+    "fatigue_rho": -0.048,
+    "qc_pass": true
+   },
+   "mcnemar_b": 19,
+   "mcnemar_c": 9,
+   "mcnemar_chi2": 2.893,
+   "accuracy_delta": 0.0538
+  },
+  "P2": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 166,
+    "accuracy": 0.8925,
+    "unknown": 6,
+    "unknown_rate": 0.0323,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 30.0,
+    "latency_total_min": 96.1,
+    "under_5s": 0,
+    "fatigue_rho": 0.041,
+    "qc_pass": true
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 171,
+    "accuracy": 0.9194,
+    "unknown": 4,
+    "unknown_rate": 0.0215,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 27.9,
+    "latency_total_min": 89.9,
+    "under_5s": 0,
+    "fatigue_rho": -0.018,
+    "qc_pass": true
+   },
+   "mcnemar_b": 20,
+   "mcnemar_c": 15,
+   "mcnemar_chi2": 0.457,
+   "accuracy_delta": 0.0269
+  },
+  "P3": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 132,
+    "accuracy": 0.7097,
+    "unknown": 19,
+    "unknown_rate": 0.1022,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 28.5,
+    "latency_total_min": 96.1,
+    "under_5s": 0,
+    "fatigue_rho": -0.069,
+    "qc_pass": true
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 165,
+    "accuracy": 0.8871,
+    "unknown": 8,
+    "unknown_rate": 0.043,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 27.8,
+    "latency_total_min": 89.9,
+    "under_5s": 0,
+    "fatigue_rho": 0.006,
+    "qc_pass": true
+   },
+   "mcnemar_b": 51,
+   "mcnemar_c": 18,
+   "mcnemar_chi2": 14.841,
+   "accuracy_delta": 0.1774
+  },
+  "P4": {
+   "T0": {
+    "n": 186,
+    "completed": 186,
+    "correct": 121,
+    "accuracy": 0.6505,
+    "unknown": 24,
+    "unknown_rate": 0.129,
+    "out_of_taxonomy": 3,
+    "out_of_taxonomy_rate": 0.0161,
+    "latency_median_s": 29.1,
+    "latency_total_min": 96.1,
+    "under_5s": 0,
+    "fatigue_rho": 0.02,
+    "qc_pass": true
+   },
+   "T1": {
+    "n": 186,
+    "completed": 186,
+    "correct": 157,
+    "accuracy": 0.8441,
+    "unknown": 10,
+    "unknown_rate": 0.0538,
+    "out_of_taxonomy": 0,
+    "out_of_taxonomy_rate": 0.0,
+    "latency_median_s": 27.9,
+    "latency_total_min": 89.9,
+    "under_5s": 0,
+    "fatigue_rho": 0.019,
+    "qc_pass": true
+   },
+   "mcnemar_b": 55,
+   "mcnemar_c": 19,
+   "mcnemar_chi2": 16.554,
+   "accuracy_delta": 0.1936
+  }
+ }
+}
