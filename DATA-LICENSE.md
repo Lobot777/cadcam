@@ -26,14 +26,25 @@ these artifacts.
 The full legal text of CC BY 4.0 is available at:
 https://creativecommons.org/licenses/by/4.0/legalcode
 
-### Third-party datasets — NOT redistributed here
+### Third-party datasets — source solids NOT redistributed here
 
-The following are obtained from their upstream distributors and are **not**
-included in this repository. Their own licences and attribution requirements
-apply when readers download them:
+The original STEP files of the following datasets are **not** included in this
+repository. Their own licences and attribution requirements apply when readers
+obtain them:
 
 - **MFCAD++** — Queen's University Belfast, CC BY.
   DOI: 10.17034/d1fec5a0-8c10-4630-b02e-b92dc81df823.
+
+**Derived feature caches that ARE included.** `data/mfcad/aag/{train,val,test}.pkl`
+(113.5 MB total) contain attributed adjacency graph (AAG) features extracted
+from MFCAD++ by `scripts/extract_mfcad.py`; they contain no source geometry,
+only node/edge tensors and split indices. They are redistributed under CC BY 4.0
+with attribution to the MFCAD++ authors, consistent with the source licence.
+Readers who prefer to rebuild them from upstream can delete the directory and
+run `scripts/extract_mfcad.py` after downloading MFCAD++ from the DOI above.
+The 130-part external set's derived geometry descriptors under
+`data/external/geom/` are included on the same basis; its source STEP files are
+not.
 - **130-part external set** — derived from MFCAD (MIT licence); the source STEP
   files must be obtained from the upstream distributor. Selection and scaling
   scripts are provided here, not the source solids.
